@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HACKERSBUN - AI Governance Wire</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Crect width='256' height='256' rx='56' fill='%23050505'/%3E%3Ccircle cx='128' cy='128' r='96' fill='none' stroke='%2300ff88' stroke-width='14' stroke-dasharray='185 17' stroke-linecap='round' transform='rotate(-80 128 128)'/%3E%3Cpath d='M80 122A48 44 0 0 1 176 122Z M80 158H176V164A20 20 0 0 1 156 184H100A20 20 0 0 1 80 164Z' fill='%23fff'/%3E%3Cpath d='M80 138H104L114 128L128 148L140 130L148 138H176' fill='none' stroke='%23fff' stroke-width='9' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#050505;--panel:#101010;--panel2:#171717;--line:#292929;--line2:#333;--txt:#f7f7f7;--dim:#8f8f8f;--mute:#5f5f5f;--g:#00ff88;--gd:#0a8f50;--amber:#ffb020;--red:#ff3366;--mono:'IBM Plex Mono',ui-monospace,Consolas,monospace;--disp:system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;--sys:system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+[hidden]{display:none!important}
+html{background:var(--bg)}
+#bg{position:fixed;inset:0;z-index:-1;pointer-events:none}
+#globe{width:84px;height:84px;flex:none}
+select{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:7px 10px;font-size:12px;font-weight:750;cursor:pointer}
+select option{background:var(--panel)}
+.row,.lead{position:relative;transform:perspective(1000px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg))}
+.row::after,.lead::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:0;transition:opacity .2s;background:radial-gradient(420px circle at var(--mx,50%) var(--my,50%),rgba(0,255,136,.09),transparent 60%)}
+.row:hover::after,.lead:hover::after{opacity:1}
+.c.new{background:#fff;color:#000;border-color:#fff;font-weight:700}
+body{background:transparent;color:var(--txt);font:14px/1.5 var(--sys);min-height:100vh;-webkit-font-smoothing:antialiased}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:7px 12px;font-size:12px;font-weight:750;transition:transform .12s,box-shadow .12s,background .12s,color .12s}
+button:hover{border-color:#fff;transform:translate(-1px,-1px);box-shadow:3px 3px 0 #555}
+button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--g);outline-offset:2px}
+button.on{background:#fff;color:#000;border-color:#fff}
+a.btn{display:inline-block;text-decoration:none;border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:7px 12px;font-size:12px;font-weight:750;color:var(--txt);transition:transform .12s,box-shadow .12s}
+a.btn:hover{border-color:#fff;transform:translate(-1px,-1px);box-shadow:3px 3px 0 #555}
+.logo{width:56px;height:56px;flex:none;overflow:visible}
+.logo .ring{transform-origin:128px 128px;animation:spin 6s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.bw{display:flex;align-items:center;gap:14px}
+.wrap{max-width:1280px;margin:0 auto;padding:0 18px}
+.ico{width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:1.8;vertical-align:-2px;margin-right:5px}
+/* ticker */
+#ticker{border-bottom:1px solid var(--line);background:var(--panel);overflow:hidden;white-space:nowrap;height:30px;position:relative}
+#ticker .tk{display:inline-block;padding-left:100%;animation:tk 140s linear infinite}
+#ticker:hover .tk{animation-play-state:paused}
+#ticker button{border:0;padding:0 22px 0 0;text-transform:none;letter-spacing:0;color:var(--dim);font-size:12px;line-height:30px}
+#ticker button b{color:var(--g);font-weight:500;margin-right:8px}
+#ticker button:hover{color:var(--txt)}
+@keyframes tk{to{transform:translateX(-100%)}}
+/* masthead */
+header.m{display:flex;align-items:center;gap:16px;padding:22px 0 16px;flex-wrap:wrap}
+.brand{font:900 30px/1 var(--disp);letter-spacing:-.04em}
+.brand i{display:inline-block;width:.5em;height:.82em;background:var(--g);margin-left:6px;vertical-align:-.06em;animation:bl 1.05s steps(1) infinite}
+@keyframes bl{50%{opacity:0}}
+.tag{color:var(--dim);font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+.sp{flex:1}
+.clk{font-size:12px;color:var(--dim)}
+.led{width:9px;height:9px;border-radius:50%;background:var(--g);box-shadow:0 0 0 0 rgba(60,245,133,.6);animation:pl 2s infinite;display:inline-block;margin-right:7px}
+.led.busy{background:var(--amber);animation:none}.led.bad{background:var(--red);animation:none}
+@keyframes pl{70%{box-shadow:0 0 0 8px rgba(60,245,133,0)}100%{box-shadow:0 0 0 0 rgba(60,245,133,0)}}
+/* controls */
+.ctl{border:1px solid var(--line);border-radius:16px;box-shadow:4px 4px 0 var(--line);background:var(--panel);padding:12px;display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center}
+.srch{flex:1 1 220px;display:flex;align-items:center;border:1px solid var(--line2);border-radius:12px;padding:0 12px;background:var(--bg)}
+.srch input{flex:1;background:none;border:0;padding:7px 4px;outline:0;min-width:0}
+.srch kbd{border:1px solid var(--line2);padding:0 6px;font-size:10px;color:var(--mute)}
+.chips,.seg{display:flex;flex-wrap:wrap;gap:6px}
+.seg button+button{margin-left:-1px}
+.sw{display:flex;align-items:center;gap:7px}
+.sw button.on::after{content:" ON"}.sw button:not(.on)::after{content:" OFF"}
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin:18px 0 22px}
+.stats span{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:12px 14px;box-shadow:3px 3px 0 var(--line);color:var(--dim);font-size:11px;font-weight:800;text-transform:uppercase}
+.stats b{display:block;color:var(--txt);font-size:1.6rem;font-weight:850;margin-top:2px;letter-spacing:-.02em}
+@media(max-width:820px){.stats{grid-template-columns:repeat(3,1fr)}}@media(max-width:480px){.stats{grid-template-columns:repeat(2,1fr)}}
+/* layout */
+.grid{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:22px;align-items:start}
+aside{position:sticky;top:12px;display:flex;flex-direction:column;gap:14px;max-height:calc(100vh - 24px);overflow:auto;padding-right:2px}
+.box{border:1px solid var(--line);border-radius:16px;box-shadow:4px 4px 0 var(--line);background:var(--panel);overflow:hidden}
+.box h3{font:600 11px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--g);padding:9px 12px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between}
+.box h3 span{color:var(--mute)}
+.box .bd{padding:10px 12px}
+/* lead */
+.lead{border:1px solid var(--g);border-radius:18px;box-shadow:5px 5px 0 var(--gd);background:var(--panel2);padding:22px 24px;margin-bottom:18px;position:relative}
+.lead::before{content:"LEAD STORY";position:absolute;top:-9px;left:14px;background:var(--bg);color:var(--g);padding:0 8px;font-size:10px;letter-spacing:.2em}
+.lead h2{font:900 28px/1.2 var(--disp);letter-spacing:-.03em;margin:10px 0}
+.lead p{color:var(--dim);font-size:14px;max-width:80ch}
+/* rows */
+.row{display:grid;grid-template-columns:70px minmax(0,1fr);border:1px solid var(--line);border-radius:17px;overflow:hidden;box-shadow:4px 4px 0 var(--line);background:var(--panel);margin-bottom:14px;transition:transform .15s,box-shadow .15s}
+.row:hover{transform:perspective(1000px) translate(-3px,-3px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));box-shadow:7px 7px 0 #555}
+.row:has(.c.act){border-color:var(--g);box-shadow:4px 4px 0 var(--gd)}
+.rail{border-right:1px solid var(--line);padding:11px 6px;text-align:center;color:var(--mute);font-size:11px;display:flex;flex-direction:column;gap:6px;align-items:center}
+.rail .no{font:700 20px/1 var(--disp);color:var(--dim)}
+.rail .sig{letter-spacing:-1px;color:var(--gd);font-size:11px}
+.body{padding:11px 14px;min-width:0}
+.meta{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:6px}
+.c{border:1px solid var(--line2);background:var(--panel2);border-radius:999px;font-family:var(--mono);padding:1px 9px;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--dim);line-height:18px;white-space:nowrap}
+.c.src{color:var(--txt);border-color:var(--mute)}
+.c.top{color:var(--g);border-color:var(--gd)}
+.c.act{background:var(--g);color:#000;border-color:var(--g);font-weight:600}
+.c.wat{color:var(--g);border-color:var(--g)}
+.c.auth{color:var(--amber);border-color:var(--amber)}
+.c.tier{color:var(--txt);border-style:dashed}
+.c.dupe{color:var(--txt);cursor:help}
+.c.stale{color:var(--mute);border-style:dotted}
+.ttl{font:850 16px/1.35 var(--disp);margin-bottom:4px}
+.ex{color:var(--dim);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.act-row{display:flex;gap:8px;margin-top:9px}
+.more{display:block;margin:16px auto;padding:9px 26px}
+.empty,.err{border:1px dashed var(--line2);padding:36px;text-align:center;color:var(--dim)}
+.sk{height:84px;border:1px solid var(--line);margin-bottom:8px;background:linear-gradient(90deg,var(--panel) 0 40%,var(--panel2) 50%,var(--panel) 60%);background-size:300% 100%;animation:sk 1.4s linear infinite}
+@keyframes sk{to{background-position:-300% 0}}
+/* sidebar */
+.rad{display:grid;grid-template-columns:96px 1fr 26px;gap:3px 8px;font-size:11px;align-items:center}
+.rad button{border:0;padding:0;text-align:left;color:var(--dim);letter-spacing:.04em}
+.rad button.on{background:none;color:var(--g)}
+.bar{color:var(--g);letter-spacing:-1px;overflow:hidden;white-space:nowrap}
+.rad span:last-child{text-align:right;color:var(--txt)}
+.srcs{list-style:none;font-size:11px}
+.srcs li{display:flex;align-items:center;gap:7px;padding:3px 0;border-bottom:1px dotted var(--line)}
+.srcs li button{border:0;padding:0;flex:1;text-align:left;text-transform:none;letter-spacing:0;color:var(--txt);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.srcs li button.on{background:none;color:var(--g)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--mute);flex:none}.dot.ok{background:var(--g)}.dot.no{background:var(--red)}.dot.wait{background:var(--amber)}
+.srcs small{color:var(--mute)}
+.srcs .x{padding:0 5px;font-size:10px}
+form.add{display:flex;flex-direction:column;gap:7px}
+form.add input{background:var(--bg);border:1px solid var(--line2);padding:7px 9px;outline:0;width:100%}
+form.add input:focus{border-color:var(--g)}
+.about{color:var(--dim);font-size:11px}
+.about b{color:var(--txt)}
+footer{margin:36px 0 26px;padding-top:14px;border-top:1px solid var(--line);color:var(--mute);font-size:11px;display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+#toasts{position:fixed;right:16px;bottom:16px;z-index:70;display:flex;flex-direction:column;gap:8px}
+.toast{background:#fff;color:#000;font-weight:800;border-radius:10px;padding:10px 16px;font-size:12px;animation:ti .18s ease-out;max-width:340px}
+@keyframes ti{from{transform:translateY(8px);opacity:0}}
+/* gateway */
+#gw{position:fixed;inset:0;z-index:100;background:var(--bg);display:flex;align-items:center;justify-content:center;padding:18px}
+.term{width:min(420px,100%);text-align:center;border:1px solid var(--line);border-radius:20px;box-shadow:6px 6px 0 var(--line);background:var(--panel);padding:30px 24px 24px}
+.term .tb{font:900 12px var(--disp);letter-spacing:.2em;color:var(--dim);margin-bottom:20px}
+.spin{width:64px;height:64px;margin:0 auto 18px;border-radius:50%;border:4px solid var(--line);border-top-color:var(--g);animation:sp .8s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.term .big{font:900 20px var(--disp);letter-spacing:-.02em}
+.term pre{font:inherit;color:var(--dim);margin:6px 0 4px;white-space:pre-wrap;word-break:break-all}
+.term .ab{display:flex;gap:10px;justify-content:center;margin-top:18px;flex-wrap:wrap}
+@media(max-width:960px){.grid{grid-template-columns:1fr}aside{position:static;max-height:none}}
+@media(max-width:560px){.brand{font-size:26px}.lead h2{font-size:21px}.row{grid-template-columns:48px minmax(0,1fr)}.rail .no{font-size:15px}.wrap{padding:0 10px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+<div id="ticker" aria-label="Headline ticker"><div class="tk" id="tk"></div></div>
+<div class="wrap">
+  <header class="m">
+    <div class="bw"><svg class="logo" viewBox="0 0 256 256" role="img" aria-label="HackersBun"><g class="ring"><circle cx="128" cy="128" r="104" fill="none" stroke="#00ff88" stroke-width="12" stroke-dasharray="199 18.4" stroke-linecap="round" transform="rotate(-80 128 128)"/></g><g fill="#fff" stroke="#fff"><path d="M80 122A48 44 0 0 1 176 122Z" stroke="none"/><path d="M80 158H176V164A20 20 0 0 1 156 184H100A20 20 0 0 1 80 164Z" stroke="none"/><path d="M80 138H104L114 128L128 148L140 130L148 138H176" fill="none" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/></g><g fill="#050505"><circle cx="108" cy="104" r="4"/><circle cx="130" cy="96" r="4"/><circle cx="152" cy="106" r="4"/></g></svg><div><div class="brand">HACKERSBUN<i></i></div><div class="tag">AI Governance Wire / EU AI Act - NIST AI RMF - ISO 42001 - AI Controls</div></div></div>
+    <canvas id="globe" width="120" height="120" aria-hidden="true"></canvas>
+    <div class="sp"></div>
+    <a class="btn" href="https://www.linkedin.com/company/hackersbun" target="_blank" rel="noopener">HackersBun on LinkedIn</a>
+    <a class="btn" href="https://www.linkedin.com/in/girishraohb/" target="_blank" rel="noopener">Girish on LinkedIn</a>
+    <div class="clk"><span class="led" id="led"></span><span id="clk">--:--:-- UTC</span></div>
+    <span class="clk" id="nxt"></span>
+    <select id="auto" title="Auto-sync interval" aria-label="Auto-sync interval"><option value="0">Auto-sync: off</option><option value="60">Auto-sync: 60 sec</option><option value="120">Auto-sync: 2 min</option><option value="300">Auto-sync: 5 min</option><option value="900">Auto-sync: 15 min</option></select>
+    <button id="sync" title="Force sync now"><svg class="ico" viewBox="0 0 24 24"><path d="M21 12a9 9 0 1 1-3-6.7M21 4v5h-5"/></svg>Sync</button>
+  </header>
+
+  <section class="ctl" aria-label="Controls">
+    <label class="srch"><svg class="ico" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg><input id="q" placeholder="search the wire" autocomplete="off" aria-label="Search"><kbd>/</kbd></label>
+    <div class="chips" id="chips"></div>
+    <div class="seg" id="rng"><button data-r="0" class="on">Any time</button><button data-r="1">24h</button><button data-r="7">7d</button><button data-r="30">30d</button></div>
+    <div class="seg"><button id="sNew" class="on">Newest</button><button id="sRel">Relevance</button></div>
+    <div class="sw"><button id="tGov" class="on" title="Hide items that match no governance topic">Gov filter</button><button id="tAuth" class="on" title="Include authenticated / paywalled sources">Auth</button></div>
+  </section>
+  <div class="stats" id="stats"></div>
+
+  <div class="grid">
+    <main>
+      <div id="lead"></div><div id="docket"></div><button class="more" id="more" hidden>Load more</button>
+    </main>
+    <aside>
+      <div class="box"><h3>Posture radar <span>7 days</span></h3><div class="bd"><div class="rad" id="radar"></div>
+        <div style="margin-top:10px;display:flex;gap:8px;flex-wrap:wrap"><button id="brief" title="Copy a brief of the top ACTION items, with gateway links">Copy brief</button><button id="expC" title="Export the current view as CSV">CSV</button><button id="expJ" title="Export the current view as JSON">JSON</button></div></div></div>
+      <div class="box"><h3>Sources <span id="srcN"></span></h3><div class="bd"><button id="retry" style="margin-bottom:8px" title="Re-fetch only the sources that failed">Retry failed</button><ul class="srcs" id="srcs"></ul></div></div>
+      <div class="box"><h3>Add feed</h3><div class="bd"><form class="add" id="addf"><input id="fn" placeholder="name (optional)" maxlength="30"><input id="fu" placeholder="https://example.com/feed.xml" required><button>Add source</button></form></div></div>
+      <div class="box"><h3>About</h3><div class="bd about">Aggregates <b>public RSS/Atom</b> only. AUTH sources are listed but never bypassed: OPEN lands on the publisher where your own subscription applies. Tier hints are keyword heuristics, not legal classification.</div></div>
+    </aside>
+  </div>
+  <footer><span>HACKERSBUN WIRE - created by Girish Rao HB - <a href="https://www.linkedin.com/company/hackersbun" target="_blank" rel="noopener">Company page</a> - <a href="https://www.linkedin.com/in/girishraohb/" target="_blank" rel="noopener">LinkedIn</a></span><span>Keys: <b>/</b> search - <b>Esc</b> cancel gateway</span></footer>
+</div>
+<div id="toasts" aria-live="polite"></div>
+<div id="gw" hidden role="dialog" aria-modal="true" aria-label="Hackersbun gateway"></div>
+
+<script>
+'use strict';
+/* ===== FEED REGISTRY (edit freely). Dead URLs are harmless: they show a red dot. ===== */
+const FEEDS=[
+ {name:'AI ACT TRACKER',url:'https://artificialintelligenceact.eu/feed/'},
+ {name:'EU AI ACT NEWSLETTER',url:'https://artificialintelligenceact.substack.com/feed'},
+ {name:'TECH POLICY PRESS',url:'https://www.techpolicy.press/feed/'},
+ {name:'FUTURE OF LIFE',url:'https://futureoflife.org/feed/'},
+ {name:'FEDSCOOP',url:'https://fedscoop.com/feed/'},
+ {name:'NEXTGOV',url:'https://www.nextgov.com/rss/all/'},
+ {name:'TECHCRUNCH AI',url:'https://techcrunch.com/category/artificial-intelligence/feed/'},
+ {name:'VENTUREBEAT AI',url:'https://venturebeat.com/category/ai/feed/'},
+ {name:'THE VERGE AI',url:'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml'},
+ {name:'ARS TECHNICA AI',url:'https://arstechnica.com/ai/feed/'},
+ {name:'WIRED AI',url:'https://www.wired.com/feed/tag/ai/latest/rss'},
+ {name:'GUARDIAN AI',url:'https://www.theguardian.com/technology/artificialintelligenceai/rss'},
+ {name:'MIT TECH REVIEW AI',url:'https://www.technologyreview.com/topic/artificial-intelligence/feed'},
+ {name:'THE REGISTER AI',url:'https://www.theregister.com/software/ai_ml/headlines.atom'},
+ {name:'BIOMETRIC UPDATE',url:'https://www.biometricupdate.com/feed'},
+ {name:'EURACTIV',url:'https://www.euractiv.com/feed/'},
+ {name:'EDPB',url:'https://edpb.europa.eu/feed/news_en'},
+ {name:'COUNCIL OF THE EU',url:'https://www.consilium.europa.eu/en/rss/pressreleases.ashx'},
+ {name:'EU PARLIAMENT',url:'https://www.europarl.europa.eu/rss/doc/press-releases/en.xml'},
+ {name:'EU PARLIAMENT TOP',url:'https://www.europarl.europa.eu/rss/doc/top-stories/en.xml'},
+ {name:'CNIL (EN)',url:'https://www.cnil.fr/en/rss.xml'},
+ {name:'NIST',url:'https://www.nist.gov/news-events/news/rss.xml'},
+ {name:'NCSC UK',url:'https://www.ncsc.gov.uk/api/1/services/v1/news-rss-feed.xml'},
+ {name:'KREBS ON SECURITY',url:'https://krebsonsecurity.com/feed/'},
+ {name:'SECURITYWEEK',url:'https://www.securityweek.com/feed/'},
+ {name:'WIRED SECURITY',url:'https://www.wired.com/feed/category/security/latest/rss'},
+ {name:'CSO ONLINE',url:'https://www.csoonline.com/feed/'},
+ {name:'INFOSECURITY MAG',url:'https://www.infosecurity-magazine.com/rss/news/'},
+ {name:'HELP NET SECURITY',url:'https://www.helpnetsecurity.com/feed/'},
+ {name:'AWS SECURITY BLOG',url:'https://aws.amazon.com/blogs/security/feed/'},
+ {name:'CISA ADVISORIES',url:'https://www.cisa.gov/cybersecurity-advisories/all.xml'},
+ {name:'MICROSOFT SECURITY',url:'https://www.microsoft.com/en-us/security/blog/feed/'},
+ {name:'SCHNEIER',url:'https://www.schneier.com/feed/atom/'},
+ {name:'THE HACKER NEWS',url:'https://feeds.feedburner.com/TheHackersNews'},
+ {name:'BLEEPINGCOMPUTER',url:'https://www.bleepingcomputer.com/feed/'},
+ {name:'DARK READING',url:'https://www.darkreading.com/rss.xml'},
+ {name:'CLOUD SECURITY ALLIANCE',url:'https://cloudsecurityalliance.org/blog/feed/'},
+ {name:'OPENAI NEWS',url:'https://openai.com/news/rss.xml'},
+ {name:'GOOGLE DEEPMIND',url:'https://deepmind.google/blog/rss.xml'},
+ {name:'HUGGING FACE',url:'https://huggingface.co/blog/feed.xml'},
+ {name:'IAPP',url:'https://iapp.org/rss/feed.xml',auth:true}
+];
+const LOCAL_PORT=8787, TTL=30*60e3, TIMEOUT=9000, PER_FEED=15, PAGE=30, POOL=6, CACHE_KEY='hb.cache.v4', CUSTOM_KEY='hb.custom.v1', STICKY_KEY='hb.sticky.v1';
+const LOCAL_PROXY=location.protocol==='file:'?`http://localhost:${LOCAL_PORT}/proxy?url=`:(/^(localhost|127\.0\.0\.1)$/.test(location.hostname)?location.origin+'/proxy?url=':'');
+
+/* ===== RELEVANCE TABLES ===== */
+const TOPICS={
+ 'EU AI ACT':{'eu ai act':12,'ai act':8,'ai office':7,'gpai':7,'general purpose ai':7,'high risk ai':6,'implementing act':6,'digital omnibus':7,'code of practice':4,'harmonised standard':5,'conformity assessment':6,'ce marking':4,'market surveillance':4,'prohibited ai':6,'european commission':2,'member states':2,'brussels':2},
+ 'NIST AI RMF':{'ai rmf':12,'ai risk management framework':12,'nist':7,'genai profile':8,'ai safety institute':6,'aisi':5,'risk management framework':6,'csrc':5,'executive order':3,'omb':3},
+ 'ISO 42001':{'iso iec 42001':12,'iso 42001':12,'iso42001':12,'ai management system':9,'management system':4,'certification':3,'certified':3,'accreditation':3,'iso':2,'iec':2},
+ 'AI CONTROLS':{'ai controls':12,'ai audit':9,'ai assurance':9,'model risk':8,'control framework':6,'guardrails':6,'red teaming':6,'red team':5,'risk assessment':4,'regulatory sandbox':4,'incident response':3,'controls':3,'audit':2},
+ 'AI & CYBER':{'data breach':8,'breach':4,'ransomware':6,'cyberattack':6,'cyber attack':6,'malware':4,'exploited':5,'exploit':3,'supply chain attack':7,'threat actor':5,'critical vulnerability':6,'cve':3,'phishing':3,'shadow ai':10,'prompt injection':9,'jailbreak':7,'model theft':7,'data poisoning':8,'ai agent':4,'ai agents':4,'mcp server':6,'data leakage':6,'ai supply chain':7,'llm':3,'vulnerability':2,'zero day':3,'ai security':9},
+ 'EU MFG':{'manufacturer':8,'placed on the market':8,'machinery regulation':8,'general product safety':8,'provider obligations':9,'product safety':6,'importer':5,'distributor':5,'deployer':5,'penalties':5,'obligations':3,'enforcement':3,'recall':3},
+ 'AI GOVERNANCE':{'ai governance':12,'responsible ai':7,'trustworthy ai':7,'ai ethics':6,'ai policy':6,'oversight':5,'accountability':5,'governance':4,'ai safety':4,'gdpr':4,'regulator':4,'ai risk':4,'regulation':3,'transparency':3,'data protection':3,'board':2}
+};
+const TOPIC_LIST=Object.keys(TOPICS);
+const TIERS=[['PROHIBITED',/(prohibited ai|social scoring|emotion recognition|subliminal|untargeted scraping|real time biometric)/],['HIGH-RISK',/(high risk ai|conformity assessment|annex iii|critical infrastructure|medical device|machinery regulation)/],['GPAI',/(gpai|general purpose ai|foundation model|systemic risk)/],['TRANSPARENCY',/(deepfake|chatbot|transparency obligation|watermark|synthetic content)/]];
+const ACTION_RX=/(deadline|enters? into force|comes? into (effect|force)|takes effect|postpone|delay|final text|adopted|guidelines|consultation|template|fined?|penalt|enforcement|call for|mandatory|standard published|omnibus)/;
+const STOP=new Set('a an the of to in on for and or with by at from as is are was be this that it its how why what new says will after over into about'.split(' '));
+
+/* ===== STATE ===== */
+const $=s=>document.querySelector(s);
+const S={items:[],raw:{},health:{},topic:'ALL',q:'',sort:'new',gov:true,auth:true,src:null,page:1,syncedAt:0,stats:{items:0,unique:0,collapsed:0},syncing:false,booted:false,range:0,lastVisit:+localStorage.getItem('hb.visit')||0};
+try{const u=JSON.parse(localStorage.getItem('hb.ui'));if(u)for(const k of['sort','gov','auth','topic','range'])if(k in u)S[k]=u[k]}catch{}
+const saveUI=()=>localStorage.setItem('hb.ui',JSON.stringify({sort:S.sort,gov:S.gov,auth:S.auth,topic:S.topic,range:S.range}));
+const OPTIONS_AUTO=localStorage.getItem('hb.auto');let autoSec=OPTIONS_AUTO===null?120:+OPTIONS_AUTO,nextAt=0,autoT;
+let sticky=localStorage.getItem(STICKY_KEY)||'', localDown=false;
+const custom=()=>{try{return JSON.parse(localStorage.getItem(CUSTOM_KEY))||[]}catch{return[]}};
+const allFeeds=()=>FEEDS.concat(custom().map(f=>({...f,custom:true})));
+
+/* ===== DOM HELPERS (no innerHTML with feed data) ===== */
+function h(tag,props,...kids){const e=document.createElement(tag);for(const k in props||{}){const v=props[k];if(k==='class')e.className=v;else if(k.startsWith('on'))e.addEventListener(k.slice(2),v);else if(v!==false&&v!=null)e.setAttribute(k,v===true?'':v)}for(const c of kids.flat())if(c!=null)e.append(c.nodeType?c:document.createTextNode(c));return e}
+function toast(m){const t=h('div',{class:'toast'},m);$('#toasts').append(t);setTimeout(()=>t.remove(),2600)}
+const IC={open:'<path d="M14 4h6v6M20 4l-9 9M18 14v5H5V6h5"/>',copy:'<rect x="9" y="9" width="11" height="11"/><path d="M5 15V5h10"/>'};
+function ico(n){const s=document.createElementNS('http://www.w3.org/2000/svg','svg');s.setAttribute('class','ico');s.setAttribute('viewBox','0 0 24 24');s.innerHTML=IC[n];return s}
+
+/* ===== CLEANING ===== */
+function decode(s){const d=new DOMParser().parseFromString(String(s||''),'text/html');d.querySelectorAll('script,style').forEach(n=>n.remove());return d.body.textContent||''}
+function clean(s,max){let t=decode(s);if(/&(#\d+|#x[\da-f]+|[a-z]+);/i.test(t))t=decode(t);
+ t=t.replace(/\s+/g,' ').replace(/\s+([,.;:!?])/g,'$1').replace(/\[(…|\.\.\.)\]/g,'')
+  .replace(/\s*The post .{0,300}? appeared first on .*$/i,'').replace(/\s*(Read more|Continue reading|Click here)[^.]{0,60}(…|\.\.\.|»)?\s*$/i,'')
+  .replace(/^[\s\-–—•·*]+/,'').trim();
+ if(t)t=t[0].toUpperCase()+t.slice(1);
+ if(max&&t.length>max){t=t.slice(0,max);const i=t.lastIndexOf(' ');t=(i>max*.6?t.slice(0,i):t).replace(/[\s,;:.\-]+$/,'')+'…'}
+ return t}
+function cleanUrl(u){try{const x=new URL(String(u).trim());if(!/^https?:$/.test(x.protocol))return null;[...x.searchParams.keys()].forEach(k=>{if(/^(utm_|mc_)/i.test(k)||/^(fbclid|gclid|ref|ref_src|igshid)$/i.test(k))x.searchParams.delete(k)});x.hash='';return x.href}catch{return null}}
+const linkKey=u=>u.replace(/^https?:\/\/(www\.)?/,'').replace(/\/+$/,'').toLowerCase();
+const toks=t=>t.toLowerCase().replace(/[^a-z0-9]+/g,' ').split(' ').filter(w=>w&&!STOP.has(w));
+
+/* ===== PARSING ===== */
+const kid=(n,...names)=>[...n.children].find(c=>names.includes(c.localName));
+function parseXML(t){const d=new DOMParser().parseFromString(t,'text/xml');if(d.querySelector('parsererror'))throw Error('xml');
+ let nodes=[...d.getElementsByTagName('item')];if(!nodes.length)nodes=[...d.getElementsByTagName('entry')];
+ if(!nodes.length&&!d.querySelector('rss,feed,RDF'))throw Error('not a feed');
+ return nodes.map(n=>{let link='';const l=[...n.children].filter(c=>c.localName==='link');
+  if(l.length){const a=l.find(x=>(x.getAttribute('rel')||'alternate')==='alternate')||l[0];link=a.getAttribute('href')||a.textContent}
+  if(!link){const g=kid(n,'guid','id');if(g&&/^https?:/.test(g.textContent.trim()))link=g.textContent.trim()}
+  const g=(...a)=>{const e=kid(n,...a);return e?e.textContent:''};
+  return{title:g('title'),link,date:g('pubDate','published','updated','date'),desc:g('encoded')||g('description','summary','content')}})}
+function parseR2J(j){if(j.status!=='ok'||!Array.isArray(j.items))throw Error('r2j');return j.items.map(i=>({title:i.title,link:i.link,date:i.pubDate?String(i.pubDate).replace(' ','T')+'Z':'',desc:i.description||i.content}))}
+
+/* ===== FETCH CHAIN (sticky, 9s timeout) ===== */
+const GW={local:u=>LOCAL_PROXY+encodeURIComponent(u),allorigins:u=>'https://api.allorigins.win/raw?url='+encodeURIComponent(u),rss2json:u=>'https://api.rss2json.com/v1/api.json?rss_url='+encodeURIComponent(u),corsproxy:u=>'https://corsproxy.io/?url='+encodeURIComponent(u)};
+function chain(){const g=[];if(LOCAL_PROXY&&!localDown)g.push('local');g.push('allorigins','rss2json','corsproxy');const i=g.indexOf(sticky);if(i>0){g.splice(i,1);g.unshift(sticky)}return g}
+async function attempt(gw,url){const c=new AbortController(),t=setTimeout(()=>c.abort(),TIMEOUT);
+ try{const r=await fetch(GW[gw](url),{signal:c.signal});if(!r.ok)throw Error('http '+r.status);
+  const t=await r.text();return t.trimStart()[0]==='{'?parseR2J(JSON.parse(t)):parseXML(t)}
+ catch(e){if(gw==='local'&&e.name!=='AbortError'&&e instanceof TypeError)localDown=true;throw e}finally{clearTimeout(t)}}
+async function fetchFeed(f){const t0=performance.now();let last;
+ for(const gw of chain()){try{const raw=await attempt(gw,f.url);if(gw!==sticky){sticky=gw;localStorage.setItem(STICKY_KEY,gw)}
+   return{raw,via:gw,ms:Math.round(performance.now()-t0)}}catch(e){last=e}}
+ throw last||Error('failed')}
+function normalise(raw,f){const out=[];for(const r of raw){const link=cleanUrl(r.link),title=clean(r.title,150);if(!link||!title)continue;
+  const ts=Date.parse(r.date)||0;out.push({title,full:clean(r.desc,700),excerpt:clean(r.desc,260),link,ts:ts>Date.now()+864e5?Date.now():ts,source:f.name,auth:!!f.auth});if(out.length>=PER_FEED)break}return out}
+
+/* ===== SCORING ===== */
+const pad=t=>' '+t.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim()+' ';
+function score(it){const T=pad(it.title),B=pad(it.full||it.excerpt);let best=['GENERAL',0,[]];
+ for(const tp of TOPIC_LIST){let s=0;const hits=[];for(const k in TOPICS[tp]){const w=TOPICS[tp][k],a=' '+k+' ',b=' '+k+'s ';let m=0;if(T.includes(a)||T.includes(b))m+=2*w;if(B.includes(a)||B.includes(b))m+=w;if(m){s+=m;hits.push([k,w])}}
+  if(s>best[1])best=[tp,s,hits]}
+ const all=T+B;it.topic=best[1]>=4?best[0]:'GENERAL';it.score=best[1];
+ it.tags=best[2].sort((a,b)=>b[1]-a[1]).slice(0,3).map(x=>x[0]);
+ it.tier=(TIERS.find(t=>t[1].test(all))||[])[0]||'';
+ it.signal=it.topic==='GENERAL'?'':ACTION_RX.test(all)&&it.score>=6?'ACTION':it.score>=12?'WATCH':'FYI'}
+
+/* ===== DEDUPE ===== */
+function dedupe(list){list.sort((a,b)=>b.ts-a.ts);const keep=[],lk=new Map(),tk=new Map();let col=0;
+ for(const it of list){const l=linkKey(it.link),tt=toks(it.title),k=tt.slice(0,10).join(' '),set=new Set(tt);let k0=lk.get(l)||(k&&tk.get(k));
+  if(!k0)for(const c of keep){const cs=c._set;let n=0;for(const w of set)if(cs.has(w))n++;const u=set.size+cs.size-n;if(u&&n/u>=.72){k0=c;break}}
+  if(k0){(k0.dupes=k0.dupes||[]).push(it.source);col++;continue}
+  it._set=set;keep.push(it);lk.set(l,it);if(k)tk.set(k,it)}
+ return{keep,col}}
+
+/* ===== BUILD / SYNC ===== */
+function rebuild(){const all=[];let n=0;for(const f of allFeeds()){const r=S.raw[f.url];if(r){n+=r.length;all.push(...r.map(x=>({...x,source:f.name,auth:!!f.auth,stale:!!(S.health[f.url]&&S.health[f.url].stale)})))}}
+ all.forEach(score);const d=dedupe(all);S.items=d.keep;S.stats={items:n,unique:d.keep.length,collapsed:d.col};render()}
+function saveCache(){try{localStorage.setItem(CACHE_KEY,JSON.stringify({t:S.syncedAt,raw:S.raw,health:S.health}))}catch{}}
+function loadCache(){try{const c=JSON.parse(localStorage.getItem(CACHE_KEY));if(c&&c.raw){S.raw=c.raw;S.health=c.health||{};S.syncedAt=c.t||0;return true}}catch{}return false}
+async function sync(force,only){if(S.syncing)return;if(!force&&S.syncedAt&&Date.now()-S.syncedAt<TTL)return;
+ S.syncing=true;localDown=false;setLed('busy');$('#sync').disabled=true;arm();const before=new Set(S.items.map(i=>i.link));let done=0;
+ const feeds=only?allFeeds().filter(f=>!(S.health[f.url]&&S.health[f.url].ok)):allFeeds();feeds.forEach(f=>{S.health[f.url]={...(S.health[f.url]||{}),wait:true}});renderSources();
+ let i=0,ok=0;const worker=async()=>{while(i<feeds.length){const f=feeds[i++];
+   try{const{raw,via,ms}=await fetchFeed(f);S.raw[f.url]=normalise(raw,f);S.health[f.url]={ok:true,via,ms,count:S.raw[f.url].length};ok++}
+   catch(e){const had=(S.raw[f.url]||[]).length;S.health[f.url]={ok:false,stale:had>0,count:had,err:String(e.message||e)}}
+   if(++done%8===0)rebuild();renderSources()}};
+ await Promise.all(Array.from({length:POOL},worker));
+ S.live=ok>0;if(ok)S.syncedAt=Date.now();saveCache();S.syncing=false;$('#sync').disabled=false;
+ setLed(ok?'':'bad');rebuild();const fresh=before.size?S.items.filter(i=>i.topic!=='GENERAL'&&!before.has(i.link)).length:0;
+ toast(!ok?'All sources failed - showing cached items':`Synced ${ok}/${feeds.length} sources via ${sticky||'n/a'}`+(fresh?` - ${fresh} new item${fresh>1?'s':''}`:''))}
+function arm(){clearInterval(autoT);$('#nxt').textContent='';if(!autoSec)return;nextAt=Date.now()+autoSec*1000;
+ autoT=setInterval(()=>{if(S.syncing)return;const l=Math.round((nextAt-Date.now())/1000);if(l<=0)sync(true);else $('#nxt').textContent='NEXT '+Math.floor(l/60)+':'+String(l%60).padStart(2,'0')},1000)}
+function setTitle(){const n=S.lastVisit?S.items.filter(i=>i.topic!=='GENERAL'&&i.ts>S.lastVisit).length:0;document.title=(n?`(${n}) `:'')+'HACKERSBUN - AI Governance Wire'}
+function dl(name,text,type){const a=h('a',{href:URL.createObjectURL(new Blob([text],{type})),download:name});document.body.append(a);a.click();a.remove();toast('Exported '+name)}
+function exportView(kind){const l=filtered();if(!l.length)return toast('Nothing to export');const rows=l.map(i=>({published:i.ts?new Date(i.ts).toISOString():'',source:i.source,topic:i.topic,signal:i.signal,tier:i.tier,title:i.title,url:i.link,gateway:gwUrl(i.link)}));
+ const d=new Date().toISOString().slice(0,10);if(kind==='json')return dl(`hackersbun-${d}.json`,JSON.stringify(rows,null,2),'application/json');
+ const q=v=>'"'+(/^[=+\-@]/.test(v)?"'"+v:v).replace(/"/g,'""')+'"',k=Object.keys(rows[0]);dl(`hackersbun-${d}.csv`,[k.join(','),...rows.map(r=>k.map(c=>q(String(r[c]))).join(','))].join('\r\n'),'text/csv')}
+function setLed(c){$('#led').className='led '+c}
+
+/* ===== VIEW ===== */
+const age=ts=>{if(!ts)return'--';const s=Math.max(0,(Date.now()-ts)/1000);return s<60?'now':s<3600?Math.floor(s/60)+'m':s<86400?Math.floor(s/3600)+'h':Math.floor(s/86400)+'d'};
+function filtered(){const q=S.q.toLowerCase().trim();let l=S.items.filter(it=>{
+  if(S.gov&&it.topic==='GENERAL')return false;if(!S.auth&&it.auth)return false;if(S.topic!=='ALL'&&it.topic!==S.topic)return false;if(S.src&&it.source!==S.src)return false;if(S.range&&it.ts<Date.now()-S.range*864e5)return false;
+  if(q&&!(it.title+' '+it.excerpt+' '+it.source+' '+it.tags.join(' ')).toLowerCase().includes(q))return false;return true});
+ if(S.sort==='rel')l=l.slice().sort((a,b)=>b.score-a.score||b.ts-a.ts);return l}
+const b64=s=>{let b='';for(const x of new TextEncoder().encode(s))b+=String.fromCharCode(x);return btoa(b).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'')};
+const unb64=s=>{s=s.replace(/-/g,'+').replace(/_/g,'/');while(s.length%4)s+='=';const b=atob(s);return new TextDecoder().decode(Uint8Array.from(b,c=>c.charCodeAt(0)))};
+const base=()=>location.href.split('#')[0];
+/* Set SHARE_BASE to where you host index.html (e.g. your Netlify URL) so links copied to Teams work for colleagues. Empty = this page. */
+const SHARE_BASE='';
+const gwUrl=t=>(SHARE_BASE||base())+'#/go/'+b64(t);
+function openGw(t){const w=window.open(gwUrl(t),'_blank');if(w)w.opener=null;else toast('Popup blocked - allow popups or use COPY')}
+function copy(text){const ok=()=>toast('Gateway link copied');if(navigator.clipboard&&window.isSecureContext)navigator.clipboard.writeText(text).then(ok,()=>fb());else fb();
+ function fb(){const a=h('textarea',{style:'position:fixed;opacity:0'});a.value=text;document.body.append(a);a.select();try{document.execCommand('copy')?ok():toast('Copy failed')}catch{toast('Copy failed')}a.remove()}}
+function chips(it){const m=[h('span',{class:'c src'},it.source)];if(S.lastVisit&&it.ts>S.lastVisit)m.unshift(h('span',{class:'c new',title:'Published since your last visit'},'NEW'));
+ if(it.topic!=='GENERAL')m.push(h('span',{class:'c top'},it.topic));else m.push(h('span',{class:'c'},'GENERAL'));
+ if(it.signal==='ACTION')m.push(h('span',{class:'c act'},'ACTION'));else if(it.signal==='WATCH')m.push(h('span',{class:'c wat'},'WATCH'));
+ if(it.tier)m.push(h('span',{class:'c tier',title:'Indicative EU AI Act tier hint from keywords'},'TIER '+it.tier));
+ it.tags.forEach(t=>m.push(h('span',{class:'c'},'#'+t)));
+ if(it.auth)m.push(h('span',{class:'c auth',title:'Authenticated source - your own subscription applies at the destination'},'AUTH'));
+ if(it.stale)m.push(h('span',{class:'c stale',title:'Source failed on last sync; showing cached copy'},'CACHED'));
+ if(it.dupes)m.push(h('span',{class:'c dupe',title:'Also reported by: '+[...new Set(it.dupes)].join(', ')},'+'+it.dupes.length+' DUPES'));return m}
+const actions=it=>h('div',{class:'act-row'},h('button',{onclick:()=>openGw(it.link),'aria-label':'Open '+it.title},ico('open'),'Open'),h('button',{onclick:()=>teamsCopy(it),title:'Copy as a Teams-ready post','aria-label':'Copy as Teams post'},ico('copy'),'Copy'));
+/* Teams post: bold heading, 2-line summary ending "... Read More", then the gateway URL. Rich HTML + plain-text fallback via selection copy. */
+function teamsCopy(it){const url=gwUrl(it.link);let ex=it.excerpt.replace(/…$/,'');if(ex.length>175){ex=ex.slice(0,175);ex=ex.slice(0,ex.lastIndexOf(' '))}ex=ex.replace(/[\s,;:.\-]+$/,'');
+ const box=h('div',{style:'position:fixed;left:-9999px;top:0;user-select:text;background:#fff;color:#000'},h('h2',{},it.title),h('p',{},ex+'... ',h('a',{href:url},'Read More')),h('p',{},h('a',{href:url},url)));
+ document.body.append(box);const r=document.createRange();r.selectNodeContents(box);const s=getSelection();s.removeAllRanges();s.addRange(r);
+ let ok=false;try{ok=document.execCommand('copy')}catch{}s.removeAllRanges();box.remove();
+ if(ok)toast('Copied - paste into Teams');else copy(it.title+'\n\n'+ex+'... Read More\n'+url)}
+const sigbar=s=>{const n=Math.min(5,Math.max(1,Math.round(s/6)));return'▮'.repeat(n)+'▯'.repeat(5-n)};
+function render(){const l=filtered(),shown=l.slice(0,S.page*PAGE);const lead=$('#lead'),dk=$('#docket');lead.replaceChildren();dk.replaceChildren();
+ if(!l.length){dk.append(S.syncing&&!S.items.length?skel():h('div',{class:'empty'},S.items.length?'No items match the current filters. Try turning GOV FILTER off.':'Nothing yet. Press SYNC.'))}
+ else{const t=shown[0];lead.append(h('div',{class:'lead'},h('div',{class:'meta'},chips(t),h('span',{class:'c'},age(t.ts)+' ago')),h('h2',{},t.title),h('p',{},t.excerpt),actions(t)));
+  shown.slice(1).forEach((it,i)=>dk.append(h('article',{class:'row'},h('div',{class:'rail'},h('div',{class:'no'},String(i+2).padStart(2,'0')),h('div',{},age(it.ts)),h('div',{class:'sig',title:'Relevance '+it.score},sigbar(it.score))),
+    h('div',{class:'body'},h('div',{class:'meta'},chips(it)),h('div',{class:'ttl'},it.title),h('div',{class:'ex'},it.excerpt),actions(it)))))}
+ $('#more').hidden=shown.length>=l.length;
+ const hv=Object.values(S.health),on=hv.filter(x=>x.ok||x.stale).length;
+ $('#stats').replaceChildren(...[['Items',S.stats.items],['Unique',S.stats.unique],['Collapsed',S.stats.collapsed],['Sources online',on+'/'+allFeeds().length],['Paywalled',S.items.filter(i=>i.auth).length],[S.live?'LIVE':'CACHED',S.syncedAt?age(S.syncedAt)+' ago':'never']].map(([k,v])=>h('span',{},k,h('b',{},String(v)))));
+ renderChips();renderRadar();renderTicker();setTitle();saveUI()}
+const skel=()=>h('div',{},...Array.from({length:6},()=>h('div',{class:'sk'})));
+function renderChips(){const c=$('#chips');c.replaceChildren(...['ALL',...TOPIC_LIST].map(t=>h('button',{class:S.topic===t?'on':'',onclick:()=>{S.topic=t;S.page=1;render()}},t)))}
+function renderRadar(){const week=Date.now()-7*864e5,cnt={};TOPIC_LIST.forEach(t=>cnt[t]=0);let act=0;S.items.forEach(i=>{if(i.topic!=='GENERAL'&&i.ts>week){cnt[i.topic]++;if(i.signal==='ACTION')act++}});
+ const mx=Math.max(1,...Object.values(cnt)),r=$('#radar');r.replaceChildren();
+ TOPIC_LIST.forEach(t=>r.append(h('button',{class:S.topic===t?'on':'',onclick:()=>{S.topic=S.topic===t?'ALL':t;S.page=1;render()}},t),h('span',{class:'bar'},'█'.repeat(Math.round(cnt[t]/mx*14))||'·'),h('span',{},String(cnt[t]))));
+ r.append(h('span',{style:'grid-column:1/3;color:var(--g);margin-top:6px'},'ACTION ITEMS (7d)'),h('span',{style:'margin-top:6px'},String(act)))}
+function renderSources(){const ul=$('#srcs');ul.replaceChildren();const fs=allFeeds();let on=0;
+ fs.forEach(f=>{const hl=S.health[f.url]||{};if(hl.ok)on++;const cnt=(S.items.filter(i=>i.source===f.name).length);
+  ul.append(h('li',{},h('span',{class:'dot '+(hl.wait?'wait':hl.ok?'ok':hl.ok===false?'no':''),title:hl.ok?`via ${hl.via} in ${hl.ms}ms`:hl.ok===false?'failed: '+hl.err:''}),
+   h('button',{class:S.src===f.name?'on':'',title:'Filter by this source',onclick:()=>{S.src=S.src===f.name?null:f.name;S.page=1;render();renderSources()}},f.name+(f.auth?' [AUTH]':'')),h('small',{},String(cnt)),
+   f.custom?h('button',{class:'x',title:'Remove',onclick:()=>{localStorage.setItem(CUSTOM_KEY,JSON.stringify(custom().filter(c=>c.url!==f.url)));delete S.raw[f.url];delete S.health[f.url];rebuild();renderSources();toast('Removed '+f.name)}},'x'):null))});
+ $('#srcN').textContent=on+'/'+fs.length}
+function renderTicker(){const top=S.items.filter(i=>i.topic!=='GENERAL').slice(0,14);const tk=$('#tk');tk.replaceChildren();if(!top.length){tk.append(h('button',{},'Waiting for the wire...'));return}
+ top.forEach(i=>tk.append(h('button',{onclick:()=>openGw(i.link)},h('b',{},i.source),i.title)))}
+$('#brief').onclick=()=>{const w=Date.now()-7*864e5,l=S.items.filter(i=>i.signal==='ACTION'&&i.ts>w).concat(S.items.filter(i=>i.signal==='WATCH'&&i.ts>w)).slice(0,10);
+ if(!l.length)return toast('No ACTION/WATCH items in the last 7 days');
+ copy(`# HACKERSBUN AI GOVERNANCE BRIEF - ${new Date().toISOString().slice(0,10)}\n\n`+l.map(i=>`- [${i.signal}] ${i.topic}${i.tier?' / '+i.tier:''} - ${i.title} (${i.source}, ${age(i.ts)} ago)\n  ${gwUrl(i.link)}`).join('\n')+'\n\n_Tier hints are keyword heuristics, not legal classification._');toast('Brief copied')};
+
+/* ===== GATEWAY INTERSTITIAL ===== */
+let run=0,gwState='';
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+function gwShell(title,...kids){const g=$('#gw');g.hidden=false;g.replaceChildren(h('div',{class:'term'},h('div',{class:'tb'},title),...kids))}
+async function showGo(enc){const my=++run;gwState='go';let target='',host='';
+ try{target=unb64(enc);const u=new URL(target);if(!/^https?:$/.test(u.protocol))throw Error('proto');host=u.host}catch{
+  return gwShell('HACKERSBUN GATEWAY - ROUTE BLOCKED',h('pre',{},'> OUTBOUND LINK REQUEST RECEIVED\n> BLOCKED: only http and https destinations are allowed\n> NO ROUTING PERFORMED'),h('div',{class:'ab'},h('button',{class:'on',onclick:toWire},'Back to wire')))}
+ const go=()=>{if(my!==run)return;run++;handoff(enc,target)};
+ gwShell('HACKERSBUN GATEWAY',h('div',{class:'spin'}),h('div',{class:'big'},'Redirecting by HACKERSBUN'),h('pre',{},'Leaving the wire for '+host),h('div',{class:'ab'},h('button',{onclick:cancel},'Cancel'),h('button',{class:'on',onclick:go},'Open now')));
+ await sleep(1200);go()}
+function handoff(enc,target){history.replaceState(null,'',base()+'#/opened/'+enc);location.href=target}
+function cancel(){if(gwState!=='go')return;run++;gwShell('HACKERSBUN GATEWAY - ROUTING CANCELLED',h('pre',{},'> ROUTING ABORTED BY USER\n> NO DATA WAS SENT TO THE DESTINATION'),h('div',{class:'ab'},h('button',{class:'on',onclick:toWire},'Back to wire')))}
+function showOpened(enc){run++;gwState='opened';let host='';try{host=new URL(unb64(enc)).host}catch{}
+ gwShell('HACKERSBUN GATEWAY - SESSION RETURNED',h('div',{class:'big'},'GATEWAY SESSION RETURNED'),h('pre',{},'> WELCOME BACK FROM '+(host||'DESTINATION')+'\n> YOUR GATEWAY SESSION IS COMPLETE'),h('div',{class:'ab'},h('button',{onclick:()=>{location.hash='#/go/'+enc}},'Reopen'),h('button',{class:'on',onclick:toWire},'Back to wire')))}
+function toWire(){run++;gwState='';history.replaceState(null,'',base());$('#gw').hidden=true;boot()}
+function route(){const m=location.hash.match(/^#\/(go|opened)\/([\w-]+)$/);if(m){m[1]==='go'?showGo(m[2]):showOpened(m[2]);return true}$('#gw').hidden=true;run++;return false}
+addEventListener('hashchange',()=>{if(!route())boot()});
+
+/* ===== BOOT / EVENTS ===== */
+function boot(){if(S.booted)return;S.booted=true;const had=loadCache();
+ if(had){rebuild();renderSources()}else{render();renderSources()}
+ sync(true);arm()}
+setInterval(()=>{$('#clk').textContent=new Date().toISOString().slice(11,19)+' UTC'},1000);$('#clk').textContent=new Date().toISOString().slice(11,19)+' UTC';
+$('#sync').onclick=()=>sync(true);
+let qt;$('#q').oninput=e=>{clearTimeout(qt);qt=setTimeout(()=>{S.q=e.target.value;S.page=1;render()},90)};
+$('#sNew').onclick=()=>{S.sort='new';$('#sNew').className='on';$('#sRel').className='';render()};
+$('#sRel').onclick=()=>{S.sort='rel';$('#sRel').className='on';$('#sNew').className='';render()};
+$('#tGov').onclick=e=>{S.gov=!S.gov;e.target.classList.toggle('on',S.gov);S.page=1;render()};
+$('#tAuth').onclick=e=>{S.auth=!S.auth;e.target.classList.toggle('on',S.auth);S.page=1;render()};
+$('#more').onclick=()=>{S.page++;render()};
+$('#addf').onsubmit=e=>{e.preventDefault();const u=cleanUrl($('#fu').value);if(!u)return toast('Enter a valid http(s) URL');if(allFeeds().some(f=>f.url===u))return toast('Already in the list');
+ const name=($('#fn').value.trim()||new URL(u).hostname.replace(/^www\./,'')).toUpperCase();localStorage.setItem(CUSTOM_KEY,JSON.stringify(custom().concat({name,url:u})));$('#fu').value='';$('#fn').value='';renderSources();toast('Added '+name+' - syncing');sync(true)};
+addEventListener('keydown',e=>{if(e.key==='Escape'){cancel()}else if(e.key==='/'&&!/^(INPUT|TEXTAREA)$/.test(document.activeElement.tagName)&&$('#gw').hidden){e.preventDefault();$('#q').focus()}});
+/* controls added in v3 */
+$('#auto').value=String(autoSec);$('#auto').onchange=e=>{autoSec=+e.target.value;localStorage.setItem('hb.auto',autoSec);arm();toast(autoSec?'Auto-sync every '+(autoSec<120?autoSec+' sec':autoSec/60+' min'):'Auto-sync off')};
+$('#rng').onclick=e=>{const b=e.target.closest('button');if(!b)return;S.range=+b.dataset.r;S.page=1;syncCtl();render()};
+$('#retry').onclick=()=>sync(true,true);$('#expC').onclick=()=>exportView('csv');$('#expJ').onclick=()=>exportView('json');
+function syncCtl(){document.querySelectorAll('#rng button').forEach(b=>b.classList.toggle('on',+b.dataset.r===S.range));$('#sNew').className=S.sort==='new'?'on':'';$('#sRel').className=S.sort==='rel'?'on':'';$('#tGov').classList.toggle('on',S.gov);$('#tAuth').classList.toggle('on',S.auth)}
+syncCtl();addEventListener('pagehide',()=>localStorage.setItem('hb.visit',Date.now()));
+/* 3D tilt + spotlight on cards */
+const KIN=e=>e.target.closest&&e.target.closest('.row,.lead');
+document.addEventListener('mousemove',e=>{const r=KIN(e);if(!r)return;const b=r.getBoundingClientRect(),px=(e.clientX-b.left)/b.width,py=(e.clientY-b.top)/b.height;
+ r.style.setProperty('--ry',((px-.5)*3).toFixed(2)+'deg');r.style.setProperty('--rx',((.5-py)*2.4).toFixed(2)+'deg');r.style.setProperty('--mx',(px*100).toFixed(1)+'%');r.style.setProperty('--my',(py*100).toFixed(1)+'%')});
+document.addEventListener('mouseout',e=>{const r=KIN(e);if(r&&!r.contains(e.relatedTarget)){r.style.removeProperty('--rx');r.style.removeProperty('--ry')}});
+/* canvas visuals: rotating signal globe + drifting network backdrop (still frame when reduced motion) */
+const REDUCE=matchMedia('(prefers-reduced-motion:reduce)').matches;
+(function(){const x=$('#globe').getContext('2d'),N=150,P=[];for(let i=0;i<N;i++){const y=1-2*(i+.5)/N,r=Math.sqrt(1-y*y),t=i*2.399963;P.push([Math.cos(t)*r,y,Math.sin(t)*r])}
+ let a=.6;(function f(){a+=.012;x.clearRect(0,0,120,120);const c=Math.cos(a),s=Math.sin(a);for(const[p,y,z]of P){const px=p*c+z*s,pz=-p*s+z*c,k=(pz+1)/2;x.fillStyle=`rgba(0,255,136,${.12+.88*k})`;x.fillRect(60+px*54,60+y*54,1+k*1.8,1+k*1.8)}if(!REDUCE)requestAnimationFrame(f)})()})();
+(function(){const c=$('#bg'),x=c.getContext('2d');let W,H,N=[];const rs=()=>{W=c.width=innerWidth;H=c.height=innerHeight;N=Array.from({length:Math.min(55,W/24|0)},()=>({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.25,vy:(Math.random()-.5)*.25}))};rs();addEventListener('resize',rs);
+ (function f(){x.clearRect(0,0,W,H);for(const n of N){n.x=(n.x+n.vx+W)%W;n.y=(n.y+n.vy+H)%H;x.fillStyle='rgba(0,255,136,.35)';x.fillRect(n.x,n.y,2,2)}
+  for(let i=0;i<N.length;i++)for(let j=i+1;j<N.length;j++){const dx=N[i].x-N[j].x,dy=N[i].y-N[j].y,d=dx*dx+dy*dy;if(d<19600){x.strokeStyle=`rgba(0,255,136,${.13*(1-d/19600)})`;x.beginPath();x.moveTo(N[i].x,N[i].y);x.lineTo(N[j].x,N[j].y);x.stroke()}}
+  if(!REDUCE)requestAnimationFrame(f)})()})();
+if(!route())boot();
+</script>
+</body>
+</html>
