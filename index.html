@@ -354,7 +354,7 @@ const b64=s=>{let b='';for(const x of new TextEncoder().encode(s))b+=String.from
 const unb64=s=>{s=s.replace(/-/g,'+').replace(/_/g,'/');while(s.length%4)s+='=';const b=atob(s);return new TextDecoder().decode(Uint8Array.from(b,c=>c.charCodeAt(0)))};
 const base=()=>location.href.split('#')[0];
 /* Set SHARE_BASE to where you host index.html (e.g. your Netlify URL) so links copied to Teams work for colleagues. Empty = this page. */
-const SHARE_BASE='';
+const SHARE_BASE='https://kbgirishhb.github.io/hackersbun_AIGOV/';
 const gwUrl=t=>(SHARE_BASE||base())+'#/go/'+b64(t);
 function openGw(t){const w=window.open(gwUrl(t),'_blank');if(w)w.opener=null;else toast('Popup blocked - allow popups or use COPY')}
 function copy(text){const ok=()=>toast('Gateway link copied');if(navigator.clipboard&&window.isSecureContext)navigator.clipboard.writeText(text).then(ok,()=>fb());else fb();
