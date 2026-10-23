@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-10-23T17:57:13.749Z",
+ "generatedAt": "2026-10-23T21:18:46.467Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 42,
-  "fetched": 876,
-  "relevant": 163,
-  "stories": 150,
+  "sourcesOk": 43,
+  "fetched": 916,
+  "relevant": 172,
+  "stories": 159,
   "duplicatesMerged": 13
  },
  "sources": [
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 1002
+   "ms": 1010
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 62
+   "ms": 166
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 1392
+   "ms": 1728
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 780
+   "ms": 1161
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 850
+   "ms": 666
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1209
+   "ms": 1719
   },
   {
    "id": "edpb",
@@ -71,7 +71,7 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 1706
+   "ms": 3371
   },
   {
    "id": "europarl",
@@ -79,7 +79,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 468
+   "ms": 955
   },
   {
    "id": "cnil",
@@ -88,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 813
+   "ms": 884
   },
   {
    "id": "nist",
@@ -97,7 +97,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 183
+   "ms": 405
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +106,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 148
+   "ms": 392
   },
   {
    "id": "cisa",
@@ -115,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 420
+   "ms": 745
   },
   {
    "id": "fedscoop",
@@ -124,7 +124,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 80
+   "ms": 224
   },
   {
    "id": "nextgov",
@@ -133,7 +133,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 362
+   "ms": 653
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 385
+   "ms": 553
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 382
+   "ms": 504
   },
   {
    "id": "verge-ai",
@@ -159,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 288
+   "ms": 442
   },
   {
    "id": "ars-ai",
@@ -168,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 181
+   "ms": 341
   },
   {
    "id": "wired-ai",
@@ -177,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 117
+   "ms": 280
   },
   {
    "id": "guardian-ai",
@@ -186,7 +186,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 172
+   "ms": 422
   },
   {
    "id": "mittr-ai",
@@ -195,15 +195,16 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 112
+   "ms": 379
   },
   {
    "id": "register-ai",
    "name": "The Register AI/ML",
    "url": "https://www.theregister.com/software/ai_ml/headlines.atom",
-   "ok": false,
-   "error": "not an RSS/Atom feed",
-   "ms": 463
+   "ok": true,
+   "items": 40,
+   "kept": 4,
+   "ms": 3251
   },
   {
    "id": "biometric",
@@ -212,7 +213,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 704
+   "ms": 1826
   },
   {
    "id": "krebs",
@@ -221,7 +222,7 @@
    "ok": true,
    "items": 10,
    "kept": 8,
-   "ms": 245
+   "ms": 1234
   },
   {
    "id": "securityweek",
@@ -230,7 +231,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 196
+   "ms": 1215
   },
   {
    "id": "wired-security",
@@ -239,7 +240,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 44
+   "ms": 62
   },
   {
    "id": "csoonline",
@@ -248,7 +249,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 119
+   "ms": 1090
   },
   {
    "id": "infosecmag",
@@ -257,7 +258,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 201
+   "ms": 1249
   },
   {
    "id": "helpnet",
@@ -266,7 +267,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 106
+   "ms": 1122
   },
   {
    "id": "therecord",
@@ -275,7 +276,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 150
+   "ms": 372
   },
   {
    "id": "thehackernews",
@@ -284,7 +285,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 242
+   "ms": 274
   },
   {
    "id": "bleeping",
@@ -293,7 +294,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 122
+   "ms": 323
   },
   {
    "id": "darkreading",
@@ -302,7 +303,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 589
+   "ms": 787
   },
   {
    "id": "schneier",
@@ -311,7 +312,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 128
+   "ms": 379
   },
   {
    "id": "google-security",
@@ -320,7 +321,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 561
+   "ms": 998
   },
   {
    "id": "msft-security",
@@ -329,7 +330,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1161
+   "ms": 3692
   },
   {
    "id": "aws-security",
@@ -338,7 +339,7 @@
    "ok": true,
    "items": 20,
    "kept": 18,
-   "ms": 217
+   "ms": 729
   },
   {
    "id": "unit42",
@@ -347,7 +348,7 @@
    "ok": true,
    "items": 15,
    "kept": 14,
-   "ms": 147
+   "ms": 582
   },
   {
    "id": "trailofbits",
@@ -356,7 +357,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 710
+   "ms": 1041
   },
   {
    "id": "embracethered",
@@ -365,7 +366,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 167
+   "ms": 565
   },
   {
    "id": "owasp-genai",
@@ -374,7 +375,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 224
+   "ms": 470
   },
   {
    "id": "willison-pi",
@@ -383,7 +384,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 522
+   "ms": 340
   },
   {
    "id": "csa",
@@ -392,7 +393,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 1069
+   "ms": 1213
   },
   {
    "id": "openai",
@@ -401,7 +402,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 190
+   "ms": 261
   },
   {
    "id": "deepmind",
@@ -410,7 +411,7 @@
    "ok": true,
    "items": 40,
    "kept": 10,
-   "ms": 264
+   "ms": 201
   },
   {
    "id": "huggingface",
@@ -419,10 +420,163 @@
    "ok": true,
    "items": 40,
    "kept": 25,
-   "ms": 163
+   "ms": 294
   }
  ],
  "items": [
+  {
+   "id": "67a743428acd",
+   "title": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
+   "url": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-10-23T20:57:56.000Z",
+   "firstSeen": 1792790326467,
+   "summary": "Threat actors don't need to rely on malware to breach organizations anymore. They're simply calling help desks and politely asking for access, with a little help from artificial intelligence.",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [],
+   "score": 13,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "522689e95f41",
+   "title": "Updated Google privacy policy says your Gmail might be used for advertising",
+   "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+   "source": "Ars Technica AI",
+   "sourceId": "ars-ai",
+   "published": "2026-10-23T20:19:55.000Z",
+   "firstSeen": 1792790326467,
+   "summary": "Turning on Personal Intelligence gives the company more data for ad targeting.",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "Privacy",
+    "Google"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "dfa54871576f",
+   "title": "Fighting fraud at financial agencies is ‘all about prevention’ and collaboration",
+   "url": "https://fedscoop.com/financial-agencies-fighting-fraud-treasury/",
+   "source": "FedScoop",
+   "sourceId": "fedscoop",
+   "published": "2026-10-23T19:57:58.000Z",
+   "firstSeen": 1792790326467,
+   "summary": "Tech leaders at Treasury, the FDIC and EXIM Bank’s OIG say collaborative efforts have helped agencies stay ahead of fraudsters as AI-fueled scams proliferate.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "3350a02032f3",
+   "title": "Tech bills of the week: Preventing AI model theft; Regulating AI-generated political content; and more",
+   "url": "https://www.nextgov.com/policy/2026/10/tech-bills-week-preventing-ai-model-theft-regulating-ai-generated-political-content-and-more/416796/",
+   "source": "Nextgov/FCW",
+   "sourceId": "nextgov",
+   "published": "2026-10-23T19:48:00.000Z",
+   "firstSeen": 1792790326467,
+   "summary": "Lawmakers this week took aim at foreign efforts to create knockoff copies of U.S.-made AI models and AI’s capability to influence voting.",
+   "topics": [
+    "security",
+    "regulation"
+   ],
+   "tags": [],
+   "score": 20,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "89e3a135a027",
+   "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-10-23T18:54:41.000Z",
+   "firstSeen": 1792790326467,
+   "summary": "Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Phishing",
+    "Microsoft"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "c38b89644c4f",
+   "title": "‘Black October’: cybersecurity experts sound the alarm over new era of AI-enabled hacking",
+   "url": "https://www.theguardian.com/technology/2026/oct/23/cybersecurity-ai-hacking-php-vulnerability",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-10-23T18:48:48.000Z",
+   "firstSeen": 1792790326467,
+   "summary": "After discovery of severe bug in the PHP programming language, executives warn of ‘vulnerability tsunami’ Leaders in cybersecurity are sounding the alarm after the discovery of a major vulnerability this week. They are predicting that artificial intelligence tools will expose more fundamental weaknesses in global…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "ce5b202f6423",
+   "title": "Deepfake hiring fraud drives demand for continuous identity verification",
+   "url": "https://www.biometricupdate.com/202610/deepfake-hiring-fraud-drives-demand-for-continuous-identity-verification",
+   "source": "Biometric Update",
+   "sourceId": "biometric",
+   "published": "2026-10-23T18:17:03.000Z",
+   "firstSeen": 1792790326467,
+   "summary": "It might be a mantra for the contemporary identity sector: “The idea is continuous checks.” So says Spokeo COO Harrison Tang in an article from HR Brew covering the deepfake hiring crisis. After hiring an ideal candidate and having a completely different person show up for onboarding, Tang has come to believe what has…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Deepfakes"
+   ],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "8bdee15f4188",
+   "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+   "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-10-23T17:50:47.000Z",
+   "firstSeen": 1792790326467,
+   "summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat actor is assessed to be Russian-speaking…",
+   "topics": [
+    "incidents",
+    "security",
+    "research"
+   ],
+   "tags": [
+    "AI agents",
+    "Ransomware"
+   ],
+   "score": 26,
+   "action": false,
+   "also": []
+  },
   {
    "id": "946c5af9c746",
    "title": "South Korea weighs changes to permanent identity numbers after data breaches",
@@ -639,6 +793,25 @@
    ],
    "tags": [
     "China"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "eeabb972474e",
+   "title": "Securing our frontier model training environment",
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+   "source": "OpenAI News",
+   "sourceId": "openai",
+   "published": "2026-10-23T10:00:00.000Z",
+   "firstSeen": 1792790326467,
+   "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "OpenAI"
    ],
    "score": 8,
    "action": false,
@@ -977,14 +1150,14 @@
    "sourceId": "darkreading",
    "published": "2026-10-22T14:21:22.000Z",
    "firstSeen": 1792758947726,
-   "summary": "Insurers are split on AI risk: some build specialized agentic AI coverage, while major carriers quietly exclude it — leaving enterprises exposed without their knowledge.",
+   "summary": "Some build specialized agentic AI coverage, while major carriers quietly exclude it — leaving enterprises exposed without their knowledge.",
    "topics": [
-    "governance"
+    "security"
    ],
    "tags": [
     "AI agents"
    ],
-   "score": 9,
+   "score": 6,
    "action": false,
    "also": []
   },
@@ -1330,7 +1503,7 @@
      "url": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack",
      "published": "2026-10-23T11:38:28.000Z",
      "firstSeen": 1792756990982,
-     "summary": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may multiply — not contain — the risk."
+     "summary": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may compound — not contain — the risk."
     }
    ]
   },
