@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="dark light">
+<meta name="description" content="HACKERSBUN v2: always-updated, de-duplicated AI security and AI governance news from 45+ public sources, with search, filters and shareable links.">
+<title>HACKERSBUN v2 · AI Security &amp; Governance Wire</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="styles.css">
+<script src="theme.js"></script>
+<script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#results">Skip to news</a>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="./" aria-label="HACKERSBUN v2 home">
+      <svg class="logo" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><circle cx="128" cy="128" r="104" fill="none" stroke="currentColor" stroke-width="14" stroke-dasharray="199 18.4" stroke-linecap="round" transform="rotate(-80 128 128)" class="ring"/><path d="M80 122A48 44 0 0 1 176 122Z M80 158H176V164A20 20 0 0 1 156 184H100A20 20 0 0 1 80 164Z" class="bun"/><path d="M80 138H104L114 128L128 148L140 130L148 138H176" fill="none" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" class="beat"/></svg>
+      <span><span class="name">HACKERSBUN</span> <span class="ver">v2</span><span class="sub">AI security &amp; AI governance wire</span></span>
+    </a>
+    <p class="status" id="status" role="status">Loading news…</p>
+    <div class="top-acts">
+      <button type="button" id="themeBtn" class="btn ghost" aria-pressed="false">Dark mode</button>
+      <a class="btn ghost" href="../">Classic version</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap layout">
+  <button type="button" class="btn filters-toggle" id="filtersToggle" aria-expanded="false" aria-controls="filters">Filters</button>
+
+  <aside id="filters" class="filters" aria-label="Search and filters">
+    <form id="filterForm" role="search" novalidate>
+      <label class="lbl" for="q">Search</label>
+      <div class="search"><input id="q" name="q" type="search" placeholder="e.g. prompt injection, AI Act" autocomplete="off" aria-describedby="qHint"><kbd aria-hidden="true">/</kbd></div>
+      <p id="qHint" class="hint">All words must match. Searches titles, summaries, sources and tags.</p>
+
+      <fieldset>
+        <legend class="lbl">Topic</legend>
+        <div class="chips" id="topicChips"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend class="lbl">Published</legend>
+        <div class="seg" id="rangeSeg">
+          <label><input type="radio" name="range" value="1"><span>24 h</span></label>
+          <label><input type="radio" name="range" value="7"><span>7 days</span></label>
+          <label><input type="radio" name="range" value="30"><span>30 days</span></label>
+          <label><input type="radio" name="range" value="0" checked><span>All</span></label>
+        </div>
+      </fieldset>
+
+      <label class="lbl" for="sort">Sort by</label>
+      <select id="sort" name="sort">
+        <option value="new">Newest first</option>
+        <option value="old">Oldest first</option>
+        <option value="rel">Most relevant</option>
+        <option value="cov">Most covered (sources)</option>
+      </select>
+
+      <label class="check"><input type="checkbox" id="actionOnly"> <span>Needs attention only <small>(exploited, deadlines, new rules)</small></span></label>
+
+      <div id="tagActive" class="tag-active" hidden></div>
+
+      <details class="srcbox" id="srcBox">
+        <summary class="lbl">Sources <span id="srcSel"></span></summary>
+        <div class="src-acts"><button type="button" class="btn small" id="srcAll">Select all</button><button type="button" class="btn small" id="srcNone">Clear</button></div>
+        <ul id="srcList" class="srclist"></ul>
+      </details>
+
+      <div class="form-acts">
+        <button type="button" class="btn" id="resetBtn">Reset filters</button>
+        <button type="button" class="btn" id="shareView">Copy link to this view</button>
+      </div>
+    </form>
+  </aside>
+
+  <main id="results" tabindex="-1">
+    <div class="bar">
+      <p id="count" class="count" aria-live="polite" aria-atomic="true"></p>
+      <div class="bar-acts">
+        <button type="button" class="btn" id="digestBtn" title="Copy the top stories in this view as a Markdown digest">Copy digest</button>
+        <button type="button" class="btn" id="csvBtn" title="Download this view as CSV">Export CSV</button>
+      </div>
+    </div>
+    <div id="notice" class="notice" hidden></div>
+    <button type="button" id="freshBtn" class="fresh" hidden></button>
+    <ol id="list" class="list" aria-label="News stories"></ol>
+    <button type="button" class="btn more" id="moreBtn" hidden>Show more</button>
+  </main>
+</div>
+
+<footer class="wrap foot">
+  <details class="health" id="health">
+    <summary>Source health <span id="healthSum"></span></summary>
+    <p class="hint">Fetched server-side by a scheduled GitHub Action. A failing source keeps its last stories until it recovers.</p>
+    <ul id="healthList" class="healthlist"></ul>
+  </details>
+  <p>Public RSS/Atom only. Topics, tags and "needs attention" are keyword heuristics, not legal or threat classification. Duplicates are merged: one card per story with every outlet listed.</p>
+  <p>HACKERSBUN Wire, created by Girish Rao HB · <a href="https://www.linkedin.com/company/hackersbun" rel="noopener noreferrer">HackersBun on LinkedIn</a> · <a href="https://github.com/KBgirishHB/hackersbun_AIGOV" rel="noopener noreferrer">Source on GitHub</a> · Keys: <kbd>/</kbd> search, <kbd>Esc</kbd> clear</p>
+</footer>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
