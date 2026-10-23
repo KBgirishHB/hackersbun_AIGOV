@@ -38,7 +38,10 @@ mark { background: var(--mark); color: inherit; border-radius: 3px; padding: 0 1
 .status.warn { color: var(--warn); }
 .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--acc); margin-right: 7px; vertical-align: 1px; }
 .status.warn .dot { background: var(--warn); }
-.top-acts { display: flex; gap: 8px; flex-wrap: wrap; }
+.top-acts { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.top-acts select { width: auto; margin: 0; }
+.auto { font-size: 14px; color: var(--dim); }
+.btn.icon { font-size: 20px; line-height: 1; min-width: 44px; justify-content: center; padding: 6px 10px; }
 
 /* buttons */
 .btn { display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 8px 14px; border: 1px solid var(--line); border-radius: 10px; background: var(--panel2); font-size: 14px; font-weight: 600; cursor: pointer; text-decoration: none; }
