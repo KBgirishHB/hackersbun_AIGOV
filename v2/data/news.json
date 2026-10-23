@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-10-23T13:17:33.359Z",
+ "generatedAt": "2026-10-23T17:57:13.749Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 43,
-  "fetched": 914,
-  "relevant": 153,
-  "stories": 140,
+  "sourcesOk": 42,
+  "fetched": 876,
+  "relevant": 163,
+  "stories": 150,
   "duplicatesMerged": 13
  },
  "sources": [
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 1291
+   "ms": 1002
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 56
+   "ms": 62
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 1011
+   "ms": 1392
   },
   {
    "id": "algorithmwatch",
@@ -44,16 +44,16 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 901
+   "ms": 780
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 4,
-   "kept": 4,
-   "ms": 453
+   "items": 5,
+   "kept": 5,
+   "ms": 850
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 903
+   "ms": 1209
   },
   {
    "id": "edpb",
@@ -71,7 +71,7 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 1685
+   "ms": 1706
   },
   {
    "id": "europarl",
@@ -79,7 +79,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 557
+   "ms": 468
   },
   {
    "id": "cnil",
@@ -88,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 510
+   "ms": 813
   },
   {
    "id": "nist",
@@ -97,7 +97,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 144
+   "ms": 183
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +106,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 411
+   "ms": 148
   },
   {
    "id": "cisa",
@@ -115,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 332
+   "ms": 420
   },
   {
    "id": "fedscoop",
@@ -124,16 +124,16 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 316
+   "ms": 80
   },
   {
    "id": "nextgov",
    "name": "Nextgov/FCW",
    "url": "https://www.nextgov.com/rss/all/",
    "ok": true,
-   "items": 23,
-   "kept": 23,
-   "ms": 152
+   "items": 24,
+   "kept": 24,
+   "ms": 362
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 65
+   "ms": 385
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 89
+   "ms": 382
   },
   {
    "id": "verge-ai",
@@ -159,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 122
+   "ms": 288
   },
   {
    "id": "ars-ai",
@@ -168,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 211
+   "ms": 181
   },
   {
    "id": "wired-ai",
@@ -177,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 166
+   "ms": 117
   },
   {
    "id": "guardian-ai",
@@ -186,7 +186,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 287
+   "ms": 172
   },
   {
    "id": "mittr-ai",
@@ -195,16 +195,15 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 217
+   "ms": 112
   },
   {
    "id": "register-ai",
    "name": "The Register AI/ML",
    "url": "https://www.theregister.com/software/ai_ml/headlines.atom",
-   "ok": true,
-   "items": 40,
-   "kept": 4,
-   "ms": 539
+   "ok": false,
+   "error": "not an RSS/Atom feed",
+   "ms": 463
   },
   {
    "id": "biometric",
@@ -213,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 783
+   "ms": 704
   },
   {
    "id": "krebs",
@@ -222,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 8,
-   "ms": 303
+   "ms": 245
   },
   {
    "id": "securityweek",
@@ -231,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 198
+   "ms": 196
   },
   {
    "id": "wired-security",
@@ -240,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 27
+   "ms": 44
   },
   {
    "id": "csoonline",
@@ -249,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 126
+   "ms": 119
   },
   {
    "id": "infosecmag",
@@ -258,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 236
+   "ms": 201
   },
   {
    "id": "helpnet",
@@ -267,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 825
+   "ms": 106
   },
   {
    "id": "therecord",
@@ -276,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 141
+   "ms": 150
   },
   {
    "id": "thehackernews",
@@ -285,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 280
+   "ms": 242
   },
   {
    "id": "bleeping",
@@ -294,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 129
+   "ms": 122
   },
   {
    "id": "darkreading",
@@ -303,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 387
+   "ms": 589
   },
   {
    "id": "schneier",
@@ -312,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 85
+   "ms": 128
   },
   {
    "id": "google-security",
@@ -321,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 557
+   "ms": 561
   },
   {
    "id": "msft-security",
@@ -330,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3061
+   "ms": 1161
   },
   {
    "id": "aws-security",
@@ -338,8 +337,8 @@
    "url": "https://aws.amazon.com/blogs/security/feed/",
    "ok": true,
    "items": 20,
-   "kept": 19,
-   "ms": 146
+   "kept": 18,
+   "ms": 217
   },
   {
    "id": "unit42",
@@ -348,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 14,
-   "ms": 55
+   "ms": 147
   },
   {
    "id": "trailofbits",
@@ -357,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 394
+   "ms": 710
   },
   {
    "id": "embracethered",
@@ -366,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 142
+   "ms": 167
   },
   {
    "id": "owasp-genai",
@@ -375,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 152
+   "ms": 224
   },
   {
    "id": "willison-pi",
@@ -384,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 105
+   "ms": 522
   },
   {
    "id": "csa",
@@ -393,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 653
+   "ms": 1069
   },
   {
    "id": "openai",
@@ -402,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 114
+   "ms": 190
   },
   {
    "id": "deepmind",
@@ -410,8 +409,8 @@
    "url": "https://deepmind.google/blog/rss.xml",
    "ok": true,
    "items": 40,
-   "kept": 12,
-   "ms": 204
+   "kept": 10,
+   "ms": 264
   },
   {
    "id": "huggingface",
@@ -420,10 +419,193 @@
    "ok": true,
    "items": 40,
    "kept": 25,
-   "ms": 159
+   "ms": 163
   }
  ],
  "items": [
+  {
+   "id": "946c5af9c746",
+   "title": "South Korea weighs changes to permanent identity numbers after data breaches",
+   "url": "https://www.biometricupdate.com/202610/south-korea-weighs-changes-to-permanent-identity-numbers-after-data-breaches",
+   "source": "Biometric Update",
+   "sourceId": "biometric",
+   "published": "2026-10-23T17:37:14.000Z",
+   "firstSeen": 1792778233749,
+   "summary": "Data breaches are mounting as AI enables new identity fraud techniques. In South Korea, a “Connecting Information” (CI) identifier functions much like a permanent identity number: once assigned, it is not ordinarily changed. But what happens when it is stolen? Lawmakers are reevaluating the CI system amid mounting…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "8544084a1b67",
+   "title": "AI Tools Are Generating Massive Attacks for Little Cost",
+   "url": "https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-10-23T17:26:59.000Z",
+   "firstSeen": 1792778233749,
+   "summary": "One campaign targets 105 sites using open-weight models; in another, public models gained full domain control for $12. Cyber-defense will have to change.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "505a22105736",
+   "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
+   "url": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
+   "source": "Ars Technica AI",
+   "sourceId": "ars-ai",
+   "published": "2026-10-23T17:18:31.000Z",
+   "firstSeen": 1792778233749,
+   "summary": "Company says foreign-made robotic vehicles are crucial to US chip production.",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "9edf39ceaa21",
+   "title": "Opposition deepfake video sparks outrage in Spain ahead of election",
+   "url": "https://www.theguardian.com/world/2026/oct/23/opposition-deepfake-video-spain-election",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-10-23T16:35:48.000Z",
+   "firstSeen": 1792778233749,
+   "summary": "Video shows AI likenesses of people linked to Pedro Sánchez’s Socialist party appearing to admit to wrongdoing A political ad from Spain’s main opposition party that used a deepfake video of the prime minister’s wife has sparked outrage and set off a wider debate on AI, as the deeply polarised country gears up for…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Deepfakes"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "38fe482c9d80",
+   "title": "In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware",
+   "url": "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-10-23T14:23:37.000Z",
+   "firstSeen": 1792778233749,
+   "summary": "Noteworthy stories that might have slipped under the radar: Russia’s APT28 hit NATO defense firms, PingCAP source code stolen, ShinyHunters negotiator probe.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "AI agents",
+    "Ransomware"
+   ],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "1cdefb78ca35",
+   "title": "OpenAI's Kazoo-Grade Spying Incident",
+   "url": "https://www.lawfaremedia.org/article/openai's-kazoo-grade-spying-incident",
+   "source": "Lawfare",
+   "sourceId": "lawfare",
+   "published": "2026-10-23T14:21:33.000Z",
+   "firstSeen": 1792778233749,
+   "summary": "The latest edition of the Seriously Risky Business cybersecurity newsletter, now on Lawfare.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "OpenAI"
+   ],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "d9ffcd005b45",
+   "title": "Meta delays AI business terms amid media sector outcry",
+   "url": "https://www.rapporteur.com/news/meta-delays-ai-business-terms-until-20-november/",
+   "source": "Euractiv",
+   "sourceId": "euractiv",
+   "published": "2026-10-23T14:12:45.000Z",
+   "firstSeen": 1792778233749,
+   "summary": "Tech giant is facing regulatory scrutiny after backlash from press publishers",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "Meta"
+   ],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "44915fa944ee",
+   "title": "You gave your AI agent access, but who is giving it orders?",
+   "url": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-10-23T14:00:10.000Z",
+   "firstSeen": 1792778233749,
+   "summary": "AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using their legitimate permissions. Gen Digital explains how its Agent Trust Hub helps protect agents through skill verification, secure connectivity, and runtime controls that…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "a5762973f490",
+   "title": "Jumio expands reusable identity globally, reports gains in deepfake detection",
+   "url": "https://www.biometricupdate.com/202610/jumio-expands-reusable-identity-globally-reports-gains-in-deepfake-detection",
+   "source": "Biometric Update",
+   "sourceId": "biometric",
+   "published": "2026-10-23T13:38:08.000Z",
+   "firstSeen": 1792778233749,
+   "summary": "Jumio has reported strong third-quarter 2026 momentum across its global operations, pointing to the full worldwide rollout of its reusable identity product selfie.DONE, advances in AI-powered fraud detection and more than 30 new customers. The company also appointed a new chief revenue officer and highlighted its…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Deepfakes"
+   ],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "5814d6a3833a",
+   "title": "Cyber Insurance's New Reality: Underwriting Isn't Enough",
+   "url": "https://www.darkreading.com/cyber-risk/cyber-insurances-underwriting-isnt-enough",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-10-23T13:30:00.000Z",
+   "firstSeen": 1792778233749,
+   "summary": "Rising AI, social engineering, and cloud risks are pushing carriers beyond risk transfer and deeper into cybersecurity itself.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 2,
+   "action": false,
+   "also": []
+  },
   {
    "id": "c85285cc986c",
    "title": "Listen: Digital credentials and agentic AI confront questions of control",
