@@ -235,7 +235,7 @@
     $('#freshBtn').addEventListener('click', () => { if (!S.pending) return; S.pendingNew.forEach(id => S.newIds.add(id)); load(S.pending); S.pending = null; $('#freshBtn').hidden = true; renderStatus(); render(); $('#results').focus(); });
     const ft = $('#filtersToggle'); ft.addEventListener('click', () => { const open = ft.getAttribute('aria-expanded') !== 'true'; ft.setAttribute('aria-expanded', String(open)); $('#filters').classList.toggle('open', open); });
     const tb = $('#themeBtn'), isDark = () => (document.documentElement.dataset.theme || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark')) === 'dark';
-        const paintTheme = () => { const d = isDark(); tb.firstElementChild.textContent = d ? '☀' : '☾'; tb.setAttribute('aria-label', d ? 'Switch to light mode' : 'Switch to dark mode'); tb.title = tb.getAttribute('aria-label'); };, String(isDark()));
+        const paintTheme = () => { const d = isDark(); tb.firstElementChild.textContent = d ? '☀' : '☾'; tb.setAttribute('aria-label', d ? 'Switch to light mode' : 'Switch to dark mode'); tb.title = tb.getAttribute('aria-label'); };
     tb.addEventListener('click', () => { const t = isDark() ? 'light' : 'dark'; document.documentElement.dataset.theme = t; store.set('hb2.theme', t); paintTheme(); });
     paintTheme();
     addEventListener('keydown', e => {
