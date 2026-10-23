@@ -1,0 +1,41 @@
+# Rebuilds v2/data/news.json from the feeds in v2/feeds.json and commits it, so GitHub Pages always serves fresh news.
+# No secrets are used or needed: every source is a public RSS/Atom feed fetched here, server-side.
+name: v2 news refresh
+
+on:
+  schedule:
+    - cron: '7,37 * * * *'   # every 30 min (GitHub may start scheduled runs a few minutes late)
+  workflow_dispatch: {}      # "Run workflow" button on the Actions tab
+  push:
+    branches: [main]
+    paths: ['v2/feeds.json', 'v2/scripts/**']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: v2-news
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Unit tests (dedup + classification)
+        run: node v2/scripts/test.mjs
+      - name: Build news.json
+        run: node v2/scripts/build-news.mjs
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- v2/data/news.json; then echo "No changes"; exit 0; fi
+          git config user.name  "hackersbun-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add v2/data/news.json
+          git commit -m "v2: refresh news $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
