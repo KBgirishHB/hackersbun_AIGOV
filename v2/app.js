@@ -5,7 +5,7 @@
   const DATA_URL = 'data/news.json', RECHECK_MS = 5 * 60e3, STALE_H = 3, PAGE = 40;
   const TOPICS = { security: 'AI security', governance: 'AI governance', regulation: 'Regulation & policy', incidents: 'Incidents & threats', research: 'Research' };
   const $ = s => document.querySelector(s);
-  const S = { data: null, items: [], byId: new Map(), q: '', topics: [], range: 0, sort: 'new', src: null, tag: '', action: false, story: '', page: 1, lastVisit: 0, pending: null };
+  const S = { data: null, items: [], byId: new Map(), q: '', topics: [], range: 0, sort: 'new', src: null, tag: '', action: false, story: '', page: 1, lastVisit: 0, pending: null, pendingNew: [], newIds: new Set(), auto: 0 };
 
   /* ---------- helpers ---------- */
   function h(tag, props, ...kids) {
@@ -30,6 +30,10 @@
   const fmtDay = ts => new Date(ts).toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' });
   const pageBase = () => location.origin + location.pathname;
   const storyUrl = it => pageBase() + '?story=' + it.id;
+     // "Read more" goes through the v1 HACKERSBUN gateway (#/go/<base64url>), which shows the redirect screen then opens the article
+  const GATEWAY = 'https://kbgirishhb.github.io/hackersbun_AIGOV/';
+  const b64 = s => { let b = ''; for (const x of new TextEncoder().encode(s)) b += String.fromCharCode(x); return btoa(b).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, ''); };
+  const gwUrl = u => GATEWAY + '#/go/' + b64(u);
   async function copyText(text, html) {
     try {
       if (html && window.ClipboardItem && navigator.clipboard?.write) {
@@ -106,7 +110,7 @@
     $('#digestBtn').disabled = $('#csvBtn').disabled = !l.length;
   }
   function card(it) {
-    const main = it.topics[0] || 'security', isNew = S.lastVisit && it.firstSeen > S.lastVisit;
+    const main = it.topics[0] || 'security', isNew = S.newIds.has(it.id) || (S.lastVisit && it.firstSeen > S.lastVisit);
     const art = h('article', { class: 'card t-' + main, id: 's-' + it.id, 'aria-labelledby': 't-' + it.id },
       h('div', { class: 'meta' },
         h('span', { class: 'src' }, it.source),
@@ -172,10 +176,11 @@
   function reset() { S.q = ''; S.topics = []; S.range = 0; S.sort = 'new'; S.src = null; S.tag = ''; S.action = false; S.story = ''; S.page = 1; syncControls(); render(); toast('Filters reset'); }
   async function shareStory(it) { toast(await copyText(storyUrl(it)) ? 'Link copied' : 'Copy failed - link is in the address bar'); }
   async function teams(it) {
-    const link = storyUrl(it), extra = it.also.length ? ` (+${it.also.length} more source${it.also.length > 1 ? 's' : ''})` : '';
-    const text = `${it.title}\n${it.summary}\n${it.source}, ${fmtDay(it.ts)}${extra}\nRead: ${it.url}\nOn HACKERSBUN: ${link}`;
-    const html = `<p><b><a href="${esc(it.url)}">${esc(it.title)}</a></b><br>${esc(it.summary)}<br><i>${esc(it.source)}, ${esc(fmtDay(it.ts))}${esc(extra)}</i> · <a href="${esc(link)}">HACKERSBUN</a></p>`;
-    toast(await copyText(text, html) ? 'Copied - paste into Teams or Outlook' : 'Copy failed');
+    const go = gwUrl(it.url);
+    let sum = (it.summary || '').replace(/…$/, ''); if (sum.length > 220) sum = sum.slice(0, sum.lastIndexOf(' ', 220)); sum = sum.replace(/[\s,;:.\-]+$/, '');
+    const text = `${it.title}\n\n${sum}... Read more: ${go}`;
+    const html = `<h3>${esc(it.title)}</h3><p>${esc(sum)}... <a href="${esc(go)}">Read more</a></p>`;
+   toast(await copyText(text, html) ? 'Copied - paste into Teams or Outlook' : 'Copy failed');
   }
   async function digest() {
     const l = view().slice(0, 15), title = `HACKERSBUN AI security & governance digest, ${fmtDay(Date.now())}`;
@@ -200,13 +205,16 @@
   }
   async function fetchData() { const r = await fetch(DATA_URL + '?t=' + Math.floor(Date.now() / 60e3), { cache: 'no-cache' }); if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); }
   let lastCheck = Date.now();
-  async function recheck() {
-    if (Date.now() - lastCheck < 60e3) return; lastCheck = Date.now();
+    async function recheck(manual) {
+    if (!manual && Date.now() - lastCheck < 30e3) return; lastCheck = Date.now();
     try {
-      const d = await fetchData(); if (d.generatedAt === S.data.generatedAt) return;
-      const known = new Set(S.items.map(i => i.id)), fresh = d.items.filter(i => !known.has(i.id)).length;
-      if (!fresh) { load(d); renderStatus(); render(); return; }
-      S.pending = d; const b = $('#freshBtn'); b.hidden = false; b.textContent = `${fresh} new stor${fresh > 1 ? 'ies' : 'y'} arrived - show them`;
+      const d = await fetchData(); if (d.generatedAt === S.data.generatedAt) { if (manual) toast('Already up to date'); return; }
+      const known = new Set(S.items.map(i => i.id)), fresh = d.items.filter(i => !known.has(i.id)).map(i => i.id);
+      if (manual || S.auto || !fresh.length) { // add only the new stories, each tagged "New"
+        fresh.forEach(id => S.newIds.add(id)); load(d); renderStatus(); render();
+        toast(fresh.length ? `${fresh.length} new stor${fresh.length > 1 ? 'ies' : 'y'} added` : 'Already up to date'); return;
+      }
+      S.pending = d; S.pendingNew = fresh; const b = $('#freshBtn'); b.hidden = false; b.textContent = `${fresh.length} new stor${fresh.length > 1 ? 'ies' : 'y'} arrived - show them`;
     } catch { /* offline: keep what we have */ }
   }
 
@@ -224,10 +232,10 @@
     $('#moreBtn').addEventListener('click', () => { const n = S.page * PAGE; S.page++; render(); document.querySelectorAll('#list .ttl a')[n]?.focus(); });
     $('#digestBtn').addEventListener('click', digest);
     $('#csvBtn').addEventListener('click', csv);
-    $('#freshBtn').addEventListener('click', () => { if (!S.pending) return; load(S.pending); S.pending = null; $('#freshBtn').hidden = true; renderStatus(); render(); $('#results').focus(); });
+    $('#freshBtn').addEventListener('click', () => { if (!S.pending) return; S.pendingNew.forEach(id => S.newIds.add(id)); load(S.pending); S.pending = null; $('#freshBtn').hidden = true; renderStatus(); render(); $('#results').focus(); });
     const ft = $('#filtersToggle'); ft.addEventListener('click', () => { const open = ft.getAttribute('aria-expanded') !== 'true'; ft.setAttribute('aria-expanded', String(open)); $('#filters').classList.toggle('open', open); });
     const tb = $('#themeBtn'), isDark = () => (document.documentElement.dataset.theme || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark')) === 'dark';
-    const paintTheme = () => tb.setAttribute('aria-pressed', String(isDark()));
+        const paintTheme = () => { const d = isDark(); tb.firstElementChild.textContent = d ? '☀' : '☾'; tb.setAttribute('aria-label', d ? 'Switch to light mode' : 'Switch to dark mode'); tb.title = tb.getAttribute('aria-label'); };, String(isDark()));
     tb.addEventListener('click', () => { const t = isDark() ? 'light' : 'dark'; document.documentElement.dataset.theme = t; store.set('hb2.theme', t); paintTheme(); });
     paintTheme();
     addEventListener('keydown', e => {
@@ -237,7 +245,12 @@
     addEventListener('popstate', () => { readUrl(); syncControls(); render(); });
     addEventListener('pagehide', () => store.set('hb2.lastVisit', String(Date.now())));
     setInterval(() => { if (S.data) renderStatus(); }, 60e3);
-    setInterval(recheck, RECHECK_MS);
+        // Auto-refresh: Off (just offers new stories every 5 min) or every 2/5/10 min (adds them automatically)
+    let autoT; const arm = () => { clearInterval(autoT); autoT = setInterval(() => recheck(), (S.auto || RECHECK_MS / 1000) * 1000); };
+    const as = $('#autoSel'); S.auto = +store.get('hb2.auto') || 0; as.value = String(S.auto);
+    as.addEventListener('change', () => { S.auto = +as.value; store.set('hb2.auto', S.auto); arm(); toast(S.auto ? `Auto-refresh every ${S.auto / 60} min` : 'Auto-refresh off'); });
+    $('#refreshBtn').addEventListener('click', () => recheck(true));
+    arm();
     document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && S.data) recheck(); });
   }
 
