@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-10-23T12:03:10.982Z",
+ "generatedAt": "2026-10-23T12:35:47.726Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 43,
   "fetched": 914,
-  "relevant": 151,
-  "stories": 138,
+  "relevant": 152,
+  "stories": 139,
   "duplicatesMerged": 13
  },
  "sources": [
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 1319
+   "ms": 1250
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 37
+   "ms": 85
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 1242
+   "ms": 1172
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 1552
+   "ms": 1151
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 4,
    "kept": 4,
-   "ms": 466
+   "ms": 386
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1293
+   "ms": 1156
   },
   {
    "id": "edpb",
@@ -71,7 +71,7 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 8909
+   "ms": 2101
   },
   {
    "id": "europarl",
@@ -79,7 +79,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 574
+   "ms": 593
   },
   {
    "id": "cnil",
@@ -88,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1184
+   "ms": 622
   },
   {
    "id": "nist",
@@ -97,7 +97,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 239
+   "ms": 218
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +106,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 166
+   "ms": 149
   },
   {
    "id": "cisa",
@@ -115,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 501
+   "ms": 529
   },
   {
    "id": "fedscoop",
@@ -124,7 +124,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 100
+   "ms": 484
   },
   {
    "id": "nextgov",
@@ -133,7 +133,7 @@
    "ok": true,
    "items": 23,
    "kept": 23,
-   "ms": 972
+   "ms": 421
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 38
+   "ms": 94
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 80
+   "ms": 178
   },
   {
    "id": "verge-ai",
@@ -159,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 63
+   "ms": 173
   },
   {
    "id": "ars-ai",
@@ -168,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 433
+   "ms": 405
   },
   {
    "id": "wired-ai",
@@ -177,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 123
+   "ms": 223
   },
   {
    "id": "guardian-ai",
@@ -186,7 +186,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 74
+   "ms": 378
   },
   {
    "id": "mittr-ai",
@@ -195,7 +195,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 121
+   "ms": 307
   },
   {
    "id": "register-ai",
@@ -204,7 +204,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 591
+   "ms": 788
   },
   {
    "id": "biometric",
@@ -213,7 +213,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 717
+   "ms": 855
   },
   {
    "id": "krebs",
@@ -222,7 +222,7 @@
    "ok": true,
    "items": 10,
    "kept": 8,
-   "ms": 136
+   "ms": 357
   },
   {
    "id": "securityweek",
@@ -231,7 +231,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 98
+   "ms": 335
   },
   {
    "id": "wired-security",
@@ -240,7 +240,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 17
+   "ms": 26
   },
   {
    "id": "csoonline",
@@ -249,7 +249,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 131
+   "ms": 237
   },
   {
    "id": "infosecmag",
@@ -258,7 +258,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 271
+   "ms": 385
   },
   {
    "id": "helpnet",
@@ -267,7 +267,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 144
+   "ms": 220
   },
   {
    "id": "therecord",
@@ -276,7 +276,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 281
+   "ms": 158
   },
   {
    "id": "thehackernews",
@@ -285,7 +285,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 598
+   "ms": 269
   },
   {
    "id": "bleeping",
@@ -294,7 +294,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 258
+   "ms": 179
   },
   {
    "id": "darkreading",
@@ -303,7 +303,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1238
+   "ms": 508
   },
   {
    "id": "schneier",
@@ -312,7 +312,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 205
+   "ms": 106
   },
   {
    "id": "google-security",
@@ -321,7 +321,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 1082
+   "ms": 429
   },
   {
    "id": "msft-security",
@@ -330,7 +330,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3171
+   "ms": 1133
   },
   {
    "id": "aws-security",
@@ -339,7 +339,7 @@
    "ok": true,
    "items": 20,
    "kept": 19,
-   "ms": 177
+   "ms": 339
   },
   {
    "id": "unit42",
@@ -348,7 +348,7 @@
    "ok": true,
    "items": 15,
    "kept": 14,
-   "ms": 118
+   "ms": 119
   },
   {
    "id": "trailofbits",
@@ -357,7 +357,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 421
+   "ms": 750
   },
   {
    "id": "embracethered",
@@ -366,7 +366,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 85
+   "ms": 180
   },
   {
    "id": "owasp-genai",
@@ -375,7 +375,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 374
+   "ms": 313
   },
   {
    "id": "willison-pi",
@@ -384,7 +384,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 342
+   "ms": 162
   },
   {
    "id": "csa",
@@ -393,7 +393,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 622
+   "ms": 646
   },
   {
    "id": "openai",
@@ -402,7 +402,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 222
+   "ms": 229
   },
   {
    "id": "deepmind",
@@ -411,7 +411,7 @@
    "ok": true,
    "items": 40,
    "kept": 12,
-   "ms": 278
+   "ms": 317
   },
   {
    "id": "huggingface",
@@ -420,7 +420,7 @@
    "ok": true,
    "items": 40,
    "kept": 24,
-   "ms": 294
+   "ms": 203
   }
  ],
  "items": [
@@ -765,6 +765,25 @@
     "Vulnerability"
    ],
    "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "2d971788561c",
+   "title": "As AI Risks Grow, Insurers Split on Covering the Damage",
+   "url": "https://www.darkreading.com/cyber-risk/cyber-insurance-covering-ai-damage",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-10-22T14:21:22.000Z",
+   "firstSeen": 1792758947726,
+   "summary": "Insurers are split on AI risk: some build specialized agentic AI coverage, while major carriers quietly exclude it — leaving enterprises exposed without their knowledge.",
+   "topics": [
+    "governance"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 9,
    "action": false,
    "also": []
   },
