@@ -24,8 +24,10 @@
     </a>
     <p class="status" id="status" role="status">Loading news…</p>
     <div class="top-acts">
-      <button type="button" id="themeBtn" class="btn ghost" aria-pressed="false">Dark mode</button>
-      <a class="btn ghost" href="../">Classic version</a>
+      <label class="auto" for="autoSel">Auto-refresh</label>
+      <select id="autoSel"><option value="0">Off</option><option value="120">Every 2 min</option><option value="300">Every 5 min</option><option value="600">Every 10 min</option></select>
+      <button type="button" id="refreshBtn" class="btn ghost">Refresh</button>
+      <button type="button" id="themeBtn" class="btn ghost icon" aria-label="Switch to light mode"><span aria-hidden="true">☀</span></button>
     </div>
   </div>
 </header>
