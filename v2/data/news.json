@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-24T04:22:40.471Z",
+ "generatedAt": "2026-10-24T09:03:31.935Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 2042
+   "ms": 1137
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 77
+   "ms": 42
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 3090
+   "ms": 1055
   },
   {
    "id": "algorithmwatch",
@@ -43,8 +43,8 @@
    "url": "https://algorithmwatch.org/en/feed/",
    "ok": true,
    "items": 10,
-   "kept": 7,
-   "ms": 955
+   "kept": 5,
+   "ms": 551
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 934
+   "ms": 306
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 913
+   "ms": 1004
   },
   {
    "id": "edpb",
@@ -71,7 +71,7 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 1761
+   "ms": 1373
   },
   {
    "id": "europarl",
@@ -79,7 +79,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 762
+   "ms": 563
   },
   {
    "id": "cnil",
@@ -88,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 908
+   "ms": 954
   },
   {
    "id": "nist",
@@ -97,7 +97,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 154
+   "ms": 205
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +106,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 269
+   "ms": 507
   },
   {
    "id": "cisa",
@@ -115,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 481
+   "ms": 433
   },
   {
    "id": "fedscoop",
@@ -124,7 +124,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 150
+   "ms": 434
   },
   {
    "id": "nextgov",
@@ -133,7 +133,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 452
+   "ms": 92
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 159
+   "ms": 67
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 356
+   "ms": 130
   },
   {
    "id": "verge-ai",
@@ -159,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 296
+   "ms": 91
   },
   {
    "id": "ars-ai",
@@ -168,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 382
+   "ms": 323
   },
   {
    "id": "wired-ai",
@@ -177,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 88
+   "ms": 66
   },
   {
    "id": "guardian-ai",
@@ -186,7 +186,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 186
+   "ms": 137
   },
   {
    "id": "mittr-ai",
@@ -195,7 +195,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 116
+   "ms": 53
   },
   {
    "id": "register-ai",
@@ -204,7 +204,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 477
+   "ms": 500
   },
   {
    "id": "biometric",
@@ -213,7 +213,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 646
+   "ms": 742
   },
   {
    "id": "krebs",
@@ -222,7 +222,7 @@
    "ok": true,
    "items": 10,
    "kept": 8,
-   "ms": 172
+   "ms": 182
   },
   {
    "id": "securityweek",
@@ -231,7 +231,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 159
+   "ms": 165
   },
   {
    "id": "wired-security",
@@ -240,7 +240,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 59
+   "ms": 17
   },
   {
    "id": "csoonline",
@@ -249,7 +249,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 115
+   "ms": 162
   },
   {
    "id": "infosecmag",
@@ -258,7 +258,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 188
+   "ms": 240
   },
   {
    "id": "helpnet",
@@ -267,7 +267,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 137
+   "ms": 46
   },
   {
    "id": "therecord",
@@ -276,7 +276,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 317
+   "ms": 149
   },
   {
    "id": "thehackernews",
@@ -285,7 +285,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 296
+   "ms": 394
   },
   {
    "id": "bleeping",
@@ -294,7 +294,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 111
+   "ms": 126
   },
   {
    "id": "darkreading",
@@ -303,7 +303,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 514
+   "ms": 369
   },
   {
    "id": "schneier",
@@ -312,7 +312,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 119
+   "ms": 108
   },
   {
    "id": "google-security",
@@ -321,7 +321,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 509
+   "ms": 558
   },
   {
    "id": "msft-security",
@@ -330,7 +330,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 2160
+   "ms": 1075
   },
   {
    "id": "aws-security",
@@ -339,7 +339,7 @@
    "ok": true,
    "items": 20,
    "kept": 17,
-   "ms": 189
+   "ms": 107
   },
   {
    "id": "unit42",
@@ -348,7 +348,7 @@
    "ok": true,
    "items": 15,
    "kept": 14,
-   "ms": 210
+   "ms": 52
   },
   {
    "id": "trailofbits",
@@ -357,7 +357,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 526
+   "ms": 232
   },
   {
    "id": "embracethered",
@@ -366,7 +366,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 156
+   "ms": 69
   },
   {
    "id": "owasp-genai",
@@ -375,7 +375,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 221
+   "ms": 145
   },
   {
    "id": "willison-pi",
@@ -384,7 +384,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 626
+   "ms": 49
   },
   {
    "id": "csa",
@@ -393,7 +393,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 668
+   "ms": 8145
   },
   {
    "id": "openai",
@@ -402,7 +402,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 120
+   "ms": 108
   },
   {
    "id": "deepmind",
@@ -411,7 +411,7 @@
    "ok": true,
    "items": 40,
    "kept": 10,
-   "ms": 208
+   "ms": 124
   },
   {
    "id": "huggingface",
@@ -420,10 +420,29 @@
    "ok": true,
    "items": 40,
    "kept": 25,
-   "ms": 168
+   "ms": 157
   }
  ],
  "items": [
+  {
+   "id": "9edf39ceaa21",
+   "title": "Opposition deepfake video of Spanish PM’s wife sparks outrage before election",
+   "url": "https://www.theguardian.com/world/2026/oct/23/opposition-deepfake-video-spain-election",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-10-24T06:51:53.000Z",
+   "firstSeen": 1792778233749,
+   "summary": "Video shows AI likenesses of people linked to Pedro Sánchez’s Socialist party appearing to admit to wrongdoing A political ad from Spain’s main opposition party that used a deepfake video of the prime minister’s wife has sparked outrage and set off a wider debate on AI, as the deeply polarised country gears up for…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Deepfakes"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
   {
    "id": "67a743428acd",
    "title": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
@@ -625,25 +644,6 @@
    ],
    "tags": [],
    "score": 4,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "9edf39ceaa21",
-   "title": "Opposition deepfake video sparks outrage in Spain ahead of election",
-   "url": "https://www.theguardian.com/world/2026/oct/23/opposition-deepfake-video-spain-election",
-   "source": "The Guardian AI",
-   "sourceId": "guardian-ai",
-   "published": "2026-10-23T16:35:48.000Z",
-   "firstSeen": 1792778233749,
-   "summary": "Video shows AI likenesses of people linked to Pedro Sánchez’s Socialist party appearing to admit to wrongdoing A political ad from Spain’s main opposition party that used a deepfake video of the prime minister’s wife has sparked outrage and set off a wider debate on AI, as the deeply polarised country gears up for…",
-   "topics": [
-    "incidents"
-   ],
-   "tags": [
-    "Deepfakes"
-   ],
-   "score": 8,
    "action": false,
    "also": []
   },
