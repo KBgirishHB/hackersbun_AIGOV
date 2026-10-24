@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-10-24T13:14:48.928Z",
+ "generatedAt": "2026-10-24T16:52:48.644Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 43,
-  "fetched": 916,
-  "relevant": 175,
-  "stories": 160,
+  "sourcesOk": 42,
+  "fetched": 903,
+  "relevant": 176,
+  "stories": 161,
   "duplicatesMerged": 15
  },
  "sources": [
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 1470
+   "ms": 914
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 82
+   "ms": 48
   },
   {
    "id": "fli",
@@ -35,25 +35,24 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 1129
+   "ms": 1293
   },
   {
    "id": "algorithmwatch",
    "name": "AlgorithmWatch",
    "url": "https://algorithmwatch.org/en/feed/",
-   "ok": true,
-   "items": 10,
-   "kept": 5,
-   "ms": 908
+   "ok": false,
+   "error": "ETIMEDOUT",
+   "ms": 712
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 5,
-   "kept": 5,
-   "ms": 920
+   "items": 2,
+   "kept": 2,
+   "ms": 125
   },
   {
    "id": "euractiv",
@@ -62,7 +61,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1121
+   "ms": 834
   },
   {
    "id": "edpb",
@@ -71,7 +70,7 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 1879
+   "ms": 1561
   },
   {
    "id": "europarl",
@@ -79,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 835
+   "ms": 161
   },
   {
    "id": "cnil",
@@ -88,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 871
+   "ms": 679
   },
   {
    "id": "nist",
@@ -97,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 255
+   "ms": 103
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 170
+   "ms": 576
   },
   {
    "id": "cisa",
@@ -115,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 469
+   "ms": 479
   },
   {
    "id": "fedscoop",
@@ -124,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 123
+   "ms": 88
   },
   {
    "id": "nextgov",
@@ -133,7 +132,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 327
+   "ms": 413
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 376
+   "ms": 50
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 368
+   "ms": 81
   },
   {
    "id": "verge-ai",
@@ -159,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 325
+   "ms": 94
   },
   {
    "id": "ars-ai",
@@ -168,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 385
+   "ms": 414
   },
   {
    "id": "wired-ai",
@@ -177,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 109
+   "ms": 92
   },
   {
    "id": "guardian-ai",
@@ -186,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 247
+   "ms": 202
   },
   {
    "id": "mittr-ai",
@@ -195,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 94
+   "ms": 135
   },
   {
    "id": "register-ai",
@@ -204,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 459
+   "ms": 665
   },
   {
    "id": "biometric",
@@ -213,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 692
+   "ms": 785
   },
   {
    "id": "krebs",
@@ -222,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 8,
-   "ms": 345
+   "ms": 131
   },
   {
    "id": "securityweek",
@@ -231,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 207
+   "ms": 92
   },
   {
    "id": "wired-security",
@@ -240,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 30
+   "ms": 22
   },
   {
    "id": "csoonline",
@@ -249,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 191
+   "ms": 137
   },
   {
    "id": "infosecmag",
@@ -258,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 256
+   "ms": 298
   },
   {
    "id": "helpnet",
@@ -267,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 107
+   "ms": 97
   },
   {
    "id": "therecord",
@@ -276,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 189
+   "ms": 279
   },
   {
    "id": "thehackernews",
@@ -285,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 332
+   "ms": 267
   },
   {
    "id": "bleeping",
@@ -294,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 104
+   "ms": 157
   },
   {
    "id": "darkreading",
@@ -303,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 428
+   "ms": 448
   },
   {
    "id": "schneier",
@@ -312,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 96
+   "ms": 61
   },
   {
    "id": "google-security",
@@ -321,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 583
+   "ms": 469
   },
   {
    "id": "msft-security",
@@ -330,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1175
+   "ms": 1086
   },
   {
    "id": "aws-security",
@@ -339,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 17,
-   "ms": 137
+   "ms": 88
   },
   {
    "id": "unit42",
@@ -348,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 14,
-   "ms": 116
+   "ms": 79
   },
   {
    "id": "trailofbits",
@@ -357,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 480
+   "ms": 203
   },
   {
    "id": "embracethered",
@@ -366,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 150
+   "ms": 44
   },
   {
    "id": "owasp-genai",
@@ -375,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 243
+   "ms": 212
   },
   {
    "id": "willison-pi",
@@ -384,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 527
+   "ms": 671
   },
   {
    "id": "csa",
@@ -393,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 863
+   "ms": 802
   },
   {
    "id": "openai",
@@ -402,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 198
+   "ms": 139
   },
   {
    "id": "deepmind",
@@ -410,8 +409,8 @@
    "url": "https://deepmind.google/blog/rss.xml",
    "ok": true,
    "items": 40,
-   "kept": 10,
-   "ms": 218
+   "kept": 9,
+   "ms": 366
   },
   {
    "id": "huggingface",
@@ -420,10 +419,30 @@
    "ok": true,
    "items": 40,
    "kept": 25,
-   "ms": 139
+   "ms": 142
   }
  ],
  "items": [
+  {
+   "id": "556b0caa75c4",
+   "title": "Agentic authorization emerges as biometrics’ next killer use case",
+   "url": "https://www.biometricupdate.com/202610/agentic-authorization-emerges-as-biometrics-next-killer-use-case",
+   "source": "Biometric Update",
+   "sourceId": "biometric",
+   "published": "2026-10-24T16:03:33.000Z",
+   "firstSeen": 1792860768644,
+   "summary": "Biometrics is emerging as a pillar of governance for AI agents. In a moment where agents are going rogue and wreaking havoc, the need for an auditable connection between the live presence and intention of a real person and the authorization an agent is acting under has never been stronger. Tools combining biometric…",
+   "topics": [
+    "governance"
+   ],
+   "tags": [
+    "AI agents",
+    "Biometrics"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
   {
    "id": "424478ea916b",
    "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
