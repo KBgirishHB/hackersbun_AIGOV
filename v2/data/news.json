@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-10-26T06:52:52.781Z",
+ "generatedAt": "2026-10-26T14:06:43.545Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 43,
   "fetched": 912,
-  "relevant": 186,
-  "stories": 171,
-  "duplicatesMerged": 15
+  "relevant": 200,
+  "stories": 182,
+  "duplicatesMerged": 18
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 1589
+   "ms": 1627
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 67
+   "ms": 48
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 664
+   "ms": 690
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 5,
-   "ms": 558
+   "ms": 758
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 1,
    "kept": 1,
-   "ms": 398
+   "ms": 404
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 670
+   "ms": 779
   },
   {
    "id": "edpb",
@@ -71,7 +71,7 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 1530
+   "ms": 1613
   },
   {
    "id": "europarl",
@@ -79,7 +79,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 655
+   "ms": 670
   },
   {
    "id": "cnil",
@@ -88,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 695
+   "ms": 1147
   },
   {
    "id": "nist",
@@ -97,7 +97,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 163
+   "ms": 235
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +106,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 118
+   "ms": 134
   },
   {
    "id": "cisa",
@@ -115,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 591
+   "ms": 512
   },
   {
    "id": "fedscoop",
@@ -124,7 +124,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 527
+   "ms": 98
   },
   {
    "id": "nextgov",
@@ -133,7 +133,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 103
+   "ms": 439
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 83
+   "ms": 44
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 550
+   "ms": 478
   },
   {
    "id": "verge-ai",
@@ -159,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 433
+   "ms": 418
   },
   {
    "id": "ars-ai",
@@ -168,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 524
+   "ms": 461
   },
   {
    "id": "wired-ai",
@@ -177,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 438
+   "ms": 118
   },
   {
    "id": "guardian-ai",
@@ -186,7 +186,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 125
+   "ms": 153
   },
   {
    "id": "mittr-ai",
@@ -195,7 +195,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 69
+   "ms": 98
   },
   {
    "id": "register-ai",
@@ -204,7 +204,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 557
+   "ms": 960
   },
   {
    "id": "biometric",
@@ -213,7 +213,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 636
+   "ms": 743
   },
   {
    "id": "krebs",
@@ -222,7 +222,7 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 160
+   "ms": 165
   },
   {
    "id": "securityweek",
@@ -231,7 +231,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 70
+   "ms": 186
   },
   {
    "id": "wired-security",
@@ -240,7 +240,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 26
+   "ms": 23
   },
   {
    "id": "csoonline",
@@ -249,7 +249,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 71
+   "ms": 141
   },
   {
    "id": "infosecmag",
@@ -258,7 +258,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 142
+   "ms": 285
   },
   {
    "id": "helpnet",
@@ -267,7 +267,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 99
+   "ms": 107
   },
   {
    "id": "therecord",
@@ -276,7 +276,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 237
+   "ms": 115
   },
   {
    "id": "thehackernews",
@@ -285,7 +285,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 169
+   "ms": 184
   },
   {
    "id": "bleeping",
@@ -294,7 +294,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 108
+   "ms": 88
   },
   {
    "id": "darkreading",
@@ -303,7 +303,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 456
+   "ms": 424
   },
   {
    "id": "schneier",
@@ -312,7 +312,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 133
+   "ms": 76
   },
   {
    "id": "google-security",
@@ -321,7 +321,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 520
+   "ms": 461
   },
   {
    "id": "msft-security",
@@ -330,7 +330,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 2191
+   "ms": 2107
   },
   {
    "id": "aws-security",
@@ -339,7 +339,7 @@
    "ok": true,
    "items": 20,
    "kept": 17,
-   "ms": 230
+   "ms": 167
   },
   {
    "id": "unit42",
@@ -348,7 +348,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 126
+   "ms": 47
   },
   {
    "id": "trailofbits",
@@ -357,7 +357,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 235
+   "ms": 202
   },
   {
    "id": "embracethered",
@@ -366,7 +366,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 87
+   "ms": 80
   },
   {
    "id": "owasp-genai",
@@ -375,7 +375,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 83
+   "ms": 152
   },
   {
    "id": "willison-pi",
@@ -384,7 +384,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 127
+   "ms": 147
   },
   {
    "id": "csa",
@@ -393,7 +393,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 418
+   "ms": 493
   },
   {
    "id": "openai",
@@ -402,7 +402,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 120
+   "ms": 117
   },
   {
    "id": "deepmind",
@@ -411,7 +411,7 @@
    "ok": true,
    "items": 40,
    "kept": 9,
-   "ms": 169
+   "ms": 160
   },
   {
    "id": "huggingface",
@@ -420,10 +420,217 @@
    "ok": true,
    "items": 40,
    "kept": 25,
-   "ms": 141
+   "ms": 108
   }
  ],
  "items": [
+  {
+   "id": "02c87f01822e",
+   "title": "Security pros reckon the biggest AI risk comes with an employee badge",
+   "url": "https://www.helpnetsecurity.com/2026/10/26/ai-tools-security-worry-survey/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-10-26T13:16:01.000Z",
+   "firstSeen": 1793023603545,
+   "summary": "Employees pasting company data into AI tools worry security teams more than AI-powered attacks do. Most-concerning risks of AI agents (Source: O’Reilly) AI-generated phishing, the attack they run into most often, made the list of top concerns for only a quarter of the 209 security professionals O’Reilly surveyed in…",
+   "topics": [
+    "governance",
+    "security"
+   ],
+   "tags": [
+    "AI agents",
+    "Phishing"
+   ],
+   "score": 15,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "9773a9fced96",
+   "title": "Popular AI tool LiteLLM says unrevoked key allowed hackers to target users",
+   "url": "https://therecord.media/litellm-hackers-ai-malware",
+   "source": "The Record",
+   "sourceId": "therecord",
+   "published": "2026-10-26T12:00:00.000Z",
+   "firstSeen": 1793023603545,
+   "summary": "LiteLLM, an open-source tool widely used by artificial intelligence developers, said a key accidentally exposed in May was behind a supply-chain attack that is believed to have hit tens of thousands of users last week.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Supply chain"
+   ],
+   "score": 14,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "f466ea95afc0",
+   "title": "OpenAI, Anthropic disclosures spotlight growing AI containment challenge",
+   "url": "https://www.csoonline.com/article/4240279/openai-anthropic-disclosures-spotlight-growing-ai-containment-challenge.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-10-26T11:57:21.000Z",
+   "firstSeen": 1793023603545,
+   "summary": "Two leading AI developers have released fresh evidence of a problem that researchers have long anticipated: advanced models searching for ways around the limits imposed on them. New disclosures from OpenAI and Anthropic detail how frontier systems exploited weaknesses in their environments or exceeded the intended…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "score": 11,
+   "action": true,
+   "also": []
+  },
+  {
+   "id": "e36c80d5b4e5",
+   "title": "Australians should prepare for online services to go down unexpectedly as threats rise, cyber agency warns",
+   "url": "https://www.theguardian.com/technology/2026/oct/26/australians-should-prepare-for-online-services-to-go-down-unexpectedly-as-threats-rise-cyber-agency-warns",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-10-26T11:30:40.000Z",
+   "firstSeen": 1793023603545,
+   "summary": "Australian Signals Directorate chief says advanced AI tools are needed to defend against ‘AI-enabled attackers’ Get our daily political email, free app or daily news podcast Australians should prepare for more basic and important online services to go offline unexpectedly, the nation’s signals intelligence agency has…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "59d6f1f1d21f",
+   "title": "Fortinet patches critical FortiOS flaws found with AI help",
+   "url": "https://www.helpnetsecurity.com/2026/10/26/fortinet-patches-critical-fortios-flaws-found-with-ai-help/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-10-26T11:22:52.000Z",
+   "firstSeen": 1793023603545,
+   "summary": "Fortinet rolled out security hardening updates for FortiOS, FortiManager, FortiAnalyzer, FortiMail, and FortiAuthenticator last week, but is keeping the details about the fixed vulnerabilities under wraps until November 10, 2026. The vulnerabilities were uncovered with the help of AI models and validated by humans…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability"
+   ],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "e32072f50914",
+   "title": "Bias in Qwen3-Coder Model",
+   "url": "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
+   "source": "Schneier on Security",
+   "sourceId": "schneier",
+   "published": "2026-10-26T11:03:31.000Z",
+   "firstSeen": 1793023603545,
+   "summary": "Interesting research: TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model’s weights, and that removing the model’s CCP…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability",
+    "China"
+   ],
+   "score": 3,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "6d188ef05e5b",
+   "title": "Anthropic details what stops Claude Duet from going rogue",
+   "url": "https://www.helpnetsecurity.com/2026/10/26/anthropic-claude-duet-security-safeguards/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-10-26T10:41:47.000Z",
+   "firstSeen": 1793023603545,
+   "summary": "Anthropic has outlined the security and privacy protections behind Claude Duet, its proactive AI agent that can monitor connected accounts and complete tasks while users are away. The safeguards include approval requirements, checks for sensitive information and infrastructure that keeps credentials outside the…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents",
+    "Privacy",
+    "Anthropic"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "783eae07aa4c",
+   "title": "The focus on AI safety disasters ignores everyday harms",
+   "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+   "source": "MIT Technology Review AI",
+   "sourceId": "mittr-ai",
+   "published": "2026-10-26T09:01:00.000Z",
+   "firstSeen": 1793023603545,
+   "summary": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have existed all along. But companies can clear these low bars while…",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 11,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "3c7a88df74b4",
+   "title": "What EvilTokens teaches us about defending against AI-assisted attacks",
+   "url": "https://www.csoonline.com/article/4239703/what-eviltokens-teaches-us-about-defending-against-ai-assisted-attacks.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-10-26T09:00:00.000Z",
+   "firstSeen": 1793023603545,
+   "summary": "Cybercriminals don’t need AI to compromise an organization, but AI is making its way into classic attack methods and changing how quickly such attacks can progress. Tasks that once required attackers to manually sift through information and piece together how an organization operates can be accelerated by AI, reducing…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "7100f71c39fd",
+   "title": "10 most powerful cybersecurity companies today",
+   "url": "https://www.csoonline.com/article/569075/the-10-most-powerful-cybersecurity-companies.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-10-26T08:25:00.000Z",
+   "firstSeen": 1793023603545,
+   "summary": "The number of cybersecurity startups attempting to cash in on the AI boom is staggering. But an analysis of the cybersecurity marketplace indicates that the incumbents, rather than resting on their laurels and opening themselves up for disruption, are quickly adapting to the new AI-centric threat environment. The…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 3,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "45e4647d86c2",
+   "title": "Bright Security Introduces STAR Fuzzer, Agentic Fuzzing That Writes Its Own Harnesses and Proves Every Finding",
+   "url": "https://www.csoonline.com/article/4240151/bright-security-introduces-star-fuzzer-agentic-fuzzing-that-writes-its-own-harnesses-and-proves-every-finding.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-10-26T07:52:46.000Z",
+   "firstSeen": 1793023603545,
+   "summary": "Built on an evolutionary engine first released in 2018, STAR Fuzzer by Bright Security finds crashes, memory exhaustion and memory-safety bugs in security-critical code without a running application. In its first open source research run, it found High or Critical issues in 45% of the projects tested, and in its first…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
   {
    "id": "60a55edc844e",
    "title": "AI slop is piling up highest on the biggest open-source projects",
@@ -521,7 +728,7 @@
    "sourceId": "guardian-ai",
    "published": "2026-10-25T18:25:59.000Z",
    "firstSeen": 1792961032528,
-   "summary": "Authentic Brands Group says AI company infringed on rights of songs by the King such as Can’t Help Falling in Love The owners of Elvis Presley ’s music catalogue are suing artificial intelligence ( AI ) company Anthropic for allegedly using Presley’s songs to train their models without permission. Authentic Brands…",
+   "summary": "Authentic Brands Group says AI company infringed on rights of songs by the King such as Can’t Help Falling in Love The owners of Elvis Presley ’s music catalogue are suing the artificial intelligence ( AI ) company Anthropic for allegedly using Presley’s songs to train their models without permission. Authentic Brands…",
    "topics": [
     "regulation"
    ],
@@ -542,12 +749,47 @@
    "firstSeen": 1792950420644,
    "summary": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package.",
    "topics": [
-    "security"
+    "security",
+    "incidents"
    ],
-   "tags": [],
-   "score": 6,
+   "tags": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "score": 19,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "a3e6576bbed2",
+     "source": "The Hacker News",
+     "sourceId": "thehackernews",
+     "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+     "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+     "published": "2026-10-26T06:03:48.000Z",
+     "firstSeen": 1793023603545,
+     "summary": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm Forever Security said in a report published last week. The company caught the attempt on a real customer's machine and stopped the agent before any code ran…"
+    },
+    {
+     "id": "3fa7b7bed15a",
+     "source": "CSO Online",
+     "sourceId": "csoonline",
+     "title": "Malicious downloads can trick AI coding agents into compromising themselves",
+     "url": "https://www.csoonline.com/article/4240222/malicious-downloads-can-trick-ai-coding-agents-into-compromising-themselves.html",
+     "published": "2026-10-26T10:35:08.000Z",
+     "firstSeen": 1793023603545,
+     "summary": "Malicious instruction files planted in a computer’s Downloads folder can trick AI coding agents into executing harmful code or exposing authentication tokens, Forever Security said after blocking an attempted attack on a customer’s machine and demonstrating similar techniques against OpenAI’s Codex and Anthropic’s…"
+    },
+    {
+     "id": "9bc5fc84787a",
+     "source": "Help Net Security",
+     "sourceId": "helpnet",
+     "title": "AI coding agents fall for malicious instructions planted in the Downloads folder",
+     "url": "https://www.helpnetsecurity.com/2026/10/26/ai-coding-agents-malware-openai-codex/",
+     "published": "2026-10-26T11:26:40.000Z",
+     "firstSeen": 1793023603545,
+     "summary": "A file that a website saves to the Downloads folder without approval can trick AI coding agents into installing a malicious npm package or handing over the user’s login token when they’re opened in that folder, Forever Security has found. The file is called AGENTS.md, a plain text document developers place in a…"
+    }
+   ]
   },
   {
    "id": "6e7a2e7d843d",
@@ -676,7 +918,7 @@
   },
   {
    "id": "67a743428acd",
-   "title": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
+   "title": "Trust Is Not What It Seems — and Fraudsters Are Counting on It",
    "url": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
    "source": "Dark Reading",
    "sourceId": "darkreading",
