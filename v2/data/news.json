@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-10-27T15:58:54.917Z",
+ "generatedAt": "2026-10-27T20:34:55.106Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 43,
   "fetched": 914,
-  "relevant": 235,
-  "stories": 216,
-  "duplicatesMerged": 19
+  "relevant": 243,
+  "stories": 222,
+  "duplicatesMerged": 21
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 1709
+   "ms": 1415
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 93
+   "ms": 56
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 698
+   "ms": 1336
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 5,
-   "ms": 1164
+   "ms": 1323
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 4,
    "kept": 4,
-   "ms": 781
+   "ms": 1338
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1169
+   "ms": 843
   },
   {
    "id": "edpb",
@@ -71,7 +71,7 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 1780
+   "ms": 1910
   },
   {
    "id": "europarl",
@@ -79,7 +79,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 627
+   "ms": 600
   },
   {
    "id": "cnil",
@@ -88,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1075
+   "ms": 838
   },
   {
    "id": "nist",
@@ -97,7 +97,7 @@
    "ok": true,
    "items": 40,
    "kept": 6,
-   "ms": 191
+   "ms": 67
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +106,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 468
+   "ms": 654
   },
   {
    "id": "cisa",
@@ -115,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 378
+   "ms": 466
   },
   {
    "id": "fedscoop",
@@ -124,7 +124,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 104
+   "ms": 468
   },
   {
    "id": "nextgov",
@@ -133,7 +133,7 @@
    "ok": true,
    "items": 23,
    "kept": 23,
-   "ms": 441
+   "ms": 438
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 112
+   "ms": 57
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 177
+   "ms": 129
   },
   {
    "id": "verge-ai",
@@ -159,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 209
+   "ms": 115
   },
   {
    "id": "ars-ai",
@@ -168,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 360
+   "ms": 497
   },
   {
    "id": "wired-ai",
@@ -177,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 287
+   "ms": 149
   },
   {
    "id": "guardian-ai",
@@ -186,7 +186,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 266
+   "ms": 263
   },
   {
    "id": "mittr-ai",
@@ -195,7 +195,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 194
+   "ms": 214
   },
   {
    "id": "register-ai",
@@ -204,7 +204,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 514
+   "ms": 1256
   },
   {
    "id": "biometric",
@@ -213,7 +213,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 712
+   "ms": 826
   },
   {
    "id": "krebs",
@@ -222,7 +222,7 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 261
+   "ms": 213
   },
   {
    "id": "securityweek",
@@ -231,7 +231,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 93
+   "ms": 127
   },
   {
    "id": "wired-security",
@@ -249,7 +249,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 109
+   "ms": 214
   },
   {
    "id": "infosecmag",
@@ -258,7 +258,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 193
+   "ms": 227
   },
   {
    "id": "helpnet",
@@ -267,7 +267,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 94
+   "ms": 823
   },
   {
    "id": "therecord",
@@ -276,7 +276,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 168
+   "ms": 257
   },
   {
    "id": "thehackernews",
@@ -285,7 +285,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 296
+   "ms": 261
   },
   {
    "id": "bleeping",
@@ -294,7 +294,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 95
+   "ms": 76
   },
   {
    "id": "darkreading",
@@ -303,7 +303,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 653
+   "ms": 385
   },
   {
    "id": "schneier",
@@ -312,7 +312,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 103
+   "ms": 176
   },
   {
    "id": "google-security",
@@ -321,7 +321,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 533
+   "ms": 853
   },
   {
    "id": "msft-security",
@@ -330,7 +330,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 2143
+   "ms": 1107
   },
   {
    "id": "aws-security",
@@ -338,8 +338,8 @@
    "url": "https://aws.amazon.com/blogs/security/feed/",
    "ok": true,
    "items": 20,
-   "kept": 17,
-   "ms": 180
+   "kept": 19,
+   "ms": 175
   },
   {
    "id": "unit42",
@@ -348,7 +348,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 203
+   "ms": 78
   },
   {
    "id": "trailofbits",
@@ -357,7 +357,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 610
+   "ms": 347
   },
   {
    "id": "embracethered",
@@ -366,7 +366,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 132
+   "ms": 237
   },
   {
    "id": "owasp-genai",
@@ -375,7 +375,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 174
+   "ms": 162
   },
   {
    "id": "willison-pi",
@@ -384,7 +384,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 385
+   "ms": 177
   },
   {
    "id": "csa",
@@ -393,7 +393,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 819
+   "ms": 499
   },
   {
    "id": "openai",
@@ -402,7 +402,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 120
+   "ms": 143
   },
   {
    "id": "deepmind",
@@ -410,8 +410,8 @@
    "url": "https://deepmind.google/blog/rss.xml",
    "ok": true,
    "items": 40,
-   "kept": 9,
-   "ms": 544
+   "kept": 10,
+   "ms": 294
   },
   {
    "id": "huggingface",
@@ -419,11 +419,119 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 25,
-   "ms": 106
+   "kept": 26,
+   "ms": 230
   }
  ],
  "items": [
+  {
+   "id": "53660684c1c4",
+   "title": "AI won’t make cybersecurity automatic. It will make continuous security smarter.",
+   "url": "https://www.nextgov.com/ideas/2026/10/ai-wont-make-cybersecurity-automatic-it-will-make-continuous-security-smarter/416844/",
+   "source": "Nextgov/FCW",
+   "sourceId": "nextgov",
+   "published": "2026-10-27T19:59:00.000Z",
+   "firstSeen": 1793133295106,
+   "summary": "COMMENTARY | Compliance is essential, but compliance alone is not security.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "b5c0044c79d4",
+   "title": "Florida proposes Safe Screens Act to put age assurance on social media, chatbots",
+   "url": "https://www.biometricupdate.com/202610/florida-proposes-safe-screens-act-to-put-age-assurance-on-social-media-chatbots",
+   "source": "Biometric Update",
+   "sourceId": "biometric",
+   "published": "2026-10-27T19:55:11.000Z",
+   "firstSeen": 1793133295106,
+   "summary": "Florida Attorney General James Uthmeier has proposed new legislation, called the Safe Screens Act, which would build on existing laws by requiring “age determination and parental consent” before minors download or buy apps, and impose protective design features on accounts belonging to users between 14 and 17 years…",
+   "topics": [
+    "governance",
+    "regulation"
+   ],
+   "tags": [],
+   "score": 15,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "c63dfb3453b5",
+   "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+   "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-10-27T18:26:46.000Z",
+   "firstSeen": 1793133295106,
+   "summary": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator. TrendAI, which analyzed three exposed server environments used by threat actors to conduct the…",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 15,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "6196a6b943a7",
+   "title": "Beware the Slasher: AI Could Kill Off Cybersecurity Pros' Skills",
+   "url": "https://www.darkreading.com/cybersecurity-operations/ai-kill-off-cybersecurity-pros-skills",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-10-27T17:43:07.000Z",
+   "firstSeen": 1793133295106,
+   "summary": "Nathan Hamiel outlines potential SecOps horror in the AI midst, as core technical capabilities go the way of reading an atlas or remembering phone numbers.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "9cac608ea4a2",
+   "title": "'Aokigahara' Stealer Targets 'Developer Keyrings' & AI Assistants",
+   "url": "https://www.darkreading.com/endpoint-security/aokigahara-stealer-developer-keyrings-ai-assistants",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-10-27T16:47:20.000Z",
+   "firstSeen": 1793133295106,
+   "summary": "The malware's focus on AI tools expands the traditional infostealer playbook to expose a forest of AI sessions, sensitive business data, and developer infrastructure from a single compromised endpoint.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "68f9f6e90b4c",
+   "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
+   "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-10-27T16:15:39.000Z",
+   "firstSeen": 1793133295106,
+   "summary": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 13,
+   "action": false,
+   "also": []
+  },
   {
    "id": "2b4c20383089",
    "title": "ISC2 Launches Cyber-AI Workforce Coalition to Address the Future of AI Security Jobs",
@@ -754,25 +862,6 @@
    "also": []
   },
   {
-   "id": "42fd5d64333d",
-   "title": "OpenAI’s August fix for theft of reasoning traces was quickly bypassed",
-   "url": "https://www.csoonline.com/article/4240662/openais-august-fix-for-theft-of-reasoning-traces-was-quickly-bypassed.html",
-   "source": "CSO Online",
-   "sourceId": "csoonline",
-   "published": "2026-10-27T03:22:50.000Z",
-   "firstSeen": 1793076514893,
-   "summary": "Cybersecurity research firm Xint on Monday published details of a bug in the OpenAI API that leaks raw reasoning traces from frontier OpenAI models, revealing the risk of other data leaks. OpenAI has confirmed the flaw, mitigated it, and paid a bug bounty for its discovery. The problem is that OpenAI had already…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "OpenAI"
-   ],
-   "score": 11,
-   "action": false,
-   "also": []
-  },
-  {
    "id": "7c00c8ec2195",
    "title": "Cloud Security Alliance Launches STAR for AI Level 2 to Strengthen AI Governance and Trust",
    "url": "https://cloudsecurityalliance.org/articles/cloud-security-alliance-launches-star-for-ai-level-2-to-strengthen-ai-governance-and-trust",
@@ -836,6 +925,26 @@
    ],
    "tags": [],
    "score": 22,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "9162190b2532",
+   "title": "How Check Point accelerates vulnerability research with Daybreak",
+   "url": "https://openai.com/index/check-point-daybreak",
+   "source": "OpenAI News",
+   "sourceId": "openai",
+   "published": "2026-10-27T00:00:00.000Z",
+   "firstSeen": 1793133295106,
+   "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability",
+    "OpenAI"
+   ],
+   "score": 5,
    "action": false,
    "also": []
   },
@@ -981,15 +1090,38 @@
    "firstSeen": 1793044353633,
    "summary": "Xint says a flaw in OpenAI’s compaction process let researchers move reasoning traces between models, potentially making it cheaper to distill a rival AI.",
    "topics": [
-    "incidents"
+    "incidents",
+    "security",
+    "research"
    ],
    "tags": [
     "OpenAI",
     "China"
    ],
-   "score": 10,
+   "score": 18,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "42fd5d64333d",
+     "source": "CSO Online",
+     "sourceId": "csoonline",
+     "title": "OpenAI’s August fix for theft of reasoning traces was quickly bypassed",
+     "url": "https://www.csoonline.com/article/4240662/openais-august-fix-for-theft-of-reasoning-traces-was-quickly-bypassed.html",
+     "published": "2026-10-27T03:22:50.000Z",
+     "firstSeen": 1793076514893,
+     "summary": "Cybersecurity research firm Xint on Monday published details of a bug in the OpenAI API that leaks raw reasoning traces from frontier OpenAI models, revealing the risk of other data leaks. OpenAI has confirmed the flaw, mitigated it, and paid a bug bounty for its discovery. The problem is that OpenAI had already…"
+    },
+    {
+     "id": "ac241f264cb4",
+     "source": "Infosecurity Magazine",
+     "sourceId": "infosecmag",
+     "title": "OpenAI Compaction Flaw Exposed AI Reasoning to Researchers",
+     "url": "https://www.infosecurity-magazine.com/news/openai-compaction-flaw-ai/",
+     "published": "2026-10-27T16:00:00.000Z",
+     "firstSeen": 1793133295106,
+     "summary": "Researchers uncovered an OpenAI API flaw that exposed hidden AI reasoning traces, prompting a fix and a $6000 bug bounty reward"
+    }
+   ]
   },
   {
    "id": "ae9e3b212c9b",
