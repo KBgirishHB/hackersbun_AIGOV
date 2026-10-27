@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-10-27T04:48:34.893Z",
+ "generatedAt": "2026-10-27T10:21:52.510Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 42,
-  "fetched": 874,
-  "relevant": 215,
-  "stories": 197,
+  "sourcesOk": 43,
+  "fetched": 914,
+  "relevant": 219,
+  "stories": 201,
   "duplicatesMerged": 18
  },
  "sources": [
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 1380
+   "ms": 936
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 111
+   "ms": 79
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 1330
+   "ms": 1317
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 5,
-   "ms": 1081
+   "ms": 837
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 3,
    "kept": 3,
-   "ms": 948
+   "ms": 178
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1015
+   "ms": 945
   },
   {
    "id": "edpb",
@@ -71,7 +71,7 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 1962
+   "ms": 1356
   },
   {
    "id": "europarl",
@@ -79,7 +79,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 880
+   "ms": 391
   },
   {
    "id": "cnil",
@@ -88,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 975
+   "ms": 759
   },
   {
    "id": "nist",
@@ -97,7 +97,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 109
+   "ms": 280
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +106,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 376
+   "ms": 124
   },
   {
    "id": "cisa",
@@ -115,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 325
+   "ms": 372
   },
   {
    "id": "fedscoop",
@@ -124,7 +124,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 328
+   "ms": 372
   },
   {
    "id": "nextgov",
@@ -133,7 +133,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 467
+   "ms": 271
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 286
+   "ms": 105
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 157
+   "ms": 207
   },
   {
    "id": "verge-ai",
@@ -159,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 199
+   "ms": 124
   },
   {
    "id": "ars-ai",
@@ -168,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 326
+   "ms": 356
   },
   {
    "id": "wired-ai",
@@ -177,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 253
+   "ms": 133
   },
   {
    "id": "guardian-ai",
@@ -186,7 +186,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 243
+   "ms": 300
   },
   {
    "id": "mittr-ai",
@@ -195,15 +195,16 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 287
+   "ms": 97
   },
   {
    "id": "register-ai",
    "name": "The Register AI/ML",
    "url": "https://www.theregister.com/software/ai_ml/headlines.atom",
-   "ok": false,
-   "error": "not an RSS/Atom feed",
-   "ms": 612
+   "ok": true,
+   "items": 40,
+   "kept": 4,
+   "ms": 1361
   },
   {
    "id": "biometric",
@@ -212,7 +213,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 692
+   "ms": 719
   },
   {
    "id": "krebs",
@@ -221,7 +222,7 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 271
+   "ms": 206
   },
   {
    "id": "securityweek",
@@ -230,7 +231,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 190
+   "ms": 185
   },
   {
    "id": "wired-security",
@@ -239,7 +240,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 27
+   "ms": 22
   },
   {
    "id": "csoonline",
@@ -248,7 +249,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 180
+   "ms": 130
   },
   {
    "id": "infosecmag",
@@ -257,7 +258,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 289
+   "ms": 224
   },
   {
    "id": "helpnet",
@@ -266,7 +267,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 171
+   "ms": 115
   },
   {
    "id": "therecord",
@@ -275,7 +276,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 147
+   "ms": 248
   },
   {
    "id": "thehackernews",
@@ -284,7 +285,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 291
+   "ms": 269
   },
   {
    "id": "bleeping",
@@ -293,7 +294,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 143
+   "ms": 123
   },
   {
    "id": "darkreading",
@@ -302,7 +303,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 527
+   "ms": 423
   },
   {
    "id": "schneier",
@@ -311,7 +312,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 122
+   "ms": 196
   },
   {
    "id": "google-security",
@@ -320,7 +321,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 455
+   "ms": 452
   },
   {
    "id": "msft-security",
@@ -329,7 +330,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 2149
+   "ms": 2310
   },
   {
    "id": "aws-security",
@@ -338,7 +339,7 @@
    "ok": true,
    "items": 20,
    "kept": 17,
-   "ms": 238
+   "ms": 262
   },
   {
    "id": "unit42",
@@ -347,7 +348,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 166
+   "ms": 158
   },
   {
    "id": "trailofbits",
@@ -356,7 +357,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 491
+   "ms": 702
   },
   {
    "id": "embracethered",
@@ -365,7 +366,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 191
+   "ms": 144
   },
   {
    "id": "owasp-genai",
@@ -374,7 +375,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 214
+   "ms": 269
   },
   {
    "id": "willison-pi",
@@ -383,7 +384,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 521
+   "ms": 147
   },
   {
    "id": "csa",
@@ -392,7 +393,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 807
+   "ms": 637
   },
   {
    "id": "openai",
@@ -401,7 +402,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 185
+   "ms": 363
   },
   {
    "id": "deepmind",
@@ -410,7 +411,7 @@
    "ok": true,
    "items": 40,
    "kept": 9,
-   "ms": 191
+   "ms": 602
   },
   {
    "id": "huggingface",
@@ -419,10 +420,80 @@
    "ok": true,
    "items": 40,
    "kept": 25,
-   "ms": 145
+   "ms": 231
   }
  ],
  "items": [
+  {
+   "id": "8137f6367165",
+   "title": "The days of assuming another company’s breach is someone else’s problem are over",
+   "url": "https://www.csoonline.com/article/4240612/the-days-of-assuming-another-companys-breach-is-someone-elses-problem-are-over.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-10-27T08:25:00.000Z",
+   "firstSeen": 1793096512510,
+   "summary": "The median blast radius of data breaches has increased year-on-year at the same time cybercriminals have begun using AI to mine stolen datasets for damaging information that enables follow-on fraud and cyberattacks. In 2026, the median breach exposed 542 organizations beyond the initially breached victim, according to…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [],
+   "score": 16,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "0d62fbee1c3d",
+   "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
+   "url": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-10-27T08:22:43.000Z",
+   "firstSeen": 1793096512510,
+   "summary": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text, security firm Xint has shown. OpenAI's reasoning models work through a problem before answering, and the service normally returns only the raw reasoning as an…",
+   "topics": [
+    "research"
+   ],
+   "tags": [
+    "OpenAI"
+   ],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "eea9c3a1941d",
+   "title": "Several AI security market categories are headed for bigger platforms",
+   "url": "https://www.helpnetsecurity.com/2026/10/27/jonathan-care-kuppingercole-analysts-ai-security-market/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-10-27T06:30:01.000Z",
+   "firstSeen": 1793096512510,
+   "summary": "In this interview with Help Net Security, Jonathan Care, Lead Analyst and Practice Lead AI at KuppingerCole Analysts, compares AI security startups to the early fraud market he helped define at Gartner. He explains which categories will survive as products and which will become features inside bigger platforms. Care…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 20,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "2553c9086f62",
+   "title": "LLM agent security needs more than guardrails",
+   "url": "https://www.helpnetsecurity.com/2026/10/27/llm-agent-security-video/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-10-27T06:00:26.000Z",
+   "firstSeen": 1793096512510,
+   "summary": "Madhu Shashanka, Chief Scientist at Concentric AI, explains why securing LLM tools and agents depends more on your data than on the model. Controls on model behavior, such as guardrails and injection detection, lower the rate of bad outcomes but never reach zero. Controls on what goes in are different, because you own…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
   {
    "id": "c37834cb8c17",
    "title": "GPT-6.1 Terra meets OpenAI’s Critical cyber threshold, and it’s cheaper than GPT-5.6 Terra",
