@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-10-26T23:44:13.036Z",
+ "generatedAt": "2026-10-27T04:48:34.893Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 43,
-  "fetched": 914,
-  "relevant": 211,
-  "stories": 193,
+  "sourcesOk": 42,
+  "fetched": 874,
+  "relevant": 215,
+  "stories": 197,
   "duplicatesMerged": 18
  },
  "sources": [
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 960
+   "ms": 1380
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 77
+   "ms": 111
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 1696
+   "ms": 1330
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 5,
-   "ms": 855
+   "ms": 1081
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 3,
    "kept": 3,
-   "ms": 562
+   "ms": 948
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1002
+   "ms": 1015
   },
   {
    "id": "edpb",
@@ -71,7 +71,7 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 2349
+   "ms": 1962
   },
   {
    "id": "europarl",
@@ -79,7 +79,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 638
+   "ms": 880
   },
   {
    "id": "cnil",
@@ -88,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1191
+   "ms": 975
   },
   {
    "id": "nist",
@@ -97,7 +97,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 278
+   "ms": 109
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +106,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 264
+   "ms": 376
   },
   {
    "id": "cisa",
@@ -115,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 420
+   "ms": 325
   },
   {
    "id": "fedscoop",
@@ -124,7 +124,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 127
+   "ms": 328
   },
   {
    "id": "nextgov",
@@ -133,7 +133,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 365
+   "ms": 467
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 60
+   "ms": 286
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 349
+   "ms": 157
   },
   {
    "id": "verge-ai",
@@ -159,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 302
+   "ms": 199
   },
   {
    "id": "ars-ai",
@@ -168,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 398
+   "ms": 326
   },
   {
    "id": "wired-ai",
@@ -177,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 174
+   "ms": 253
   },
   {
    "id": "guardian-ai",
@@ -186,7 +186,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 266
+   "ms": 243
   },
   {
    "id": "mittr-ai",
@@ -195,16 +195,15 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 219
+   "ms": 287
   },
   {
    "id": "register-ai",
    "name": "The Register AI/ML",
    "url": "https://www.theregister.com/software/ai_ml/headlines.atom",
-   "ok": true,
-   "items": 40,
-   "kept": 4,
-   "ms": 742
+   "ok": false,
+   "error": "not an RSS/Atom feed",
+   "ms": 612
   },
   {
    "id": "biometric",
@@ -213,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 745
+   "ms": 692
   },
   {
    "id": "krebs",
@@ -222,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 445
+   "ms": 271
   },
   {
    "id": "securityweek",
@@ -231,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 373
+   "ms": 190
   },
   {
    "id": "wired-security",
@@ -240,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 45
+   "ms": 27
   },
   {
    "id": "csoonline",
@@ -249,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 281
+   "ms": 180
   },
   {
    "id": "infosecmag",
@@ -258,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 415
+   "ms": 289
   },
   {
    "id": "helpnet",
@@ -267,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 273
+   "ms": 171
   },
   {
    "id": "therecord",
@@ -276,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 205
+   "ms": 147
   },
   {
    "id": "thehackernews",
@@ -285,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 344
+   "ms": 291
   },
   {
    "id": "bleeping",
@@ -294,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 244
+   "ms": 143
   },
   {
    "id": "darkreading",
@@ -303,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 452
+   "ms": 527
   },
   {
    "id": "schneier",
@@ -312,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 97
+   "ms": 122
   },
   {
    "id": "google-security",
@@ -321,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 566
+   "ms": 455
   },
   {
    "id": "msft-security",
@@ -330,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1232
+   "ms": 2149
   },
   {
    "id": "aws-security",
@@ -339,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 17,
-   "ms": 227
+   "ms": 238
   },
   {
    "id": "unit42",
@@ -348,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 179
+   "ms": 166
   },
   {
    "id": "trailofbits",
@@ -357,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 593
+   "ms": 491
   },
   {
    "id": "embracethered",
@@ -366,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 223
+   "ms": 191
   },
   {
    "id": "owasp-genai",
@@ -375,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 229
+   "ms": 214
   },
   {
    "id": "willison-pi",
@@ -384,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 503
+   "ms": 521
   },
   {
    "id": "csa",
@@ -393,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 588
+   "ms": 807
   },
   {
    "id": "openai",
@@ -402,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 163
+   "ms": 185
   },
   {
    "id": "deepmind",
@@ -411,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 9,
-   "ms": 336
+   "ms": 191
   },
   {
    "id": "huggingface",
@@ -420,10 +419,85 @@
    "ok": true,
    "items": 40,
    "kept": 25,
-   "ms": 148
+   "ms": 145
   }
  ],
  "items": [
+  {
+   "id": "c37834cb8c17",
+   "title": "GPT-6.1 Terra meets OpenAI’s Critical cyber threshold, and it’s cheaper than GPT-5.6 Terra",
+   "url": "https://www.helpnetsecurity.com/2026/10/27/gpt-6-1-terra-released/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-10-27T04:33:34.000Z",
+   "firstSeen": 1793076514893,
+   "summary": "OpenAI released GPT-6.1 Terra, a model that operates desktop software, to all Plus, Pro, Enterprise, and Edu users in ChatGPT Work and Codex, and to developers through its API as gpt-6.1-terra. API prices are 50 percent below those of GPT-5.6 Terra and GPT-6.1 Sol: $1 per million input tokens, $0.05 per million cached…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "OpenAI"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "42fd5d64333d",
+   "title": "OpenAI’s August fix for theft of reasoning traces was quickly bypassed",
+   "url": "https://www.csoonline.com/article/4240662/openais-august-fix-for-theft-of-reasoning-traces-was-quickly-bypassed.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-10-27T03:22:50.000Z",
+   "firstSeen": 1793076514893,
+   "summary": "Cybersecurity research firm Xint on Monday published details of a bug in the OpenAI API that leaks raw reasoning traces from frontier OpenAI models, revealing the risk of other data leaks. OpenAI has confirmed the flaw, mitigated it, and paid a bug bounty for its discovery. The problem is that OpenAI had already…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "OpenAI"
+   ],
+   "score": 11,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "2b30af2f86a9",
+   "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+   "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "published": "2026-10-27T01:12:21.000Z",
+   "firstSeen": 1793076514893,
+   "summary": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "China"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "4753a010c2a0",
+   "title": "So Many AI Security Benchmarks, But None Tell the Whole Story",
+   "url": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-10-27T00:26:50.000Z",
+   "firstSeen": 1793076514893,
+   "summary": "Measuring AI model security gets complex fast — a growing patchwork of benchmarks targets different variables in the equation, but none replace testing against your own code and workflows.",
+   "topics": [
+    "security",
+    "research"
+   ],
+   "tags": [],
+   "score": 22,
+   "action": false,
+   "also": []
+  },
   {
    "id": "bd660e351721",
    "title": "Risks & Rewards: How AI Is Redefining the CISO's Role",
@@ -684,7 +758,7 @@
    "sourceId": "guardian-ai",
    "published": "2026-10-26T11:30:40.000Z",
    "firstSeen": 1793023603545,
-   "summary": "Australian Signals Directorate chief says advanced AI tools are needed to defend against ‘AI-enabled attackers’ Get our daily political email, free app or daily news podcast Australians should prepare for more basic and important online services to go offline unexpectedly, the nation’s signals intelligence agency has…",
+   "summary": "Australian Signals Directorate chief says advanced AI tools are needed to defend against ‘AI-enabled attackers’ Follow our Australian politics live blog for latest updates Get our daily political email, free app or daily news podcast Australians should prepare for more basic and important online services to go offline…",
    "topics": [
     "security"
    ],
