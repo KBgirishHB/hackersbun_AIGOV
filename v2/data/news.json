@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-10-28T11:32:54.999Z",
+ "generatedAt": "2026-10-28T17:18:25.019Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 42,
-  "fetched": 875,
-  "relevant": 255,
-  "stories": 233,
+  "fetched": 873,
+  "relevant": 274,
+  "stories": 252,
   "duplicatesMerged": 22
  },
  "sources": [
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 1322
+   "ms": 1238
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 65
+   "ms": 82
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 1247
+   "ms": 1836
   },
   {
    "id": "algorithmwatch",
@@ -44,16 +44,16 @@
    "ok": true,
    "items": 10,
    "kept": 5,
-   "ms": 766
+   "ms": 1138
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 5,
-   "kept": 5,
-   "ms": 1284
+   "items": 4,
+   "kept": 4,
+   "ms": 207
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1238
+   "ms": 1142
   },
   {
    "id": "edpb",
@@ -71,7 +71,7 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 1698
+   "ms": 1620
   },
   {
    "id": "europarl",
@@ -79,7 +79,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 473
+   "ms": 359
   },
   {
    "id": "cnil",
@@ -88,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 709
+   "ms": 1055
   },
   {
    "id": "nist",
@@ -96,8 +96,8 @@
    "url": "https://www.nist.gov/news-events/news/rss.xml",
    "ok": true,
    "items": 40,
-   "kept": 6,
-   "ms": 166
+   "kept": 5,
+   "ms": 276
   },
   {
    "id": "ncsc-uk",
@@ -105,8 +105,8 @@
    "url": "https://www.ncsc.gov.uk/api/1/services/v1/news-rss-feed.xml",
    "ok": true,
    "items": 20,
-   "kept": 4,
-   "ms": 81
+   "kept": 3,
+   "ms": 138
   },
   {
    "id": "cisa",
@@ -115,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 494
+   "ms": 641
   },
   {
    "id": "fedscoop",
@@ -124,16 +124,16 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 464
+   "ms": 70
   },
   {
    "id": "nextgov",
    "name": "Nextgov/FCW",
    "url": "https://www.nextgov.com/rss/all/",
    "ok": true,
-   "items": 23,
-   "kept": 23,
-   "ms": 665
+   "items": 22,
+   "kept": 22,
+   "ms": 577
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 75
+   "ms": 157
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 109
+   "ms": 128
   },
   {
    "id": "verge-ai",
@@ -159,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 67
+   "ms": 147
   },
   {
    "id": "ars-ai",
@@ -168,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 210
+   "ms": 374
   },
   {
    "id": "wired-ai",
@@ -177,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 106
+   "ms": 244
   },
   {
    "id": "guardian-ai",
@@ -186,7 +186,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 178
+   "ms": 223
   },
   {
    "id": "mittr-ai",
@@ -195,7 +195,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 166
+   "ms": 106
   },
   {
    "id": "register-ai",
@@ -204,7 +204,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 510
+   "ms": 635
   },
   {
    "id": "biometric",
@@ -213,7 +213,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 681
+   "ms": 643
   },
   {
    "id": "krebs",
@@ -221,8 +221,8 @@
    "url": "https://krebsonsecurity.com/feed/",
    "ok": true,
    "items": 10,
-   "kept": 7,
-   "ms": 153
+   "kept": 6,
+   "ms": 234
   },
   {
    "id": "securityweek",
@@ -231,7 +231,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 78
+   "ms": 143
   },
   {
    "id": "wired-security",
@@ -240,7 +240,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 29
+   "ms": 27
   },
   {
    "id": "csoonline",
@@ -249,7 +249,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 115
+   "ms": 163
   },
   {
    "id": "infosecmag",
@@ -257,7 +257,7 @@
    "url": "https://www.infosecurity-magazine.com/rss/news/",
    "ok": false,
    "error": "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
-   "ms": 114
+   "ms": 132
   },
   {
    "id": "helpnet",
@@ -266,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 109
+   "ms": 148
   },
   {
    "id": "therecord",
@@ -275,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 168
+   "ms": 222
   },
   {
    "id": "thehackernews",
@@ -284,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 265
+   "ms": 354
   },
   {
    "id": "bleeping",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 93
+   "ms": 260
   },
   {
    "id": "darkreading",
@@ -302,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 434
+   "ms": 673
   },
   {
    "id": "schneier",
@@ -311,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 141
+   "ms": 212
   },
   {
    "id": "google-security",
@@ -320,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 551
+   "ms": 500
   },
   {
    "id": "msft-security",
@@ -329,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1120
+   "ms": 3167
   },
   {
    "id": "aws-security",
@@ -337,8 +337,8 @@
    "url": "https://aws.amazon.com/blogs/security/feed/",
    "ok": true,
    "items": 20,
-   "kept": 20,
-   "ms": 185
+   "kept": 19,
+   "ms": 210
   },
   {
    "id": "unit42",
@@ -347,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 158
+   "ms": 150
   },
   {
    "id": "trailofbits",
@@ -356,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 465
+   "ms": 603
   },
   {
    "id": "embracethered",
@@ -365,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 142
+   "ms": 351
   },
   {
    "id": "owasp-genai",
@@ -374,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 96
+   "ms": 278
   },
   {
    "id": "willison-pi",
@@ -383,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 439
+   "ms": 623
   },
   {
    "id": "csa",
@@ -392,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 752
+   "ms": 751
   },
   {
    "id": "openai",
@@ -401,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 132
+   "ms": 157
   },
   {
    "id": "deepmind",
@@ -409,8 +409,8 @@
    "url": "https://deepmind.google/blog/rss.xml",
    "ok": true,
    "items": 40,
-   "kept": 10,
-   "ms": 210
+   "kept": 11,
+   "ms": 427
   },
   {
    "id": "huggingface",
@@ -419,10 +419,369 @@
    "ok": true,
    "items": 40,
    "kept": 24,
-   "ms": 2071
+   "ms": 151
   }
  ],
  "items": [
+  {
+   "id": "833bdee41290",
+   "title": "A First Amendment Approach to Regulating AI Model Weights",
+   "url": "https://www.lawfaremedia.org/article/a-first-amendment-approach-to-regulating-ai-model-weights",
+   "source": "Lawfare",
+   "sourceId": "lawfare",
+   "published": "2026-10-28T17:00:04.000Z",
+   "firstSeen": 1793207905019,
+   "summary": "It is unclear whether AI model weights are speech. But any regime that licenses them should be built with First Amendment protections regardless.",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "28a984efa3d4",
+   "title": "NASA, Google test AI-powered medical robot for deep space missions",
+   "url": "https://www.nextgov.com/emerging-tech/2026/10/nasa-google-test-ai-powered-medical-robot-deep-space-missions/416874/",
+   "source": "Nextgov/FCW",
+   "sourceId": "nextgov",
+   "published": "2026-10-28T16:16:00.000Z",
+   "firstSeen": 1793207905019,
+   "summary": "The proof-of-concept system could help astronauts handle medical needs and routine tasks on future missions to the Moon and Mars.",
+   "topics": [
+    "research"
+   ],
+   "tags": [
+    "Google"
+   ],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "20ac951d6d55",
+   "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+   "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-10-28T16:02:45.000Z",
+   "firstSeen": 1793207905019,
+   "summary": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems. The activity, which was observed on October 25, 2026, involved an…",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [
+    "Vulnerability",
+    "China"
+   ],
+   "score": 19,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "351cad0196cf",
+   "title": "The CISO’s evolving role: Protecting and defending in the agentic era",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/",
+   "source": "Microsoft Security Blog",
+   "sourceId": "msft-security",
+   "published": "2026-10-28T16:00:00.000Z",
+   "firstSeen": 1793207905019,
+   "summary": "As AI and agents reshape the enterprise, CISOs face two critical priorities: enabling innovation with the right identity and data guardrails, and modernizing defense to keep pace with AI-powered threats. Aarti Borkar shares how security leaders can approach both.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "ed0ff958bbe5",
+   "title": "South Korea’s financial industry hit by fresh wave of cyberattacks",
+   "url": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "published": "2026-10-28T15:41:18.000Z",
+   "firstSeen": 1793207905019,
+   "summary": "South Korea’s financial institutions have been hit by another wave of cyberattacks, highlighting the growing risk of AI-driven hacking in Asia.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "53c844410227",
+   "title": "I underestimated how fast security teams would trust AI to act in the SOC",
+   "url": "https://www.helpnetsecurity.com/2026/10/28/exaforce-trust-in-ai-security/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-10-28T15:25:01.000Z",
+   "firstSeen": 1793207905019,
+   "summary": "For most of my career, I have watched new security platforms work through enterprise programs at a slow pace, so when AI began showing up in security operations tools, I assumed it would follow the same path. I expected AI adoption in the SOC to lag behind almost every other category of security technology, because…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "469000b1ec7b",
+   "title": "ControlUp’s Pulse AI Resolve diagnoses and fixes IT issues within admin-defined controls",
+   "url": "https://www.helpnetsecurity.com/2026/10/28/controlup-pulse-ai-resolve/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-10-28T14:46:55.000Z",
+   "firstSeen": 1793207905019,
+   "summary": "ControlUp has announced Pulse AI Resolve, the real-time investigative AI layer of the Pulse AI ecosystem. A major enhancement of ControlUp’s endpoint self-service capability, previously ControlUp Connect, Pulse Resolve brings AI-powered investigation and remediation, built-in governance controls, and proactive issue…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "2d020987ac9e",
+   "title": "Attacker Relentlessly Scans for Credentials by Impersonating AI Bots",
+   "url": "https://www.darkreading.com/cyber-risk/attacker-impersonates-ai-bots-scans-credentials",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-10-28T14:37:52.000Z",
+   "firstSeen": 1793207905019,
+   "summary": "The threat actor lurked behind bots posing as agents from OpenAI, Anthropic, Meta, and others to find exposed data.",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [
+    "OpenAI",
+    "Anthropic",
+    "Meta"
+   ],
+   "score": 16,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "76e3a0f082ee",
+   "title": "Digitate adds AI agents for patch planning, service desks, and SAP operations",
+   "url": "https://www.helpnetsecurity.com/2026/10/28/digitate-ignio-hummingbird/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-10-28T14:36:59.000Z",
+   "firstSeen": 1793207905019,
+   "summary": "Digitate has announced ignio Hummingbird, the latest release of its agentic AIOps platform. Hummingbird introduces AI agents that bring operational expertise to specific IT tasks, move from diagnosis through approved action and verification, and operate within enterprise change, approval and audit controls. The…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "9aa66a94f110",
+   "title": "Swimlane connects custom detections to AI-led investigation and response",
+   "url": "https://www.helpnetsecurity.com/2026/10/28/swimlane-turbine-platform-capabilities/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-10-28T14:26:24.000Z",
+   "firstSeen": 1793207905019,
+   "summary": "Swimlane has announced new capabilities in the Swimlane Turbine platform that allow security teams to run their own detection logic against large volumes of data and send resulting alerts directly into Swimlane AI SOC for investigation and response. The October release also adds two-way Model Context Protocol (MCP)…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "MCP"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "9fd9ddaf4de0",
+   "title": "VikingCloud gives businesses a scorecard for AI governance readiness",
+   "url": "https://www.helpnetsecurity.com/2026/10/28/vikingcloud-ai-governance-services/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-10-28T14:06:13.000Z",
+   "firstSeen": 1793207905019,
+   "summary": "VikingCloud has launched AI Governance Services, a new set of compliance and risk assessments that find the AI tools in use across a business, show where security controls fall short, and deliver a remediation plan to close the gaps. Multi-location brands struggle to hold every location to one security standard…",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 24,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "caf93c1b786c",
+   "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
+   "url": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-10-28T13:50:59.000Z",
+   "firstSeen": 1793207905019,
+   "summary": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is just as important as fixing vulnerabilities to reduce the damage from a breach.",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "AI agents",
+    "Vulnerability"
+   ],
+   "score": 9,
+   "action": true,
+   "also": []
+  },
+  {
+   "id": "301efc53e5d3",
+   "title": "GBG adds Realeyes face biometrics to tackle promo abuse, account fraud",
+   "url": "https://www.biometricupdate.com/202610/gbg-adds-realeyes-face-biometrics-to-tackle-promo-abuse-account-fraud",
+   "source": "Biometric Update",
+   "sourceId": "biometric",
+   "published": "2026-10-28T13:46:13.000Z",
+   "firstSeen": 1793207905019,
+   "summary": "GBG has partnered with Realeyes to integrate face biometric verification into its GBG Go platform. This will allow businesses to identify duplicate account registrations and verify customers after initial onboarding. Founded at Oxford University, Realeyes develops AI-based facial verification technology for detecting…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Biometrics"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "520bb8682fc9",
+   "title": "Oracle plans biometric approval for AI agents, taps OpenAI for security testing",
+   "url": "https://www.biometricupdate.com/202610/oracle-plans-biometric-approval-for-ai-agents-taps-openai-for-security-testing",
+   "source": "Biometric Update",
+   "sourceId": "biometric",
+   "published": "2026-10-28T13:45:48.000Z",
+   "firstSeen": 1793207905019,
+   "summary": "Oracle plans to extend biometric identity assurance to sensitive actions initiated by AI agents, allowing applications to require identity verification from authorized employees before certain operations proceed. The plans accompany the launch of Oracle's AI Security Mesh, which uses OpenAI cybersecurity models to…",
+   "topics": [
+    "security",
+    "governance"
+   ],
+   "tags": [
+    "AI agents",
+    "Biometrics",
+    "OpenAI"
+   ],
+   "score": 16,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "0d7c8ee8b918",
+   "title": "Upwind secures $400 million to protect AI across endpoints, code, and cloud",
+   "url": "https://www.helpnetsecurity.com/2026/10/28/upwind-400-million-series-c-funding/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-10-28T13:31:26.000Z",
+   "firstSeen": 1793207905019,
+   "summary": "Upwind Security has raised $400 million in Series C funding to expand its cloud and AI security platform, bringing the company’s total funding to more than $800 million. Bessemer Venture Partners led the round, with participation from all existing Upwind investors, including Greylock Partners, Cyberstarts, Craft…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "d8226174b8ca",
+   "title": "Fake ChatGPT, Claude apps spread malware via signed AI binaries",
+   "url": "https://www.csoonline.com/article/4241634/fake-chatgpt-claude-apps-spread-malware-via-signed-ai-binaries.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-10-28T12:36:48.000Z",
+   "firstSeen": 1793207905019,
+   "summary": "Attackers are distributing malware through fake ChatGPT and Claude desktop applications, using legitimate, digitally signed executables from OpenAI and Anthropic to load malicious code onto victims’ Windows systems, according to Check Point Research. The campaign, tracked as Yoba, uses fake GitHub repositories and…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "2363235cbe09",
+   "title": "Trusting Unsloth’s trust setting could mean executing malicious code",
+   "url": "https://www.csoonline.com/article/4241619/trusting-unsloths-trust-setting-could-mean-executing-malicious-code.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-10-28T11:53:22.000Z",
+   "firstSeen": 1793207905019,
+   "summary": "AI developers may have a security setting enabled and still end up running attacker-controlled code. Pillar Security has disclosed a high-severity vulnerability in Unsloth’s model loader that could allow arbitrary Python code execution when processing a maliciously crafted model configuration. Tracked as…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "cec1e9f9f5cb",
+   "title": "Wazuh and AI for Enhanced SOC Workflows",
+   "url": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-10-28T11:30:00.000Z",
+   "firstSeen": 1793207905019,
+   "summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cybersecurity has…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "e665b822df11",
+   "title": "Sánchez’s wife sues Spanish opposition over AI deepfake",
+   "url": "https://www.rapporteur.com/news/spains-sanchez-wife-sues-opposition-over-ai-deepfake/",
+   "source": "Euractiv",
+   "sourceId": "euractiv",
+   "published": "2026-10-28T11:06:14.000Z",
+   "firstSeen": 1793207905019,
+   "summary": "Case filed over 'identity theft' but also touches on EU tech rulebook",
+   "topics": [
+    "regulation",
+    "incidents"
+   ],
+   "tags": [
+    "Deepfakes"
+   ],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
   {
    "id": "b2a72fae9c63",
    "title": "Scale publishes first AI benchmark through CAISSI partnership",
