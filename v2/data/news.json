@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-10-28T17:18:25.019Z",
+ "generatedAt": "2026-10-28T21:51:58.340Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 42,
-  "fetched": 873,
-  "relevant": 274,
-  "stories": 252,
-  "duplicatesMerged": 22
+  "sourcesOk": 43,
+  "fetched": 911,
+  "relevant": 282,
+  "stories": 258,
+  "duplicatesMerged": 24
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 1238
+   "ms": 1487
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 82
+   "ms": 67
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 1836
+   "ms": 1160
   },
   {
    "id": "algorithmwatch",
@@ -44,16 +44,16 @@
    "ok": true,
    "items": 10,
    "kept": 5,
-   "ms": 1138
+   "ms": 1155
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 4,
-   "kept": 4,
-   "ms": 207
+   "items": 3,
+   "kept": 3,
+   "ms": 528
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1142
+   "ms": 1205
   },
   {
    "id": "edpb",
@@ -71,7 +71,7 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 1620
+   "ms": 1854
   },
   {
    "id": "europarl",
@@ -79,7 +79,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 359
+   "ms": 687
   },
   {
    "id": "cnil",
@@ -88,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1055
+   "ms": 1089
   },
   {
    "id": "nist",
@@ -97,7 +97,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 276
+   "ms": 275
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +106,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 138
+   "ms": 467
   },
   {
    "id": "cisa",
@@ -115,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 641
+   "ms": 343
   },
   {
    "id": "fedscoop",
@@ -124,16 +124,16 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 70
+   "ms": 127
   },
   {
    "id": "nextgov",
    "name": "Nextgov/FCW",
    "url": "https://www.nextgov.com/rss/all/",
    "ok": true,
-   "items": 22,
-   "kept": 22,
-   "ms": 577
+   "items": 21,
+   "kept": 21,
+   "ms": 307
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 157
+   "ms": 210
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 128
+   "ms": 280
   },
   {
    "id": "verge-ai",
@@ -159,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 147
+   "ms": 362
   },
   {
    "id": "ars-ai",
@@ -168,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 374
+   "ms": 397
   },
   {
    "id": "wired-ai",
@@ -177,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 244
+   "ms": 255
   },
   {
    "id": "guardian-ai",
@@ -186,7 +186,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 223
+   "ms": 166
   },
   {
    "id": "mittr-ai",
@@ -195,7 +195,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 106
+   "ms": 150
   },
   {
    "id": "register-ai",
@@ -204,7 +204,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 635
+   "ms": 520
   },
   {
    "id": "biometric",
@@ -213,7 +213,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 643
+   "ms": 656
   },
   {
    "id": "krebs",
@@ -222,7 +222,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 234
+   "ms": 189
   },
   {
    "id": "securityweek",
@@ -231,7 +231,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 143
+   "ms": 185
   },
   {
    "id": "wired-security",
@@ -240,7 +240,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 27
+   "ms": 36
   },
   {
    "id": "csoonline",
@@ -249,15 +249,16 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 163
+   "ms": 156
   },
   {
    "id": "infosecmag",
    "name": "Infosecurity Magazine",
    "url": "https://www.infosecurity-magazine.com/rss/news/",
-   "ok": false,
-   "error": "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
-   "ms": 132
+   "ok": true,
+   "items": 40,
+   "kept": 40,
+   "ms": 238
   },
   {
    "id": "helpnet",
@@ -266,7 +267,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 148
+   "ms": 109
   },
   {
    "id": "therecord",
@@ -275,7 +276,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 222
+   "ms": 135
   },
   {
    "id": "thehackernews",
@@ -284,7 +285,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 354
+   "ms": 313
   },
   {
    "id": "bleeping",
@@ -293,7 +294,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 260
+   "ms": 140
   },
   {
    "id": "darkreading",
@@ -302,7 +303,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 673
+   "ms": 613
   },
   {
    "id": "schneier",
@@ -311,7 +312,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 212
+   "ms": 118
   },
   {
    "id": "google-security",
@@ -320,7 +321,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 500
+   "ms": 523
   },
   {
    "id": "msft-security",
@@ -329,7 +330,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3167
+   "ms": 1270
   },
   {
    "id": "aws-security",
@@ -338,7 +339,7 @@
    "ok": true,
    "items": 20,
    "kept": 19,
-   "ms": 210
+   "ms": 272
   },
   {
    "id": "unit42",
@@ -346,8 +347,8 @@
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
    "items": 15,
-   "kept": 13,
-   "ms": 150
+   "kept": 14,
+   "ms": 123
   },
   {
    "id": "trailofbits",
@@ -356,7 +357,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 603
+   "ms": 442
   },
   {
    "id": "embracethered",
@@ -365,7 +366,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 351
+   "ms": 193
   },
   {
    "id": "owasp-genai",
@@ -374,7 +375,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 278
+   "ms": 129
   },
   {
    "id": "willison-pi",
@@ -383,7 +384,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 623
+   "ms": 585
   },
   {
    "id": "csa",
@@ -392,7 +393,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 751
+   "ms": 848
   },
   {
    "id": "openai",
@@ -401,7 +402,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 157
+   "ms": 135
   },
   {
    "id": "deepmind",
@@ -410,7 +411,7 @@
    "ok": true,
    "items": 40,
    "kept": 11,
-   "ms": 427
+   "ms": 377
   },
   {
    "id": "huggingface",
@@ -419,10 +420,102 @@
    "ok": true,
    "items": 40,
    "kept": 24,
-   "ms": 151
+   "ms": 169
   }
  ],
  "items": [
+  {
+   "id": "ab04abf3527b",
+   "title": "Massive Leak Exposes 41,000 Homeland Security Workers—Including Undercover ICE Agents",
+   "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
+   "source": "WIRED Security",
+   "sourceId": "wired-security",
+   "published": "2026-10-28T20:00:00.000Z",
+   "firstSeen": 1793224318340,
+   "summary": "The leaked records include the locations of ICE and CBP facilities, workers’ cell phone numbers, and the members of groups tied to wiretap programs, Palantir software, and xAI’s Grok chatbot.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "63e58e2f6d43",
+   "title": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
+   "url": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "published": "2026-10-28T19:05:46.000Z",
+   "firstSeen": 1793224318340,
+   "summary": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched. According to researchers…",
+   "topics": [
+    "research"
+   ],
+   "tags": [
+    "Vulnerability"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "6d1aeca56844",
+   "title": "The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO",
+   "url": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "published": "2026-10-28T18:50:39.000Z",
+   "firstSeen": 1793224318340,
+   "summary": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched. According to researchers…",
+   "topics": [
+    "research"
+   ],
+   "tags": [
+    "Vulnerability"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "b51dd1d66329",
+   "title": "European digital rights nonprofit noyb sues Scale AI for ‘invasive’ worker surveillance",
+   "url": "https://therecord.media/noyb-sues-scale-ai-for-worker-surveillance",
+   "source": "The Record",
+   "sourceId": "therecord",
+   "published": "2026-10-28T18:02:00.000Z",
+   "firstSeen": 1793224318340,
+   "summary": "Noyb alleges the platform in some cases records freelancers’ mouse clicks and keystrokes every few seconds and claims the collected information can be used to generate video documenting freelancers’ entire workday.",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "d4056c79bb2f",
+   "title": "Unwrapping Retail Peak Season Cyber Threats",
+   "url": "https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/",
+   "source": "Unit 42",
+   "sourceId": "unit42",
+   "published": "2026-10-28T18:00:10.000Z",
+   "firstSeen": 1793224318340,
+   "summary": "Unit 42 explores key peak shopping season retail cyber threats, from ransomware to AI attacks, and shares how to defend operations and customer trust.",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "Ransomware"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
   {
    "id": "833bdee41290",
    "title": "A First Amendment Approach to Regulating AI Model Weights",
@@ -722,9 +815,20 @@
     "OpenAI",
     "Anthropic"
    ],
-   "score": 9,
+   "score": 13,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "357981106f7b",
+     "source": "Infosecurity Magazine",
+     "sourceId": "infosecmag",
+     "title": "Attackers Hide Malware Behind Signed ChatGPT and Claude Binaries",
+     "url": "https://www.infosecurity-magazine.com/news/attackers-hide-malware-behind/",
+     "published": "2026-10-28T15:13:00.000Z",
+     "firstSeen": 1793224318340,
+     "summary": "Attackers have used fake ChatGPT and Claude projects to distribute Yoba malware"
+    }
+   ]
   },
   {
    "id": "2363235cbe09",
@@ -1542,9 +1646,20 @@
     "security"
    ],
    "tags": [],
-   "score": 5,
+   "score": 10,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "bd7009240d65",
+     "source": "Infosecurity Magazine",
+     "sourceId": "infosecmag",
+     "title": "AI Is Turning CISOs Into Business-Risk Translators, Says Nvidia’s Head of Cyber",
+     "url": "https://www.infosecurity-magazine.com/news/ai-is-turning-cisos-into/",
+     "published": "2026-10-28T14:10:00.000Z",
+     "firstSeen": 1793224318340,
+     "summary": "Nvidia’s Mark Weatherford says CISOs must translate AI cybersecurity risks into business priorities, clarify risk ownership and balance innovation with security controls"
+    }
+   ]
   },
   {
    "id": "e3f636a57558",
@@ -1578,9 +1693,20 @@
    "tags": [
     "OpenAI"
    ],
-   "score": 14,
+   "score": 17,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "851870d7bce9",
+     "source": "Biometric Update",
+     "sourceId": "biometric",
+     "title": "Texas sues OpenAI, Sam Altman over ChatGPT safety and age verification",
+     "url": "https://www.biometricupdate.com/202610/texas-sues-openai-sam-altman-over-chatgpt-safety-and-age-verification",
+     "published": "2026-10-28T18:26:10.000Z",
+     "firstSeen": 1793224318340,
+     "summary": "Texas Attorney General Ken Paxton has sued OpenAI and CEO Sam Altman, accusing them of misleading consumers about ChatGPT's safety, failing to protect children and violating state requirements for age verification and parental controls. The lawsuit, filed October 23 in Collin County, seeks sweeping restrictions on…"
+    }
+   ]
   },
   {
    "id": "5f31c9091ecf",
@@ -2024,6 +2150,23 @@
    "also": []
   },
   {
+   "id": "92942997dffb",
+   "title": "r/opensource bans AI projects, and solo devs go down with them",
+   "url": "https://www.helpnetsecurity.com/2026/10/26/reddit-r-opensource-ai-ban/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-10-26T04:30:36.000Z",
+   "firstSeen": 1792997572781,
+   "summary": "Moderators of r/opensource, Reddit’s catch-all forum for open source software, have barred any project that “uses AI, is made by AI, or is intended for AI.” Moderator Wolvereness announced the rules in a post over the weekend. A project now has to be at least a year old and actively maintained, carry an OSI license…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
    "id": "c9325c9fd863",
    "title": "Google open-sources the Elephant-Goldfish Model plugin its engineers use to catch AI coding mistakes",
    "url": "https://www.helpnetsecurity.com/2026/10/26/google-elephant-goldfish-model-plugin/",
@@ -2126,20 +2269,9 @@
     "regulation"
    ],
    "tags": [],
-   "score": 12,
+   "score": 9,
    "action": false,
-   "also": [
-    {
-     "id": "92942997dffb",
-     "source": "Help Net Security",
-     "sourceId": "helpnet",
-     "title": "r/opensource bans AI projects, and solo devs go down with them",
-     "url": "https://www.helpnetsecurity.com/2026/10/26/reddit-r-opensource-ai-ban/",
-     "published": "2026-10-26T04:30:36.000Z",
-     "firstSeen": 1792997572781,
-     "summary": "Moderators of r/opensource, Reddit’s catch-all forum for open source software, have barred any project that “uses AI, is made by AI, or is intended for AI.” Moderator Wolvereness announced the rules in a post over the weekend. A project now has to be at least a year old and actively maintained, carry an OSI license…"
-    }
-   ]
+   "also": []
   },
   {
    "id": "8f2c9b4a26fe",
