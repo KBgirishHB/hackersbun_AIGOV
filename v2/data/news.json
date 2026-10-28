@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-10-28T05:23:06.932Z",
+ "generatedAt": "2026-10-28T11:32:54.999Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 43,
-  "fetched": 914,
-  "relevant": 248,
-  "stories": 227,
-  "duplicatesMerged": 21
+  "sourcesOk": 42,
+  "fetched": 875,
+  "relevant": 255,
+  "stories": 233,
+  "duplicatesMerged": 22
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 1330
+   "ms": 1322
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 57
+   "ms": 65
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 1774
+   "ms": 1247
   },
   {
    "id": "algorithmwatch",
@@ -44,16 +44,16 @@
    "ok": true,
    "items": 10,
    "kept": 5,
-   "ms": 1320
+   "ms": 766
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 4,
-   "kept": 4,
-   "ms": 1287
+   "items": 5,
+   "kept": 5,
+   "ms": 1284
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1767
+   "ms": 1238
   },
   {
    "id": "edpb",
@@ -71,7 +71,7 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 2324
+   "ms": 1698
   },
   {
    "id": "europarl",
@@ -79,7 +79,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 907
+   "ms": 473
   },
   {
    "id": "cnil",
@@ -88,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1324
+   "ms": 709
   },
   {
    "id": "nist",
@@ -97,7 +97,7 @@
    "ok": true,
    "items": 40,
    "kept": 6,
-   "ms": 218
+   "ms": 166
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +106,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 100
+   "ms": 81
   },
   {
    "id": "cisa",
@@ -115,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 527
+   "ms": 494
   },
   {
    "id": "fedscoop",
@@ -124,7 +124,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 104
+   "ms": 464
   },
   {
    "id": "nextgov",
@@ -133,7 +133,7 @@
    "ok": true,
    "items": 23,
    "kept": 23,
-   "ms": 488
+   "ms": 665
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 57
+   "ms": 75
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 457
+   "ms": 109
   },
   {
    "id": "verge-ai",
@@ -159,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 418
+   "ms": 67
   },
   {
    "id": "ars-ai",
@@ -168,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 507
+   "ms": 210
   },
   {
    "id": "wired-ai",
@@ -177,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 133
+   "ms": 106
   },
   {
    "id": "guardian-ai",
@@ -186,7 +186,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 269
+   "ms": 178
   },
   {
    "id": "mittr-ai",
@@ -195,7 +195,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 135
+   "ms": 166
   },
   {
    "id": "register-ai",
@@ -204,7 +204,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 692
+   "ms": 510
   },
   {
    "id": "biometric",
@@ -213,7 +213,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 710
+   "ms": 681
   },
   {
    "id": "krebs",
@@ -222,7 +222,7 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 350
+   "ms": 153
   },
   {
    "id": "securityweek",
@@ -231,7 +231,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 163
+   "ms": 78
   },
   {
    "id": "wired-security",
@@ -240,7 +240,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 22
+   "ms": 29
   },
   {
    "id": "csoonline",
@@ -249,16 +249,15 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 174
+   "ms": 115
   },
   {
    "id": "infosecmag",
    "name": "Infosecurity Magazine",
    "url": "https://www.infosecurity-magazine.com/rss/news/",
-   "ok": true,
-   "items": 40,
-   "kept": 40,
-   "ms": 322
+   "ok": false,
+   "error": "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
+   "ms": 114
   },
   {
    "id": "helpnet",
@@ -267,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 98
+   "ms": 109
   },
   {
    "id": "therecord",
@@ -276,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 193
+   "ms": 168
   },
   {
    "id": "thehackernews",
@@ -285,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 221
+   "ms": 265
   },
   {
    "id": "bleeping",
@@ -294,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 120
+   "ms": 93
   },
   {
    "id": "darkreading",
@@ -303,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 371
+   "ms": 434
   },
   {
    "id": "schneier",
@@ -312,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 91
+   "ms": 141
   },
   {
    "id": "google-security",
@@ -321,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 531
+   "ms": 551
   },
   {
    "id": "msft-security",
@@ -330,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 2212
+   "ms": 1120
   },
   {
    "id": "aws-security",
@@ -339,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 242
+   "ms": 185
   },
   {
    "id": "unit42",
@@ -348,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 198
+   "ms": 158
   },
   {
    "id": "trailofbits",
@@ -357,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 598
+   "ms": 465
   },
   {
    "id": "embracethered",
@@ -366,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 154
+   "ms": 142
   },
   {
    "id": "owasp-genai",
@@ -375,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 123
+   "ms": 96
   },
   {
    "id": "willison-pi",
@@ -384,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 435
+   "ms": 439
   },
   {
    "id": "csa",
@@ -393,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 907
+   "ms": 752
   },
   {
    "id": "openai",
@@ -402,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 155
+   "ms": 132
   },
   {
    "id": "deepmind",
@@ -411,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 10,
-   "ms": 186
+   "ms": 210
   },
   {
    "id": "huggingface",
@@ -419,11 +418,140 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 25,
-   "ms": 200
+   "kept": 24,
+   "ms": 2071
   }
  ],
  "items": [
+  {
+   "id": "b2a72fae9c63",
+   "title": "Scale publishes first AI benchmark through CAISSI partnership",
+   "url": "https://fedscoop.com/scale-chemistry-ai-benchmark-caissi-partnership-dualchem/",
+   "source": "FedScoop",
+   "sourceId": "fedscoop",
+   "published": "2026-10-28T10:00:00.000Z",
+   "firstSeen": 1793187174999,
+   "summary": "The new benchmark, DualChem, is aimed at helping government agencies determine AI model risk in chemistry applications.",
+   "topics": [
+    "research"
+   ],
+   "tags": [],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "a21e2ffcc15d",
+   "title": "Secrets Management Firm Infisical Valued at $600 Million After $40 Million Raise",
+   "url": "https://www.securityweek.com/secrets-management-firm-infisical-valued-at-600-million-after-40-million-raise/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-10-28T09:48:24.000Z",
+   "firstSeen": 1793187174999,
+   "summary": "The company will use the Series B funds to expand its platform for securing AI agents’ access to sensitive systems.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "c486e7b3899f",
+   "title": "THE HACK: Digital omnibus lobby frenzy",
+   "url": "https://www.rapporteur.com/news/the-hack-digital-omnibus-lobby-frenzy/",
+   "source": "Euractiv",
+   "sourceId": "euractiv",
+   "published": "2026-10-28T08:33:13.000Z",
+   "firstSeen": 1793187174999,
+   "summary": "In today's edition: Frontex, frontier AI, IAB Europe",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "cd7efdf8cc4e",
+   "title": "10 ways attackers abuse AI services to hack your business",
+   "url": "https://www.csoonline.com/article/4154222/6-ways-attackers-abuse-ai-services-to-hack-your-business.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-10-28T08:25:00.000Z",
+   "firstSeen": 1793187174999,
+   "summary": "Attackers are starting to exploit AI systems to mount attacks in the same way they once relied on built-in enterprise tools such as PowerShell. Instead of relying on malware, cybercriminals are increasingly abusing AI tools enterprises depend on — a trend some experts describe as “living off the AI land.” The expanded…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 13,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "aa5379f50b92",
+   "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+   "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-10-28T08:15:07.000Z",
+   "firstSeen": 1793187174999,
+   "summary": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report. The exploits were built in the lab after the model was prompted, not seen in any real attack, and Anthropic reported every…",
+   "topics": [
+    "security",
+    "research"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 13,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "35590628a104",
+   "title": "Bellini Capital CISO on AI security governance and the limits of patching faster",
+   "url": "https://www.helpnetsecurity.com/2026/10/28/brian-blakley-bellini-capital-ai-security-governance/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-10-28T06:30:35.000Z",
+   "firstSeen": 1793187174999,
+   "summary": "In this Help Net Security interview, Brian Blakley, CISO at Bellini Capital and ConnectSecure, explains why AI makes finding vulnerabilities faster while fixing them still takes time. He argues that “patch faster” is not enough and that teams need to cut exposure while remediation is pending. Blakley describes a…",
+   "topics": [
+    "security",
+    "governance"
+   ],
+   "tags": [
+    "Vulnerability"
+   ],
+   "score": 24,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "0064ddc1b10c",
+   "title": "‘Emotional intimacy’ from AI chatbots would be banned under Australia’s digital duty of care laws",
+   "url": "https://www.theguardian.com/australia-news/2026/oct/28/emotional-intimacy-ai-chatbots-ban-digital-duty-of-care-laws-australian-politics",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-10-28T05:31:55.000Z",
+   "firstSeen": 1793187174999,
+   "summary": "Labor government under pressure to create social media watchdog as new online safety standards bill passes lower house Follow our Australia politics live blog for latest updates Get our breaking news email, free app or daily news podcast The federal government wants to ban AI chatbots which seek to create “emotional…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "USA"
+   ],
+   "score": 14,
+   "action": false,
+   "also": []
+  },
   {
    "id": "02c020caee59",
    "title": "Attackers built a ‘Skynet’ AI agent that hijacks exposed models to run cyberattacks",
@@ -1537,23 +1665,6 @@
    "also": []
   },
   {
-   "id": "92942997dffb",
-   "title": "r/opensource bans AI projects, and solo devs go down with them",
-   "url": "https://www.helpnetsecurity.com/2026/10/26/reddit-r-opensource-ai-ban/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-26T04:30:36.000Z",
-   "firstSeen": 1792997572781,
-   "summary": "Moderators of r/opensource, Reddit’s catch-all forum for open source software, have barred any project that “uses AI, is made by AI, or is intended for AI.” Moderator Wolvereness announced the rules in a post over the weekend. A project now has to be at least a year old and actively maintained, carry an OSI license…",
-   "topics": [
-    "regulation"
-   ],
-   "tags": [],
-   "score": 9,
-   "action": false,
-   "also": []
-  },
-  {
    "id": "c9325c9fd863",
    "title": "Google open-sources the Elephant-Goldfish Model plugin its engineers use to catch AI coding mistakes",
    "url": "https://www.helpnetsecurity.com/2026/10/26/google-elephant-goldfish-model-plugin/",
@@ -1656,9 +1767,20 @@
     "regulation"
    ],
    "tags": [],
-   "score": 9,
+   "score": 12,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "92942997dffb",
+     "source": "Help Net Security",
+     "sourceId": "helpnet",
+     "title": "r/opensource bans AI projects, and solo devs go down with them",
+     "url": "https://www.helpnetsecurity.com/2026/10/26/reddit-r-opensource-ai-ban/",
+     "published": "2026-10-26T04:30:36.000Z",
+     "firstSeen": 1792997572781,
+     "summary": "Moderators of r/opensource, Reddit’s catch-all forum for open source software, have barred any project that “uses AI, is made by AI, or is intended for AI.” Moderator Wolvereness announced the rules in a post over the weekend. A project now has to be at least a year old and actively maintained, carry an OSI license…"
+    }
+   ]
   },
   {
    "id": "8f2c9b4a26fe",
