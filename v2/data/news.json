@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-10-29T15:28:55.893Z",
+ "generatedAt": "2026-10-29T20:29:37.295Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 43,
-  "fetched": 911,
-  "relevant": 306,
-  "stories": 278,
-  "duplicatesMerged": 28
+  "fetched": 913,
+  "relevant": 312,
+  "stories": 282,
+  "duplicatesMerged": 30
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 1028
+   "ms": 906
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 83
+   "ms": 129
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 1124
+   "ms": 1481
   },
   {
    "id": "algorithmwatch",
@@ -44,16 +44,16 @@
    "ok": true,
    "items": 10,
    "kept": 5,
-   "ms": 968
+   "ms": 1156
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 3,
-   "kept": 3,
-   "ms": 219
+   "items": 5,
+   "kept": 5,
+   "ms": 453
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1069
+   "ms": 1131
   },
   {
    "id": "edpb",
@@ -71,7 +71,7 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 1602
+   "ms": 2459
   },
   {
    "id": "europarl",
@@ -79,7 +79,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 534
+   "ms": 617
   },
   {
    "id": "cnil",
@@ -88,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 885
+   "ms": 1001
   },
   {
    "id": "nist",
@@ -97,7 +97,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 334
+   "ms": 278
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +106,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 166
+   "ms": 221
   },
   {
    "id": "cisa",
@@ -115,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 405
+   "ms": 391
   },
   {
    "id": "fedscoop",
@@ -124,7 +124,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 332
+   "ms": 324
   },
   {
    "id": "nextgov",
@@ -133,7 +133,7 @@
    "ok": true,
    "items": 21,
    "kept": 21,
-   "ms": 246
+   "ms": 571
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 154
+   "ms": 111
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 259
+   "ms": 172
   },
   {
    "id": "verge-ai",
@@ -159,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 193
+   "ms": 142
   },
   {
    "id": "ars-ai",
@@ -168,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 427
+   "ms": 508
   },
   {
    "id": "wired-ai",
@@ -177,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 220
+   "ms": 217
   },
   {
    "id": "guardian-ai",
@@ -186,7 +186,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 453
+   "ms": 327
   },
   {
    "id": "mittr-ai",
@@ -195,7 +195,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 199
+   "ms": 146
   },
   {
    "id": "register-ai",
@@ -203,8 +203,8 @@
    "url": "https://www.theregister.com/software/ai_ml/headlines.atom",
    "ok": true,
    "items": 40,
-   "kept": 4,
-   "ms": 690
+   "kept": 5,
+   "ms": 1546
   },
   {
    "id": "biometric",
@@ -213,7 +213,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 804
+   "ms": 859
   },
   {
    "id": "krebs",
@@ -222,7 +222,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 237
+   "ms": 178
   },
   {
    "id": "securityweek",
@@ -231,7 +231,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 201
+   "ms": 287
   },
   {
    "id": "wired-security",
@@ -240,7 +240,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 34
+   "ms": 37
   },
   {
    "id": "csoonline",
@@ -249,7 +249,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 151
+   "ms": 1269
   },
   {
    "id": "infosecmag",
@@ -258,7 +258,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 266
+   "ms": 381
   },
   {
    "id": "helpnet",
@@ -267,7 +267,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 103
+   "ms": 252
   },
   {
    "id": "therecord",
@@ -276,7 +276,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 180
+   "ms": 335
   },
   {
    "id": "thehackernews",
@@ -285,7 +285,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 215
+   "ms": 315
   },
   {
    "id": "bleeping",
@@ -294,7 +294,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 147
+   "ms": 263
   },
   {
    "id": "darkreading",
@@ -303,7 +303,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 552
+   "ms": 947
   },
   {
    "id": "schneier",
@@ -312,7 +312,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 171
+   "ms": 105
   },
   {
    "id": "google-security",
@@ -321,7 +321,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 580
+   "ms": 537
   },
   {
    "id": "msft-security",
@@ -330,7 +330,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1218
+   "ms": 2128
   },
   {
    "id": "aws-security",
@@ -339,7 +339,7 @@
    "ok": true,
    "items": 20,
    "kept": 19,
-   "ms": 257
+   "ms": 199
   },
   {
    "id": "unit42",
@@ -348,7 +348,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 174
+   "ms": 66
   },
   {
    "id": "trailofbits",
@@ -357,7 +357,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 2329
+   "ms": 394
   },
   {
    "id": "embracethered",
@@ -366,7 +366,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 205
+   "ms": 106
   },
   {
    "id": "owasp-genai",
@@ -375,7 +375,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 98
+   "ms": 224
   },
   {
    "id": "willison-pi",
@@ -384,7 +384,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 605
+   "ms": 688
   },
   {
    "id": "csa",
@@ -393,7 +393,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 586
+   "ms": 699
   },
   {
    "id": "openai",
@@ -402,7 +402,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 222
+   "ms": 124
   },
   {
    "id": "deepmind",
@@ -411,7 +411,7 @@
    "ok": true,
    "items": 40,
    "kept": 11,
-   "ms": 273
+   "ms": 134
   },
   {
    "id": "huggingface",
@@ -420,10 +420,88 @@
    "ok": true,
    "items": 40,
    "kept": 26,
-   "ms": 264
+   "ms": 148
   }
  ],
  "items": [
+  {
+   "id": "855d81ac0375",
+   "title": "Trump declares robot imports a national security threat",
+   "url": "https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/",
+   "source": "Ars Technica AI",
+   "sourceId": "ars-ai",
+   "published": "2026-10-29T19:07:53.000Z",
+   "firstSeen": 1793305777295,
+   "summary": "President orders trade talks on foreign-made factory robots, threatens tariffs.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "7677eb2ef1c2",
+   "title": "FIDO testing experts address deepfake threat and biometrics certification changes",
+   "url": "https://www.biometricupdate.com/202610/fido-testing-experts-address-deepfake-threat-and-biometrics-certification-changes",
+   "source": "Biometric Update",
+   "sourceId": "biometric",
+   "published": "2026-10-29T18:16:24.000Z",
+   "firstSeen": 1793305777295,
+   "summary": "AI has upended cybersecurity and deepfakes are the form the technology most often takes in attacks on biometric processes. Reports from Biometric Update and Goode Intelligence forecast market growth of 42 and 99 percent CAGR from 2026 to 2028, respectively, for deepfake fraud detection and injection attack detection…",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [
+    "Deepfakes",
+    "Biometrics"
+   ],
+   "score": 14,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "d7f271ef9bb5",
+   "title": "Tracking AI adoption in North Korean threat actor tradecraft",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
+   "source": "Microsoft Security Blog",
+   "sourceId": "msft-security",
+   "published": "2026-10-29T16:00:00.000Z",
+   "firstSeen": 1793305777295,
+   "summary": "As Microsoft Threat Intelligence continues to track how threat actors operationalize AI to increase the speed and efficiency of attacks, we’ve identified North Korean threat actors expanding their use of AI with varying levels of adoption. This blog breaks down how North Korean threat actors are utilizing AI across…",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [
+    "Microsoft"
+   ],
+   "score": 13,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "7dfe68c35a37",
+   "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+   "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-10-29T15:57:05.000Z",
+   "firstSeen": 1793305777295,
+   "summary": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said on October 27 that its AI model wrote an exploit that uses the flaw to let a remote…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability",
+    "Anthropic"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
   {
    "id": "4a9c6d41c2f5",
    "title": "How Secure Are US Elections? Voting Machine Risks and the Growing Threat of AI",
@@ -1206,13 +1284,14 @@
    "firstSeen": 1793207905019,
    "summary": "Attackers are distributing malware through fake ChatGPT and Claude desktop applications, using legitimate, digitally signed executables from OpenAI and Anthropic to load malicious code onto victims’ Windows systems, according to Check Point Research. The campaign, tracked as Yoba, uses fake GitHub repositories and…",
    "topics": [
-    "security"
+    "security",
+    "incidents"
    ],
    "tags": [
     "OpenAI",
     "Anthropic"
    ],
-   "score": 16,
+   "score": 19,
    "action": false,
    "also": [
     {
@@ -1234,6 +1313,16 @@
      "published": "2026-10-29T14:49:11.000Z",
      "firstSeen": 1793287735893,
      "summary": "Fake GitHub projects posing as desktop versions of ChatGPT and Claude have been used to spread a malware chain that ends with a cryptocurrency miner, Check Point has found. The researchers have been tracking the campaign, dubbed Yoba, for the past two months. Its operator set up repositories and GitHub.io pages for…"
+    },
+    {
+     "id": "6449f82ff32d",
+     "source": "The Hacker News",
+     "sourceId": "thehackernews",
+     "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+     "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+     "published": "2026-10-29T15:20:29.000Z",
+     "firstSeen": 1793305777295,
+     "summary": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba. The activity involves creating fake GitHub projects that claim to be desktop applications like GPT-5.6…"
     }
    ]
   },
@@ -1377,11 +1466,23 @@
     "research"
    ],
    "tags": [
-    "Anthropic"
+    "Anthropic",
+    "Vulnerability"
    ],
-   "score": 13,
+   "score": 16,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "1bb2b56f4c27",
+     "source": "Dark Reading",
+     "sourceId": "darkreading",
+     "title": "Claude Model Builds Exploits Across Major Browsers & OSes",
+     "url": "https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses",
+     "published": "2026-10-29T18:15:59.000Z",
+     "firstSeen": 1793305777295,
+     "summary": "An unreleased version of the AI model has found and chained multiple vulnerabilities in Chrome, Safari, Android, Windows, and Linux, Anthropic says."
+    }
+   ]
   },
   {
    "id": "35590628a104",
@@ -2004,7 +2105,7 @@
   },
   {
    "id": "4753a010c2a0",
-   "title": "So Many AI Security Benchmarks, But None Tell the Whole Story",
+   "title": "So Many AI Security Benchmarks, but None Tell the Whole Story",
    "url": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
    "source": "Dark Reading",
    "sourceId": "darkreading",
