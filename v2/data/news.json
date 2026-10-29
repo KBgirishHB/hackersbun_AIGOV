@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-10-29T08:20:26.557Z",
+ "generatedAt": "2026-10-29T15:28:55.893Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 43,
   "fetched": 911,
-  "relevant": 283,
-  "stories": 259,
-  "duplicatesMerged": 24
+  "relevant": 306,
+  "stories": 278,
+  "duplicatesMerged": 28
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 1402
+   "ms": 1028
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 62
+   "ms": 83
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 1327
+   "ms": 1124
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 5,
-   "ms": 1313
+   "ms": 968
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 3,
    "kept": 3,
-   "ms": 698
+   "ms": 219
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1319
+   "ms": 1069
   },
   {
    "id": "edpb",
@@ -71,7 +71,7 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 2158
+   "ms": 1602
   },
   {
    "id": "europarl",
@@ -79,7 +79,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 568
+   "ms": 534
   },
   {
    "id": "cnil",
@@ -88,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1255
+   "ms": 885
   },
   {
    "id": "nist",
@@ -97,7 +97,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 121
+   "ms": 334
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +106,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 786
+   "ms": 166
   },
   {
    "id": "cisa",
@@ -115,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 600
+   "ms": 405
   },
   {
    "id": "fedscoop",
@@ -124,7 +124,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 104
+   "ms": 332
   },
   {
    "id": "nextgov",
@@ -133,7 +133,7 @@
    "ok": true,
    "items": 21,
    "kept": 21,
-   "ms": 163
+   "ms": 246
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 167
+   "ms": 154
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 236
+   "ms": 259
   },
   {
    "id": "verge-ai",
@@ -159,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 262
+   "ms": 193
   },
   {
    "id": "ars-ai",
@@ -168,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 449
+   "ms": 427
   },
   {
    "id": "wired-ai",
@@ -177,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 360
+   "ms": 220
   },
   {
    "id": "guardian-ai",
@@ -186,7 +186,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 358
+   "ms": 453
   },
   {
    "id": "mittr-ai",
@@ -195,7 +195,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 278
+   "ms": 199
   },
   {
    "id": "register-ai",
@@ -204,7 +204,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 744
+   "ms": 690
   },
   {
    "id": "biometric",
@@ -213,7 +213,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 822
+   "ms": 804
   },
   {
    "id": "krebs",
@@ -222,7 +222,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 415
+   "ms": 237
   },
   {
    "id": "securityweek",
@@ -231,7 +231,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 194
+   "ms": 201
   },
   {
    "id": "wired-security",
@@ -240,7 +240,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 20
+   "ms": 34
   },
   {
    "id": "csoonline",
@@ -249,7 +249,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 254
+   "ms": 151
   },
   {
    "id": "infosecmag",
@@ -258,7 +258,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 308
+   "ms": 266
   },
   {
    "id": "helpnet",
@@ -267,7 +267,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 181
+   "ms": 103
   },
   {
    "id": "therecord",
@@ -276,7 +276,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 153
+   "ms": 180
   },
   {
    "id": "thehackernews",
@@ -285,7 +285,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 259
+   "ms": 215
   },
   {
    "id": "bleeping",
@@ -294,7 +294,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 104
+   "ms": 147
   },
   {
    "id": "darkreading",
@@ -303,7 +303,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 653
+   "ms": 552
   },
   {
    "id": "schneier",
@@ -312,7 +312,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 109
+   "ms": 171
   },
   {
    "id": "google-security",
@@ -321,7 +321,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 605
+   "ms": 580
   },
   {
    "id": "msft-security",
@@ -330,7 +330,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 2170
+   "ms": 1218
   },
   {
    "id": "aws-security",
@@ -339,7 +339,7 @@
    "ok": true,
    "items": 20,
    "kept": 19,
-   "ms": 262
+   "ms": 257
   },
   {
    "id": "unit42",
@@ -347,8 +347,8 @@
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
    "items": 15,
-   "kept": 14,
-   "ms": 104
+   "kept": 13,
+   "ms": 174
   },
   {
    "id": "trailofbits",
@@ -357,7 +357,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 432
+   "ms": 2329
   },
   {
    "id": "embracethered",
@@ -366,7 +366,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 157
+   "ms": 205
   },
   {
    "id": "owasp-genai",
@@ -375,7 +375,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 120
+   "ms": 98
   },
   {
    "id": "willison-pi",
@@ -384,7 +384,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 504
+   "ms": 605
   },
   {
    "id": "csa",
@@ -393,7 +393,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 1126
+   "ms": 586
   },
   {
    "id": "openai",
@@ -402,7 +402,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 137
+   "ms": 222
   },
   {
    "id": "deepmind",
@@ -411,7 +411,7 @@
    "ok": true,
    "items": 40,
    "kept": 11,
-   "ms": 162
+   "ms": 273
   },
   {
    "id": "huggingface",
@@ -419,11 +419,360 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 24,
-   "ms": 125
+   "kept": 26,
+   "ms": 264
   }
  ],
  "items": [
+  {
+   "id": "4a9c6d41c2f5",
+   "title": "How Secure Are US Elections? Voting Machine Risks and the Growing Threat of AI",
+   "url": "https://www.securityweek.com/how-secure-are-us-elections-voting-machine-risks-and-the-growing-threat-of-ai/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-10-29T15:00:00.000Z",
+   "firstSeen": 1793287735893,
+   "summary": "Unpatched voting machines, unverifiable QR-coded ballots, and AI-driven influence campaigns leave US elections short of secure.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "1ffa42eed2e3",
+   "title": "NIK C2 Malware Can Use Victims’ OpenAI Keys for AI Queries",
+   "url": "https://www.infosecurity-magazine.com/news/nik-c2-malware-victims-openai-keys/",
+   "source": "Infosecurity Magazine",
+   "sourceId": "infosecmag",
+   "published": "2026-10-29T15:00:00.000Z",
+   "firstSeen": 1793287735893,
+   "summary": "NIK C2 malware can fall back on victims’ OpenAI API keys to run AI queries",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "OpenAI"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "cb9ae743fb0a",
+   "title": "Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps",
+   "url": "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-10-29T14:18:03.000Z",
+   "firstSeen": 1793287735893,
+   "summary": "Cisco open sourced Project Quarry, a rule language for detecting AI agent attacks that only emerge across sequences of benign actions.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "b22de62dcf69",
+   "title": "Researchers broke the browsers built into VS Code, Cursor, Copilot, Codex and Claude Desktop",
+   "url": "https://www.helpnetsecurity.com/2026/10/29/research-ai-assistant-browser-vulnerabilities/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-10-29T14:10:49.000Z",
+   "firstSeen": 1793287735893,
+   "summary": "Forever Security found ways out of the built-in browsers in five AI coding assistants: Cursor, GitHub Copilot, OpenAI’s Codex, Microsoft’s VS Code and Anthropic’s Claude Desktop. In all five, a web page or a local file reached the computer behind the browser. Cursor ran attacker code, Copilot showed a fake address…",
+   "topics": [
+    "research"
+   ],
+   "tags": [
+    "OpenAI",
+    "Anthropic",
+    "Microsoft"
+   ],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "b21fa7dc241a",
+   "title": "3 Ways AI Agents Already Operate in Your Browser",
+   "url": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-10-29T14:00:10.000Z",
+   "firstSeen": 1793287735893,
+   "summary": "AI agents can control authenticated browsers, interact with corporate applications, and access sensitive data while appearing to act as legitimate employees. Keep Aware examines three ways agents operate inside browsers and why traditional security tools may struggle to distinguish their activity from human users.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "13e8f91020d3",
+   "title": "Fake Anthropic AI previews lure in overeager employees",
+   "url": "https://www.csoonline.com/article/4241895/fake-anthropic-ai-previews-lure-in-overeager-employees.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-10-29T13:05:00.000Z",
+   "firstSeen": 1793287735893,
+   "summary": "Everyone wants to know what Anthropic is up to, and hackers are gleefully exploiting the fact. New research from cybersecurity company Cofense describes a phishing campaign that hooks overeager enterprise users by making them think they are getting an invite to a private invite-only Anthropic preview. In reality…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Phishing",
+    "Anthropic"
+   ],
+   "score": 11,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "2d7dd67aa589",
+   "title": "Google says Gemini 4 Carbon beats its predecessors at finding and fixing security flaws",
+   "url": "https://www.helpnetsecurity.com/2026/10/29/google-gemini-4-carbon-model/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-10-29T12:44:15.000Z",
+   "firstSeen": 1793287735893,
+   "summary": "Google’s Gemini 4 Carbon is a frontier AI model designed for software engineering and cybersecurity tasks, with safeguards built on those of its predecessor, Argon. SEC-bench Pro (Source: Google) Google says its teams have seen Carbon spend days investigating and fixing bugs across large codebases and low-level…",
+   "topics": [
+    "security",
+    "research"
+   ],
+   "tags": [
+    "Google",
+    "AI agents",
+    "Vulnerability"
+   ],
+   "score": 23,
+   "action": false,
+   "also": [
+    {
+     "id": "e6d88146a747",
+     "source": "The Hacker News",
+     "sourceId": "thehackernews",
+     "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+     "url": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+     "published": "2026-10-29T13:42:40.000Z",
+     "firstSeen": 1793287735893,
+     "summary": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. \"It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro…"
+    },
+    {
+     "id": "d26f1ae59354",
+     "source": "SecurityWeek",
+     "sourceId": "securityweek",
+     "title": "Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model",
+     "url": "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/",
+     "published": "2026-10-29T15:01:00.000Z",
+     "firstSeen": 1793287735893,
+     "summary": "Google’s new frontier model scored 88.2% on SEC-bench Pro and is rolling out first to vetted cyber defenders via its Fairwind Program."
+    }
+   ]
+  },
+  {
+   "id": "cee64da43996",
+   "title": "Anthropic and OpenAI diverge on who should pull the plug on risky AI",
+   "url": "https://www.csoonline.com/article/4242128/anthropic-and-openai-diverge-on-who-should-pull-the-plug-on-risky-ai-2.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-10-29T12:18:19.000Z",
+   "firstSeen": 1793287735893,
+   "summary": "OpenAI and Anthropic agree that frontier AI systems need stronger oversight, but they are proposing sharply different approaches to stopping models that pose serious risks: Anthropic wants courts empowered to suspend dangerous systems, while OpenAI argues developers should be required to maintain and use effective…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "ea0ce32477e2",
+   "title": "Austria pitches for United Nations AI security centre in Vienna",
+   "url": "https://www.rapporteur.com/news/austria-pitches-for-united-nations-ai-security-centre-in-vienna/",
+   "source": "Euractiv",
+   "sourceId": "euractiv",
+   "published": "2026-10-29T11:53:09.000Z",
+   "firstSeen": 1793287735893,
+   "summary": "Governments are still debating how to respond to global concerns over AI safety",
+   "topics": [
+    "security",
+    "governance"
+   ],
+   "tags": [],
+   "score": 21,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "fa84f790e022",
+   "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+   "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-10-29T11:39:41.000Z",
+   "firstSeen": 1793287735893,
+   "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability"
+   ],
+   "score": 13,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "dad45b81a91b",
+   "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+   "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-10-29T11:33:41.000Z",
+   "firstSeen": 1793287735893,
+   "summary": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As these capabilities mature, security…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "c113849ee15a",
+   "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+   "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-10-29T11:33:15.000Z",
+   "firstSeen": 1793287735893,
+   "summary": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it. Independent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories and reported the…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "China"
+   ],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "089b969527f6",
+   "title": "We urgently need to monitor AI agents’ actions in real time",
+   "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+   "source": "MIT Technology Review AI",
+   "sourceId": "mittr-ai",
+   "published": "2026-10-29T10:11:12.000Z",
+   "firstSeen": 1793287735893,
+   "summary": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an Australian government…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "AI agents",
+    "OpenAI"
+   ],
+   "score": 8,
+   "action": true,
+   "also": []
+  },
+  {
+   "id": "0e2ef1d88a52",
+   "title": "Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes",
+   "url": "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-10-29T10:00:00.000Z",
+   "firstSeen": 1793287735893,
+   "summary": "The enigmatic service is providing popular AI coding tools to mainland China and other regions where OpenAI and Anthropic products are not officially for sale — but with key security features turned off.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "OpenAI",
+    "Anthropic",
+    "China"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "93f60383f59d",
+   "title": "Building the next layer of digital trust webinar",
+   "url": "https://www.biometricupdate.com/202610/building-the-next-layer-of-digital-trust-webinar",
+   "source": "Biometric Update",
+   "sourceId": "biometric",
+   "published": "2026-10-29T09:36:36.000Z",
+   "firstSeen": 1793287735893,
+   "summary": "Building the Next Layer of Digital Trust Webinar Online November 25, 2026 at 11am GMT Account takeover is no longer just an authentication problem. Has your identity strategy caught up? As stolen credentials, phishing and AI-powered impersonation make account takeover increasingly difficult to prevent, businesses need…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Phishing"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "30fb6a0067f2",
+   "title": "Securing MCP servers before the AI rollout outpaces security",
+   "url": "https://www.csoonline.com/article/4241763/securing-mcp-servers-before-the-ai-rollout-outpaces-security.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-10-29T09:00:00.000Z",
+   "firstSeen": 1793287735893,
+   "summary": "Your company’s CTO has a plan to implement your company’s first LLM-based application. The board approved it, and now you’re finding out about it. It’s a typical story I hear all the time, and I’ve lived it myself. You’ve heard everything about models and LLMs, but now you see this new term all over the place: Model…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "MCP"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "80f717f36f3e",
+   "title": "THE HACK: Austrian law tests EU Kids Act",
+   "url": "https://www.rapporteur.com/news/the-hack-austrian-law-tests-eu-kids-act/",
+   "source": "Euractiv",
+   "sourceId": "euractiv",
+   "published": "2026-10-29T08:48:33.000Z",
+   "firstSeen": 1793287735893,
+   "summary": "In today's edition: tech fund, AI workplace risks, deepfakes",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "Deepfakes"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
   {
    "id": "68f105241afc",
    "title": "Qualys CISO on what security teams can do as exploit campaigns grow",
@@ -629,6 +978,23 @@
    "also": []
   },
   {
+   "id": "e5cd8b922e72",
+   "title": "AI Takes Root in Hospital Corridors, Raises Security Stakes",
+   "url": "https://www.darkreading.com/cybersecurity-operations/ai-root-hospital-corridors-raised-security-stakes",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-10-28T15:29:06.000Z",
+   "firstSeen": 1793287735893,
+   "summary": "Artificial intelligence (AI) is everywhere in healthcare, from doctors’ intake forms to cancer screenings. But in some cases, life-and-death uses are outpacing cybersecurity.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
    "id": "53c844410227",
    "title": "I underestimated how fast security teams would trust AI to act in the SOC",
    "url": "https://www.helpnetsecurity.com/2026/10/28/exaforce-trust-in-ai-security/",
@@ -678,11 +1044,23 @@
    "tags": [
     "OpenAI",
     "Anthropic",
-    "Meta"
+    "Meta",
+    "AI agents"
    ],
-   "score": 16,
+   "score": 19,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "8eaeaddb775c",
+     "source": "CSO Online",
+     "sourceId": "csoonline",
+     "title": "Imposter abused trust in OpenAI, Anthropic, and 30 others to hunt for secrets",
+     "url": "https://www.csoonline.com/article/4242088/imposter-abused-trust-in-openai-anthropic-and-30-others-to-hunt-for-secrets.html",
+     "published": "2026-10-29T11:52:51.000Z",
+     "firstSeen": 1793287735893,
+     "summary": "Attackers are impersonating AI agents from companies including OpenAI, Anthropic, and Meta in a bid to trick organizations into exposing sensitive credentials, according to researchers who observed a single threat actor cycling through dozens of fake bot identities while probing enterprise web servers for secrets. A…"
+    }
+   ]
   },
   {
    "id": "76e3a0f082ee",
@@ -834,7 +1212,7 @@
     "OpenAI",
     "Anthropic"
    ],
-   "score": 13,
+   "score": 16,
    "action": false,
    "also": [
     {
@@ -846,6 +1224,16 @@
      "published": "2026-10-28T15:13:00.000Z",
      "firstSeen": 1793224318340,
      "summary": "Attackers have used fake ChatGPT and Claude projects to distribute Yoba malware"
+    },
+    {
+     "id": "6ff98ab29e84",
+     "source": "Help Net Security",
+     "sourceId": "helpnet",
+     "title": "Yoba malware hides in fake desktop versions of ChatGPT and Claude",
+     "url": "https://www.helpnetsecurity.com/2026/10/29/fake-chatgpt-claude-apps-github-yoba-malware-cryptominer/",
+     "published": "2026-10-29T14:49:11.000Z",
+     "firstSeen": 1793287735893,
+     "summary": "Fake GitHub projects posing as desktop versions of ChatGPT and Claude have been used to spread a malware chain that ends with a cryptocurrency miner, Check Point has found. The researchers have been tracking the campaign, dubbed Yoba, for the past two months. Its operator set up repositories and GitHub.io pages for…"
     }
    ]
   },
@@ -4861,6 +5249,23 @@
     "OpenAI"
    ],
    "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "e5f89be651b1",
+   "title": "The Enterprise Accountability Gap: Who Should Own AI Governance?",
+   "url": "https://cloudsecurityalliance.org/articles/the-enterprise-accountability-gap-who-should-own-ai-governance",
+   "source": "Cloud Security Alliance",
+   "sourceId": "csa",
+   "published": "2026-10-08T22:30:43.000Z",
+   "firstSeen": 1793287735893,
+   "summary": "Most enterprises have a sense of who owns AI risk, yet few know what happens when that risk turns into an incident. That's the pattern unearthed inside Schellman's new research, The 2026 State of AI Governance Report. In most cases, organizations can easily name an owner for AI decisions, but they're struggling with…",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 29,
    "action": false,
    "also": []
   },
