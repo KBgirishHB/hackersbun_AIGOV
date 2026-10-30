@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-10-30T18:47:38.607Z",
+ "generatedAt": "2026-10-30T22:54:42.653Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 43,
-  "fetched": 917,
-  "relevant": 334,
-  "stories": 302,
-  "duplicatesMerged": 32
+  "fetched": 913,
+  "relevant": 340,
+  "stories": 306,
+  "duplicatesMerged": 34
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 1180
+   "ms": 1261
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 47
+   "ms": 103
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 1280
+   "ms": 1381
   },
   {
    "id": "algorithmwatch",
@@ -44,16 +44,16 @@
    "ok": true,
    "items": 10,
    "kept": 4,
-   "ms": 1092
+   "ms": 1167
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 8,
-   "kept": 8,
-   "ms": 314
+   "items": 4,
+   "kept": 4,
+   "ms": 480
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1102
+   "ms": 1167
   },
   {
    "id": "edpb",
@@ -71,7 +71,7 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 1450
+   "ms": 1887
   },
   {
    "id": "europarl",
@@ -79,7 +79,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 519
+   "ms": 661
   },
   {
    "id": "cnil",
@@ -88,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1042
+   "ms": 1063
   },
   {
    "id": "nist",
@@ -97,7 +97,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 246
+   "ms": 133
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +106,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 125
+   "ms": 87
   },
   {
    "id": "cisa",
@@ -115,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 515
+   "ms": 488
   },
   {
    "id": "fedscoop",
@@ -124,7 +124,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 459
+   "ms": 478
   },
   {
    "id": "nextgov",
@@ -133,7 +133,7 @@
    "ok": true,
    "items": 22,
    "kept": 22,
-   "ms": 52
+   "ms": 187
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 71
+   "ms": 171
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 95
+   "ms": 253
   },
   {
    "id": "verge-ai",
@@ -159,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 149
+   "ms": 287
   },
   {
    "id": "ars-ai",
@@ -168,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 197
+   "ms": 599
   },
   {
    "id": "wired-ai",
@@ -177,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 155
+   "ms": 336
   },
   {
    "id": "guardian-ai",
@@ -186,7 +186,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 153
+   "ms": 361
   },
   {
    "id": "mittr-ai",
@@ -195,7 +195,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 67
+   "ms": 201
   },
   {
    "id": "register-ai",
@@ -204,7 +204,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 478
+   "ms": 1510
   },
   {
    "id": "biometric",
@@ -213,7 +213,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 601
+   "ms": 917
   },
   {
    "id": "krebs",
@@ -222,7 +222,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 97
+   "ms": 278
   },
   {
    "id": "securityweek",
@@ -231,7 +231,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 60
+   "ms": 264
   },
   {
    "id": "wired-security",
@@ -240,7 +240,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 40
+   "ms": 35
   },
   {
    "id": "csoonline",
@@ -249,7 +249,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 49
+   "ms": 212
   },
   {
    "id": "infosecmag",
@@ -258,7 +258,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 157
+   "ms": 265
   },
   {
    "id": "helpnet",
@@ -267,7 +267,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 46
+   "ms": 71
   },
   {
    "id": "therecord",
@@ -276,7 +276,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 74
+   "ms": 143
   },
   {
    "id": "thehackernews",
@@ -285,7 +285,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 315
+   "ms": 128
   },
   {
    "id": "bleeping",
@@ -294,7 +294,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 87
+   "ms": 201
   },
   {
    "id": "darkreading",
@@ -303,7 +303,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 507
+   "ms": 666
   },
   {
    "id": "schneier",
@@ -312,7 +312,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 76
+   "ms": 87
   },
   {
    "id": "google-security",
@@ -321,7 +321,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 449
+   "ms": 469
   },
   {
    "id": "msft-security",
@@ -330,7 +330,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 2083
+   "ms": 1192
   },
   {
    "id": "aws-security",
@@ -339,7 +339,7 @@
    "ok": true,
    "items": 20,
    "kept": 19,
-   "ms": 90
+   "ms": 179
   },
   {
    "id": "unit42",
@@ -347,8 +347,8 @@
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
    "items": 15,
-   "kept": 13,
-   "ms": 48
+   "kept": 12,
+   "ms": 137
   },
   {
    "id": "trailofbits",
@@ -357,7 +357,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 201
+   "ms": 415
   },
   {
    "id": "embracethered",
@@ -366,7 +366,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 72
+   "ms": 153
   },
   {
    "id": "owasp-genai",
@@ -375,7 +375,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 147
+   "ms": 193
   },
   {
    "id": "willison-pi",
@@ -384,7 +384,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 114
+   "ms": 651
   },
   {
    "id": "csa",
@@ -393,7 +393,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 436
+   "ms": 532
   },
   {
    "id": "openai",
@@ -402,7 +402,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 92
+   "ms": 131
   },
   {
    "id": "deepmind",
@@ -410,8 +410,8 @@
    "url": "https://deepmind.google/blog/rss.xml",
    "ok": true,
    "items": 40,
-   "kept": 10,
-   "ms": 103
+   "kept": 9,
+   "ms": 168
   },
   {
    "id": "huggingface",
@@ -420,10 +420,125 @@
    "ok": true,
    "items": 40,
    "kept": 25,
-   "ms": 73
+   "ms": 211
   }
  ],
  "items": [
+  {
+   "id": "b146e341fe07",
+   "title": "Tech bills of the week: Creating a Congressional Office of Technology; Enhancing data center transparency; and more",
+   "url": "https://www.nextgov.com/policy/2026/10/tech-bills-week-creating-congressional-office-technology-enhancing-data-center-transparency-and-more/416959/",
+   "source": "Nextgov/FCW",
+   "sourceId": "nextgov",
+   "published": "2026-10-30T21:57:00.000Z",
+   "firstSeen": 1793400882653,
+   "summary": "Lawmakers introduced measures to confront the use of AI by human traffickers and to strengthen the cybersecurity of cloud-based infrastructure.",
+   "topics": [
+    "governance",
+    "regulation"
+   ],
+   "tags": [],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "7d3271ba8a68",
+   "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+   "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+   "source": "Ars Technica AI",
+   "sourceId": "ars-ai",
+   "published": "2026-10-30T21:09:54.000Z",
+   "firstSeen": 1793400882653,
+   "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 11,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "089e25f6fb09",
+   "title": "DOJ raises privacy concerns over potential sale of Character.AI chats",
+   "url": "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale",
+   "source": "The Record",
+   "sourceId": "therecord",
+   "published": "2026-10-30T20:45:00.000Z",
+   "firstSeen": 1793400882653,
+   "summary": "The DOJ’s Executive Office for U.S. Trustees said a consumer privacy ombudsman is needed to advise the court on how to regulate what data from Character.AI can be sold and under what terms.",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "Privacy"
+   ],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "3b594dbde46f",
+   "title": "A Supply Chain Attack Put Malicious Anthropic Claude Extensions on Thousands of Devices",
+   "url": "https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems/",
+   "source": "WIRED Security",
+   "sourceId": "wired-security",
+   "published": "2026-10-30T20:38:46.000Z",
+   "firstSeen": 1793400882653,
+   "summary": "Thanks to a lucky break, flawed code in a tainted Claude extension prevented the attacker from fully worming their way into some 5,000 developer machines.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Supply chain",
+    "Anthropic"
+   ],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "82838070265e",
+   "title": "Devs Hit by Trojanized Claude Code Extension for Cursor",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-10-30T20:05:58.000Z",
+   "firstSeen": 1793400882653,
+   "summary": "Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs).",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "90d1876e1ee6",
+   "title": "Democrats press OpenAI over safety researcher firings, security incidents",
+   "url": "https://www.nextgov.com/artificial-intelligence/2026/10/democrats-press-openai-over-safety-researcher-firings-security-incidents/416954/",
+   "source": "Nextgov/FCW",
+   "sourceId": "nextgov",
+   "published": "2026-10-30T20:01:00.000Z",
+   "firstSeen": 1793400882653,
+   "summary": "The lawmakers are questioning OpenAI’s safety practices following the dismissal of three researchers.",
+   "topics": [
+    "incidents",
+    "research"
+   ],
+   "tags": [
+    "OpenAI"
+   ],
+   "score": 14,
+   "action": false,
+   "also": []
+  },
   {
    "id": "1a32154faf29",
    "title": "Why identity governance demands executive attention",
@@ -648,11 +763,23 @@
     "security"
    ],
    "tags": [
-    "Anthropic"
+    "Anthropic",
+    "Vulnerability"
    ],
-   "score": 7,
+   "score": 12,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "5a03a6079066",
+     "source": "BleepingComputer",
+     "sourceId": "bleeping",
+     "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+     "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+     "published": "2026-10-30T21:09:46.000Z",
+     "firstSeen": 1793400882653,
+     "summary": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners."
+    }
+   ]
   },
   {
    "id": "60f4b4560012",
@@ -2580,7 +2707,7 @@
    "sourceId": "darkreading",
    "published": "2026-10-27T00:26:50.000Z",
    "firstSeen": 1793076514893,
-   "summary": "Measuring AI model security gets complex, fast, thanks to a growing patchwork of benchmarks targeting different variables in the equation. But none replace testing against your own code and workflows.",
+   "summary": "Measuring artificial intelligence model security gets complex, fast, thanks to a growing patchwork of benchmarks targeting different variables in the equation. But none replace testing against your own code and workflows.",
    "topics": [
     "security",
     "research"
@@ -3127,23 +3254,6 @@
    "also": []
   },
   {
-   "id": "92942997dffb",
-   "title": "r/opensource bans AI projects, and solo devs go down with them",
-   "url": "https://www.helpnetsecurity.com/2026/10/26/reddit-r-opensource-ai-ban/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-26T04:30:36.000Z",
-   "firstSeen": 1792997572781,
-   "summary": "Moderators of r/opensource, Reddit’s catch-all forum for open source software, have barred any project that “uses AI, is made by AI, or is intended for AI.” Moderator Wolvereness announced the rules in a post over the weekend. A project now has to be at least a year old and actively maintained, carry an OSI license…",
-   "topics": [
-    "regulation"
-   ],
-   "tags": [],
-   "score": 9,
-   "action": false,
-   "also": []
-  },
-  {
    "id": "c9325c9fd863",
    "title": "Google open-sources the Elephant-Goldfish Model plugin its engineers use to catch AI coding mistakes",
    "url": "https://www.helpnetsecurity.com/2026/10/26/google-elephant-goldfish-model-plugin/",
@@ -3246,9 +3356,20 @@
     "regulation"
    ],
    "tags": [],
-   "score": 9,
+   "score": 12,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "92942997dffb",
+     "source": "Help Net Security",
+     "sourceId": "helpnet",
+     "title": "r/opensource bans AI projects, and solo devs go down with them",
+     "url": "https://www.helpnetsecurity.com/2026/10/26/reddit-r-opensource-ai-ban/",
+     "published": "2026-10-26T04:30:36.000Z",
+     "firstSeen": 1792997572781,
+     "summary": "Moderators of r/opensource, Reddit’s catch-all forum for open source software, have barred any project that “uses AI, is made by AI, or is intended for AI.” Moderator Wolvereness announced the rules in a post over the weekend. A project now has to be at least a year old and actively maintained, carry an OSI license…"
+    }
+   ]
   },
   {
    "id": "8f2c9b4a26fe",
@@ -6182,26 +6303,6 @@
     "Microsoft"
    ],
    "score": 12,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "ff8a79924711",
-   "title": "​​Secure what’s next: Your guide to Microsoft Security at Microsoft Ignite 2026",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/30/secure-whats-next-your-guide-to-microsoft-security-at-microsoft-ignite-2026/",
-   "source": "Microsoft Security Blog",
-   "sourceId": "msft-security",
-   "published": "2026-09-30T19:31:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "This year at Microsoft Ignite, we spotlight our AI-first, end-to-end security platform designed to protect identities, devices, data, applications, clouds, infrastructure, and the AI agents now working alongside your teams.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents",
-    "Microsoft"
-   ],
-   "score": 2,
    "action": false,
    "also": []
   },
