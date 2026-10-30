@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-10-30T13:25:30.251Z",
+ "generatedAt": "2026-10-30T18:47:38.607Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 43,
-  "fetched": 918,
-  "relevant": 326,
-  "stories": 295,
-  "duplicatesMerged": 31
+  "fetched": 917,
+  "relevant": 334,
+  "stories": 302,
+  "duplicatesMerged": 32
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 1750
+   "ms": 1180
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 75
+   "ms": 47
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 651
+   "ms": 1280
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 4,
-   "ms": 1038
+   "ms": 1092
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 8,
    "kept": 8,
-   "ms": 347
+   "ms": 314
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1141
+   "ms": 1102
   },
   {
    "id": "edpb",
@@ -71,7 +71,7 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 1536
+   "ms": 1450
   },
   {
    "id": "europarl",
@@ -79,7 +79,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 669
+   "ms": 519
   },
   {
    "id": "cnil",
@@ -88,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 961
+   "ms": 1042
   },
   {
    "id": "nist",
@@ -97,7 +97,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 388
+   "ms": 246
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +106,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 385
+   "ms": 125
   },
   {
    "id": "cisa",
@@ -115,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 357
+   "ms": 515
   },
   {
    "id": "fedscoop",
@@ -124,16 +124,16 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 382
+   "ms": 459
   },
   {
    "id": "nextgov",
    "name": "Nextgov/FCW",
    "url": "https://www.nextgov.com/rss/all/",
    "ok": true,
-   "items": 23,
-   "kept": 23,
-   "ms": 227
+   "items": 22,
+   "kept": 22,
+   "ms": 52
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 115
+   "ms": 71
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 101
+   "ms": 95
   },
   {
    "id": "verge-ai",
@@ -159,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 136
+   "ms": 149
   },
   {
    "id": "ars-ai",
@@ -168,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 262
+   "ms": 197
   },
   {
    "id": "wired-ai",
@@ -177,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 148
+   "ms": 155
   },
   {
    "id": "guardian-ai",
@@ -186,7 +186,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 205
+   "ms": 153
   },
   {
    "id": "mittr-ai",
@@ -195,7 +195,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 128
+   "ms": 67
   },
   {
    "id": "register-ai",
@@ -203,8 +203,8 @@
    "url": "https://www.theregister.com/software/ai_ml/headlines.atom",
    "ok": true,
    "items": 40,
-   "kept": 5,
-   "ms": 646
+   "kept": 4,
+   "ms": 478
   },
   {
    "id": "biometric",
@@ -213,7 +213,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 687
+   "ms": 601
   },
   {
    "id": "krebs",
@@ -222,7 +222,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 178
+   "ms": 97
   },
   {
    "id": "securityweek",
@@ -231,7 +231,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 259
+   "ms": 60
   },
   {
    "id": "wired-security",
@@ -240,7 +240,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 34
+   "ms": 40
   },
   {
    "id": "csoonline",
@@ -249,7 +249,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 155
+   "ms": 49
   },
   {
    "id": "infosecmag",
@@ -258,7 +258,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 243
+   "ms": 157
   },
   {
    "id": "helpnet",
@@ -267,7 +267,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 84
+   "ms": 46
   },
   {
    "id": "therecord",
@@ -276,7 +276,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 159
+   "ms": 74
   },
   {
    "id": "thehackernews",
@@ -285,7 +285,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 264
+   "ms": 315
   },
   {
    "id": "bleeping",
@@ -294,7 +294,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 208
+   "ms": 87
   },
   {
    "id": "darkreading",
@@ -303,7 +303,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 484
+   "ms": 507
   },
   {
    "id": "schneier",
@@ -312,7 +312,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 92
+   "ms": 76
   },
   {
    "id": "google-security",
@@ -321,7 +321,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 519
+   "ms": 449
   },
   {
    "id": "msft-security",
@@ -329,8 +329,8 @@
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
    "items": 10,
-   "kept": 7,
-   "ms": 1246
+   "kept": 10,
+   "ms": 2083
   },
   {
    "id": "aws-security",
@@ -339,7 +339,7 @@
    "ok": true,
    "items": 20,
    "kept": 19,
-   "ms": 142
+   "ms": 90
   },
   {
    "id": "unit42",
@@ -348,7 +348,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 149
+   "ms": 48
   },
   {
    "id": "trailofbits",
@@ -357,7 +357,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 432
+   "ms": 201
   },
   {
    "id": "embracethered",
@@ -366,7 +366,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 156
+   "ms": 72
   },
   {
    "id": "owasp-genai",
@@ -375,7 +375,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 222
+   "ms": 147
   },
   {
    "id": "willison-pi",
@@ -384,7 +384,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 172
+   "ms": 114
   },
   {
    "id": "csa",
@@ -393,7 +393,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 641
+   "ms": 436
   },
   {
    "id": "openai",
@@ -402,7 +402,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 142
+   "ms": 92
   },
   {
    "id": "deepmind",
@@ -410,8 +410,8 @@
    "url": "https://deepmind.google/blog/rss.xml",
    "ok": true,
    "items": 40,
-   "kept": 11,
-   "ms": 447
+   "kept": 10,
+   "ms": 103
   },
   {
    "id": "huggingface",
@@ -420,10 +420,166 @@
    "ok": true,
    "items": 40,
    "kept": 25,
-   "ms": 175
+   "ms": 73
   }
  ],
  "items": [
+  {
+   "id": "1a32154faf29",
+   "title": "Why identity governance demands executive attention",
+   "url": "https://www.csoonline.com/article/4242864/why-identity-governance-demands-executive-attention.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-10-30T17:09:23.000Z",
+   "firstSeen": 1793386058607,
+   "summary": "The identity landscape you’re responsible for looks nothing like it did just a few years ago. Employees and contractors now share the enterprise with service accounts, machine identities, and a fast-growing population of AI agents — all accessing business systems and data. Every one of those identities represents an…",
+   "topics": [
+    "governance"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "6a0ca8312f99",
+   "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+   "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-10-30T16:58:44.000Z",
+   "firstSeen": 1793386058607,
+   "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activity has been attributed by CrowdStrike to a China-based \"targeted intrusion adversary\" it tracks…",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "China"
+   ],
+   "score": 14,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "1eefdd4af5a7",
+   "title": "Podcast: Deepfakes threaten election trust as AI-generated ads surge",
+   "url": "https://www.biometricupdate.com/202610/podcast-deepfakes-threaten-election-trust-as-ai-generated-ads-surge",
+   "source": "Biometric Update",
+   "sourceId": "biometric",
+   "published": "2026-10-30T16:05:25.000Z",
+   "firstSeen": 1793386058607,
+   "summary": "It’s almost Halloween, when terrifying specters haunt the streets. For the biometrics industry, those specters are deepfakes. Having evolved from the early era of novelty to a key tool for AI-assisted fraud, deepfakes are now breaching containment even further, as they begin to infiltrate election campaigns and public…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Deepfakes",
+    "Biometrics"
+   ],
+   "score": 15,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "6b363332452b",
+   "title": "ETSI releases specification to help mitigate AI deepfake risk",
+   "url": "https://www.biometricupdate.com/202610/etsi-releases-specification-to-help-mitigate-ai-deepfake-risk",
+   "source": "Biometric Update",
+   "sourceId": "biometric",
+   "published": "2026-10-30T16:02:01.000Z",
+   "firstSeen": 1793386058607,
+   "summary": "A new Technical Specification from ETSI sets out safeguards for reducing the risk of generative AI systems producing harmful deepfakes, including those used for identity fraud and impersonation. A release says ETSI TS 104 275 aims to “strengthen accountability among AI developers and operators by providing practical…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Deepfakes"
+   ],
+   "score": 14,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "f8343087d1ba",
+   "title": "New Framework Puts Ransomware Resilience for AI Systems in Focus",
+   "url": "https://www.infosecurity-magazine.com/news/framework-ransomware-resilience-ai/",
+   "source": "Infosecurity Magazine",
+   "sourceId": "infosecmag",
+   "published": "2026-10-30T15:53:00.000Z",
+   "firstSeen": 1793386058607,
+   "summary": "RAID-AI aims to help organizations assess their security preparation for ransomware attacks targeting AI systems",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Ransomware"
+   ],
+   "score": 14,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "4f93f5647628",
+   "title": "Bloatware in Aftermarket Auto Parts",
+   "url": "https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html",
+   "source": "Schneier on Security",
+   "sourceId": "schneier",
+   "published": "2026-10-30T15:20:02.000Z",
+   "firstSeen": 1793386058607,
+   "summary": "This story is interesting: One Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about. Among the pre-installed bloatware—­or spyware, if you’re being less…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 1,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "3ae0fc7ee204",
+   "title": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
+   "url": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-10-30T14:41:35.000Z",
+   "firstSeen": 1793386058607,
+   "summary": "Noteworthy stories that might have slipped under the radar: Iran eyed in military freezer hacks, Copenhagen University breach, AI-powered malware.",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 24,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "829f49ef270f",
+   "title": "Experts warn AI copyright changes could breach Australian constitution and spark huge compensation rights case",
+   "url": "https://www.theguardian.com/law/2026/oct/31/experts-warn-ai-copyright-changes-could-breach-australian-constitution-and-spark-huge-compensation-rights-case",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-10-30T14:00:18.000Z",
+   "firstSeen": 1793386058607,
+   "summary": "Scraping copyrighted material from internet could ‘potentially’ amount to acquisition of property by government, Anne Twomey says Get our daily political email, free app or daily news podcast Altering copyright law to allow AI companies to scrape music, books and journalism could trigger a constitutional breach…",
+   "topics": [
+    "regulation",
+    "incidents"
+   ],
+   "tags": [
+    "Copyright"
+   ],
+   "score": 16,
+   "action": false,
+   "also": []
+  },
   {
    "id": "c8c496f7370d",
    "title": "Shufti ties AI agent actions to verified owners and permissions",
@@ -622,7 +778,7 @@
    "tags": [
     "Anthropic"
    ],
-   "score": 17,
+   "score": 20,
    "action": false,
    "also": [
     {
@@ -634,6 +790,16 @@
      "published": "2026-10-30T11:15:26.000Z",
      "firstSeen": 1793366730251,
      "summary": "A tampered build of Anthropic’s Claude Code extension for VS Code-compatible editors planted an SSH backdoor on developers’ machines, researchers at macOS security firm Phorion have found. The company spotted the malicious package, version 2.1.313, on Open VSX, an open-source marketplace for VS Code extensions run by…"
+    },
+    {
+     "id": "24a9750e951e",
+     "source": "BleepingComputer",
+     "sourceId": "bleeping",
+     "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+     "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+     "published": "2026-10-30T14:36:54.000Z",
+     "firstSeen": 1793386058607,
+     "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors."
     }
    ]
   },
@@ -1366,7 +1532,7 @@
    "sourceId": "darkreading",
    "published": "2026-10-28T15:29:06.000Z",
    "firstSeen": 1793287735893,
-   "summary": "Artificial intelligence (AI) is everywhere in healthcare, from doctors’ intake forms to cancer screenings. But in some cases, life-and-death uses are outpacing cybersecurity.",
+   "summary": "Artificial intelligence is everywhere in healthcare, from doctors' intake forms to cancer screenings. But in some cases, life-and-death uses are outpacing cybersecurity.",
    "topics": [
     "security"
    ],
@@ -6036,23 +6202,6 @@
     "Microsoft"
    ],
    "score": 2,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "645fecb160bc",
-   "title": "Introducing SynthID Bio",
-   "url": "https://deepmind.google/blog/introducing-synthid-bio/",
-   "source": "Google DeepMind",
-   "sourceId": "deepmind",
-   "published": "2026-09-30T15:03:07.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-   "topics": [
-    "research"
-   ],
-   "tags": [],
-   "score": 3,
    "action": false,
    "also": []
   },
