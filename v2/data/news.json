@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-10-30T06:19:34.409Z",
+ "generatedAt": "2026-10-30T13:25:30.251Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 42,
-  "fetched": 906,
-  "relevant": 312,
-  "stories": 282,
-  "duplicatesMerged": 30
+  "sourcesOk": 43,
+  "fetched": 918,
+  "relevant": 326,
+  "stories": 295,
+  "duplicatesMerged": 31
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 2053
+   "ms": 1750
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 67
+   "ms": 75
   },
   {
    "id": "fli",
@@ -35,24 +35,25 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 1032
+   "ms": 651
   },
   {
    "id": "algorithmwatch",
    "name": "AlgorithmWatch",
    "url": "https://algorithmwatch.org/en/feed/",
-   "ok": false,
-   "error": "ETIMEDOUT",
-   "ms": 1012
+   "ok": true,
+   "items": 10,
+   "kept": 4,
+   "ms": 1038
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 7,
-   "kept": 7,
-   "ms": 413
+   "items": 8,
+   "kept": 8,
+   "ms": 347
   },
   {
    "id": "euractiv",
@@ -61,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1022
+   "ms": 1141
   },
   {
    "id": "edpb",
@@ -70,7 +71,7 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 2087
+   "ms": 1536
   },
   {
    "id": "europarl",
@@ -78,7 +79,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 508
+   "ms": 669
   },
   {
    "id": "cnil",
@@ -87,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 979
+   "ms": 961
   },
   {
    "id": "nist",
@@ -96,7 +97,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 195
+   "ms": 388
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +106,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 126
+   "ms": 385
   },
   {
    "id": "cisa",
@@ -114,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 400
+   "ms": 357
   },
   {
    "id": "fedscoop",
@@ -123,16 +124,16 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 391
+   "ms": 382
   },
   {
    "id": "nextgov",
    "name": "Nextgov/FCW",
    "url": "https://www.nextgov.com/rss/all/",
    "ok": true,
-   "items": 22,
-   "kept": 22,
-   "ms": 419
+   "items": 23,
+   "kept": 23,
+   "ms": 227
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 37
+   "ms": 115
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 84
+   "ms": 101
   },
   {
    "id": "verge-ai",
@@ -158,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 85
+   "ms": 136
   },
   {
    "id": "ars-ai",
@@ -167,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 435
+   "ms": 262
   },
   {
    "id": "wired-ai",
@@ -176,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 136
+   "ms": 148
   },
   {
    "id": "guardian-ai",
@@ -185,7 +186,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 317
+   "ms": 205
   },
   {
    "id": "mittr-ai",
@@ -194,7 +195,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 89
+   "ms": 128
   },
   {
    "id": "register-ai",
@@ -203,7 +204,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 539
+   "ms": 646
   },
   {
    "id": "biometric",
@@ -212,7 +213,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 821
+   "ms": 687
   },
   {
    "id": "krebs",
@@ -221,7 +222,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 267
+   "ms": 178
   },
   {
    "id": "securityweek",
@@ -230,7 +231,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 126
+   "ms": 259
   },
   {
    "id": "wired-security",
@@ -239,7 +240,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 23
+   "ms": 34
   },
   {
    "id": "csoonline",
@@ -248,7 +249,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 118
+   "ms": 155
   },
   {
    "id": "infosecmag",
@@ -257,7 +258,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 210
+   "ms": 243
   },
   {
    "id": "helpnet",
@@ -266,7 +267,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 105
+   "ms": 84
   },
   {
    "id": "therecord",
@@ -275,7 +276,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 151
+   "ms": 159
   },
   {
    "id": "thehackernews",
@@ -284,7 +285,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 258
+   "ms": 264
   },
   {
    "id": "bleeping",
@@ -293,7 +294,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 146
+   "ms": 208
   },
   {
    "id": "darkreading",
@@ -302,7 +303,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 630
+   "ms": 484
   },
   {
    "id": "schneier",
@@ -311,7 +312,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 79
+   "ms": 92
   },
   {
    "id": "google-security",
@@ -320,7 +321,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 572
+   "ms": 519
   },
   {
    "id": "msft-security",
@@ -328,8 +329,8 @@
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
    "items": 10,
-   "kept": 10,
-   "ms": 1068
+   "kept": 7,
+   "ms": 1246
   },
   {
    "id": "aws-security",
@@ -338,7 +339,7 @@
    "ok": true,
    "items": 20,
    "kept": 19,
-   "ms": 84
+   "ms": 142
   },
   {
    "id": "unit42",
@@ -347,7 +348,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 121
+   "ms": 149
   },
   {
    "id": "trailofbits",
@@ -356,7 +357,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 168
+   "ms": 432
   },
   {
    "id": "embracethered",
@@ -365,7 +366,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 89
+   "ms": 156
   },
   {
    "id": "owasp-genai",
@@ -374,7 +375,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 67
+   "ms": 222
   },
   {
    "id": "willison-pi",
@@ -383,7 +384,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 595
+   "ms": 172
   },
   {
    "id": "csa",
@@ -391,8 +392,8 @@
    "url": "https://cloudsecurityalliance.org/blog/feed/",
    "ok": true,
    "items": 20,
-   "kept": 19,
-   "ms": 583
+   "kept": 20,
+   "ms": 641
   },
   {
    "id": "openai",
@@ -401,7 +402,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 111
+   "ms": 142
   },
   {
    "id": "deepmind",
@@ -410,7 +411,7 @@
    "ok": true,
    "items": 40,
    "kept": 11,
-   "ms": 142
+   "ms": 447
   },
   {
    "id": "huggingface",
@@ -419,10 +420,223 @@
    "ok": true,
    "items": 40,
    "kept": 25,
-   "ms": 180
+   "ms": 175
   }
  ],
  "items": [
+  {
+   "id": "c8c496f7370d",
+   "title": "Shufti ties AI agent actions to verified owners and permissions",
+   "url": "https://www.helpnetsecurity.com/2026/10/30/shufti-know-your-agent-kya/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-10-30T12:53:33.000Z",
+   "firstSeen": 1793366730251,
+   "summary": "Shufti launches Know Your Agent (KYA), an AI agent verification solution designed to verify autonomous AI agents acting on behalf of individuals and businesses. Agentic commerce enables AI agents to open accounts, place orders, and move funds for their owners. A business receiving one of these requests needs to know…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "a4d5c3d69708",
+   "title": "Chinese AI Can Learn to Love the West",
+   "url": "https://www.lawfaremedia.org/article/chinese-ai-can-learn-to-love-the-west",
+   "source": "Lawfare",
+   "sourceId": "lawfare",
+   "published": "2026-10-30T12:44:08.000Z",
+   "firstSeen": 1793366730251,
+   "summary": "The latest edition of the Seriously Risky Business cybersecurity newsletter, now on Lawfare.",
+   "topics": [
+    "governance"
+   ],
+   "tags": [
+    "China"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "4ecd7fb55ca5",
+   "title": "Bedrock Data routes data exposure fixes to owners and verifies results",
+   "url": "https://www.helpnetsecurity.com/2026/10/30/bedrock-data-ai-assisted-remediation/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-10-30T12:39:09.000Z",
+   "firstSeen": 1793366730251,
+   "summary": "Bedrock Data has announced AI-assisted remediation, which federates the work of fixing data exposure to the data owners across the enterprise. Bedrock Data discovers who owns each exposed dataset, opens a ticket for that owner in the Jira or ServiceNow workflow the enterprise already runs and supplies the context…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 2,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "7775100016bc",
+   "title": "Anthropic AI model finds Linux kernel bug that leads to remote root access",
+   "url": "https://www.csoonline.com/article/4242724/anthropic-ai-model-finds-linux-kernel-bug-that-leads-to-remote-root-access.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-10-30T12:27:11.000Z",
+   "firstSeen": 1793366730251,
+   "summary": "Linux servers running Multipath TCP (MPTCP) could be vulnerable to remote code execution through a flaw in the kernel’s networking stack. Anthropic has disclosed a zero-click exploit developed with an unreleased Claude research model that allows an unauthenticated attacker to execute arbitrary commands as root…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "60f4b4560012",
+   "title": "Maine’s data center revolt will decide who controls the Senate",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+   "source": "The Verge AI",
+   "sourceId": "verge-ai",
+   "published": "2026-10-30T11:00:00.000Z",
+   "firstSeen": 1793366730251,
+   "summary": "Maine Sen. Susan Collins, a Republican, was midway through defending her record during the final debate of the midterms when an audience member cut her short. \"I'm terrified,\" a man shouted. \"AI data centers are destroying our climate. They are poisoning our water.\" Collins brushed off the outburst, tying the man to…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "Data poisoning",
+    "USA"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "305086792987",
+   "title": "Mistral open-sources AI model despite warning it could aid cyberattacks",
+   "url": "https://www.csoonline.com/article/4242648/mistral-releases-large-4-weights-despite-warning-of-cyberattack-uplift.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-10-30T10:24:29.000Z",
+   "firstSeen": 1793366730251,
+   "summary": "A trillion-parameter AI model that its developer says could help attackers carry out real cyberattacks is now free to download, modify and run outside the developer’s control. Mistral AI released the open weights of Mistral Large 4, which it calls “Le Chonk,” on Thursday, weeks after putting the multimodal model into…",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [],
+   "score": 13,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "8614c5dc404d",
+   "title": "Open-weight AI model GLM-5.3 cheated its way to correct answers",
+   "url": "https://www.helpnetsecurity.com/2026/10/30/irregular-glm-5-3-cyber-capabilities-evaluation/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-10-30T09:23:25.000Z",
+   "firstSeen": 1793366730251,
+   "summary": "Irregular evaluated Zhipu AI’s open-weight model GLM-5.3 across 13 offensive cyber scenarios using CyScenarioBench, the company’s framework for measuring an LLM’s ability to plan and execute multistage attacks under realistic constraints. The model refused none of the tasks and completed three scenarios at least once…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "6a38215e0020",
+   "title": "THE HACK: EU targets quantum sovereignty",
+   "url": "https://www.rapporteur.com/news/the-hack-eu-targets-quantum-sovereignty/",
+   "source": "Euractiv",
+   "sourceId": "euractiv",
+   "published": "2026-10-30T09:18:58.000Z",
+   "firstSeen": 1793366730251,
+   "summary": "In today's edition: AI safety, social media bans, network fees",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "74ae037c1b07",
+   "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
+   "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+   "source": "The Verge AI",
+   "sourceId": "verge-ai",
+   "published": "2026-10-30T09:00:00.000Z",
+   "firstSeen": 1793366730251,
+   "summary": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyrighted work - but not chatbots regurgitating that work to users. An overly black-and-white ruling, it says, could either deprive Wikipedians…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "Copyright"
+   ],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "959d9c7b9df1",
+   "title": "We are not ready for what AI has done to red teaming",
+   "url": "https://www.csoonline.com/article/4242174/we-are-not-ready-for-what-ai-has-done-to-red-teaming.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-10-30T09:00:00.000Z",
+   "firstSeen": 1793366730251,
+   "summary": "Something shifted in offensive security over the last eighteen months that most organizations haven’t fully absorbed yet. It isn’t that attackers got smarter. It’s that the economics of attack changed entirely — and those of us who run red teams have had a front-row seat to the transformation. The conversation about…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "5f7519c5e149",
+   "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+   "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-10-30T08:55:47.000Z",
+   "firstSeen": 1793366730251,
+   "summary": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. The malicious update, version 2.1.313, was distributed under the…",
+   "topics": [
+    "security",
+    "research"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 17,
+   "action": false,
+   "also": [
+    {
+     "id": "9342897b55c8",
+     "source": "Help Net Security",
+     "sourceId": "helpnet",
+     "title": "Claude Code extension poisoned with persistent SSH backdoor",
+     "url": "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/",
+     "published": "2026-10-30T11:15:26.000Z",
+     "firstSeen": 1793366730251,
+     "summary": "A tampered build of Anthropic’s Claude Code extension for VS Code-compatible editors planted an SSH backdoor on developers’ machines, researchers at macOS security firm Phorion have found. The company spotted the malicious package, version 2.1.313, on Open VSX, an open-source marketplace for VS Code extensions run by…"
+    }
+   ]
+  },
   {
    "id": "daef858ff286",
    "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
@@ -493,6 +707,23 @@
    ],
    "tags": [],
    "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "49089a58b980",
+   "title": "Why CTF Competitions May Be More Important Than Ever",
+   "url": "https://www.darkreading.com/cybersecurity-operations/why-ctf-more-important-than-ever",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-10-29T19:56:44.000Z",
+   "firstSeen": 1793366730251,
+   "summary": "As artificial intelligence squeezes early-career learning opportunities, capture-the-flag contests could be one way to help pick up the slack.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 0,
    "action": false,
    "also": []
   },
@@ -4036,6 +4267,25 @@
      "summary": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may compound — not contain — the risk."
     }
    ]
+  },
+  {
+   "id": "1dfa115cd3f1",
+   "title": "Identity-Defined Reachability: Reducing Exposure and Connectivity Friction in an Age of Machine-Speed Attack",
+   "url": "https://cloudsecurityalliance.org/articles/identity-defined-reachability-reducing-exposure-and-connectivity-friction-in-an-age-of-machine-speed-attack",
+   "source": "Cloud Security Alliance",
+   "sourceId": "csa",
+   "published": "2026-10-21T20:49:34.000Z",
+   "firstSeen": 1793366730251,
+   "summary": "AI is changing both the speed of attack and the speed at which organisations need to create, change and retire trusted communications. A supplier’s engineer needs a diagnostic service. An application needs a database. An AI agent needs an approved tool. Each requirement concerns a specific identity-to-service…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 2,
+   "action": false,
+   "also": []
   },
   {
    "id": "3e38d8cbe6a4",
