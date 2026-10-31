@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-10-31T19:29:29.759Z",
+ "generatedAt": "2026-10-31T22:44:59.494Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 43,
   "fetched": 910,
-  "relevant": 348,
+  "relevant": 349,
   "stories": 313,
-  "duplicatesMerged": 35
+  "duplicatesMerged": 36
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 870
+   "ms": 1006
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 72
+   "ms": 43
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 1642
+   "ms": 1360
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 1326
+   "ms": 910
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 1,
    "kept": 1,
-   "ms": 547
+   "ms": 376
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1332
+   "ms": 855
   },
   {
    "id": "edpb",
@@ -71,7 +71,7 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 2152
+   "ms": 3425
   },
   {
    "id": "europarl",
@@ -79,7 +79,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 733
+   "ms": 527
   },
   {
    "id": "cnil",
@@ -88,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1372
+   "ms": 857
   },
   {
    "id": "nist",
@@ -97,7 +97,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 782
+   "ms": 302
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +106,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 145
+   "ms": 270
   },
   {
    "id": "cisa",
@@ -115,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 506
+   "ms": 660
   },
   {
    "id": "fedscoop",
@@ -124,7 +124,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 529
+   "ms": 130
   },
   {
    "id": "nextgov",
@@ -133,7 +133,7 @@
    "ok": true,
    "items": 22,
    "kept": 22,
-   "ms": 382
+   "ms": 500
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 66
+   "ms": 469
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 142
+   "ms": 483
   },
   {
    "id": "verge-ai",
@@ -159,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 129
+   "ms": 432
   },
   {
    "id": "ars-ai",
@@ -168,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 369
+   "ms": 518
   },
   {
    "id": "wired-ai",
@@ -177,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 138
+   "ms": 92
   },
   {
    "id": "guardian-ai",
@@ -186,7 +186,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 234
+   "ms": 94
   },
   {
    "id": "mittr-ai",
@@ -195,7 +195,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 168
+   "ms": 124
   },
   {
    "id": "register-ai",
@@ -204,7 +204,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 948
+   "ms": 719
   },
   {
    "id": "biometric",
@@ -213,7 +213,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 812
+   "ms": 741
   },
   {
    "id": "krebs",
@@ -222,7 +222,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 125
+   "ms": 200
   },
   {
    "id": "securityweek",
@@ -231,7 +231,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 178
+   "ms": 227
   },
   {
    "id": "wired-security",
@@ -240,7 +240,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 27
+   "ms": 26
   },
   {
    "id": "csoonline",
@@ -249,7 +249,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 151
+   "ms": 205
   },
   {
    "id": "infosecmag",
@@ -258,7 +258,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1296
+   "ms": 380
   },
   {
    "id": "helpnet",
@@ -267,7 +267,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 86
+   "ms": 311
   },
   {
    "id": "therecord",
@@ -276,7 +276,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 179
+   "ms": 235
   },
   {
    "id": "thehackernews",
@@ -285,7 +285,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 155
+   "ms": 270
   },
   {
    "id": "bleeping",
@@ -294,7 +294,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 194
+   "ms": 232
   },
   {
    "id": "darkreading",
@@ -303,7 +303,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 550
+   "ms": 768
   },
   {
    "id": "schneier",
@@ -312,7 +312,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 80
+   "ms": 224
   },
   {
    "id": "google-security",
@@ -321,7 +321,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 378
+   "ms": 671
   },
   {
    "id": "msft-security",
@@ -330,7 +330,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1137
+   "ms": 3248
   },
   {
    "id": "aws-security",
@@ -339,7 +339,7 @@
    "ok": true,
    "items": 20,
    "kept": 19,
-   "ms": 144
+   "ms": 289
   },
   {
    "id": "unit42",
@@ -348,7 +348,7 @@
    "ok": true,
    "items": 15,
    "kept": 12,
-   "ms": 73
+   "ms": 167
   },
   {
    "id": "trailofbits",
@@ -357,7 +357,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 580
+   "ms": 379
   },
   {
    "id": "embracethered",
@@ -366,7 +366,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 150
+   "ms": 188
   },
   {
    "id": "owasp-genai",
@@ -375,7 +375,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 280
+   "ms": 185
   },
   {
    "id": "willison-pi",
@@ -384,7 +384,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 680
+   "ms": 161
   },
   {
    "id": "csa",
@@ -393,7 +393,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 648
+   "ms": 495
   },
   {
    "id": "openai",
@@ -402,7 +402,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 321
+   "ms": 125
   },
   {
    "id": "deepmind",
@@ -411,7 +411,7 @@
    "ok": true,
    "items": 40,
    "kept": 9,
-   "ms": 361
+   "ms": 135
   },
   {
    "id": "huggingface",
@@ -420,10 +420,27 @@
    "ok": true,
    "items": 40,
    "kept": 25,
-   "ms": 146
+   "ms": 137
   }
  ],
  "items": [
+  {
+   "id": "523dea74d45f",
+   "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+   "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "published": "2026-10-31T21:17:03.000Z",
+   "firstSeen": 1793486699494,
+   "summary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
   {
    "id": "ce1b29f84e8b",
    "title": "Disquiet grows in Albanese’s back yard as Grayndler artists unite against ‘insane’ AI proposal",
@@ -3386,23 +3403,6 @@
    "also": []
   },
   {
-   "id": "92942997dffb",
-   "title": "r/opensource bans AI projects, and solo devs go down with them",
-   "url": "https://www.helpnetsecurity.com/2026/10/26/reddit-r-opensource-ai-ban/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-26T04:30:36.000Z",
-   "firstSeen": 1792997572781,
-   "summary": "Moderators of r/opensource, Reddit’s catch-all forum for open source software, have barred any project that “uses AI, is made by AI, or is intended for AI.” Moderator Wolvereness announced the rules in a post over the weekend. A project now has to be at least a year old and actively maintained, carry an OSI license…",
-   "topics": [
-    "regulation"
-   ],
-   "tags": [],
-   "score": 9,
-   "action": false,
-   "also": []
-  },
-  {
    "id": "c9325c9fd863",
    "title": "Google open-sources the Elephant-Goldfish Model plugin its engineers use to catch AI coding mistakes",
    "url": "https://www.helpnetsecurity.com/2026/10/26/google-elephant-goldfish-model-plugin/",
@@ -3505,9 +3505,20 @@
     "regulation"
    ],
    "tags": [],
-   "score": 9,
+   "score": 12,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "92942997dffb",
+     "source": "Help Net Security",
+     "sourceId": "helpnet",
+     "title": "r/opensource bans AI projects, and solo devs go down with them",
+     "url": "https://www.helpnetsecurity.com/2026/10/26/reddit-r-opensource-ai-ban/",
+     "published": "2026-10-26T04:30:36.000Z",
+     "firstSeen": 1792997572781,
+     "summary": "Moderators of r/opensource, Reddit’s catch-all forum for open source software, have barred any project that “uses AI, is made by AI, or is intended for AI.” Moderator Wolvereness announced the rules in a post over the weekend. A project now has to be at least a year old and actively maintained, carry an OSI license…"
+    }
+   ]
   },
   {
    "id": "8f2c9b4a26fe",
