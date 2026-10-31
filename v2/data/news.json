@@ -1,23 +1,24 @@
 {
  "version": 2,
- "generatedAt": "2026-10-31T02:14:04.403Z",
+ "generatedAt": "2026-10-31T08:46:01.451Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 41,
-  "fetched": 866,
-  "relevant": 340,
-  "stories": 306,
-  "duplicatesMerged": 34
+  "sourcesOk": 43,
+  "fetched": 913,
+  "relevant": 342,
+  "stories": 307,
+  "duplicatesMerged": 35
  },
  "sources": [
   {
    "id": "aiact-tracker",
    "name": "EU AI Act Tracker",
    "url": "https://artificialintelligenceact.eu/feed/",
-   "ok": false,
-   "error": "The operation was aborted due to timeout",
-   "ms": 20002
+   "ok": true,
+   "items": 27,
+   "kept": 3,
+   "ms": 1186
   },
   {
    "id": "aiact-newsletter",
@@ -25,15 +26,16 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 54
+   "ms": 66
   },
   {
    "id": "fli",
    "name": "Future of Life Institute",
    "url": "https://futureoflife.org/feed/",
-   "ok": false,
-   "error": "The operation was aborted due to timeout",
-   "ms": 20001
+   "ok": true,
+   "items": 20,
+   "kept": 3,
+   "ms": 1281
   },
   {
    "id": "algorithmwatch",
@@ -41,8 +43,8 @@
    "url": "https://algorithmwatch.org/en/feed/",
    "ok": true,
    "items": 10,
-   "kept": 4,
-   "ms": 1342
+   "kept": 3,
+   "ms": 1415
   },
   {
    "id": "lawfare",
@@ -51,7 +53,7 @@
    "ok": true,
    "items": 4,
    "kept": 4,
-   "ms": 249
+   "ms": 435
   },
   {
    "id": "euractiv",
@@ -60,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1344
+   "ms": 1109
   },
   {
    "id": "edpb",
@@ -69,7 +71,7 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 1780
+   "ms": 2151
   },
   {
    "id": "europarl",
@@ -77,7 +79,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 796
+   "ms": 583
   },
   {
    "id": "cnil",
@@ -86,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1289
+   "ms": 1041
   },
   {
    "id": "nist",
@@ -95,7 +97,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 451
+   "ms": 89
   },
   {
    "id": "ncsc-uk",
@@ -104,7 +106,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 135
+   "ms": 140
   },
   {
    "id": "cisa",
@@ -113,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 534
+   "ms": 503
   },
   {
    "id": "fedscoop",
@@ -122,7 +124,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 537
+   "ms": 467
   },
   {
    "id": "nextgov",
@@ -131,7 +133,7 @@
    "ok": true,
    "items": 22,
    "kept": 22,
-   "ms": 99
+   "ms": 396
   },
   {
    "id": "techcrunch-ai",
@@ -140,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 77
+   "ms": 93
   },
   {
    "id": "venturebeat-ai",
@@ -148,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 147
+   "ms": 174
   },
   {
    "id": "verge-ai",
@@ -157,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 105
+   "ms": 121
   },
   {
    "id": "ars-ai",
@@ -166,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 212
+   "ms": 560
   },
   {
    "id": "wired-ai",
@@ -175,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 160
+   "ms": 170
   },
   {
    "id": "guardian-ai",
@@ -184,7 +186,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 203
+   "ms": 234
   },
   {
    "id": "mittr-ai",
@@ -193,7 +195,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 130
+   "ms": 359
   },
   {
    "id": "register-ai",
@@ -202,7 +204,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 497
+   "ms": 980
   },
   {
    "id": "biometric",
@@ -211,7 +213,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 633
+   "ms": 987
   },
   {
    "id": "krebs",
@@ -220,7 +222,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 224
+   "ms": 369
   },
   {
    "id": "securityweek",
@@ -229,7 +231,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 130
+   "ms": 267
   },
   {
    "id": "wired-security",
@@ -238,7 +240,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 22
+   "ms": 24
   },
   {
    "id": "csoonline",
@@ -247,7 +249,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 70
+   "ms": 381
   },
   {
    "id": "infosecmag",
@@ -256,7 +258,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 189
+   "ms": 337
   },
   {
    "id": "helpnet",
@@ -265,7 +267,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 101
+   "ms": 130
   },
   {
    "id": "therecord",
@@ -274,7 +276,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 428
+   "ms": 207
   },
   {
    "id": "thehackernews",
@@ -283,7 +285,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 296
+   "ms": 292
   },
   {
    "id": "bleeping",
@@ -292,7 +294,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 217
+   "ms": 122
   },
   {
    "id": "darkreading",
@@ -301,7 +303,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 570
+   "ms": 488
   },
   {
    "id": "schneier",
@@ -310,7 +312,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 140
+   "ms": 289
   },
   {
    "id": "google-security",
@@ -319,7 +321,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 542
+   "ms": 809
   },
   {
    "id": "msft-security",
@@ -328,7 +330,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3125
+   "ms": 2190
   },
   {
    "id": "aws-security",
@@ -337,7 +339,7 @@
    "ok": true,
    "items": 20,
    "kept": 19,
-   "ms": 224
+   "ms": 147
   },
   {
    "id": "unit42",
@@ -346,7 +348,7 @@
    "ok": true,
    "items": 15,
    "kept": 12,
-   "ms": 66
+   "ms": 96
   },
   {
    "id": "trailofbits",
@@ -355,7 +357,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 409
+   "ms": 425
   },
   {
    "id": "embracethered",
@@ -364,7 +366,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 103
+   "ms": 117
   },
   {
    "id": "owasp-genai",
@@ -373,7 +375,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 164
+   "ms": 362
   },
   {
    "id": "willison-pi",
@@ -382,7 +384,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 450
+   "ms": 665
   },
   {
    "id": "csa",
@@ -391,7 +393,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 653
+   "ms": 232
   },
   {
    "id": "openai",
@@ -400,7 +402,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 148
+   "ms": 139
   },
   {
    "id": "deepmind",
@@ -409,7 +411,7 @@
    "ok": true,
    "items": 40,
    "kept": 9,
-   "ms": 323
+   "ms": 157
   },
   {
    "id": "huggingface",
@@ -418,10 +420,29 @@
    "ok": true,
    "items": 40,
    "kept": 25,
-   "ms": 124
+   "ms": 199
   }
  ],
  "items": [
+  {
+   "id": "dd5b4ef74fde",
+   "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+   "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-10-31T05:33:41.000Z",
+   "firstSeen": 1793436361451,
+   "summary": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parameter showed. The researchers reported the flaw through OpenAI's bug bounty program on October 18, and OpenAI fixed it…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "OpenAI"
+   ],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
   {
    "id": "b146e341fe07",
    "title": "Tech bills of the week: Creating a Congressional Office of Technology; Enhancing data center transparency; and more",
@@ -901,9 +922,10 @@
     "research"
    ],
    "tags": [
-    "Anthropic"
+    "Anthropic",
+    "Microsoft"
    ],
-   "score": 20,
+   "score": 23,
    "action": false,
    "also": [
     {
@@ -925,6 +947,16 @@
      "published": "2026-10-30T14:36:54.000Z",
      "firstSeen": 1793386058607,
      "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors."
+    },
+    {
+     "id": "75ef706adf9b",
+     "source": "Microsoft Security Blog",
+     "sourceId": "msft-security",
+     "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+     "published": "2026-10-31T01:02:57.000Z",
+     "firstSeen": 1793436361451,
+     "summary": "Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it."
     }
    ]
   },
