@@ -1,11 +1,11 @@
 {
  "version": 2,
- "generatedAt": "2026-10-30T22:54:42.653Z",
+ "generatedAt": "2026-10-31T02:14:04.403Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 43,
-  "fetched": 913,
+  "sourcesOk": 41,
+  "fetched": 866,
   "relevant": 340,
   "stories": 306,
   "duplicatesMerged": 34
@@ -15,10 +15,9 @@
    "id": "aiact-tracker",
    "name": "EU AI Act Tracker",
    "url": "https://artificialintelligenceact.eu/feed/",
-   "ok": true,
-   "items": 27,
-   "kept": 3,
-   "ms": 1261
+   "ok": false,
+   "error": "The operation was aborted due to timeout",
+   "ms": 20002
   },
   {
    "id": "aiact-newsletter",
@@ -26,16 +25,15 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 103
+   "ms": 54
   },
   {
    "id": "fli",
    "name": "Future of Life Institute",
    "url": "https://futureoflife.org/feed/",
-   "ok": true,
-   "items": 20,
-   "kept": 3,
-   "ms": 1381
+   "ok": false,
+   "error": "The operation was aborted due to timeout",
+   "ms": 20001
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +42,7 @@
    "ok": true,
    "items": 10,
    "kept": 4,
-   "ms": 1167
+   "ms": 1342
   },
   {
    "id": "lawfare",
@@ -53,7 +51,7 @@
    "ok": true,
    "items": 4,
    "kept": 4,
-   "ms": 480
+   "ms": 249
   },
   {
    "id": "euractiv",
@@ -62,7 +60,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1167
+   "ms": 1344
   },
   {
    "id": "edpb",
@@ -71,7 +69,7 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 1887
+   "ms": 1780
   },
   {
    "id": "europarl",
@@ -79,7 +77,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 661
+   "ms": 796
   },
   {
    "id": "cnil",
@@ -88,7 +86,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1063
+   "ms": 1289
   },
   {
    "id": "nist",
@@ -97,7 +95,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 133
+   "ms": 451
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +104,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 87
+   "ms": 135
   },
   {
    "id": "cisa",
@@ -115,7 +113,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 488
+   "ms": 534
   },
   {
    "id": "fedscoop",
@@ -124,7 +122,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 478
+   "ms": 537
   },
   {
    "id": "nextgov",
@@ -133,7 +131,7 @@
    "ok": true,
    "items": 22,
    "kept": 22,
-   "ms": 187
+   "ms": 99
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +140,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 171
+   "ms": 77
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +148,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 253
+   "ms": 147
   },
   {
    "id": "verge-ai",
@@ -159,7 +157,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 287
+   "ms": 105
   },
   {
    "id": "ars-ai",
@@ -168,7 +166,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 599
+   "ms": 212
   },
   {
    "id": "wired-ai",
@@ -177,7 +175,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 336
+   "ms": 160
   },
   {
    "id": "guardian-ai",
@@ -186,7 +184,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 361
+   "ms": 203
   },
   {
    "id": "mittr-ai",
@@ -195,7 +193,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 201
+   "ms": 130
   },
   {
    "id": "register-ai",
@@ -204,7 +202,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 1510
+   "ms": 497
   },
   {
    "id": "biometric",
@@ -213,7 +211,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 917
+   "ms": 633
   },
   {
    "id": "krebs",
@@ -222,7 +220,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 278
+   "ms": 224
   },
   {
    "id": "securityweek",
@@ -231,7 +229,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 264
+   "ms": 130
   },
   {
    "id": "wired-security",
@@ -240,7 +238,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 35
+   "ms": 22
   },
   {
    "id": "csoonline",
@@ -249,7 +247,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 212
+   "ms": 70
   },
   {
    "id": "infosecmag",
@@ -258,7 +256,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 265
+   "ms": 189
   },
   {
    "id": "helpnet",
@@ -267,7 +265,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 71
+   "ms": 101
   },
   {
    "id": "therecord",
@@ -276,7 +274,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 143
+   "ms": 428
   },
   {
    "id": "thehackernews",
@@ -285,7 +283,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 128
+   "ms": 296
   },
   {
    "id": "bleeping",
@@ -294,7 +292,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 201
+   "ms": 217
   },
   {
    "id": "darkreading",
@@ -303,7 +301,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 666
+   "ms": 570
   },
   {
    "id": "schneier",
@@ -312,7 +310,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 87
+   "ms": 140
   },
   {
    "id": "google-security",
@@ -321,7 +319,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 469
+   "ms": 542
   },
   {
    "id": "msft-security",
@@ -330,7 +328,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1192
+   "ms": 3125
   },
   {
    "id": "aws-security",
@@ -339,7 +337,7 @@
    "ok": true,
    "items": 20,
    "kept": 19,
-   "ms": 179
+   "ms": 224
   },
   {
    "id": "unit42",
@@ -348,7 +346,7 @@
    "ok": true,
    "items": 15,
    "kept": 12,
-   "ms": 137
+   "ms": 66
   },
   {
    "id": "trailofbits",
@@ -357,7 +355,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 415
+   "ms": 409
   },
   {
    "id": "embracethered",
@@ -366,7 +364,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 153
+   "ms": 103
   },
   {
    "id": "owasp-genai",
@@ -375,7 +373,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 193
+   "ms": 164
   },
   {
    "id": "willison-pi",
@@ -384,7 +382,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 651
+   "ms": 450
   },
   {
    "id": "csa",
@@ -393,7 +391,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 532
+   "ms": 653
   },
   {
    "id": "openai",
@@ -402,7 +400,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 131
+   "ms": 148
   },
   {
    "id": "deepmind",
@@ -411,7 +409,7 @@
    "ok": true,
    "items": 40,
    "kept": 9,
-   "ms": 168
+   "ms": 323
   },
   {
    "id": "huggingface",
@@ -420,7 +418,7 @@
    "ok": true,
    "items": 40,
    "kept": 25,
-   "ms": 211
+   "ms": 124
   }
  ],
  "items": [
