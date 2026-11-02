@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-11-02T15:33:17.226Z",
+ "generatedAt": "2026-11-02T23:11:59.269Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 43,
-  "fetched": 910,
-  "relevant": 373,
-  "stories": 332,
+  "fetched": 913,
+  "relevant": 378,
+  "stories": 337,
   "duplicatesMerged": 41
  },
  "sources": [
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 2564
+   "ms": 1618
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 57
+   "ms": 118
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 1822
+   "ms": 1517
   },
   {
    "id": "algorithmwatch",
@@ -44,16 +44,16 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 882
+   "ms": 957
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 1,
-   "kept": 1,
-   "ms": 411
+   "items": 3,
+   "kept": 3,
+   "ms": 576
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1222
+   "ms": 1056
   },
   {
    "id": "edpb",
@@ -71,7 +71,7 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 2007
+   "ms": 2051
   },
   {
    "id": "europarl",
@@ -79,7 +79,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 647
+   "ms": 1138
   },
   {
    "id": "cnil",
@@ -88,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 786
+   "ms": 1015
   },
   {
    "id": "nist",
@@ -97,7 +97,7 @@
    "ok": true,
    "items": 40,
    "kept": 6,
-   "ms": 327
+   "ms": 326
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +106,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 183
+   "ms": 225
   },
   {
    "id": "cisa",
@@ -115,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 476
+   "ms": 550
   },
   {
    "id": "fedscoop",
@@ -124,16 +124,16 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 402
+   "ms": 468
   },
   {
    "id": "nextgov",
    "name": "Nextgov/FCW",
    "url": "https://www.nextgov.com/rss/all/",
    "ok": true,
-   "items": 22,
-   "kept": 22,
-   "ms": 418
+   "items": 23,
+   "kept": 23,
+   "ms": 672
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 369
+   "ms": 423
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 167
+   "ms": 448
   },
   {
    "id": "verge-ai",
@@ -159,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 162
+   "ms": 95
   },
   {
    "id": "ars-ai",
@@ -168,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 256
+   "ms": 395
   },
   {
    "id": "wired-ai",
@@ -177,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 217
+   "ms": 145
   },
   {
    "id": "guardian-ai",
@@ -186,7 +186,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 203
+   "ms": 259
   },
   {
    "id": "mittr-ai",
@@ -195,7 +195,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 102
+   "ms": 132
   },
   {
    "id": "register-ai",
@@ -204,7 +204,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 511
+   "ms": 1555
   },
   {
    "id": "biometric",
@@ -213,7 +213,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 666
+   "ms": 830
   },
   {
    "id": "krebs",
@@ -222,7 +222,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 177
+   "ms": 148
   },
   {
    "id": "securityweek",
@@ -231,7 +231,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 219
+   "ms": 189
   },
   {
    "id": "wired-security",
@@ -240,7 +240,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 18
+   "ms": 27
   },
   {
    "id": "csoonline",
@@ -249,7 +249,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 148
+   "ms": 94
   },
   {
    "id": "infosecmag",
@@ -258,7 +258,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 173
+   "ms": 282
   },
   {
    "id": "helpnet",
@@ -267,7 +267,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 126
+   "ms": 97
   },
   {
    "id": "therecord",
@@ -276,7 +276,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 147
+   "ms": 400
   },
   {
    "id": "thehackernews",
@@ -285,7 +285,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 99
+   "ms": 176
   },
   {
    "id": "bleeping",
@@ -294,7 +294,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 85
+   "ms": 227
   },
   {
    "id": "darkreading",
@@ -303,7 +303,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 263
+   "ms": 530
   },
   {
    "id": "schneier",
@@ -312,7 +312,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 54
+   "ms": 250
   },
   {
    "id": "google-security",
@@ -321,7 +321,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 240
+   "ms": 680
   },
   {
    "id": "msft-security",
@@ -330,7 +330,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3045
+   "ms": 1294
   },
   {
    "id": "aws-security",
@@ -339,7 +339,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 123
+   "ms": 286
   },
   {
    "id": "unit42",
@@ -347,8 +347,8 @@
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
    "items": 15,
-   "kept": 12,
-   "ms": 65
+   "kept": 13,
+   "ms": 166
   },
   {
    "id": "trailofbits",
@@ -357,7 +357,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 458
+   "ms": 363
   },
   {
    "id": "embracethered",
@@ -366,7 +366,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 66
+   "ms": 101
   },
   {
    "id": "owasp-genai",
@@ -375,7 +375,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 146
+   "ms": 73
   },
   {
    "id": "willison-pi",
@@ -384,7 +384,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 122
+   "ms": 187
   },
   {
    "id": "csa",
@@ -393,7 +393,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 755
+   "ms": 565
   },
   {
    "id": "openai",
@@ -402,7 +402,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 501
+   "ms": 122
   },
   {
    "id": "deepmind",
@@ -411,7 +411,7 @@
    "ok": true,
    "items": 40,
    "kept": 10,
-   "ms": 227
+   "ms": 145
   },
   {
    "id": "huggingface",
@@ -419,11 +419,103 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 24,
-   "ms": 142
+   "kept": 23,
+   "ms": 123
   }
  ],
  "items": [
+  {
+   "id": "469ef6466386",
+   "title": "Unit 42 Threat Intelligence Highlights - Nov. 2, 2026",
+   "url": "https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026/",
+   "source": "Unit 42",
+   "sourceId": "unit42",
+   "published": "2026-11-02T23:00:45.000Z",
+   "firstSeen": 1793661119269,
+   "summary": "Unit 42 details recent threat intelligence, highlighting cyberespionage, financial extortion, and the rapid adoption of AI across offensive workflows.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 3,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "6ec1c2c60e28",
+   "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+   "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-11-02T21:40:14.000Z",
+   "firstSeen": 1793661119269,
+   "summary": "Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "China"
+   ],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "bc5ea9c7ddf9",
+   "title": "Another bipartisan push to reboot Congress’ tech expertise office is underway",
+   "url": "https://fedscoop.com/congress-office-of-technology-assessment-bill/",
+   "source": "FedScoop",
+   "sourceId": "fedscoop",
+   "published": "2026-11-02T21:39:26.000Z",
+   "firstSeen": 1793661119269,
+   "summary": "A bill to resurrect the Office of Technology Assessment has been introduced once more to help lawmakers confront the age of artificial intelligence and tech advances.",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "USA"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "607a37eea0b7",
+   "title": "Innovatrics biometric IAD certified by CLR Labs for High level protection",
+   "url": "https://www.biometricupdate.com/202611/innovatrics-biometric-iad-certified-by-clr-labs-for-high-level-protection",
+   "source": "Biometric Update",
+   "sourceId": "biometric",
+   "published": "2026-11-02T21:10:56.000Z",
+   "firstSeen": 1793661119269,
+   "summary": "A new certification for Innovatrics’ identity verification software, along with updates to Argos Identity and ComplyCube’s KYC software platforms, reflects the new reality of deepfake fraud and camera-path injection attacks as the greatest threat to biometric onboarding. Injection attacks are forecast in the “ 2026…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Deepfakes",
+    "Biometrics"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "0b27a7b24bc6",
+   "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+   "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+   "source": "The Verge AI",
+   "sourceId": "verge-ai",
+   "published": "2026-11-02T17:51:19.000Z",
+   "firstSeen": 1793661119269,
+   "summary": "The New York Times and a group of other publications have filed lawsuits against the company that makes the Brave web browser over alleged unlawful scraping to train AI and also letting users bypass their paywalls, as reported by Reuters. According to a complaint filed by the New York Daily News, the Chicago Tribune…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
   {
    "id": "b6dd32c2f9e4",
    "title": "Cybersecurity M&A Roundup: 37 Deals Announced in October 2026",
