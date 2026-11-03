@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-03T11:49:22.977Z",
+ "generatedAt": "2026-11-03T19:25:10.270Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 42,
-  "fetched": 908,
-  "relevant": 394,
-  "stories": 350,
-  "duplicatesMerged": 44
+  "sourcesOk": 43,
+  "fetched": 915,
+  "relevant": 414,
+  "stories": 362,
+  "duplicatesMerged": 52
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 1013
+   "ms": 993
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 39
+   "ms": 76
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 945
+   "ms": 706
   },
   {
    "id": "algorithmwatch",
@@ -44,16 +44,16 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 1230
+   "ms": 890
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 3,
-   "kept": 3,
-   "ms": 423
+   "items": 5,
+   "kept": 5,
+   "ms": 417
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 933
+   "ms": 835
   },
   {
    "id": "edpb",
@@ -71,7 +71,7 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 2099
+   "ms": 1687
   },
   {
    "id": "europarl",
@@ -79,7 +79,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 423
+   "ms": 596
   },
   {
    "id": "cnil",
@@ -88,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 890
+   "ms": 675
   },
   {
    "id": "nist",
@@ -97,7 +97,7 @@
    "ok": true,
    "items": 40,
    "kept": 6,
-   "ms": 41
+   "ms": 294
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +106,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 80
+   "ms": 160
   },
   {
    "id": "cisa",
@@ -115,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 447
+   "ms": 611
   },
   {
    "id": "fedscoop",
@@ -124,7 +124,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 432
+   "ms": 138
   },
   {
    "id": "nextgov",
@@ -133,7 +133,7 @@
    "ok": true,
    "items": 23,
    "kept": 23,
-   "ms": 446
+   "ms": 575
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 73
+   "ms": 148
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 117
+   "ms": 548
   },
   {
    "id": "verge-ai",
@@ -159,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 75
+   "ms": 495
   },
   {
    "id": "ars-ai",
@@ -168,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 411
+   "ms": 555
   },
   {
    "id": "wired-ai",
@@ -177,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 151
+   "ms": 455
   },
   {
    "id": "guardian-ai",
@@ -186,7 +186,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 261
+   "ms": 419
   },
   {
    "id": "mittr-ai",
@@ -195,7 +195,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 112
+   "ms": 120
   },
   {
    "id": "register-ai",
@@ -204,7 +204,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 428
+   "ms": 605
   },
   {
    "id": "biometric",
@@ -213,7 +213,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 725
+   "ms": 696
   },
   {
    "id": "krebs",
@@ -222,7 +222,7 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 186
+   "ms": 347
   },
   {
    "id": "securityweek",
@@ -231,7 +231,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 93
+   "ms": 218
   },
   {
    "id": "wired-security",
@@ -240,7 +240,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 43
+   "ms": 21
   },
   {
    "id": "csoonline",
@@ -249,7 +249,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 76
+   "ms": 241
   },
   {
    "id": "infosecmag",
@@ -258,7 +258,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 215
+   "ms": 377
   },
   {
    "id": "helpnet",
@@ -267,15 +267,16 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 69
+   "ms": 284
   },
   {
    "id": "therecord",
    "name": "The Record",
    "url": "https://therecord.media/feed",
-   "ok": false,
-   "error": "HTTP 522",
-   "ms": 19672
+   "ok": true,
+   "items": 5,
+   "kept": 5,
+   "ms": 383
   },
   {
    "id": "thehackernews",
@@ -284,7 +285,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 249
+   "ms": 295
   },
   {
    "id": "bleeping",
@@ -293,7 +294,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 90
+   "ms": 200
   },
   {
    "id": "darkreading",
@@ -302,7 +303,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 666
+   "ms": 595
   },
   {
    "id": "schneier",
@@ -311,7 +312,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 48
+   "ms": 218
   },
   {
    "id": "google-security",
@@ -320,7 +321,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 682
+   "ms": 514
   },
   {
    "id": "msft-security",
@@ -329,7 +330,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1042
+   "ms": 3117
   },
   {
    "id": "aws-security",
@@ -338,7 +339,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 86
+   "ms": 109
   },
   {
    "id": "unit42",
@@ -347,7 +348,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 41
+   "ms": 78
   },
   {
    "id": "trailofbits",
@@ -355,8 +356,8 @@
    "url": "https://blog.trailofbits.com/feed/",
    "ok": true,
    "items": 20,
-   "kept": 3,
-   "ms": 176
+   "kept": 4,
+   "ms": 417
   },
   {
    "id": "embracethered",
@@ -365,7 +366,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 52
+   "ms": 121
   },
   {
    "id": "owasp-genai",
@@ -374,7 +375,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 273
+   "ms": 165
   },
   {
    "id": "willison-pi",
@@ -383,7 +384,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 567
+   "ms": 167
   },
   {
    "id": "csa",
@@ -392,7 +393,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 234
+   "ms": 585
   },
   {
    "id": "openai",
@@ -401,7 +402,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 78
+   "ms": 174
   },
   {
    "id": "deepmind",
@@ -409,8 +410,8 @@
    "url": "https://deepmind.google/blog/rss.xml",
    "ok": true,
    "items": 40,
-   "kept": 10,
-   "ms": 114
+   "kept": 11,
+   "ms": 272
   },
   {
    "id": "huggingface",
@@ -418,11 +419,241 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 24,
-   "ms": 136
+   "kept": 25,
+   "ms": 178
   }
  ],
  "items": [
+  {
+   "id": "1ef32d080059",
+   "title": "Binance says fake job interview helped North Korean hackers steal $6.3 billion in crypto",
+   "url": "https://www.nextgov.com/cybersecurity/2026/11/binance-says-fake-job-interview-helped-north-korean-hackers-steal-63-billion-crypto/417004/",
+   "source": "Nextgov/FCW",
+   "sourceId": "nextgov",
+   "published": "2026-11-03T18:41:00.000Z",
+   "firstSeen": 1793733910270,
+   "summary": "A coding assignment gave attackers access to an engineer’s work computer. They later used an internal AI tool to reach the team responsible for Binance’s digital wallets.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "dfac2bf6a298",
+   "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+   "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-03T18:16:19.000Z",
+   "firstSeen": 1793733910270,
+   "summary": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack campaign that came to light…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "a0571018b610",
+   "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI Agent Management Platforms",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-agent-management-platforms/",
+   "source": "Microsoft Security Blog",
+   "sourceId": "msft-security",
+   "published": "2026-11-03T17:00:00.000Z",
+   "firstSeen": 1793733910270,
+   "summary": "Read why Gartner named Microsoft a Leader in the inaugural 2026 Magic Quadrant for AI Agent Management Platforms.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents",
+    "Microsoft"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "5da6ea496c8d",
+   "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+   "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-03T16:55:58.000Z",
+   "firstSeen": 1793733910270,
+   "summary": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack targeting two of its…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 13,
+   "action": false,
+   "also": [
+    {
+     "id": "8a782c988d7a",
+     "source": "The Guardian AI",
+     "sourceId": "guardian-ai",
+     "title": "Hackers behind $6.3bn Binance heist ‘used malware and bogus job interviews’",
+     "url": "https://www.theguardian.com/business/2026/nov/03/hackers-63bn-binance-heist-malware-bogus-job-interviews-cryptocurrency",
+     "published": "2026-11-03T19:00:23.000Z",
+     "firstSeen": 1793733910270,
+     "summary": "Firm reveals details about how its cryptocurrency exchange was compromised, saying operation began in June The hackers behind the $6.3bn (£4.7bn) Binance heist used bogus job interviews, malicious software and an internal AI tool, the company has revealed. The world’s largest cryptocurrency exchange was compromised in…"
+    }
+   ]
+  },
+  {
+   "id": "8f504c47c650",
+   "title": "Africa’s AI ambitions depend on stronger digital public infrastructure, expert says",
+   "url": "https://www.biometricupdate.com/202611/africas-ai-ambitions-depend-on-stronger-digital-public-infrastructure-expert-says",
+   "source": "Biometric Update",
+   "sourceId": "biometric",
+   "published": "2026-11-03T16:53:43.000Z",
+   "firstSeen": 1793733910270,
+   "summary": "Certified AI governance specialist Remy Takang has warned that African countries must not rush to unveil or draft national AI strategies without first building the reliable digital public infrastructure (DPI) foundations the technology needs to run on. The Belgium-based Cameroonian lawyer gave the caution in an…",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "acc100501096",
+   "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
+   "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-11-03T15:00:10.000Z",
+   "firstSeen": 1793733910270,
+   "summary": "Gartner predicts that security operations centers will have 50% more engineers than analysts by 2028 as AI agents take over routine alert handling. Prophet Security examines how AI is reshaping SOC roles, from analyst responsibilities and detection engineering to threat hunting and exposure management.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 2,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "d395b5cf2eb9",
+   "title": "Live from Emory Law: Stacey Abrams joins Alex Bores & Kevin Frazier",
+   "url": "https://www.lawfaremedia.org/article/live-from-emory-law--stacey-abrams-joins-alex-bores---kevin-frazier",
+   "source": "Lawfare",
+   "sourceId": "lawfare",
+   "published": "2026-11-03T15:00:05.000Z",
+   "firstSeen": 1793733910270,
+   "summary": "One week before Election Day, the Scaling Laws Roadshow visited Emory Law for a conversation with Stacey Abrams, former Minority Leader of the Georgia House of Representatives, bestselling author, entrepreneur, and producer. She joined Kevin Frazier, Director of the AI Innovation and Law Program at the University of…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "2edd9f5ed8e8",
+   "title": "CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode",
+   "url": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-03T14:12:44.000Z",
+   "firstSeen": 1793733910270,
+   "summary": "The acquisitions will add AI agent observability and automated AI security testing capabilities to the CrowdStrike Falcon platform.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 18,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "8c9291af4519",
+   "title": "Novee puts forgotten internet-facing assets through penetration testing",
+   "url": "https://www.helpnetsecurity.com/2026/11/03/novee-external-surface-testing/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-03T14:00:26.000Z",
+   "firstSeen": 1793733910270,
+   "summary": "Novee’s External Surface Testing is a new capability in its AI penetration testing platform that helps security teams discover internet-facing assets and validate exploitable vulnerabilities. It tests newly disclosed CVEs and findings imported from third-party external attack surface management (EASM) tools…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "fd03416733ad",
+   "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
+   "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-11-03T14:00:00.000Z",
+   "firstSeen": 1793733910270,
+   "summary": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Ransomware",
+    "UK"
+   ],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "36d7a0a3dc88",
+   "title": "3AM Affiliate Embraces AI-Like Loops in European School Attack",
+   "url": "https://www.darkreading.com/data-privacy/3am-affiliate-ai-loops-european-school-attack",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-03T14:00:00.000Z",
+   "firstSeen": 1793733910270,
+   "summary": "Evidence suggests a model may have generated and revised commands during the ransom gang's breach, though researchers stopped short of claiming full automation.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [],
+   "score": 11,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "8f7257b0cad2",
+   "title": "AI agents scale and speed up Chinese-linked attacks",
+   "url": "https://www.helpnetsecurity.com/2026/11/03/ai-powered-cyberattacks-artex-cyberstrikeai/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-03T12:31:59.000Z",
+   "firstSeen": 1793733910270,
+   "summary": "A China-nexus espionage group used AI agents to attack more than 200 organizations in 11 days, CrowdStrike said last week. On Monday, Kaspersky published details of a separate campaign against educational institutions in Africa and Latin America, mounted by Chinese-speaking operators. Though the campaigns don’t appear…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "AI agents",
+    "China"
+   ],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
   {
    "id": "64cc60909ee0",
    "title": "Armed with AI, hackers target endpoint security blind spots, raising stakes for CISOs",
@@ -445,25 +676,6 @@
    "also": []
   },
   {
-   "id": "3d115a9c27d9",
-   "title": "LLMJacking is Costing Some Businesses Up to $1m, Warns Google",
-   "url": "https://www.infosecurity-magazine.com/news/llmjacking-cost-business-1m-warns/",
-   "source": "Infosecurity Magazine",
-   "sourceId": "infosecmag",
-   "published": "2026-11-03T10:45:00.000Z",
-   "firstSeen": 1793706562977,
-   "summary": "Google Mandiant has warned of the high cost of hijacked access to large language models, or LLMJacking",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Google"
-   ],
-   "score": 0,
-   "action": false,
-   "also": []
-  },
-  {
    "id": "a0cf48bcdc31",
    "title": "Stolen AI access leaves companies with cloud bills of up to $1 million",
    "url": "https://www.helpnetsecurity.com/2026/11/03/llmjacking-stolen-ai-access-cloud-bills/",
@@ -473,14 +685,66 @@
    "firstSeen": 1793706562977,
    "summary": "Criminals who break into corporate cloud accounts are using the stolen access to run AI models at the victim’s expense, in some cases racking up more than $100,000 in charges in a single day, Google Threat Intelligence Group (GTIG) and Mandiant researchers have found. Usage chart showing LLMJacking generating a spike…",
    "topics": [
-    "incidents"
+    "incidents",
+    "security"
    ],
    "tags": [
     "Google"
    ],
-   "score": 11,
+   "score": 26,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "3d115a9c27d9",
+     "source": "Infosecurity Magazine",
+     "sourceId": "infosecmag",
+     "title": "LLMJacking is Costing Some Businesses Up to $1m, Warns Google",
+     "url": "https://www.infosecurity-magazine.com/news/llmjacking-cost-business-1m-warns/",
+     "published": "2026-11-03T10:45:00.000Z",
+     "firstSeen": 1793706562977,
+     "summary": "Google Mandiant has warned of the high cost of hijacked access to large language models, or LLMJacking"
+    },
+    {
+     "id": "04e04aebbfeb",
+     "source": "CSO Online",
+     "sourceId": "csoonline",
+     "title": "Enterprises pay $100,000 a day for AI they never ordered",
+     "url": "https://www.csoonline.com/article/4243863/enterprises-pay-100000-a-day-for-ai-they-never-ordered.html",
+     "published": "2026-11-03T11:52:38.000Z",
+     "firstSeen": 1793733910270,
+     "summary": "Enterprises deploying large language models (LLMs) in production may be unknowingly footing the bill for someone else’s AI business. Google Threat Intelligence Group (GTIG) is warning of financially motivated LLMjacking campaigns in which cybercriminals hijack enterprise cloud and model access before reselling it…"
+    },
+    {
+     "id": "6a0b273b4e74",
+     "source": "Dark Reading",
+     "sourceId": "darkreading",
+     "title": "LLMjacking Emerges as Thriving Cybercriminal Enterprise",
+     "url": "https://www.darkreading.com/cloud-security/llmjacking-thriving-cybercriminal-enterprise",
+     "published": "2026-11-03T15:35:50.000Z",
+     "firstSeen": 1793733910270,
+     "summary": "Cybercriminals have turned reselling cloud access to LLMs into a lucrative business model, with some victims paying as much as $1 million in resource consumption before access was revoked."
+    },
+    {
+     "id": "6984b5bdb76b",
+     "source": "The Hacker News",
+     "sourceId": "thehackernews",
+     "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+     "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+     "published": "2026-11-03T15:41:53.000Z",
+     "firstSeen": 1793733910270,
+     "summary": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. The tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API key through…"
+    },
+    {
+     "id": "d13e7a232139",
+     "source": "BleepingComputer",
+     "sourceId": "bleeping",
+     "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
+     "url": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
+     "published": "2026-11-03T18:51:04.000Z",
+     "firstSeen": 1793733910270,
+     "summary": "Large language model hijacking attacks, also known as LLMjacking, are generating large fraudulent cloud charges, with some organizations losing more than $100,000 per day."
+    }
+   ]
   },
   {
    "id": "59386f5c607a",
@@ -652,7 +916,7 @@
     "China",
     "Ransomware"
    ],
-   "score": 25,
+   "score": 31,
    "action": true,
    "also": [
     {
@@ -684,8 +948,35 @@
      "published": "2026-11-03T12:00:00.000Z",
      "firstSeen": 1793678372189,
      "summary": "The NCSC warns that ‘tech on the cheap’ has left UK organisations exposed to AI uncovering and exploiting longstanding cyber security weaknesses and calls for urgent investment in resilience."
+    },
+    {
+     "id": "a88f76d2d071",
+     "source": "CSO Online",
+     "sourceId": "csoonline",
+     "title": "UK organisations warned to brace for AI-powered ransomware attacks",
+     "url": "https://www.csoonline.com/article/4244138/uk-organisations-warned-to-brace-for-ai-powered-ransomware-attacks.html",
+     "published": "2026-11-03T18:53:08.000Z",
+     "firstSeen": 1793733910270,
+     "summary": "AI-powered malware is “highly likely” to be used in ransomware attacks on Britain’s critical national infrastructure within the next two years. The head of GCHQ’s National Cyber Security Centre, Dr. Richard Horne, warned that abuse of AI technologies is making it much easier for attackers to rapidly expose and exploit…"
     }
    ]
+  },
+  {
+   "id": "141cc6f5c983",
+   "title": "CWE-bench v2: More coverage, quality, and transparency",
+   "url": "https://huggingface.co/blog/cwe-bench",
+   "source": "Hugging Face",
+   "sourceId": "huggingface",
+   "published": "2026-11-03T00:00:00.000Z",
+   "firstSeen": 1793733910270,
+   "summary": "",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 4,
+   "action": false,
+   "also": []
   },
   {
    "id": "469ef6466386",
@@ -1314,7 +1605,7 @@
    "sourceId": "wired-ai",
    "published": "2026-10-31T12:00:00.000Z",
    "firstSeen": 1793459711763,
-   "summary": "Named “Volta-Autodoxer,” the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts.",
+   "summary": "Named Volta-Autodoxer, the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts.",
    "topics": [
     "security"
    ],
@@ -1330,7 +1621,7 @@
      "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
      "published": "2026-10-31T12:00:00.000Z",
      "firstSeen": 1793459711763,
-     "summary": "Named “Volta-Autodoxer,” the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts."
+     "summary": "Named Volta-Autodoxer, the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts."
     }
    ]
   },
@@ -3823,6 +4114,25 @@
    "also": []
   },
   {
+   "id": "4fd7b8ea6ce6",
+   "title": "How Absorption Rate Reveals Vulnerability Management Health",
+   "url": "https://cloudsecurityalliance.org/articles/how-absorption-rate-reveals-vulnerability-management-health",
+   "source": "Cloud Security Alliance",
+   "sourceId": "csa",
+   "published": "2026-10-26T19:02:59.000Z",
+   "firstSeen": 1793733910270,
+   "summary": "AI is accelerating vulnerability discovery, but it is not equally accelerating every part of vulnerability management. Findings and vendor fixes can now arrive at machine speed. Testing, deployment, and verification still depend on the infrastructure of a slower era. So, are you resolving vulnerabilities at least as…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
    "id": "82e007b353e7",
    "title": "Anthropic officially files for its public debut",
    "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
@@ -5087,28 +5397,6 @@
    "also": []
   },
   {
-   "id": "42314fdb1357",
-   "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
-   "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
-   "source": "TechCrunch AI",
-   "sourceId": "techcrunch-ai",
-   "published": "2026-10-22T16:47:17.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
-   "topics": [
-    "incidents",
-    "security"
-   ],
-   "tags": [
-    "AI agents",
-    "Microsoft",
-    "China"
-   ],
-   "score": 10,
-   "action": false,
-   "also": []
-  },
-  {
    "id": "0199bef938ea",
    "title": "PHP: Pretty Huge Problem with the internet – The Latest",
    "url": "https://www.theguardian.com/news/audio/2026/oct/22/php-pretty-huge-problem-with-the-internet-the-latest",
@@ -5603,7 +5891,7 @@
     "Microsoft",
     "China"
    ],
-   "score": 35,
+   "score": 38,
    "action": false,
    "also": [
     {
@@ -5645,6 +5933,16 @@
      "published": "2026-10-22T16:30:00.000Z",
      "firstSeen": 1792728350456,
      "summary": "A Chinese government-aligned hacking group used automated tools to carry out the recent supply chain attack on IT management software company ConnectWise and is using the same techniques to try to compromise organizations around the globe, Microsoft said."
+    },
+    {
+     "id": "42314fdb1357",
+     "source": "TechCrunch AI",
+     "sourceId": "techcrunch-ai",
+     "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+     "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+     "published": "2026-10-22T16:47:17.000Z",
+     "firstSeen": 1792728350456,
+     "summary": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers."
     },
     {
      "id": "2e23b21574bf",
