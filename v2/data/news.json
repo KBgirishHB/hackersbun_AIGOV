@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-03T03:59:32.189Z",
+ "generatedAt": "2026-11-03T11:49:22.977Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 43,
-  "fetched": 913,
-  "relevant": 381,
-  "stories": 340,
-  "duplicatesMerged": 41
+  "sourcesOk": 42,
+  "fetched": 908,
+  "relevant": 394,
+  "stories": 350,
+  "duplicatesMerged": 44
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 1135
+   "ms": 1013
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 62
+   "ms": 39
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 571
+   "ms": 945
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 839
+   "ms": 1230
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 3,
    "kept": 3,
-   "ms": 525
+   "ms": 423
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1463
+   "ms": 933
   },
   {
    "id": "edpb",
@@ -71,7 +71,7 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 1975
+   "ms": 2099
   },
   {
    "id": "europarl",
@@ -79,7 +79,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 852
+   "ms": 423
   },
   {
    "id": "cnil",
@@ -88,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1068
+   "ms": 890
   },
   {
    "id": "nist",
@@ -97,7 +97,7 @@
    "ok": true,
    "items": 40,
    "kept": 6,
-   "ms": 412
+   "ms": 41
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +106,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 889
+   "ms": 80
   },
   {
    "id": "cisa",
@@ -115,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 613
+   "ms": 447
   },
   {
    "id": "fedscoop",
@@ -124,7 +124,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 223
+   "ms": 432
   },
   {
    "id": "nextgov",
@@ -133,7 +133,7 @@
    "ok": true,
    "items": 23,
    "kept": 23,
-   "ms": 530
+   "ms": 446
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 383
+   "ms": 73
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 419
+   "ms": 117
   },
   {
    "id": "verge-ai",
@@ -159,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 378
+   "ms": 75
   },
   {
    "id": "ars-ai",
@@ -168,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 296
+   "ms": 411
   },
   {
    "id": "wired-ai",
@@ -177,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 130
+   "ms": 151
   },
   {
    "id": "guardian-ai",
@@ -186,7 +186,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 290
+   "ms": 261
   },
   {
    "id": "mittr-ai",
@@ -195,7 +195,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 192
+   "ms": 112
   },
   {
    "id": "register-ai",
@@ -204,7 +204,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 901
+   "ms": 428
   },
   {
    "id": "biometric",
@@ -213,7 +213,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 17067
+   "ms": 725
   },
   {
    "id": "krebs",
@@ -222,7 +222,7 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 404
+   "ms": 186
   },
   {
    "id": "securityweek",
@@ -231,7 +231,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 245
+   "ms": 93
   },
   {
    "id": "wired-security",
@@ -240,7 +240,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 26
+   "ms": 43
   },
   {
    "id": "csoonline",
@@ -249,7 +249,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 149
+   "ms": 76
   },
   {
    "id": "infosecmag",
@@ -258,7 +258,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 282
+   "ms": 215
   },
   {
    "id": "helpnet",
@@ -267,16 +267,15 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 116
+   "ms": 69
   },
   {
    "id": "therecord",
    "name": "The Record",
    "url": "https://therecord.media/feed",
-   "ok": true,
-   "items": 5,
-   "kept": 5,
-   "ms": 153
+   "ok": false,
+   "error": "HTTP 522",
+   "ms": 19672
   },
   {
    "id": "thehackernews",
@@ -285,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 269
+   "ms": 249
   },
   {
    "id": "bleeping",
@@ -294,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 91
+   "ms": 90
   },
   {
    "id": "darkreading",
@@ -303,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 496
+   "ms": 666
   },
   {
    "id": "schneier",
@@ -312,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 75
+   "ms": 48
   },
   {
    "id": "google-security",
@@ -321,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 542
+   "ms": 682
   },
   {
    "id": "msft-security",
@@ -330,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1308
+   "ms": 1042
   },
   {
    "id": "aws-security",
@@ -339,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 375
+   "ms": 86
   },
   {
    "id": "unit42",
@@ -348,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 297
+   "ms": 41
   },
   {
    "id": "trailofbits",
@@ -357,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 534
+   "ms": 176
   },
   {
    "id": "embracethered",
@@ -366,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 318
+   "ms": 52
   },
   {
    "id": "owasp-genai",
@@ -375,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 111
+   "ms": 273
   },
   {
    "id": "willison-pi",
@@ -384,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 477
+   "ms": 567
   },
   {
    "id": "csa",
@@ -393,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 710
+   "ms": 234
   },
   {
    "id": "openai",
@@ -402,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 121
+   "ms": 78
   },
   {
    "id": "deepmind",
@@ -411,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 10,
-   "ms": 192
+   "ms": 114
   },
   {
    "id": "huggingface",
@@ -419,29 +418,219 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 23,
-   "ms": 213
+   "kept": 24,
+   "ms": 136
   }
  ],
  "items": [
   {
-   "id": "f601eb540b28",
-   "title": "Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years",
-   "url": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years",
-   "source": "NCSC UK",
-   "sourceId": "ncsc-uk",
-   "published": "2026-11-03T03:59:32.189Z",
-   "firstSeen": 1793678372189,
-   "summary": "The NCSC warns that ‘tech on the cheap’ has left UK organisations exposed to AI uncovering and exploiting longstanding cyber security weaknesses and calls for urgent investment in resilience.",
+   "id": "64cc60909ee0",
+   "title": "Armed with AI, hackers target endpoint security blind spots, raising stakes for CISOs",
+   "url": "https://www.csoonline.com/article/4243816/armed-with-ai-hackers-target-endpoint-security-blind-spots-raising-stakes-for-cisos.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-11-03T10:53:10.000Z",
+   "firstSeen": 1793706562977,
+   "summary": "A China-linked hacking group’s use of AI agents to identify security weaknesses during a global espionage campaign is raising concerns about whether enterprises can detect gaps in their defenses before automated attacks exploit them. CrowdStrike reported that the group, tracked as VAPOR PANDA, used an AI-powered…",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "AI agents",
+    "China"
+   ],
+   "score": 16,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "3d115a9c27d9",
+   "title": "LLMJacking is Costing Some Businesses Up to $1m, Warns Google",
+   "url": "https://www.infosecurity-magazine.com/news/llmjacking-cost-business-1m-warns/",
+   "source": "Infosecurity Magazine",
+   "sourceId": "infosecmag",
+   "published": "2026-11-03T10:45:00.000Z",
+   "firstSeen": 1793706562977,
+   "summary": "Google Mandiant has warned of the high cost of hijacked access to large language models, or LLMJacking",
    "topics": [
     "security"
    ],
    "tags": [
-    "Critical infrastructure",
-    "UK"
+    "Google"
    ],
-   "score": 13,
-   "action": true,
+   "score": 0,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "a0cf48bcdc31",
+   "title": "Stolen AI access leaves companies with cloud bills of up to $1 million",
+   "url": "https://www.helpnetsecurity.com/2026/11/03/llmjacking-stolen-ai-access-cloud-bills/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-03T09:39:05.000Z",
+   "firstSeen": 1793706562977,
+   "summary": "Criminals who break into corporate cloud accounts are using the stolen access to run AI models at the victim’s expense, in some cases racking up more than $100,000 in charges in a single day, Google Threat Intelligence Group (GTIG) and Mandiant researchers have found. Usage chart showing LLMJacking generating a spike…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Google"
+   ],
+   "score": 11,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "59386f5c607a",
+   "title": "OpenAI raises top bug bounty payout to $172,000 with bonuses",
+   "url": "https://www.helpnetsecurity.com/2026/11/03/openai-bigger-bug-bounty-rewards/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-03T08:58:59.000Z",
+   "firstSeen": 1793706562977,
+   "summary": "OpenAI increased its security bug bounties to encourage independent researchers to find vulnerabilities in its software. The program now offers bonuses for high-quality reports. The program encourages researchers to disclose vulnerabilities responsibly and complements OpenAI’s Defense Factory, where engineers use the…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability",
+    "OpenAI"
+   ],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "c1744a030991",
+   "title": "Opal’s agent.ID virtual event: Top security leaders on governing Al agents",
+   "url": "https://www.helpnetsecurity.com/2026/11/03/opal-security-agent-id-virtual-event/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-03T08:55:07.000Z",
+   "firstSeen": 1793706562977,
+   "summary": "Opal Security will host agent.ID, a free virtual event focused on adapting identity and access management (IAM) to AI agents, on November 5, 2026. The event will bring together CISOs and identity leaders from Elastic, Instacart, Notion, Databricks, Knostic and other organizations to discuss how agents can be governed…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 2,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "aa36292ffb29",
+   "title": "NATO’s Crossed Swords Exercise Brings AI Agents Into Cyber Operations Training",
+   "url": "https://www.securityweek.com/natos-crossed-swords-exercise-brings-ai-agents-into-cyber-operations-training/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-03T08:49:03.000Z",
+   "firstSeen": 1793706562977,
+   "summary": "The NATO CCDCOE exercise in Estonia introduces AI agents and OpenAI Daybreak into joint cyber and kinetic operations training.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents",
+    "OpenAI"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "cfa9da854840",
+   "title": "67% of security leaders say their teams struggle to meet business needs",
+   "url": "https://www.csoonline.com/article/4243598/67-of-security-leaders-say-their-teams-struggle-to-meet-business-needs.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-11-03T08:25:00.000Z",
+   "firstSeen": 1793706562977,
+   "summary": "AI, identity-based attacks, and expanding digital operations are putting pressure on already overstretched cybersecurity teams. Security vendor Barracuda’s Cybersecurity Skills Gap report also found that security teams are struggling to keep pace with expanding responsibilities. The vast majority of the 2,000 IT and…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "3211c6d73272",
+   "title": "What human hackers still do better than AI, according to HackerOne’s CEO",
+   "url": "https://www.helpnetsecurity.com/2026/11/03/kara-sprague-hackerone-ai-bug-bounty/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-03T06:30:36.000Z",
+   "firstSeen": 1793706562977,
+   "summary": "AI can find vulnerabilities in minutes, but people still hold the edge in judging what a flaw means for a business. In this Help Net Security interview, Kara Sprague, CEO of HackerOne, talks about business logic bugs, what AI does to the crowd model, and why routine medium-severity findings may pay less. She also…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability"
+   ],
+   "score": 11,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "14fc6b15472e",
+   "title": "Product showcase: Sweet Virtual Patching stops HTTP2Shell while fixes catch up",
+   "url": "https://www.helpnetsecurity.com/2026/11/03/product-showcase-sweet-security-virtual-patching/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-03T06:00:18.000Z",
+   "firstSeen": 1793706562977,
+   "summary": "HTTP2Shell (CVE-2026-111497), the critical Brotli bug first known as Node2Shell, is a remote code execution flaw in the compression library inside Node.js, Bun, Envoy, Python and more. AI found it: OpenAI’s agents turned it up in late September during a high-compute red-teaming campaign. Finding bugs is getting…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability",
+    "OpenAI"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "6431ee220846",
+   "title": "AI coding agents are installing MCP servers that will never be patched",
+   "url": "https://www.helpnetsecurity.com/2026/11/03/mcphantom-deprecated-mcp-servers/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-03T05:45:53.000Z",
+   "firstSeen": 1793706562977,
+   "summary": "When a developer tells an AI coding agent to “set up a GitHub MCP,” the agent has to pick a package. New research from Glow Labs documents sessions where it picked one out of an archived repository that will never be patched again. Source: Glow Security Reviewing real AI coding session transcripts, Glow Labs found…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "MCP"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "3e770ed0aaab",
+   "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+   "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+   "source": "MIT Technology Review AI",
+   "sourceId": "mittr-ai",
+   "published": "2026-11-03T04:18:47.000Z",
+   "firstSeen": 1793706562977,
+   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been calling artificial…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [],
+   "score": 4,
+   "action": false,
    "also": []
   },
   {
@@ -454,14 +643,49 @@
    "firstSeen": 1793678372189,
    "summary": "National Cyber Security Centre expects attacks on critical facilities such as power stations, airports and hospitals AI-powered malicious software is “highly likely” to be used in hacking attacks against the UK’s power stations, airports and hospitals by 2028, according to the state cybersecurity body. The National…",
    "topics": [
-    "security"
+    "security",
+    "incidents"
    ],
    "tags": [
-    "UK"
+    "UK",
+    "Critical infrastructure",
+    "China",
+    "Ransomware"
    ],
-   "score": 11,
-   "action": false,
-   "also": []
+   "score": 25,
+   "action": true,
+   "also": [
+    {
+     "id": "55516d7d648c",
+     "source": "SecurityWeek",
+     "sourceId": "securityweek",
+     "title": "UK Cyber Chief Says the UK Will Face AI Cyberattacks on Critical Infrastructure by 2028",
+     "url": "https://www.securityweek.com/uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-critical-infrastructure-by-2028/",
+     "published": "2026-11-03T09:49:12.000Z",
+     "firstSeen": 1793706562977,
+     "summary": "The U.K. will likely face AI cyberattacks on its critical infrastructure by 2028 as criminals and states, including China and Russia, increasingly use AI in their cyber activity."
+    },
+    {
+     "id": "0bd05f5db5fd",
+     "source": "Infosecurity Magazine",
+     "sourceId": "infosecmag",
+     "title": "NCSC Chief Warns of Imminent AI Ransomware Threat to UK Critical Infrastructure",
+     "url": "https://www.infosecurity-magazine.com/news/ncsc-ai-ransomware-threat-uk-cni/",
+     "published": "2026-11-03T11:45:00.000Z",
+     "firstSeen": 1793706562977,
+     "summary": "The UK’s cyber chief has warned that AI-powered malware is highly likely to feature in ransomware attacks targeting British critical infrastructure by 2028"
+    },
+    {
+     "id": "f601eb540b28",
+     "source": "NCSC UK",
+     "sourceId": "ncsc-uk",
+     "title": "Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years",
+     "url": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years",
+     "published": "2026-11-03T12:00:00.000Z",
+     "firstSeen": 1793678372189,
+     "summary": "The NCSC warns that ‘tech on the cheap’ has left UK organisations exposed to AI uncovering and exploiting longstanding cyber security weaknesses and calls for urgent investment in resilience."
+    }
+   ]
   },
   {
    "id": "469ef6466386",
