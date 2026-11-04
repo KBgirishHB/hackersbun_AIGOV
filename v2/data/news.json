@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-11-04T00:10:16.490Z",
+ "generatedAt": "2026-11-04T06:55:16.222Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 43,
-  "fetched": 914,
-  "relevant": 418,
-  "stories": 365,
+  "sourcesOk": 45,
+  "fetched": 955,
+  "relevant": 419,
+  "stories": 366,
   "duplicatesMerged": 53
  },
  "sources": [
@@ -18,15 +18,16 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 1112
+   "ms": 976
   },
   {
    "id": "aiact-newsletter",
    "name": "EU AI Act Newsletter",
    "url": "https://artificialintelligenceact.substack.com/feed",
-   "ok": false,
-   "error": "HTTP 403",
-   "ms": 76
+   "ok": true,
+   "items": 20,
+   "kept": 3,
+   "ms": 73
   },
   {
    "id": "fli",
@@ -35,7 +36,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 1042
+   "ms": 614
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +45,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 1030
+   "ms": 1018
   },
   {
    "id": "lawfare",
@@ -53,7 +54,7 @@
    "ok": true,
    "items": 4,
    "kept": 4,
-   "ms": 439
+   "ms": 136
   },
   {
    "id": "euractiv",
@@ -62,7 +63,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1032
+   "ms": 1201
   },
   {
    "id": "edpb",
@@ -71,15 +72,16 @@
    "ok": true,
    "items": 10,
    "kept": 9,
-   "ms": 2075
+   "ms": 1873
   },
   {
    "id": "europarl",
    "name": "European Parliament",
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
-   "ok": false,
-   "error": "not an RSS/Atom feed",
-   "ms": 450
+   "ok": true,
+   "items": 20,
+   "kept": 20,
+   "ms": 491
   },
   {
    "id": "cnil",
@@ -88,7 +90,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 953
+   "ms": 893
   },
   {
    "id": "nist",
@@ -97,7 +99,7 @@
    "ok": true,
    "items": 40,
    "kept": 6,
-   "ms": 77
+   "ms": 383
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +108,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 100
+   "ms": 107
   },
   {
    "id": "cisa",
@@ -115,7 +117,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 499
+   "ms": 389
   },
   {
    "id": "fedscoop",
@@ -124,16 +126,16 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 537
+   "ms": 365
   },
   {
    "id": "nextgov",
    "name": "Nextgov/FCW",
    "url": "https://www.nextgov.com/rss/all/",
    "ok": true,
-   "items": 23,
-   "kept": 23,
-   "ms": 84
+   "items": 24,
+   "kept": 24,
+   "ms": 706
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +144,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 89
+   "ms": 50
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +152,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 128
+   "ms": 48
   },
   {
    "id": "verge-ai",
@@ -159,7 +161,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 257
+   "ms": 26
   },
   {
    "id": "ars-ai",
@@ -168,7 +170,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 217
+   "ms": 330
   },
   {
    "id": "wired-ai",
@@ -177,7 +179,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 194
+   "ms": 63
   },
   {
    "id": "guardian-ai",
@@ -186,7 +188,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 209
+   "ms": 179
   },
   {
    "id": "mittr-ai",
@@ -195,7 +197,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 134
+   "ms": 112
   },
   {
    "id": "register-ai",
@@ -204,7 +206,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 644
+   "ms": 610
   },
   {
    "id": "biometric",
@@ -213,7 +215,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 12773
+   "ms": 763
   },
   {
    "id": "krebs",
@@ -222,7 +224,7 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 94
+   "ms": 134
   },
   {
    "id": "securityweek",
@@ -231,7 +233,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 129
+   "ms": 68
   },
   {
    "id": "wired-security",
@@ -240,7 +242,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 38
+   "ms": 27
   },
   {
    "id": "csoonline",
@@ -249,7 +251,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 69
+   "ms": 51
   },
   {
    "id": "infosecmag",
@@ -258,7 +260,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 185
+   "ms": 204
   },
   {
    "id": "helpnet",
@@ -267,7 +269,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 100
+   "ms": 62
   },
   {
    "id": "therecord",
@@ -276,7 +278,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 188
+   "ms": 198
   },
   {
    "id": "thehackernews",
@@ -285,7 +287,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 249
+   "ms": 225
   },
   {
    "id": "bleeping",
@@ -294,7 +296,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 224
+   "ms": 133
   },
   {
    "id": "darkreading",
@@ -303,7 +305,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 794
+   "ms": 771
   },
   {
    "id": "schneier",
@@ -312,7 +314,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 286
+   "ms": 40
   },
   {
    "id": "google-security",
@@ -321,7 +323,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 512
+   "ms": 403
   },
   {
    "id": "msft-security",
@@ -330,7 +332,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3180
+   "ms": 1182
   },
   {
    "id": "aws-security",
@@ -339,7 +341,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 289
+   "ms": 85
   },
   {
    "id": "unit42",
@@ -348,7 +350,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 36
+   "ms": 86
   },
   {
    "id": "trailofbits",
@@ -357,7 +359,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 245
+   "ms": 226
   },
   {
    "id": "embracethered",
@@ -366,7 +368,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 85
+   "ms": 110
   },
   {
    "id": "owasp-genai",
@@ -375,7 +377,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 187
+   "ms": 115
   },
   {
    "id": "willison-pi",
@@ -384,7 +386,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 77
+   "ms": 636
   },
   {
    "id": "csa",
@@ -393,7 +395,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 521
+   "ms": 482
   },
   {
    "id": "openai",
@@ -402,7 +404,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 172
+   "ms": 86
   },
   {
    "id": "deepmind",
@@ -411,7 +413,7 @@
    "ok": true,
    "items": 40,
    "kept": 11,
-   "ms": 117
+   "ms": 384
   },
   {
    "id": "huggingface",
@@ -420,10 +422,48 @@
    "ok": true,
    "items": 40,
    "kept": 25,
-   "ms": 142
+   "ms": 139
   }
  ],
  "items": [
+  {
+   "id": "a8d8533a1287",
+   "title": "Companies going all in on AI could see their strategy backfire",
+   "url": "https://www.helpnetsecurity.com/2026/11/04/ai-strategy-miscalculation-gartner-report/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-04T05:30:45.000Z",
+   "firstSeen": 1793775316222,
+   "summary": "Four of the five highest-ranked enterprise risks in Gartner’s Quarterly Emerging Risk Report were AI-related. AI strategy miscalculation and AI-driven competitive displacement debuted at No. 3 and No. 4, respectively. The AI workforce preparedness gap held fifth place. AI discovery of cyber vulnerabilities and…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability"
+   ],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "0f581d6fd6e7",
+   "title": "Anthropic open-sources FlashProve, its provable inference prototype for MoE models",
+   "url": "https://www.helpnetsecurity.com/2026/11/04/anthropic-flashprove-provable-inference/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-04T04:36:14.000Z",
+   "firstSeen": 1793775316222,
+   "summary": "Anthropic’s Frontier Red Team, with collaborators at EPFL, MIT and StarkWare, built FlashProve, a prototype that produces a cryptographic proof that one specific language model generated one specific reply. The prover, two verifiers, the formal proofs behind them and a protocol specification are on GitHub under the…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
   {
    "id": "074b7dea7e8e",
    "title": "US tech stocks recover after selloff spooks investors over AI spending",
@@ -871,6 +911,25 @@
    ],
    "tags": [],
    "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "558d183fe151",
+   "title": "How Journalists Uncover What's Really Happening with the AI Act (with Maximilian Henning)",
+   "url": "https://artificialintelligenceact.substack.com/p/how-journalists-uncover-whats-really",
+   "source": "EU AI Act Newsletter",
+   "sourceId": "aiact-newsletter",
+   "published": "2026-11-03T07:31:14.000Z",
+   "firstSeen": 1793775316222,
+   "summary": "Welcome to The EU AI Act Conversations, a podcast with Risto Uuk exploring the implementation, enforcement and impact of Europe’s AI law.",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "EU AI Act"
+   ],
+   "score": 20,
    "action": false,
    "also": []
   },
@@ -7602,25 +7661,6 @@
    "also": []
   },
   {
-   "id": "d033a0f1a197",
-   "title": "How Does the EU AI Office Enforce the AI Act? (with Lucilla Sioli)",
-   "url": "https://artificialintelligenceact.substack.com/p/how-does-the-eu-ai-office-enforce",
-   "source": "EU AI Act Newsletter",
-   "sourceId": "aiact-newsletter",
-   "published": "2026-09-30T06:48:06.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Welcome to The EU AI Act Conversations, a podcast with Risto Uuk exploring the implementation, enforcement and impact of Europe’s AI law.",
-   "topics": [
-    "regulation"
-   ],
-   "tags": [
-    "EU AI Act"
-   ],
-   "score": 28,
-   "action": false,
-   "also": []
-  },
-  {
    "id": "79fa8a5598fb",
    "title": "Statement: We must pressure AI companies to immediately limit the use of recursive self improvement",
    "url": "https://futureoflife.org/statement/statement-we-must-pressure-ai-companies-to-immediately-limit-the-use-of-recursive-self-improvement/",
@@ -7668,27 +7708,6 @@
    ],
    "tags": [],
    "score": 0,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "14cf48ba9dd9",
-   "title": "The EU AI Act Newsletter #111: Pacing the Frontier",
-   "url": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-111-pacing",
-   "source": "EU AI Act Newsletter",
-   "sourceId": "aiact-newsletter",
-   "published": "2026-09-23T05:51:11.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Von der Leyen puts frontier AI risk at the centre of her State of the Union address, while the AI Office confirms OpenAI did not file a report on the RubyGems incident.",
-   "topics": [
-    "regulation",
-    "governance"
-   ],
-   "tags": [
-    "EU AI Act",
-    "OpenAI"
-   ],
-   "score": 25,
    "action": false,
    "also": []
   },
