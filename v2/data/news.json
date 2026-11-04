@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-11-04T15:20:07.536Z",
+ "generatedAt": "2026-11-04T21:27:17.339Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 42,
-  "fetched": 903,
-  "relevant": 435,
-  "stories": 380,
+  "sourcesOk": 41,
+  "fetched": 875,
+  "relevant": 441,
+  "stories": 386,
   "duplicatesMerged": 55
  },
  "sources": [
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 867
+   "ms": 900
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 118
+   "ms": 61
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 734
+   "ms": 691
   },
   {
    "id": "algorithmwatch",
@@ -44,16 +44,16 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 1449
+   "ms": 1052
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 2,
-   "kept": 2,
-   "ms": 496
+   "items": 4,
+   "kept": 4,
+   "ms": 318
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1453
+   "ms": 994
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 500",
-   "ms": 4234
+   "ms": 5321
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 816
+   "ms": 621
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1331
+   "ms": 1033
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 434
+   "ms": 498
   },
   {
    "id": "ncsc-uk",
@@ -105,16 +105,15 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 263
+   "ms": 228
   },
   {
    "id": "cisa",
    "name": "CISA Advisories",
    "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-   "ok": true,
-   "items": 30,
-   "kept": 30,
-   "ms": 629
+   "ok": false,
+   "error": "HTTP 403",
+   "ms": 177
   },
   {
    "id": "fedscoop",
@@ -123,7 +122,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 212
+   "ms": 28
   },
   {
    "id": "nextgov",
@@ -132,7 +131,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 528
+   "ms": 164
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +140,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 526
+   "ms": 74
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +148,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 492
+   "ms": 113
   },
   {
    "id": "verge-ai",
@@ -158,7 +157,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 156
+   "ms": 93
   },
   {
    "id": "ars-ai",
@@ -167,7 +166,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 356
+   "ms": 151
   },
   {
    "id": "wired-ai",
@@ -176,7 +175,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 279
+   "ms": 188
   },
   {
    "id": "guardian-ai",
@@ -185,7 +184,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 636
+   "ms": 300
   },
   {
    "id": "mittr-ai",
@@ -194,7 +193,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 373
+   "ms": 174
   },
   {
    "id": "register-ai",
@@ -203,7 +202,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 992
+   "ms": 742
   },
   {
    "id": "biometric",
@@ -212,7 +211,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 927
+   "ms": 711
   },
   {
    "id": "krebs",
@@ -221,7 +220,7 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 446
+   "ms": 451
   },
   {
    "id": "securityweek",
@@ -230,7 +229,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 265
+   "ms": 355
   },
   {
    "id": "wired-security",
@@ -239,7 +238,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 39
+   "ms": 29
   },
   {
    "id": "csoonline",
@@ -248,7 +247,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 232
+   "ms": 273
   },
   {
    "id": "infosecmag",
@@ -257,7 +256,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 389
+   "ms": 435
   },
   {
    "id": "helpnet",
@@ -266,7 +265,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 129
+   "ms": 285
   },
   {
    "id": "therecord",
@@ -275,7 +274,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 165
+   "ms": 293
   },
   {
    "id": "thehackernews",
@@ -284,7 +283,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 259
+   "ms": 516
   },
   {
    "id": "bleeping",
@@ -293,7 +292,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 227
+   "ms": 262
   },
   {
    "id": "darkreading",
@@ -302,7 +301,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 615
+   "ms": 467
   },
   {
    "id": "schneier",
@@ -311,7 +310,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 200
+   "ms": 175
   },
   {
    "id": "google-security",
@@ -320,7 +319,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 462
+   "ms": 764
   },
   {
    "id": "msft-security",
@@ -329,7 +328,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3179
+   "ms": 2291
   },
   {
    "id": "aws-security",
@@ -338,7 +337,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 378
+   "ms": 175
   },
   {
    "id": "unit42",
@@ -347,7 +346,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 186
+   "ms": 239
   },
   {
    "id": "trailofbits",
@@ -356,7 +355,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 790
+   "ms": 549
   },
   {
    "id": "embracethered",
@@ -365,7 +364,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 240
+   "ms": 152
   },
   {
    "id": "owasp-genai",
@@ -374,7 +373,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 261
+   "ms": 280
   },
   {
    "id": "willison-pi",
@@ -383,7 +382,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 170
+   "ms": 172
   },
   {
    "id": "csa",
@@ -392,7 +391,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 761
+   "ms": 587
   },
   {
    "id": "openai",
@@ -401,7 +400,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 193
+   "ms": 144
   },
   {
    "id": "deepmind",
@@ -410,7 +409,7 @@
    "ok": true,
    "items": 40,
    "kept": 11,
-   "ms": 232
+   "ms": 242
   },
   {
    "id": "huggingface",
@@ -418,11 +417,121 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 25,
-   "ms": 220
+   "kept": 26,
+   "ms": 133
   }
  ],
  "items": [
+  {
+   "id": "56ff31f1b841",
+   "title": "The Biggest Pro-AI Super PAC Network Didn’t Really Impact the Midterms",
+   "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/",
+   "source": "WIRED AI",
+   "sourceId": "wired-ai",
+   "published": "2026-11-04T20:41:29.000Z",
+   "firstSeen": 1793827637339,
+   "summary": "Leading the Future, backed by Silicon Valley’s biggest billionaires, had a war chest of $100 million and an aggressive stance against AI regulation. All of it didn’t add up to much on Tuesday night.",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "4cb74bd6154b",
+   "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
+   "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "published": "2026-11-04T19:29:52.000Z",
+   "firstSeen": 1793827637339,
+   "summary": "DuckDuckGo is courting schools frustrated by Google's AI restrictions, pointing educators to its search engine and options to disable AI features.",
+   "topics": [
+    "governance"
+   ],
+   "tags": [
+    "Google"
+   ],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "a59816b7bc19",
+   "title": "Hugging Face’s CEO Says His P(Doom) Is ‘Close to Zero’",
+   "url": "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/",
+   "source": "WIRED Security",
+   "sourceId": "wired-security",
+   "published": "2026-11-04T19:16:25.000Z",
+   "firstSeen": 1793827637339,
+   "summary": "“Most of the risk is actually created by a couple of players building behind closed doors,” Clément Delangue said of the need for open source AI.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "92f833d72444",
+   "title": "Musk’s Minnesota Deepfake Fight Could Define AI’s First Amendment",
+   "url": "https://www.lawfaremedia.org/article/musk-s-minnesota-deepfake-fight-could-define-ai-s-first-amendment",
+   "source": "Lawfare",
+   "sourceId": "lawfare",
+   "published": "2026-11-04T18:00:09.000Z",
+   "firstSeen": 1793827637339,
+   "summary": "The Eighth Circuit’s review of Minnesota’s strict-liability nudification law may settle what state of mind AI companies need for liability.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Deepfakes"
+   ],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "3dd5e13ad9d9",
+   "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+   "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-04T16:06:43.000Z",
+   "firstSeen": 1793827637339,
+   "summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been codenamed prompt adware by Check Point Research. Called Haiou…",
+   "topics": [
+    "security",
+    "research"
+   ],
+   "tags": [
+    "Jailbreak",
+    "OpenAI"
+   ],
+   "score": 19,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "9ab79ba42d52",
+   "title": "Where the Weight Lies: A Balancing Act for the Governance of Open-Weight AI Models",
+   "url": "https://www.lawfaremedia.org/article/where-the-weight-lies--a-balancing-act-for-the-governance-of-open-weight-ai-models",
+   "source": "Lawfare",
+   "sourceId": "lawfare",
+   "published": "2026-11-04T15:22:45.000Z",
+   "firstSeen": 1793827637339,
+   "summary": "What would a ban on open weight models which run artificial intelligence systems actually look like? Could it even be implemented? What implications would it have for the concept of digital sovereignty?",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
   {
    "id": "ed61e10b9f52",
    "title": "Cycurion Habit verifies threats and validates fixes before closing cases",
@@ -539,7 +648,7 @@
   },
   {
    "id": "aeadb14752b6",
-   "title": "Albanese government warned it’s ‘sleepwalking into another robodebt scenario’ over use of algorithms and AI",
+   "title": "Albanese government warned it is ‘sleepwalking into another robodebt scenario’ over use of algorithms and AI",
    "url": "https://www.theguardian.com/australia-news/2026/nov/05/albanese-government-warned-its-sleepwalking-into-another-robodebt-scenario-over-use-of-algorithms-and-ai",
    "source": "The Guardian AI",
    "sourceId": "guardian-ai",
