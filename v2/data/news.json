@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-04T06:55:16.222Z",
+ "generatedAt": "2026-11-04T15:20:07.536Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 45,
-  "fetched": 955,
-  "relevant": 419,
-  "stories": 366,
-  "duplicatesMerged": 53
+  "sourcesOk": 42,
+  "fetched": 903,
+  "relevant": 435,
+  "stories": 380,
+  "duplicatesMerged": 55
  },
  "sources": [
   {
@@ -18,16 +18,15 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 976
+   "ms": 867
   },
   {
    "id": "aiact-newsletter",
    "name": "EU AI Act Newsletter",
    "url": "https://artificialintelligenceact.substack.com/feed",
-   "ok": true,
-   "items": 20,
-   "kept": 3,
-   "ms": 73
+   "ok": false,
+   "error": "HTTP 403",
+   "ms": 118
   },
   {
    "id": "fli",
@@ -36,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 614
+   "ms": 734
   },
   {
    "id": "algorithmwatch",
@@ -45,16 +44,16 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 1018
+   "ms": 1449
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 4,
-   "kept": 4,
-   "ms": 136
+   "items": 2,
+   "kept": 2,
+   "ms": 496
   },
   {
    "id": "euractiv",
@@ -63,25 +62,23 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1201
+   "ms": 1453
   },
   {
    "id": "edpb",
    "name": "EDPB",
    "url": "https://edpb.europa.eu/feed/news_en",
-   "ok": true,
-   "items": 10,
-   "kept": 9,
-   "ms": 1873
+   "ok": false,
+   "error": "HTTP 500",
+   "ms": 4234
   },
   {
    "id": "europarl",
    "name": "European Parliament",
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
-   "ok": true,
-   "items": 20,
-   "kept": 20,
-   "ms": 491
+   "ok": false,
+   "error": "not an RSS/Atom feed",
+   "ms": 816
   },
   {
    "id": "cnil",
@@ -90,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 893
+   "ms": 1331
   },
   {
    "id": "nist",
@@ -98,8 +95,8 @@
    "url": "https://www.nist.gov/news-events/news/rss.xml",
    "ok": true,
    "items": 40,
-   "kept": 6,
-   "ms": 383
+   "kept": 5,
+   "ms": 434
   },
   {
    "id": "ncsc-uk",
@@ -108,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 107
+   "ms": 263
   },
   {
    "id": "cisa",
@@ -117,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 389
+   "ms": 629
   },
   {
    "id": "fedscoop",
@@ -126,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 365
+   "ms": 212
   },
   {
    "id": "nextgov",
@@ -135,7 +132,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 706
+   "ms": 528
   },
   {
    "id": "techcrunch-ai",
@@ -144,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 50
+   "ms": 526
   },
   {
    "id": "venturebeat-ai",
@@ -152,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 48
+   "ms": 492
   },
   {
    "id": "verge-ai",
@@ -161,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 26
+   "ms": 156
   },
   {
    "id": "ars-ai",
@@ -170,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 330
+   "ms": 356
   },
   {
    "id": "wired-ai",
@@ -179,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 63
+   "ms": 279
   },
   {
    "id": "guardian-ai",
@@ -188,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 179
+   "ms": 636
   },
   {
    "id": "mittr-ai",
@@ -197,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 112
+   "ms": 373
   },
   {
    "id": "register-ai",
@@ -206,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 610
+   "ms": 992
   },
   {
    "id": "biometric",
@@ -215,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 763
+   "ms": 927
   },
   {
    "id": "krebs",
@@ -224,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 134
+   "ms": 446
   },
   {
    "id": "securityweek",
@@ -233,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 68
+   "ms": 265
   },
   {
    "id": "wired-security",
@@ -242,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 27
+   "ms": 39
   },
   {
    "id": "csoonline",
@@ -251,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 51
+   "ms": 232
   },
   {
    "id": "infosecmag",
@@ -260,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 204
+   "ms": 389
   },
   {
    "id": "helpnet",
@@ -269,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 62
+   "ms": 129
   },
   {
    "id": "therecord",
@@ -278,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 198
+   "ms": 165
   },
   {
    "id": "thehackernews",
@@ -287,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 225
+   "ms": 259
   },
   {
    "id": "bleeping",
@@ -296,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 133
+   "ms": 227
   },
   {
    "id": "darkreading",
@@ -305,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 771
+   "ms": 615
   },
   {
    "id": "schneier",
@@ -314,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 40
+   "ms": 200
   },
   {
    "id": "google-security",
@@ -323,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 403
+   "ms": 462
   },
   {
    "id": "msft-security",
@@ -332,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1182
+   "ms": 3179
   },
   {
    "id": "aws-security",
@@ -341,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 85
+   "ms": 378
   },
   {
    "id": "unit42",
@@ -350,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 86
+   "ms": 186
   },
   {
    "id": "trailofbits",
@@ -359,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 226
+   "ms": 790
   },
   {
    "id": "embracethered",
@@ -368,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 110
+   "ms": 240
   },
   {
    "id": "owasp-genai",
@@ -377,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 115
+   "ms": 261
   },
   {
    "id": "willison-pi",
@@ -386,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 636
+   "ms": 170
   },
   {
    "id": "csa",
@@ -395,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 482
+   "ms": 761
   },
   {
    "id": "openai",
@@ -404,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 86
+   "ms": 193
   },
   {
    "id": "deepmind",
@@ -413,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 11,
-   "ms": 384
+   "ms": 232
   },
   {
    "id": "huggingface",
@@ -422,10 +419,257 @@
    "ok": true,
    "items": 40,
    "kept": 25,
-   "ms": 139
+   "ms": 220
   }
  ],
  "items": [
+  {
+   "id": "ed61e10b9f52",
+   "title": "Cycurion Habit verifies threats and validates fixes before closing cases",
+   "url": "https://www.helpnetsecurity.com/2026/11/04/cycurion-habit/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-04T14:40:23.000Z",
+   "firstSeen": 1793805607536,
+   "summary": "Cycurion has launched Habit, an AI-driven security operations center (SOC) built to identify threats before they disrupt operations. The launch also marks Cycurion’s repositioning as a predictive cybersecurity company, built around a newly assembled team of former U.S. Intelligence Community and private-sector cyber…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "c3ba18a0b019",
+   "title": "Sysdig Adds Runtime Security and Governance for AI Agents",
+   "url": "https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-04T14:34:44.000Z",
+   "firstSeen": 1793805607536,
+   "summary": "Sysdig’s platform uses runtime visibility to track AI agent actions and block risky behavior before it reaches production systems.",
+   "topics": [
+    "governance"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "03936bf74861",
+   "title": "Descope Envoy brings AI agent authentication to consumer apps",
+   "url": "https://www.helpnetsecurity.com/2026/11/04/descope-envoy/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-04T14:31:05.000Z",
+   "firstSeen": 1793805607536,
+   "summary": "Descope has announced Envoy, a set of capabilities that gives personal AI agents a delegated sign-in path alongside a consumer app’s existing authentication flows. Consumer companies can now accept agents as first-class users—with their own identities, permissions, and approval flows—without rebuilding their identity…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "ccc637cea38d",
+   "title": "BlueFlag Security adds controls for AI agents working under developer identities",
+   "url": "https://www.helpnetsecurity.com/2026/11/04/blueflag-ai-agent-governance/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-04T14:22:51.000Z",
+   "firstSeen": 1793805607536,
+   "summary": "BlueFlag Security has expanded AI Agent Governance that fully maps the access, behavior and oversight of both approved and shadow AI agents, including options for automated risk remediation. Activated within BlueFlag’s pioneering platform, customers can now govern all aspects of AI agents and their relationships with…",
+   "topics": [
+    "security",
+    "governance"
+   ],
+   "tags": [
+    "AI agents",
+    "Shadow AI"
+   ],
+   "score": 15,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "88f7afb82f2d",
+   "title": "Citrix expands oversight of autonomous browsing and AI agent activity",
+   "url": "https://www.helpnetsecurity.com/2026/11/04/citrix-ai-governance-capabilities/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-04T14:13:48.000Z",
+   "firstSeen": 1793805607536,
+   "summary": "Citrix has announced new capabilities across Citrix SecurSpaces, Citrix SecurAccess and Citrix Platform Flex designed to help organizations securely deploy AI agents, govern AI-powered work and scale adoption across the enterprise. These updates include an expansion of Citrix SecurSpaces to a wider set of personas…",
+   "topics": [
+    "governance"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "de923fad1e23",
+   "title": "Agentic Data Security Firm Sentra Raises $150 Million",
+   "url": "https://www.securityweek.com/agentic-data-security-firm-sentra-raises-150-million/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-04T14:09:20.000Z",
+   "firstSeen": 1793805607536,
+   "summary": "The company will invest in agentic data security capabilities and expand its go-to-market organization.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "aeadb14752b6",
+   "title": "Albanese government warned it’s ‘sleepwalking into another robodebt scenario’ over use of algorithms and AI",
+   "url": "https://www.theguardian.com/australia-news/2026/nov/05/albanese-government-warned-its-sleepwalking-into-another-robodebt-scenario-over-use-of-algorithms-and-ai",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-11-04T14:00:37.000Z",
+   "firstSeen": 1793805607536,
+   "summary": "Centre for Public Integrity report says mandatory audit and public register of all automated decision-making needed Get our breaking news email, free app or daily news podcast The federal government is “sleepwalking its way into another robodebt” scandal amid a lack of transparency and legislation around use of…",
+   "topics": [
+    "governance",
+    "regulation"
+   ],
+   "tags": [
+    "USA"
+   ],
+   "score": 11,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "2457069df0c5",
+   "title": "Impart uses AI to build virtual patches without putting models in the traffic path",
+   "url": "https://www.helpnetsecurity.com/2026/11/04/impart-security-runtime-defense-harness/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-04T12:48:29.000Z",
+   "firstSeen": 1793805607536,
+   "summary": "Impart Security has launched the Runtime Defense Harness, a controlled environment where AI agents write and test virtual patches for new vulnerabilities without putting AI in the traffic path. The launch comes as exploits increasingly outpace fixes. In the harness, agents build each virtual patch against the…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents",
+    "Vulnerability"
+   ],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "caa09bdf1f5b",
+   "title": "AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks",
+   "url": "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-04T12:43:20.000Z",
+   "firstSeen": 1793805607536,
+   "summary": "Hackers have been harvesting AI access tokens and have been using AI-assisted offensive tools to automate attacks.",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [],
+   "score": 13,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "d0b10af0f92a",
+   "title": "CrowdStrike launches AI kill switch to shut down rogue agents",
+   "url": "https://www.csoonline.com/article/4244509/crowdstrike-launches-ai-kill-switch-to-shut-down-rogue-agents.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-11-04T12:06:50.000Z",
+   "firstSeen": 1793805607536,
+   "summary": "With a notable rise in autonomous AI agents veering off-script inside corporate networks, CrowdStrike has launched an enterprise AI Kill Switch, giving security teams control to cut off and disable models when they go rogue. Integrated into its Falcon Guardian platform, this AI Kill Switch will provide security teams…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "5a96cdc11270",
+   "title": "3AM Ransomware Used Human-AI Hybrid Tactics in UK School Estate Compromise",
+   "url": "https://www.infosecurity-magazine.com/news/3am-ransomware-hybrid-ai-uk-school/",
+   "source": "Infosecurity Magazine",
+   "sourceId": "infosecmag",
+   "published": "2026-11-04T12:00:00.000Z",
+   "firstSeen": 1793805607536,
+   "summary": "Bitdefender highlighted a unique human-AI approach during a September attack on a UK school estate, which resulted in financial data being exfiltrated",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Ransomware",
+    "UK"
+   ],
+   "score": 15,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "79cdd6bfdc3d",
+   "title": "AI regulatory sandboxes must reflect real-world healthcare, HealthAI chief warns [Partner Content]",
+   "url": "https://www.rapporteur.com/interview/ai-regulatory-sandboxes-must-reflect-real-world-healthcare-healthai-chief-warns/",
+   "source": "Euractiv",
+   "sourceId": "euractiv",
+   "published": "2026-11-04T08:35:57.000Z",
+   "firstSeen": 1793805607536,
+   "summary": "HealthAI's Ricardo Baptista Leite tells Rapporteur that regulatory sandboxes could help assess high-risk AI in healthcare, but warns about the consequences of poor-quality data and inadequate oversight",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "32e25ca36267",
+   "title": "CrowdStrike’s AI SOC vision evolves as agentic uncertainty adds new twist",
+   "url": "https://www.csoonline.com/article/4244299/crowdstrikes-ai-soc-vision-evolves-as-agentic-uncertainty-adds-new-twist.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-11-04T08:25:00.000Z",
+   "firstSeen": 1793805607536,
+   "summary": "“The software we use has become an actor,” declared CrowdStrike President Michael Sentonas in his address on the dangers and opportunity of agentic AI at the company’s Fal.Con conference in September. It’s an idea that until recently would have been dismissed as absurd, yet across cybersecurity it’s now taken as a…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
   {
    "id": "a8d8533a1287",
    "title": "Companies going all in on AI could see their strategy backfire",
@@ -509,12 +753,24 @@
    "firstSeen": 1793733910270,
    "summary": "A coding assignment gave attackers access to an engineer’s work computer. They later used an internal AI tool to reach the team responsible for Binance’s digital wallets.",
    "topics": [
-    "security"
+    "security",
+    "incidents"
    ],
    "tags": [],
-   "score": 5,
+   "score": 13,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "e95ed9936517",
+     "source": "SecurityWeek",
+     "sourceId": "securityweek",
+     "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist",
+     "url": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
+     "published": "2026-11-04T10:36:32.000Z",
+     "firstSeen": 1793805607536,
+     "summary": "Binance’s first incident report traces the record theft to a months-long campaign that compromised three engineers’ computers."
+    }
+   ]
   },
   {
    "id": "7a9bf17f940e",
@@ -666,9 +922,20 @@
    "tags": [
     "AI agents"
    ],
-   "score": 18,
+   "score": 21,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "aeacbd87f4da",
+     "source": "CSO Online",
+     "sourceId": "csoonline",
+     "title": "CrowdStrike to acquire Fiddler, Dreadnode to extend AI security across agent lifecycle",
+     "url": "https://www.csoonline.com/article/4244500/crowdstrike-to-acquire-fiddler-dreadnode-to-extend-ai-security-across-agent-lifecycle.html",
+     "published": "2026-11-04T11:33:35.000Z",
+     "firstSeen": 1793805607536,
+     "summary": "CrowdStrike plans to acquire AI security companies Fiddler AI and Dreadnode in separate deals that will extend its Falcon platform into automated testing of AI systems and monitoring of AI agent behaviour, as enterprises look to address security risks arising from increasingly autonomous applications. CrowdStrike made…"
+    }
+   ]
   },
   {
    "id": "8c9291af4519",
@@ -7302,6 +7569,23 @@
     "UK"
    ],
    "score": 24,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "21e30ca505d8",
+   "title": "Entscheidungsbaum: Dein Weg zu einem verantwortungsvollen Umgang mit Chatbots",
+   "url": "https://algorithmwatch.org/de/entscheidungsbaum-generative-ki/",
+   "source": "AlgorithmWatch",
+   "sourceId": "algorithmwatch",
+   "published": "2026-10-13T07:55:27.000Z",
+   "firstSeen": 1793805607536,
+   "summary": "Dein Weg zu einem verantwortungsvollen Umgang mit Chatbots und generativer KI – folge unserem Entscheidungsbaum und finde ihn.",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 4,
    "action": false,
    "also": []
   },
