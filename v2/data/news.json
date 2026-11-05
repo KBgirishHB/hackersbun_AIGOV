@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-05T09:20:48.393Z",
+ "generatedAt": "2026-11-05T17:36:11.568Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 43,
-  "fetched": 915,
-  "relevant": 449,
-  "stories": 393,
-  "duplicatesMerged": 56
+  "sourcesOk": 41,
+  "fetched": 873,
+  "relevant": 467,
+  "stories": 408,
+  "duplicatesMerged": 59
  },
  "sources": [
   {
@@ -18,16 +18,15 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 858
+   "ms": 906
   },
   {
    "id": "aiact-newsletter",
    "name": "EU AI Act Newsletter",
    "url": "https://artificialintelligenceact.substack.com/feed",
-   "ok": true,
-   "items": 20,
-   "kept": 3,
-   "ms": 69
+   "ok": false,
+   "error": "HTTP 403",
+   "ms": 71
   },
   {
    "id": "fli",
@@ -36,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 548
+   "ms": 605
   },
   {
    "id": "algorithmwatch",
@@ -45,16 +44,16 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 1028
+   "ms": 895
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 4,
-   "kept": 4,
-   "ms": 124
+   "items": 2,
+   "kept": 2,
+   "ms": 572
   },
   {
    "id": "euractiv",
@@ -63,24 +62,23 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 935
+   "ms": 764
   },
   {
    "id": "edpb",
    "name": "EDPB",
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
-   "error": "HTTP 500",
-   "ms": 3648
+   "error": "HTTP 503",
+   "ms": 1709
   },
   {
    "id": "europarl",
    "name": "European Parliament",
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
-   "ok": true,
-   "items": 20,
-   "kept": 20,
-   "ms": 323
+   "ok": false,
+   "error": "not an RSS/Atom feed",
+   "ms": 507
   },
   {
    "id": "cnil",
@@ -89,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 787
+   "ms": 736
   },
   {
    "id": "nist",
@@ -98,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 247
+   "ms": 124
   },
   {
    "id": "ncsc-uk",
@@ -106,8 +104,8 @@
    "url": "https://www.ncsc.gov.uk/api/1/services/v1/news-rss-feed.xml",
    "ok": true,
    "items": 20,
-   "kept": 4,
-   "ms": 233
+   "kept": 3,
+   "ms": 305
   },
   {
    "id": "cisa",
@@ -115,7 +113,7 @@
    "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 67
+   "ms": 166
   },
   {
    "id": "fedscoop",
@@ -124,7 +122,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 77
+   "ms": 140
   },
   {
    "id": "nextgov",
@@ -133,7 +131,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 551
+   "ms": 178
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +140,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 47
+   "ms": 100
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +148,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 56
+   "ms": 148
   },
   {
    "id": "verge-ai",
@@ -159,7 +157,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 30
+   "ms": 139
   },
   {
    "id": "ars-ai",
@@ -168,7 +166,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 344
+   "ms": 226
   },
   {
    "id": "wired-ai",
@@ -177,7 +175,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 40
+   "ms": 204
   },
   {
    "id": "guardian-ai",
@@ -186,7 +184,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 167
+   "ms": 277
   },
   {
    "id": "mittr-ai",
@@ -195,7 +193,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 112
+   "ms": 337
   },
   {
    "id": "register-ai",
@@ -204,7 +202,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 440
+   "ms": 766
   },
   {
    "id": "biometric",
@@ -213,7 +211,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 921
+   "ms": 879
   },
   {
    "id": "krebs",
@@ -222,7 +220,7 @@
    "ok": true,
    "items": 10,
    "kept": 8,
-   "ms": 175
+   "ms": 424
   },
   {
    "id": "securityweek",
@@ -231,7 +229,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 89
+   "ms": 260
   },
   {
    "id": "wired-security",
@@ -240,7 +238,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 21
+   "ms": 35
   },
   {
    "id": "csoonline",
@@ -249,7 +247,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 63
+   "ms": 181
   },
   {
    "id": "infosecmag",
@@ -258,7 +256,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 201
+   "ms": 319
   },
   {
    "id": "helpnet",
@@ -267,7 +265,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 44
+   "ms": 254
   },
   {
    "id": "therecord",
@@ -276,7 +274,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 126
+   "ms": 145
   },
   {
    "id": "thehackernews",
@@ -285,7 +283,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 447
+   "ms": 328
   },
   {
    "id": "bleeping",
@@ -294,7 +292,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 37
+   "ms": 227
   },
   {
    "id": "darkreading",
@@ -303,7 +301,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 377
+   "ms": 563
   },
   {
    "id": "schneier",
@@ -312,7 +310,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 49
+   "ms": 131
   },
   {
    "id": "google-security",
@@ -321,7 +319,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 742
+   "ms": 689
   },
   {
    "id": "msft-security",
@@ -330,7 +328,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1111
+   "ms": 2144
   },
   {
    "id": "aws-security",
@@ -338,8 +336,8 @@
    "url": "https://aws.amazon.com/blogs/security/feed/",
    "ok": true,
    "items": 20,
-   "kept": 20,
-   "ms": 83
+   "kept": 19,
+   "ms": 180
   },
   {
    "id": "unit42",
@@ -347,8 +345,8 @@
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
    "items": 15,
-   "kept": 13,
-   "ms": 129
+   "kept": 12,
+   "ms": 142
   },
   {
    "id": "trailofbits",
@@ -357,7 +355,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 200
+   "ms": 520
   },
   {
    "id": "embracethered",
@@ -366,7 +364,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 198
+   "ms": 180
   },
   {
    "id": "owasp-genai",
@@ -375,7 +373,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 65
+   "ms": 242
   },
   {
    "id": "willison-pi",
@@ -384,7 +382,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 652
+   "ms": 717
   },
   {
    "id": "csa",
@@ -393,7 +391,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 160
+   "ms": 671
   },
   {
    "id": "openai",
@@ -402,7 +400,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 118
+   "ms": 196
   },
   {
    "id": "deepmind",
@@ -410,8 +408,8 @@
    "url": "https://deepmind.google/blog/rss.xml",
    "ok": true,
    "items": 40,
-   "kept": 11,
-   "ms": 78
+   "kept": 12,
+   "ms": 420
   },
   {
    "id": "huggingface",
@@ -419,11 +417,346 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 26,
-   "ms": 344
+   "kept": 27,
+   "ms": 208
   }
  ],
  "items": [
+  {
+   "id": "d8d7c5c758be",
+   "title": "Nasdaq heading for worst day in 18 months as Wall Street sustains widespread losses",
+   "url": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-11-05T17:31:04.000Z",
+   "firstSeen": 1793900171568,
+   "summary": "Share index slumps 5% amid signs AI industry will face tougher regulation after Democrats’ midterm elections success The tech-heavy US Nasdaq share index is on track for its worst day in 18 months after slumping by up to 5% on Thursday amid growing signs that the artificial intelligence industry will face tougher…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [],
+   "score": 3,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "c987490f6bc8",
+   "title": "OpenAI’s GPT-6 Cyber ups the ante on vulnerability discovery",
+   "url": "https://www.csoonline.com/article/4244911/openais-gpt-6-cyber-ups-the-ante-on-vulnerability-discovery.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-11-05T17:01:00.000Z",
+   "firstSeen": 1793900171568,
+   "summary": "OpenAI is introducing GPT-6 Cyber, a restricted access model that the company calls its most capable and aligned cybersecurity model yet, “built to help security researchers identify and validate exploitable vulnerabilities, assess their impact, and harden potential patches before they’re released.” OpenAI researchers…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability",
+    "OpenAI"
+   ],
+   "score": 15,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "3e0cb121beb9",
+   "title": "SecurityDataPipeline.com Launches as a New Educational Resource for the AI Era",
+   "url": "https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-05T16:48:36.000Z",
+   "firstSeen": 1793900171568,
+   "summary": "The ungated resource explains how security data pipelines reduce SIEM ingestion costs, preserve detection coverage, and prepare the data layer for AI-driven security operations.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "2c8674ded45a",
+   "title": "Cyberhaven launches Agentic Data Security to track and control AI data use",
+   "url": "https://www.helpnetsecurity.com/2026/11/05/cyberhaven-agentic-data-security/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-05T15:04:07.000Z",
+   "firstSeen": 1793900171568,
+   "summary": "Cyberhaven has introduced Agentic Data Security (ADS), to help CISOs, data security teams, insider risk teams, and AI governance leaders say yes to AI agents without losing control of their data. Agentic Data Security shows security teams what every AI agent does with company data, who it is acting for, where the data…",
+   "topics": [
+    "governance",
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 16,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "6181b1d6fed2",
+   "title": "Scaling Sovereign Wealth: Evaluating Mechanisms for the U.S. Government to Own Parts of AI Companies",
+   "url": "https://www.lawfaremedia.org/article/scaling-sovereign-wealth--evaluating-mechanisms-for-the-u.s.-government-to-own-parts-of-ai-companies",
+   "source": "Lawfare",
+   "sourceId": "lawfare",
+   "published": "2026-11-05T15:01:16.000Z",
+   "firstSeen": 1793900171568,
+   "summary": "Which ownership mechanisms redistribute AI’s economic gains, and which strengthen public oversight?",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "5c1292d7b23b",
+   "title": "The hidden supply chain costs of the AI boom",
+   "url": "https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book",
+   "source": "The Verge AI",
+   "sourceId": "verge-ai",
+   "published": "2026-11-05T15:00:00.000Z",
+   "firstSeen": 1793900171568,
+   "summary": "Today, I’m talking with Willy Shih, an economist, a professor of management practice at Harvard Business School, and the author of the upcoming book, Where Does My Stuff Come From? The Powerful Economics Behind Global Supply Chains. Willy is one of my all-time favorite Decoder guests — his way of looking at the world…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Supply chain"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "176ae48e55db",
+   "title": "Vercel ties login sessions to devices, rolls out AI security reviews in public beta",
+   "url": "https://www.helpnetsecurity.com/2026/11/05/vercel-security-review-session-hijacking/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-05T14:37:00.000Z",
+   "firstSeen": 1793900171568,
+   "summary": "Vercel, the popular cloud platform for building and hosting websites and web applications, has announced the rollout of Device Bound Session Credentials (DBSC) and the launch of Vercel Security Review in public beta. Making stolen session cookies worthless Device Bound Session Credentials is a security technology…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 20,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "6e68aee1fe17",
+   "title": "Arkose Labs expands Agent Trust Manager to govern agent sessions",
+   "url": "https://www.helpnetsecurity.com/2026/11/05/arkose-agent-trust-manager/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-05T14:33:02.000Z",
+   "firstSeen": 1793900171568,
+   "summary": "Arkose Labs has expanded Arkose Agent Trust Manager to help businesses control agentic traffic. Companies can classify agent sessions, apply allow, monitor or block policies at each step of the customer journey, and track the same agent across multiple networks. The need is urgent given Arkose Labs’ State of Agentic…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 0,
+   "action": true,
+   "also": []
+  },
+  {
+   "id": "edb05ab0ee0b",
+   "title": "Box pairs agentic workflow plans with new threat protections",
+   "url": "https://www.helpnetsecurity.com/2026/11/05/box-architect/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-05T14:25:34.000Z",
+   "firstSeen": 1793900171568,
+   "summary": "Box has announced new capabilities to transform how organizations put agents to work across their most critical business processes. Box unveiled Box Architect for autonomously building, managing, and optimizing agentic workflows, redefining how organizations deploy AI on their most critical processes. With Architect…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "1f6d51a549d7",
+   "title": "Statement: The pro-human movement is winning",
+   "url": "https://futureoflife.org/statement/statement-the-pro-human-movement-is-winning/",
+   "source": "Future of Life Institute",
+   "sourceId": "fli",
+   "published": "2026-11-05T14:06:00.000Z",
+   "firstSeen": 1793900171568,
+   "summary": "FLI's Head of U.S. Policy Michael Kleinman issues a statement on the U.S. Senate Midterm Election results.",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "USA"
+   ],
+   "score": 3,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "4f528259ac90",
+   "title": "PortSwigger’s Burp AT lets enterprises delegate pentests with defined limits",
+   "url": "https://www.helpnetsecurity.com/2026/11/05/portswigger-burp-at-enterprises/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-05T13:48:16.000Z",
+   "firstSeen": 1793900171568,
+   "summary": "PortSwigger has announced the availability of Burp AT for enterprises, an agentic pentesting solution that helps security teams investigate important applications more deeply and more often. Burp AT combines specialist Burp tools, purpose-built pentesting skills developed with PortSwigger Research, and relevant…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 1,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "01c9f0333e3e",
+   "title": "The Agent Smith Dilemma: Governing Agentic Identities",
+   "url": "https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-05T11:15:00.000Z",
+   "firstSeen": 1793900171568,
+   "summary": "Every autonomous AI agent deployed across your enterprise today is a new proxy identity operating inside your perimeter.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "f0f0f9de96ea",
+   "title": "CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality",
+   "url": "https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-05T11:00:00.000Z",
+   "firstSeen": 1793900171568,
+   "summary": "Ryan Davis went from hacking his school’s network to running security at New Charter Technologies. What worries him now is shadow AI.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Shadow AI"
+   ],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "cee0175a3077",
+   "title": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
+   "url": "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-05T10:02:00.000Z",
+   "firstSeen": 1793900171568,
+   "summary": "OpenAI says its Critical-rated cyber model met fewer hidden task goals when work was framed as AI safety research, often silently.",
+   "topics": [
+    "security",
+    "governance"
+   ],
+   "tags": [
+    "OpenAI"
+   ],
+   "score": 18,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "8915c3fc33a2",
+   "title": "OpenAI’s upcoming AI model built 948 working Linux root exploits in a single run",
+   "url": "https://www.helpnetsecurity.com/2026/11/05/openai-linux-kernel-root-exploits/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-05T09:05:06.000Z",
+   "firstSeen": 1793870448393,
+   "summary": "An automated system running on an upcoming AI model turned hundreds of Linux kernel bugs into working exploits that give an ordinary user root access, and wrote a patch for each underlying flaw, OpenAI revealed in a new research post. Source:OpenAI The company’s Cyber team ran the pipeline in mid-October 2026 against…",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "OpenAI",
+    "Vulnerability",
+    "AI agents"
+   ],
+   "score": 17,
+   "action": true,
+   "also": [
+    {
+     "id": "683a6b0ca915",
+     "source": "The Hacker News",
+     "sourceId": "thehackernews",
+     "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+     "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+     "published": "2026-11-05T12:08:54.000Z",
+     "firstSeen": 1793870448393,
+     "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically…"
+    },
+    {
+     "id": "a05d28554caf",
+     "source": "SecurityWeek",
+     "sourceId": "securityweek",
+     "title": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
+     "url": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
+     "published": "2026-11-05T17:32:37.000Z",
+     "firstSeen": 1793900171568,
+     "summary": "An unreleased OpenAI cyber model found and exploited 948 distinct Linux kernel privilege escalation bugs for about $1.2 million."
+    }
+   ]
+  },
+  {
+   "id": "fe1aac95ec01",
+   "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+   "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-05T08:42:03.000Z",
+   "firstSeen": 1793900171568,
+   "summary": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country. Describing the threat as active and ongoing, the activity…",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "China"
+   ],
+   "score": 19,
+   "action": true,
+   "also": [
+    {
+     "id": "e388cf815c90",
+     "source": "Infosecurity Magazine",
+     "sourceId": "infosecmag",
+     "title": "India Warns of New AI-Driven Cyber-Attacks Targeting Financial and Crypto Businesses",
+     "url": "https://www.infosecurity-magazine.com/news/india-warns-ai-cyberattacks/",
+     "published": "2026-11-05T14:25:00.000Z",
+     "firstSeen": 1793900171568,
+     "summary": "The Indian CERT said a new cyber malicious group tracked as ‘Crafty Flacon’ is using Chinese-made AI tools to attack fintech and crypto organizations"
+    }
+   ]
+  },
   {
    "id": "602a1dee8203",
    "title": "Chatbots & Wahlen",
@@ -536,35 +869,61 @@
    "also": []
   },
   {
-   "id": "683a6b0ca915",
-   "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-   "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-   "source": "The Hacker News",
-   "sourceId": "thehackernews",
-   "published": "2026-11-05T04:31:16.000Z",
-   "firstSeen": 1793870448393,
-   "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically…",
+   "id": "98498935ed3a",
+   "title": "Setting a new standard for responsible AI infrastructure",
+   "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+   "source": "OpenAI News",
+   "sourceId": "openai",
+   "published": "2026-11-05T02:00:00.000Z",
+   "firstSeen": 1793900171568,
+   "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
    "topics": [
+    "governance"
+   ],
+   "tags": [
+    "OpenAI"
+   ],
+   "score": 17,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "5ede4d0b8725",
+   "title": "Chainalysis warns all users hit in cyber breach involving ‘agentic’ techniques",
+   "url": "https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack",
+   "source": "The Record",
+   "sourceId": "therecord",
+   "published": "2026-11-05T00:00:00.000Z",
+   "firstSeen": 1793900171568,
+   "summary": "Chainalysis, the blockchain analytics company, said Wednesday night that some information belonging to all its users — which its website says include those in the law enforcement and national security sectors — had been exposed in a cyberattack.",
+   "topics": [
+    "incidents",
+    "regulation",
     "security"
    ],
    "tags": [
-    "Vulnerability",
-    "OpenAI"
+    "AI agents"
    ],
-   "score": 14,
+   "score": 22,
    "action": false,
-   "also": [
-    {
-     "id": "8915c3fc33a2",
-     "source": "Help Net Security",
-     "sourceId": "helpnet",
-     "title": "OpenAI’s upcoming AI model built 948 working Linux root exploits in a single run",
-     "url": "https://www.helpnetsecurity.com/2026/11/05/openai-linux-kernel-root-exploits/",
-     "published": "2026-11-05T09:05:06.000Z",
-     "firstSeen": 1793870448393,
-     "summary": "An automated system running on an upcoming AI model turned hundreds of Linux kernel bugs into working exploits that give an ordinary user root access, and wrote a patch for each underlying flaw, OpenAI revealed in a new research post. Source:OpenAI The company’s Cyber team ran the pipeline in mid-October 2026 against…"
-    }
-   ]
+   "also": []
+  },
+  {
+   "id": "663cc5b50365",
+   "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+   "url": "https://huggingface.co/blog/phonon-tts",
+   "source": "Hugging Face",
+   "sourceId": "huggingface",
+   "published": "2026-11-05T00:00:00.000Z",
+   "firstSeen": 1793900171568,
+   "summary": "",
+   "topics": [
+    "research"
+   ],
+   "tags": [],
+   "score": 4,
+   "action": false,
+   "also": []
   },
   {
    "id": "5b60a6b8a890",
@@ -722,14 +1081,26 @@
    "firstSeen": 1793805607536,
    "summary": "Sysdig’s platform uses runtime visibility to track AI agent actions and block risky behavior before it reaches production systems.",
    "topics": [
-    "governance"
+    "governance",
+    "security"
    ],
    "tags": [
     "AI agents"
    ],
-   "score": 10,
+   "score": 13,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "5f58935a36e7",
+     "source": "Help Net Security",
+     "sourceId": "helpnet",
+     "title": "Sysdig AI Defense puts runtime guardrails on AI agents",
+     "url": "https://www.helpnetsecurity.com/2026/11/05/sysdig-ai-defense/",
+     "published": "2026-11-05T13:29:28.000Z",
+     "firstSeen": 1793900171568,
+     "summary": "Sysdig has announced the general availability of Sysdig AI Defense, giving organizations tools to monitor and control AI agent activity across endpoints and cloud environments. The platform checks agent actions against company policies to allow them, hold them for user approval or block them before completion. It also…"
+    }
+   ]
   },
   {
    "id": "03936bf74861",
@@ -8122,42 +8493,6 @@
    "also": []
   },
   {
-   "id": "05135d26bb27",
-   "title": "Identity-aware AI data agents with AWS Lake Formation and Trusted Identity Propagation",
-   "url": "https://aws.amazon.com/blogs/security/identity-aware-ai-data-agents-with-aws-lake-formation-and-trusted-identity-propagation/",
-   "source": "AWS Security Blog",
-   "sourceId": "aws-security",
-   "published": "2026-10-06T16:07:06.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "You’re building a data agent that lets business users ask questions about lakehouse data in natural language. You’ve already built governance policies that control who can access which datasets. The challenge is making the agent respect those rules without rebuilding them in your application code. When a user asks a…",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 6,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "a5131670b0c9",
-   "title": "CISO perspectives on managing vulnerability risks in the age of AI",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/06/ciso-perspectives-on-managing-vulnerability-risks-in-the-age-of-ai/",
-   "source": "Microsoft Security Blog",
-   "sourceId": "msft-security",
-   "published": "2026-10-06T16:00:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Learn how CISOs can mitigate cybersecurity risks and increase resilience in the age of AI-powered vulnerability management.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Vulnerability"
-   ],
-   "score": 9,
-   "action": false,
-   "also": []
-  },
-  {
    "id": "5866b1de7b9a",
    "title": "The EU AI Act Newsletter #112: Global Ambitions, Domestic Doubts",
    "url": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-112-global",
@@ -8223,23 +8558,6 @@
    "published": "2026-09-28T13:34:15.000Z",
    "firstSeen": 1792728350456,
    "summary": "At a New York forum cosponsored by six governments, OHCHR, the ICRC, The Elders and FLI, ministers and UN officials called on states to begin negotiating a legally binding instrument on autonomous weapons at the CCW Review Conference in November.",
-   "topics": [
-    "governance"
-   ],
-   "tags": [],
-   "score": 0,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "6d754f0854be",
-   "title": "Statement: World leaders at the UN call to rein in superintelligence race",
-   "url": "https://futureoflife.org/statement/statement-world-leaders-at-the-un-call-to-rein-in-superintelligence-race/",
-   "source": "Future of Life Institute",
-   "sourceId": "fli",
-   "published": "2026-09-24T12:06:45.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Calls for pacing, coordination, and capacity-building are welcome, but the urgency of our shared situation requires practical solutions.",
    "topics": [
     "governance"
    ],
