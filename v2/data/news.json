@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-05T01:43:30.156Z",
+ "generatedAt": "2026-11-05T09:20:48.393Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 41,
-  "fetched": 875,
-  "relevant": 441,
-  "stories": 386,
-  "duplicatesMerged": 55
+  "sourcesOk": 43,
+  "fetched": 915,
+  "relevant": 449,
+  "stories": 393,
+  "duplicatesMerged": 56
  },
  "sources": [
   {
@@ -18,15 +18,16 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 865
+   "ms": 858
   },
   {
    "id": "aiact-newsletter",
    "name": "EU AI Act Newsletter",
    "url": "https://artificialintelligenceact.substack.com/feed",
-   "ok": false,
-   "error": "HTTP 403",
-   "ms": 64
+   "ok": true,
+   "items": 20,
+   "kept": 3,
+   "ms": 69
   },
   {
    "id": "fli",
@@ -35,7 +36,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 652
+   "ms": 548
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +45,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 778
+   "ms": 1028
   },
   {
    "id": "lawfare",
@@ -53,7 +54,7 @@
    "ok": true,
    "items": 4,
    "kept": 4,
-   "ms": 660
+   "ms": 124
   },
   {
    "id": "euractiv",
@@ -62,7 +63,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 827
+   "ms": 935
   },
   {
    "id": "edpb",
@@ -70,15 +71,16 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 500",
-   "ms": 2812
+   "ms": 3648
   },
   {
    "id": "europarl",
    "name": "European Parliament",
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
-   "ok": false,
-   "error": "not an RSS/Atom feed",
-   "ms": 567
+   "ok": true,
+   "items": 20,
+   "kept": 20,
+   "ms": 323
   },
   {
    "id": "cnil",
@@ -87,7 +89,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 797
+   "ms": 787
   },
   {
    "id": "nist",
@@ -96,7 +98,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 155
+   "ms": 247
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +107,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 408
+   "ms": 233
   },
   {
    "id": "cisa",
@@ -113,7 +115,7 @@
    "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 229
+   "ms": 67
   },
   {
    "id": "fedscoop",
@@ -122,7 +124,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 217
+   "ms": 77
   },
   {
    "id": "nextgov",
@@ -131,7 +133,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 267
+   "ms": 551
   },
   {
    "id": "techcrunch-ai",
@@ -140,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 201
+   "ms": 47
   },
   {
    "id": "venturebeat-ai",
@@ -148,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 285
+   "ms": 56
   },
   {
    "id": "verge-ai",
@@ -157,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 345
+   "ms": 30
   },
   {
    "id": "ars-ai",
@@ -166,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 561
+   "ms": 344
   },
   {
    "id": "wired-ai",
@@ -175,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 366
+   "ms": 40
   },
   {
    "id": "guardian-ai",
@@ -184,7 +186,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 473
+   "ms": 167
   },
   {
    "id": "mittr-ai",
@@ -193,7 +195,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 391
+   "ms": 112
   },
   {
    "id": "register-ai",
@@ -202,7 +204,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 895
+   "ms": 440
   },
   {
    "id": "biometric",
@@ -211,7 +213,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 868
+   "ms": 921
   },
   {
    "id": "krebs",
@@ -219,8 +221,8 @@
    "url": "https://krebsonsecurity.com/feed/",
    "ok": true,
    "items": 10,
-   "kept": 7,
-   "ms": 511
+   "kept": 8,
+   "ms": 175
   },
   {
    "id": "securityweek",
@@ -229,7 +231,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 297
+   "ms": 89
   },
   {
    "id": "wired-security",
@@ -238,7 +240,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 26
+   "ms": 21
   },
   {
    "id": "csoonline",
@@ -247,7 +249,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 182
+   "ms": 63
   },
   {
    "id": "infosecmag",
@@ -256,7 +258,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 252
+   "ms": 201
   },
   {
    "id": "helpnet",
@@ -265,7 +267,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 182
+   "ms": 44
   },
   {
    "id": "therecord",
@@ -274,7 +276,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 163
+   "ms": 126
   },
   {
    "id": "thehackernews",
@@ -283,7 +285,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 260
+   "ms": 447
   },
   {
    "id": "bleeping",
@@ -292,7 +294,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 104
+   "ms": 37
   },
   {
    "id": "darkreading",
@@ -301,7 +303,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 783
+   "ms": 377
   },
   {
    "id": "schneier",
@@ -310,7 +312,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 136
+   "ms": 49
   },
   {
    "id": "google-security",
@@ -319,7 +321,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 695
+   "ms": 742
   },
   {
    "id": "msft-security",
@@ -328,7 +330,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 2196
+   "ms": 1111
   },
   {
    "id": "aws-security",
@@ -337,7 +339,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 287
+   "ms": 83
   },
   {
    "id": "unit42",
@@ -346,7 +348,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 148
+   "ms": 129
   },
   {
    "id": "trailofbits",
@@ -355,7 +357,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 476
+   "ms": 200
   },
   {
    "id": "embracethered",
@@ -364,7 +366,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 140
+   "ms": 198
   },
   {
    "id": "owasp-genai",
@@ -373,7 +375,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 223
+   "ms": 65
   },
   {
    "id": "willison-pi",
@@ -382,7 +384,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 495
+   "ms": 652
   },
   {
    "id": "csa",
@@ -391,7 +393,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 711
+   "ms": 160
   },
   {
    "id": "openai",
@@ -400,7 +402,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 135
+   "ms": 118
   },
   {
    "id": "deepmind",
@@ -409,7 +411,7 @@
    "ok": true,
    "items": 40,
    "kept": 11,
-   "ms": 274
+   "ms": 78
   },
   {
    "id": "huggingface",
@@ -418,10 +420,152 @@
    "ok": true,
    "items": 40,
    "kept": 26,
-   "ms": 171
+   "ms": 344
   }
  ],
  "items": [
+  {
+   "id": "602a1dee8203",
+   "title": "Chatbots & Wahlen",
+   "url": "https://algorithmwatch.org/de/dossier-chatbots-wahlen/",
+   "source": "AlgorithmWatch",
+   "sourceId": "algorithmwatch",
+   "published": "2026-11-05T07:25:21.000Z",
+   "firstSeen": 1793870448393,
+   "summary": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "235d1076a31b",
+   "title": "AI agent detection signals that still work when agents look human",
+   "url": "https://www.helpnetsecurity.com/2026/11/05/zohaib-ahmed-resemble-ai-detecting-ai-agent-traffic/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-05T06:45:07.000Z",
+   "firstSeen": 1793870448393,
+   "summary": "Bots follow a script. AI agents work toward a goal and choose their own steps, which makes them harder to catch. In this Help Net Security interview, Zohaib Ahmed, CEO of Resemble AI explains how agents arrive as declared, undeclared or disguised traffic, and why binary bot detection misses the last two groups. Ahmed…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "29b7ba0db4ca",
+   "title": "Healthcare can’t govern the AI tools it hasn’t found yet",
+   "url": "https://www.helpnetsecurity.com/2026/11/05/healthcare-ai-governance-patient-data/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-05T06:11:25.000Z",
+   "firstSeen": 1793870448393,
+   "summary": "Nearly nine in ten healthcare leaders say security or compliance staff always or usually review AI-written code that touches patient data before it goes live, and seven in ten have still found an AI-built tool handling that data without IT or security knowing, according to Paubox. Source: Paubox These are the scripts…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "16cfffd94802",
+   "title": "Companies are spending more on AI governance and getting less control",
+   "url": "https://www.helpnetsecurity.com/2026/11/05/dnsfilter-shadow-ai-cost-report/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-05T05:30:14.000Z",
+   "firstSeen": 1793870448393,
+   "summary": "Companies are increasing their cybersecurity budgets, with AI security and governance the top priority for additional spending, followed by cloud security, according to DNSFilter’s The Cost of Shadow AI report. Some 74.5% of respondents reported a larger cybersecurity budget than 12 months earlier. Asked where their…",
+   "topics": [
+    "governance",
+    "security"
+   ],
+   "tags": [
+    "Shadow AI"
+   ],
+   "score": 33,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "cac74e8512f3",
+   "title": "Most consumers aren’t ready to let AI agents shop unsupervised",
+   "url": "https://www.helpnetsecurity.com/2026/11/05/okta-ai-customer-experiences-report/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-05T05:00:30.000Z",
+   "firstSeen": 1793870448393,
+   "summary": "Customer control, account security and ease of use are influencing the adoption of AI agents that make purchases, book services and access personal information, according to Okta’s 2026 Customer Identity Trends Report. Consumers’ willingness to delegate depends on what an agent can do, the consequences of a mistake…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "6e873466bb69",
+   "title": "The Sandbox Fights Back: Joe Security Launches Adaptive Detonation",
+   "url": "https://www.csoonline.com/article/4244970/the-sandbox-fights-back-joe-security-launches-adaptive-detonation.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-11-05T04:55:50.000Z",
+   "firstSeen": 1793870448393,
+   "summary": "AI agents help Joe Sandbox uncover malicious behavior concealed by evasion techniques and unmet execution conditions. Joe Security ‘s Adaptive Detonation brings active intervention to malware analysis, helping security teams investigate threats that may conceal their behavior during an initial sandbox run. Adaptive…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "683a6b0ca915",
+   "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+   "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-05T04:31:16.000Z",
+   "firstSeen": 1793870448393,
+   "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability",
+    "OpenAI"
+   ],
+   "score": 14,
+   "action": false,
+   "also": [
+    {
+     "id": "8915c3fc33a2",
+     "source": "Help Net Security",
+     "sourceId": "helpnet",
+     "title": "OpenAI’s upcoming AI model built 948 working Linux root exploits in a single run",
+     "url": "https://www.helpnetsecurity.com/2026/11/05/openai-linux-kernel-root-exploits/",
+     "published": "2026-11-05T09:05:06.000Z",
+     "firstSeen": 1793870448393,
+     "summary": "An automated system running on an upcoming AI model turned hundreds of Linux kernel bugs into working exploits that give an ordinary user root access, and wrote a patch for each underlying flaw, OpenAI revealed in a new research post. Source:OpenAI The company’s Cyber team ran the pipeline in mid-October 2026 against…"
+    }
+   ]
+  },
   {
    "id": "5b60a6b8a890",
    "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
