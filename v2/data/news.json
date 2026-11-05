@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-05T17:36:11.568Z",
+ "generatedAt": "2026-11-05T22:48:49.333Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 41,
-  "fetched": 873,
-  "relevant": 467,
-  "stories": 408,
-  "duplicatesMerged": 59
+  "sourcesOk": 42,
+  "fetched": 906,
+  "relevant": 478,
+  "stories": 417,
+  "duplicatesMerged": 61
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 906
+   "ms": 826
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 71
+   "ms": 63
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 605
+   "ms": 750
   },
   {
    "id": "algorithmwatch",
@@ -44,16 +44,16 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 895
+   "ms": 825
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 2,
-   "kept": 2,
-   "ms": 572
+   "items": 4,
+   "kept": 4,
+   "ms": 358
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 764
+   "ms": 723
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1709
+   "ms": 1763
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 507
+   "ms": 512
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 736
+   "ms": 746
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 124
+   "ms": 333
   },
   {
    "id": "ncsc-uk",
@@ -105,15 +105,16 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 305
+   "ms": 159
   },
   {
    "id": "cisa",
    "name": "CISA Advisories",
    "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-   "ok": false,
-   "error": "HTTP 403",
-   "ms": 166
+   "ok": true,
+   "items": 30,
+   "kept": 30,
+   "ms": 271
   },
   {
    "id": "fedscoop",
@@ -122,16 +123,16 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 140
+   "ms": 130
   },
   {
    "id": "nextgov",
    "name": "Nextgov/FCW",
    "url": "https://www.nextgov.com/rss/all/",
    "ok": true,
-   "items": 24,
-   "kept": 24,
-   "ms": 178
+   "items": 25,
+   "kept": 25,
+   "ms": 174
   },
   {
    "id": "techcrunch-ai",
@@ -140,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 100
+   "ms": 200
   },
   {
    "id": "venturebeat-ai",
@@ -148,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 148
+   "ms": 230
   },
   {
    "id": "verge-ai",
@@ -157,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 139
+   "ms": 241
   },
   {
    "id": "ars-ai",
@@ -166,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 226
+   "ms": 471
   },
   {
    "id": "wired-ai",
@@ -175,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 204
+   "ms": 360
   },
   {
    "id": "guardian-ai",
@@ -184,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 277
+   "ms": 391
   },
   {
    "id": "mittr-ai",
@@ -193,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 337
+   "ms": 263
   },
   {
    "id": "register-ai",
@@ -202,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 766
+   "ms": 628
   },
   {
    "id": "biometric",
@@ -211,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 879
+   "ms": 798
   },
   {
    "id": "krebs",
@@ -220,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 8,
-   "ms": 424
+   "ms": 324
   },
   {
    "id": "securityweek",
@@ -229,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 260
+   "ms": 205
   },
   {
    "id": "wired-security",
@@ -238,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 35
+   "ms": 42
   },
   {
    "id": "csoonline",
@@ -247,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 181
+   "ms": 135
   },
   {
    "id": "infosecmag",
@@ -256,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 319
+   "ms": 205
   },
   {
    "id": "helpnet",
@@ -265,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 254
+   "ms": 135
   },
   {
    "id": "therecord",
@@ -274,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 145
+   "ms": 152
   },
   {
    "id": "thehackernews",
@@ -283,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 328
+   "ms": 254
   },
   {
    "id": "bleeping",
@@ -292,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 227
+   "ms": 172
   },
   {
    "id": "darkreading",
@@ -301,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 563
+   "ms": 511
   },
   {
    "id": "schneier",
@@ -310,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 131
+   "ms": 124
   },
   {
    "id": "google-security",
@@ -319,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 689
+   "ms": 503
   },
   {
    "id": "msft-security",
@@ -328,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 2144
+   "ms": 2209
   },
   {
    "id": "aws-security",
@@ -337,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 19,
-   "ms": 180
+   "ms": 195
   },
   {
    "id": "unit42",
@@ -346,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 12,
-   "ms": 142
+   "ms": 183
   },
   {
    "id": "trailofbits",
@@ -355,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 520
+   "ms": 445
   },
   {
    "id": "embracethered",
@@ -364,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 180
+   "ms": 144
   },
   {
    "id": "owasp-genai",
@@ -373,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 242
+   "ms": 61
   },
   {
    "id": "willison-pi",
@@ -382,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 717
+   "ms": 235
   },
   {
    "id": "csa",
@@ -391,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 671
+   "ms": 628
   },
   {
    "id": "openai",
@@ -400,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 196
+   "ms": 151
   },
   {
    "id": "deepmind",
@@ -408,8 +409,8 @@
    "url": "https://deepmind.google/blog/rss.xml",
    "ok": true,
    "items": 40,
-   "kept": 12,
-   "ms": 420
+   "kept": 11,
+   "ms": 278
   },
   {
    "id": "huggingface",
@@ -418,36 +419,137 @@
    "ok": true,
    "items": 40,
    "kept": 27,
-   "ms": 208
+   "ms": 159
   }
  ],
  "items": [
   {
-   "id": "d8d7c5c758be",
-   "title": "Nasdaq heading for worst day in 18 months as Wall Street sustains widespread losses",
-   "url": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses",
-   "source": "The Guardian AI",
-   "sourceId": "guardian-ai",
-   "published": "2026-11-05T17:31:04.000Z",
-   "firstSeen": 1793900171568,
-   "summary": "Share index slumps 5% amid signs AI industry will face tougher regulation after Democrats’ midterm elections success The tech-heavy US Nasdaq share index is on track for its worst day in 18 months after slumping by up to 5% on Thursday amid growing signs that the artificial intelligence industry will face tougher…",
+   "id": "2df1612b7f77",
+   "title": "Binance heist is stark example of AI governance gaps and basic security failures",
+   "url": "https://www.csoonline.com/article/4245354/binance-heist-is-stark-example-of-ai-governance-gaps-and-basic-security-failures.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-11-05T21:57:37.000Z",
+   "firstSeen": 1793918929333,
+   "summary": "A chain of avoidable technical and human security failures enabled the largest crypto heist on record, the theft of approximately $6.34 billion from Binance. The improper monitoring and access scoping of an internal AI tool played a major role in helping the hackers, and should serve as a warning for enterprise CISOs…",
    "topics": [
-    "regulation"
+    "governance",
+    "security"
    ],
    "tags": [],
-   "score": 3,
+   "score": 24,
    "action": false,
    "also": []
   },
   {
-   "id": "c987490f6bc8",
-   "title": "OpenAI’s GPT-6 Cyber ups the ante on vulnerability discovery",
-   "url": "https://www.csoonline.com/article/4244911/openais-gpt-6-cyber-ups-the-ante-on-vulnerability-discovery.html",
-   "source": "CSO Online",
-   "sourceId": "csoonline",
-   "published": "2026-11-05T17:01:00.000Z",
+   "id": "6f91ea83771d",
+   "title": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder.",
+   "url": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
+   "source": "Ars Technica AI",
+   "sourceId": "ars-ai",
+   "published": "2026-11-05T21:39:40.000Z",
+   "firstSeen": 1793918929333,
+   "summary": "Bitter energy drinks turned out to be ChatGPT-steered poisoning, lawsuit says.",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "Data poisoning",
+    "OpenAI"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "c563b012ea25",
+   "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+   "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-11-05T21:30:30.000Z",
+   "firstSeen": 1793918929333,
+   "summary": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and authentication sessions.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Phishing",
+    "OpenAI",
+    "Anthropic",
+    "Google",
+    "Microsoft"
+   ],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "d8d7c5c758be",
+   "title": "Nasdaq sees worst day in 18 months as investors bet on AI slowdown after Democrats’ election triumph",
+   "url": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-11-05T21:23:18.000Z",
    "firstSeen": 1793900171568,
-   "summary": "OpenAI is introducing GPT-6 Cyber, a restricted access model that the company calls its most capable and aligned cybersecurity model yet, “built to help security researchers identify and validate exploitable vulnerabilities, assess their impact, and harden potential patches before they’re released.” OpenAI researchers…",
+   "summary": "Nearly $2tn shaved off Nasdaq value as worries of curbs to AI datacenters ripple across bourses The Nasdaq share index had its worst day in 18 months after slumping 5.5% on Thursday amid growing signs that the artificial intelligence industry will face tougher regulation because of the midterm election results. As…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "9735e7c2f767",
+   "title": "Tech policy coalition calls for new Congress to set AI safety standards",
+   "url": "https://www.nextgov.com/artificial-intelligence/2026/11/tech-policy-coalition-calls-new-congress-set-ai-safety-standards/417077/",
+   "source": "Nextgov/FCW",
+   "sourceId": "nextgov",
+   "published": "2026-11-05T19:57:00.000Z",
+   "firstSeen": 1793918929333,
+   "summary": "Chamber of Progress hopes for a greater focus on consumer protection and access to technological benefits when Democrats take over the majority in January.",
+   "topics": [
+    "governance",
+    "regulation"
+   ],
+   "tags": [
+    "USA"
+   ],
+   "score": 18,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "5bb60ae5491f",
+   "title": "AI agents enter government, putting identity and accountability to the test",
+   "url": "https://www.biometricupdate.com/202611/ai-agents-enter-government-putting-identity-and-accountability-to-the-test",
+   "source": "Biometric Update",
+   "sourceId": "biometric",
+   "published": "2026-11-05T18:08:04.000Z",
+   "firstSeen": 1793918929333,
+   "summary": "By Evin McMullen, CEO and Co-founder at AmanTrue Governments are moving AI agents out of pilots and into live public services, and the UAE is leading the way. It has set a target to shift half of federal services and operations to AI within two years, its first government agents are already working across areas from…",
+   "topics": [
+    "governance"
+   ],
+   "tags": [
+    "AI agents",
+    "USA"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "cf05ce207b8e",
+   "title": "OpenAI says its new cybersecurity model is better at not hacking other companies",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch",
+   "source": "The Verge AI",
+   "sourceId": "verge-ai",
+   "published": "2026-11-05T17:00:00.000Z",
+   "firstSeen": 1793918929333,
+   "summary": "OpenAI is launching GPT-6 Cyber, the latest version of its cybersecurity AI model, which it says is better at finding vulnerabilities and less likely to go rogue and hack other platforms in the process. OpenAI says that during testing, GPT-6 Cyber went out of bounds less than 1 percent of the time, down from around",
    "topics": [
     "security"
    ],
@@ -455,7 +557,27 @@
     "Vulnerability",
     "OpenAI"
    ],
-   "score": 15,
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "9ef9424c61cd",
+   "title": "​​​​What’s new in Microsoft Security: November 2026",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/whats-new-in-microsoft-security-november-2026/",
+   "source": "Microsoft Security Blog",
+   "sourceId": "msft-security",
+   "published": "2026-11-05T17:00:00.000Z",
+   "firstSeen": 1793918929333,
+   "summary": "Microsoft Security’s November 2026 updates strengthen AI agent security, least privilege, threat protection, and exposure management.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents",
+    "Microsoft"
+   ],
+   "score": 3,
    "action": false,
    "also": []
   },
@@ -474,6 +596,28 @@
    "tags": [],
    "score": 5,
    "action": false,
+   "also": []
+  },
+  {
+   "id": "15fe93d60e79",
+   "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+   "url": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-05T16:42:32.000Z",
+   "firstSeen": 1793918929333,
+   "summary": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT. Lockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize data exfiltration risks arising from…",
+   "topics": [
+    "security",
+    "research",
+    "incidents"
+   ],
+   "tags": [
+    "Vulnerability",
+    "OpenAI"
+   ],
+   "score": 20,
+   "action": true,
    "also": []
   },
   {
@@ -679,9 +823,20 @@
    "tags": [
     "OpenAI"
    ],
-   "score": 18,
+   "score": 21,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "9b3a4e2679e7",
+     "source": "BleepingComputer",
+     "sourceId": "bleeping",
+     "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
+     "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
+     "published": "2026-11-05T19:24:26.000Z",
+     "firstSeen": 1793918929333,
+     "summary": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research."
+    }
+   ]
   },
   {
    "id": "8915c3fc33a2",
@@ -701,7 +856,7 @@
     "Vulnerability",
     "AI agents"
    ],
-   "score": 17,
+   "score": 20,
    "action": true,
    "also": [
     {
@@ -723,6 +878,47 @@
      "published": "2026-11-05T17:32:37.000Z",
      "firstSeen": 1793900171568,
      "summary": "An unreleased OpenAI cyber model found and exploited 948 distinct Linux kernel privilege escalation bugs for about $1.2 million."
+    },
+    {
+     "id": "85d8f9ebc696",
+     "source": "CSO Online",
+     "sourceId": "csoonline",
+     "title": "OpenAI built an AI pipeline to find, exploit and patch Linux flaws",
+     "url": "https://www.csoonline.com/article/4245265/openai-built-an-ai-pipeline-to-find-exploit-and-patch-linux-flaws.html",
+     "published": "2026-11-05T17:48:04.000Z",
+     "firstSeen": 1793918929333,
+     "summary": "OpenAI has developed an autonomous AI pipeline that can identify software vulnerabilities, develop working exploits to validate their impact and generate patches for human review. In an October experiment targeting the Linux kernel, the pipeline created exploits for 948 distinct local privilege-escalation (LPE)…"
+    }
+   ]
+  },
+  {
+   "id": "e8506eb16cb7",
+   "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+   "url": "https://openai.com/index/introducing-gpt-6-cyber",
+   "source": "OpenAI News",
+   "sourceId": "openai",
+   "published": "2026-11-05T09:00:00.000Z",
+   "firstSeen": 1793900171568,
+   "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability",
+    "OpenAI"
+   ],
+   "score": 18,
+   "action": false,
+   "also": [
+    {
+     "id": "c987490f6bc8",
+     "source": "CSO Online",
+     "sourceId": "csoonline",
+     "title": "OpenAI’s GPT-6 Cyber ups the ante on vulnerability discovery",
+     "url": "https://www.csoonline.com/article/4244911/openais-gpt-6-cyber-ups-the-ante-on-vulnerability-discovery.html",
+     "published": "2026-11-05T17:01:00.000Z",
+     "firstSeen": 1793900171568,
+     "summary": "OpenAI is introducing GPT-6 Cyber, a restricted access model that the company calls its most capable and aligned cybersecurity model yet, “built to help security researchers identify and validate exploitable vulnerabilities, assess their impact, and harden potential patches before they’re released.” OpenAI researchers…"
     }
    ]
   },
@@ -6429,6 +6625,28 @@
    "also": []
   },
   {
+   "id": "42314fdb1357",
+   "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+   "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "published": "2026-10-22T16:47:17.000Z",
+   "firstSeen": 1792728350456,
+   "summary": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [
+    "AI agents",
+    "Microsoft",
+    "China"
+   ],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
    "id": "0199bef938ea",
    "title": "PHP: Pretty Huge Problem with the internet – The Latest",
    "url": "https://www.theguardian.com/news/audio/2026/oct/22/php-pretty-huge-problem-with-the-internet-the-latest",
@@ -6832,6 +7050,23 @@
    ]
   },
   {
+   "id": "620a939e3de4",
+   "title": "The CSA Triangle Chapter's Year of Innovation and Strategic Partnerships: 2026 Highlights",
+   "url": "https://cloudsecurityalliance.org/articles/the-csa-triangle-chapter-s-year-of-innovation-and-strategic-partnerships-2026-highlights",
+   "source": "Cloud Security Alliance",
+   "sourceId": "csa",
+   "published": "2026-10-21T20:50:49.000Z",
+   "firstSeen": 1793918929333,
+   "summary": "Building on a multi-year foundation of community engagement and technical excellence, the CSA Triangle Chapter reached new heights in 2026. Dedicated to advancing education across cloud security, Zero Trust, and AI safety, the chapter expanded its reach across the broader North Carolina technology ecosystem and…",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
    "id": "1dfa115cd3f1",
    "title": "Identity-Defined Reachability: Reducing Exposure and Connectivity Friction in an Age of Machine-Speed Attack",
    "url": "https://cloudsecurityalliance.org/articles/identity-defined-reachability-reducing-exposure-and-connectivity-friction-in-an-age-of-machine-speed-attack",
@@ -6923,7 +7158,7 @@
     "Microsoft",
     "China"
    ],
-   "score": 38,
+   "score": 35,
    "action": false,
    "also": [
     {
@@ -6965,16 +7200,6 @@
      "published": "2026-10-22T16:30:00.000Z",
      "firstSeen": 1792728350456,
      "summary": "A Chinese government-aligned hacking group used automated tools to carry out the recent supply chain attack on IT management software company ConnectWise and is using the same techniques to try to compromise organizations around the globe, Microsoft said."
-    },
-    {
-     "id": "42314fdb1357",
-     "source": "TechCrunch AI",
-     "sourceId": "techcrunch-ai",
-     "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
-     "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
-     "published": "2026-10-22T16:47:17.000Z",
-     "firstSeen": 1792728350456,
-     "summary": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers."
     },
     {
      "id": "2e23b21574bf",
@@ -8472,23 +8697,6 @@
     "Google"
    ],
    "score": 4,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "909a15cc6f8c",
-   "title": "Sanctioned Apps, Unsanctioned AI: Governing the Agents Inside Your SaaS Stack",
-   "url": "https://cloudsecurityalliance.org/articles/sanctioned-apps-unsanctioned-ai-governing-the-agents-inside-your-saas-stack",
-   "source": "Cloud Security Alliance",
-   "sourceId": "csa",
-   "published": "2026-10-06T21:55:02.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "A sparkle icon shows up in the CRM. Nobody in IT deployed it. Account executives start using it to summarize renewal risk across their book, and the help desk is fielding tickets about whether it's allowed. Security can't answer with evidence. This is now the normal state of enterprise SaaS. Zoom gave admins four days…",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 5,
    "action": false,
    "also": []
   },
