@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-04T21:27:17.339Z",
+ "generatedAt": "2026-11-05T01:43:30.156Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 900
+   "ms": 865
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 61
+   "ms": 64
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 691
+   "ms": 652
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 1052
+   "ms": 778
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 4,
    "kept": 4,
-   "ms": 318
+   "ms": 660
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 994
+   "ms": 827
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 500",
-   "ms": 5321
+   "ms": 2812
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 621
+   "ms": 567
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1033
+   "ms": 797
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 498
+   "ms": 155
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 228
+   "ms": 408
   },
   {
    "id": "cisa",
@@ -113,7 +113,7 @@
    "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 177
+   "ms": 229
   },
   {
    "id": "fedscoop",
@@ -122,7 +122,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 28
+   "ms": 217
   },
   {
    "id": "nextgov",
@@ -131,7 +131,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 164
+   "ms": 267
   },
   {
    "id": "techcrunch-ai",
@@ -140,7 +140,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 74
+   "ms": 201
   },
   {
    "id": "venturebeat-ai",
@@ -148,7 +148,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 113
+   "ms": 285
   },
   {
    "id": "verge-ai",
@@ -157,7 +157,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 93
+   "ms": 345
   },
   {
    "id": "ars-ai",
@@ -166,7 +166,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 151
+   "ms": 561
   },
   {
    "id": "wired-ai",
@@ -175,7 +175,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 188
+   "ms": 366
   },
   {
    "id": "guardian-ai",
@@ -184,7 +184,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 300
+   "ms": 473
   },
   {
    "id": "mittr-ai",
@@ -193,7 +193,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 174
+   "ms": 391
   },
   {
    "id": "register-ai",
@@ -202,7 +202,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 742
+   "ms": 895
   },
   {
    "id": "biometric",
@@ -211,7 +211,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 711
+   "ms": 868
   },
   {
    "id": "krebs",
@@ -220,7 +220,7 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 451
+   "ms": 511
   },
   {
    "id": "securityweek",
@@ -229,7 +229,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 355
+   "ms": 297
   },
   {
    "id": "wired-security",
@@ -238,7 +238,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 29
+   "ms": 26
   },
   {
    "id": "csoonline",
@@ -247,7 +247,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 273
+   "ms": 182
   },
   {
    "id": "infosecmag",
@@ -256,7 +256,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 435
+   "ms": 252
   },
   {
    "id": "helpnet",
@@ -265,7 +265,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 285
+   "ms": 182
   },
   {
    "id": "therecord",
@@ -274,7 +274,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 293
+   "ms": 163
   },
   {
    "id": "thehackernews",
@@ -283,7 +283,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 516
+   "ms": 260
   },
   {
    "id": "bleeping",
@@ -292,7 +292,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 262
+   "ms": 104
   },
   {
    "id": "darkreading",
@@ -301,7 +301,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 467
+   "ms": 783
   },
   {
    "id": "schneier",
@@ -310,7 +310,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 175
+   "ms": 136
   },
   {
    "id": "google-security",
@@ -319,7 +319,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 764
+   "ms": 695
   },
   {
    "id": "msft-security",
@@ -328,7 +328,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 2291
+   "ms": 2196
   },
   {
    "id": "aws-security",
@@ -337,7 +337,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 175
+   "ms": 287
   },
   {
    "id": "unit42",
@@ -346,7 +346,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 239
+   "ms": 148
   },
   {
    "id": "trailofbits",
@@ -355,7 +355,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 549
+   "ms": 476
   },
   {
    "id": "embracethered",
@@ -364,7 +364,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 152
+   "ms": 140
   },
   {
    "id": "owasp-genai",
@@ -373,7 +373,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 280
+   "ms": 223
   },
   {
    "id": "willison-pi",
@@ -382,7 +382,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 172
+   "ms": 495
   },
   {
    "id": "csa",
@@ -391,7 +391,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 587
+   "ms": 711
   },
   {
    "id": "openai",
@@ -400,7 +400,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 144
+   "ms": 135
   },
   {
    "id": "deepmind",
@@ -409,7 +409,7 @@
    "ok": true,
    "items": 40,
    "kept": 11,
-   "ms": 242
+   "ms": 274
   },
   {
    "id": "huggingface",
@@ -418,10 +418,29 @@
    "ok": true,
    "items": 40,
    "kept": 26,
-   "ms": 133
+   "ms": 171
   }
  ],
  "items": [
+  {
+   "id": "5b60a6b8a890",
+   "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+   "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "published": "2026-11-04T22:45:09.000Z",
+   "firstSeen": 1793843010156,
+   "summary": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "USA"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
   {
    "id": "56ff31f1b841",
    "title": "The Biggest Pro-AI Super PAC Network Didn’t Really Impact the Midterms",
@@ -654,7 +673,7 @@
    "sourceId": "guardian-ai",
    "published": "2026-11-04T14:00:37.000Z",
    "firstSeen": 1793805607536,
-   "summary": "Centre for Public Integrity report says mandatory audit and public register of all automated decision-making needed Get our breaking news email, free app or daily news podcast The federal government is “sleepwalking its way into another robodebt” scandal amid a lack of transparency and legislation around use of…",
+   "summary": "Centre for Public Integrity report calls for audit and public register of all automated decision-making Get our breaking news email, free app or daily news podcast The federal government is “sleepwalking its way into another robodebt” scandal amid a lack of transparency and legislation around the use of algorithms and…",
    "topics": [
     "governance",
     "regulation"
@@ -8011,25 +8030,6 @@
     "EU AI Act"
    ],
    "score": 21,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "4d0867cc471f",
-   "title": "AWS Continuum sets a new standard in autonomous code security",
-   "url": "https://aws.amazon.com/blogs/security/aws-continuum-sets-a-new-standard-in-autonomous-code-security/",
-   "source": "AWS Security Blog",
-   "sourceId": "aws-security",
-   "published": "2026-10-05T21:41:01.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "As AI models become more capable, they uncover more security vulnerabilities and identify increasingly sophisticated paths to exploit them, raising the bar for how quickly defenders must respond. Security teams now face more potential vulnerabilities than their existing processes were designed to handle — each…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Vulnerability"
-   ],
-   "score": 8,
    "action": false,
    "also": []
   },
