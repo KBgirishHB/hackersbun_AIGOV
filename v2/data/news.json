@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-06T18:19:36.731Z",
+ "generatedAt": "2026-11-06T23:26:39.475Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 42,
-  "fetched": 908,
-  "relevant": 495,
-  "stories": 431,
-  "duplicatesMerged": 64
+  "fetched": 906,
+  "relevant": 501,
+  "stories": 435,
+  "duplicatesMerged": 66
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 711
+   "ms": 789
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 59
+   "ms": 77
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 603
+   "ms": 680
   },
   {
    "id": "algorithmwatch",
@@ -44,16 +44,16 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 653
+   "ms": 1154
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 6,
-   "kept": 6,
-   "ms": 211
+   "items": 4,
+   "kept": 4,
+   "ms": 745
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 563
+   "ms": 1181
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1503
+   "ms": 1688
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 440
+   "ms": 678
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 405
+   "ms": 1036
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 196
+   "ms": 434
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 59
+   "ms": 429
   },
   {
    "id": "cisa",
@@ -114,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 101
+   "ms": 357
   },
   {
    "id": "fedscoop",
@@ -123,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 100
+   "ms": 369
   },
   {
    "id": "nextgov",
@@ -132,7 +132,7 @@
    "ok": true,
    "items": 25,
    "kept": 25,
-   "ms": 139
+   "ms": 160
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 47
+   "ms": 108
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 163
+   "ms": 185
   },
   {
    "id": "verge-ai",
@@ -158,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 91
+   "ms": 197
   },
   {
    "id": "ars-ai",
@@ -167,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 135
+   "ms": 370
   },
   {
    "id": "wired-ai",
@@ -176,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 82
+   "ms": 234
   },
   {
    "id": "guardian-ai",
@@ -185,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 99
+   "ms": 380
   },
   {
    "id": "mittr-ai",
@@ -194,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 76
+   "ms": 250
   },
   {
    "id": "register-ai",
@@ -203,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 729
+   "ms": 695
   },
   {
    "id": "biometric",
@@ -212,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 715
+   "ms": 746
   },
   {
    "id": "krebs",
@@ -221,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 175
+   "ms": 417
   },
   {
    "id": "securityweek",
@@ -230,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 174
+   "ms": 236
   },
   {
    "id": "wired-security",
@@ -239,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 23
+   "ms": 28
   },
   {
    "id": "csoonline",
@@ -248,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 165
+   "ms": 177
   },
   {
    "id": "infosecmag",
@@ -257,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 363
+   "ms": 225
   },
   {
    "id": "helpnet",
@@ -266,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 315
+   "ms": 134
   },
   {
    "id": "therecord",
@@ -275,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 250
+   "ms": 156
   },
   {
    "id": "thehackernews",
@@ -284,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 322
+   "ms": 297
   },
   {
    "id": "bleeping",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 247
+   "ms": 179
   },
   {
    "id": "darkreading",
@@ -302,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 402
+   "ms": 647
   },
   {
    "id": "schneier",
@@ -311,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 124
+   "ms": 187
   },
   {
    "id": "google-security",
@@ -320,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 526
+   "ms": 641
   },
   {
    "id": "msft-security",
@@ -329,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 2079
+   "ms": 1209
   },
   {
    "id": "aws-security",
@@ -337,8 +337,8 @@
    "url": "https://aws.amazon.com/blogs/security/feed/",
    "ok": true,
    "items": 20,
-   "kept": 18,
-   "ms": 127
+   "kept": 17,
+   "ms": 231
   },
   {
    "id": "unit42",
@@ -347,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 12,
-   "ms": 43
+   "ms": 142
   },
   {
    "id": "trailofbits",
@@ -356,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 5,
-   "ms": 191
+   "ms": 426
   },
   {
    "id": "embracethered",
@@ -365,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 86
+   "ms": 200
   },
   {
    "id": "owasp-genai",
@@ -374,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 87
+   "ms": 221
   },
   {
    "id": "willison-pi",
@@ -383,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 390
+   "ms": 176
   },
   {
    "id": "csa",
@@ -392,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 450
+   "ms": 818
   },
   {
    "id": "openai",
@@ -401,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 126
+   "ms": 170
   },
   {
    "id": "deepmind",
@@ -410,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 11,
-   "ms": 122
+   "ms": 338
   },
   {
    "id": "huggingface",
@@ -419,10 +419,134 @@
    "ok": true,
    "items": 40,
    "kept": 27,
-   "ms": 148
+   "ms": 166
   }
  ],
  "items": [
+  {
+   "id": "4f961ac20b0e",
+   "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+   "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-11-06T22:27:25.000Z",
+   "firstSeen": 1794007599475,
+   "summary": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [],
+   "score": 14,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "a76c03f9bc9b",
+   "title": "UK Wades Into Tech Sovereignty Amid AI Policy Changes",
+   "url": "https://www.darkreading.com/cybersecurity-operations/uk-tech-sovereignty-ai-policy",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-06T21:27:36.000Z",
+   "firstSeen": 1794007599475,
+   "summary": "The UK is betting on domestic AI and cyber investment to reduce reliance on US tech — but security leaders question whether the funding is too fragmented and too late.",
+   "topics": [
+    "governance"
+   ],
+   "tags": [
+    "UK"
+   ],
+   "score": 14,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "5721bf154c55",
+   "title": "Three men charged in US with using AI to impersonate CEOs and steal millions",
+   "url": "https://www.theguardian.com/us-news/2026/nov/06/ai-ceo-impersonation-theft",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-11-06T21:20:49.000Z",
+   "firstSeen": 1794007599475,
+   "summary": "Men allegedly impersonated voices and images of executives to convince employees to send large payments Three foreign nationals were arrested and charged with using AI to allegedly impersonate corporate CEOs and attorneys to steal over $100m, according to an indictment that was newly unsealed by the US Department of…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "6c3bcf0858b9",
+   "title": "Technological Sophistication of Drones and Required Interoperability",
+   "url": "https://www.lawfaremedia.org/article/technological-sophistication-of-drones-and-required-interoperability",
+   "source": "Lawfare",
+   "sourceId": "lawfare",
+   "published": "2026-11-06T19:00:02.000Z",
+   "firstSeen": 1794007599475,
+   "summary": "AI-enabled advancements in drones increase drone use and impact, the speed of change, and the need for allied nations’ interoperability.",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 0,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "449a4ebebd10",
+   "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+   "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "published": "2026-11-06T18:44:38.000Z",
+   "firstSeen": 1794007599475,
+   "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [],
+   "score": 11,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "ac7295b51609",
+   "title": "Free Chinese AI Models Are Getting Scary Good at Hacking",
+   "url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
+   "source": "WIRED Security",
+   "sourceId": "wired-security",
+   "published": "2026-11-06T18:43:43.000Z",
+   "firstSeen": 1794007599475,
+   "summary": "An experiment in which AI models were asked to break into simulated networks showed the hacking skills of DeepSeek and GLM to be not far behind OpenAI’s most advanced cyber model, which isn’t public.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "OpenAI",
+    "China"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "d47f83bcb3ed",
+   "title": "AI Gave Your Incident Archive a Second Job",
+   "url": "https://www.darkreading.com/cyber-risk/ai-gave-your-incident-archive-second-job",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-06T18:27:30.000Z",
+   "firstSeen": 1794007599475,
+   "summary": "Security records are increasingly being used by vendors to train their models, creating new risks for enterprises.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
   {
    "id": "c88264b5bdf5",
    "title": "Ongoing AI dialogue with China is necessary in coming Congress, top tech lawmaker says",
@@ -1135,26 +1259,36 @@
    ]
   },
   {
-   "id": "8915c3fc33a2",
-   "title": "OpenAI’s upcoming AI model built 948 working Linux root exploits in a single run",
-   "url": "https://www.helpnetsecurity.com/2026/11/05/openai-linux-kernel-root-exploits/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-11-05T09:05:06.000Z",
+   "id": "e8506eb16cb7",
+   "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+   "url": "https://openai.com/index/introducing-gpt-6-cyber",
+   "source": "OpenAI News",
+   "sourceId": "openai",
+   "published": "2026-11-05T09:00:00.000Z",
    "firstSeen": 1793870448393,
-   "summary": "An automated system running on an upcoming AI model turned hundreds of Linux kernel bugs into working exploits that give an ordinary user root access, and wrote a patch for each underlying flaw, OpenAI revealed in a new research post. Source:OpenAI The company’s Cyber team ran the pipeline in mid-October 2026 against…",
+   "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
    "topics": [
     "security",
     "incidents"
    ],
    "tags": [
-    "OpenAI",
     "Vulnerability",
+    "OpenAI",
     "AI agents"
    ],
-   "score": 20,
+   "score": 42,
    "action": true,
    "also": [
+    {
+     "id": "8915c3fc33a2",
+     "source": "Help Net Security",
+     "sourceId": "helpnet",
+     "title": "OpenAI’s upcoming AI model built 948 working Linux root exploits in a single run",
+     "url": "https://www.helpnetsecurity.com/2026/11/05/openai-linux-kernel-root-exploits/",
+     "published": "2026-11-05T09:05:06.000Z",
+     "firstSeen": 1793870448393,
+     "summary": "An automated system running on an upcoming AI model turned hundreds of Linux kernel bugs into working exploits that give an ordinary user root access, and wrote a patch for each underlying flaw, OpenAI revealed in a new research post. Source:OpenAI The company’s Cyber team ran the pipeline in mid-October 2026 against…"
+    },
     {
      "id": "683a6b0ca915",
      "source": "The Hacker News",
@@ -1164,6 +1298,16 @@
      "published": "2026-11-05T12:08:54.000Z",
      "firstSeen": 1793870448393,
      "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically…"
+    },
+    {
+     "id": "c987490f6bc8",
+     "source": "CSO Online",
+     "sourceId": "csoonline",
+     "title": "OpenAI’s GPT-6 Cyber ups the ante on vulnerability discovery",
+     "url": "https://www.csoonline.com/article/4244911/openais-gpt-6-cyber-ups-the-ante-on-vulnerability-discovery.html",
+     "published": "2026-11-05T17:01:00.000Z",
+     "firstSeen": 1793900171568,
+     "summary": "OpenAI is introducing GPT-6 Cyber, a restricted access model that the company calls its most capable and aligned cybersecurity model yet, “built to help security researchers identify and validate exploitable vulnerabilities, assess their impact, and harden potential patches before they’re released.” OpenAI researchers…"
     },
     {
      "id": "a05d28554caf",
@@ -1184,37 +1328,6 @@
      "published": "2026-11-05T17:48:04.000Z",
      "firstSeen": 1793918929333,
      "summary": "OpenAI has developed an autonomous AI pipeline that can identify software vulnerabilities, develop working exploits to validate their impact and generate patches for human review. In an October experiment targeting the Linux kernel, the pipeline created exploits for 948 distinct local privilege-escalation (LPE)…"
-    }
-   ]
-  },
-  {
-   "id": "e8506eb16cb7",
-   "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
-   "url": "https://openai.com/index/introducing-gpt-6-cyber",
-   "source": "OpenAI News",
-   "sourceId": "openai",
-   "published": "2026-11-05T09:00:00.000Z",
-   "firstSeen": 1793900171568,
-   "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Vulnerability",
-    "OpenAI"
-   ],
-   "score": 27,
-   "action": false,
-   "also": [
-    {
-     "id": "c987490f6bc8",
-     "source": "CSO Online",
-     "sourceId": "csoonline",
-     "title": "OpenAI’s GPT-6 Cyber ups the ante on vulnerability discovery",
-     "url": "https://www.csoonline.com/article/4244911/openais-gpt-6-cyber-ups-the-ante-on-vulnerability-discovery.html",
-     "published": "2026-11-05T17:01:00.000Z",
-     "firstSeen": 1793900171568,
-     "summary": "OpenAI is introducing GPT-6 Cyber, a restricted access model that the company calls its most capable and aligned cybersecurity model yet, “built to help security researchers identify and validate exploitable vulnerabilities, assess their impact, and harden potential patches before they’re released.” OpenAI researchers…"
     },
     {
      "id": "5804c4d50c29",
@@ -1245,6 +1358,16 @@
      "published": "2026-11-06T14:58:32.000Z",
      "firstSeen": 1793989176731,
      "summary": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within…"
+    },
+    {
+     "id": "af7d531b54f7",
+     "source": "BleepingComputer",
+     "sourceId": "bleeping",
+     "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+     "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+     "published": "2026-11-06T20:24:19.000Z",
+     "firstSeen": 1794007599475,
+     "summary": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws."
     }
    ]
   },
@@ -8944,45 +9067,6 @@
    ],
    "score": 14,
    "action": false,
-   "also": []
-  },
-  {
-   "id": "ec36a06fc7ff",
-   "title": "Configuring your AI vulnerability harness, Part 2: The steering file",
-   "url": "https://aws.amazon.com/blogs/security/configuring-your-ai-vulnerability-harness-part-2-the-steering-file/",
-   "source": "AWS Security Blog",
-   "sourceId": "aws-security",
-   "published": "2026-10-07T21:49:50.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "This post shows you how to configure an AI model to perform structured, evidence-based vulnerability triage with the consistency of a seasoned security analyst. You’ll learn the design decisions behind five configuration sections that enforce structural verification, evidence-based scoring, and infrastructure-aware…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Vulnerability"
-   ],
-   "score": 9,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "e085afd29751",
-   "title": "Building your AI vulnerability harness, Part 1",
-   "url": "https://aws.amazon.com/blogs/security/building-your-ai-vulnerability-harness-part-1/",
-   "source": "AWS Security Blog",
-   "sourceId": "aws-security",
-   "published": "2026-10-07T21:49:43.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Vulnerability scanners produce findings faster than manual triage can process them. Your developers ship more code with more dependencies, and the volume of candidate findings grows with it. Many findings a scanner produces are unlikely to be exploited. The ones that matter need to reach an engineer fast, with enough…",
-   "topics": [
-    "security",
-    "incidents"
-   ],
-   "tags": [
-    "Vulnerability"
-   ],
-   "score": 13,
-   "action": true,
    "also": []
   },
   {
