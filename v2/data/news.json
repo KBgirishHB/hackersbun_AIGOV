@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-06T11:24:29.916Z",
+ "generatedAt": "2026-11-06T18:19:36.731Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 42,
-  "fetched": 907,
-  "relevant": 488,
-  "stories": 426,
-  "duplicatesMerged": 62
+  "fetched": 908,
+  "relevant": 495,
+  "stories": 431,
+  "duplicatesMerged": 64
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 784
+   "ms": 711
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 105
+   "ms": 59
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 548
+   "ms": 603
   },
   {
    "id": "algorithmwatch",
@@ -44,16 +44,16 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 950
+   "ms": 653
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 5,
-   "kept": 5,
-   "ms": 200
+   "items": 6,
+   "kept": 6,
+   "ms": 211
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1202
+   "ms": 563
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 2147
+   "ms": 1503
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 618
+   "ms": 440
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 949
+   "ms": 405
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 472
+   "ms": 196
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 228
+   "ms": 59
   },
   {
    "id": "cisa",
@@ -114,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 211
+   "ms": 101
   },
   {
    "id": "fedscoop",
@@ -123,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 204
+   "ms": 100
   },
   {
    "id": "nextgov",
@@ -132,7 +132,7 @@
    "ok": true,
    "items": 25,
    "kept": 25,
-   "ms": 232
+   "ms": 139
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 105
+   "ms": 47
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 172
+   "ms": 163
   },
   {
    "id": "verge-ai",
@@ -158,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 72
+   "ms": 91
   },
   {
    "id": "ars-ai",
@@ -167,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 352
+   "ms": 135
   },
   {
    "id": "wired-ai",
@@ -176,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 143
+   "ms": 82
   },
   {
    "id": "guardian-ai",
@@ -185,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 263
+   "ms": 99
   },
   {
    "id": "mittr-ai",
@@ -194,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 181
+   "ms": 76
   },
   {
    "id": "register-ai",
@@ -203,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 1290
+   "ms": 729
   },
   {
    "id": "biometric",
@@ -212,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 816
+   "ms": 715
   },
   {
    "id": "krebs",
@@ -220,8 +220,8 @@
    "url": "https://krebsonsecurity.com/feed/",
    "ok": true,
    "items": 10,
-   "kept": 8,
-   "ms": 269
+   "kept": 7,
+   "ms": 175
   },
   {
    "id": "securityweek",
@@ -230,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 264
+   "ms": 174
   },
   {
    "id": "wired-security",
@@ -239,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 28
+   "ms": 23
   },
   {
    "id": "csoonline",
@@ -248,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 241
+   "ms": 165
   },
   {
    "id": "infosecmag",
@@ -257,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 394
+   "ms": 363
   },
   {
    "id": "helpnet",
@@ -266,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 314
+   "ms": 315
   },
   {
    "id": "therecord",
@@ -275,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 285
+   "ms": 250
   },
   {
    "id": "thehackernews",
@@ -284,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 354
+   "ms": 322
   },
   {
    "id": "bleeping",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 217
+   "ms": 247
   },
   {
    "id": "darkreading",
@@ -302,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 644
+   "ms": 402
   },
   {
    "id": "schneier",
@@ -311,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 128
+   "ms": 124
   },
   {
    "id": "google-security",
@@ -320,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 462
+   "ms": 526
   },
   {
    "id": "msft-security",
@@ -329,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3197
+   "ms": 2079
   },
   {
    "id": "aws-security",
@@ -337,8 +337,8 @@
    "url": "https://aws.amazon.com/blogs/security/feed/",
    "ok": true,
    "items": 20,
-   "kept": 19,
-   "ms": 250
+   "kept": 18,
+   "ms": 127
   },
   {
    "id": "unit42",
@@ -347,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 12,
-   "ms": 126
+   "ms": 43
   },
   {
    "id": "trailofbits",
@@ -355,8 +355,8 @@
    "url": "https://blog.trailofbits.com/feed/",
    "ok": true,
    "items": 20,
-   "kept": 4,
-   "ms": 500
+   "kept": 5,
+   "ms": 191
   },
   {
    "id": "embracethered",
@@ -365,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 135
+   "ms": 86
   },
   {
    "id": "owasp-genai",
@@ -374,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 109
+   "ms": 87
   },
   {
    "id": "willison-pi",
@@ -383,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 122
+   "ms": 390
   },
   {
    "id": "csa",
@@ -392,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 654
+   "ms": 450
   },
   {
    "id": "openai",
@@ -401,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 143
+   "ms": 126
   },
   {
    "id": "deepmind",
@@ -410,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 11,
-   "ms": 185
+   "ms": 122
   },
   {
    "id": "huggingface",
@@ -418,11 +418,104 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 28,
-   "ms": 155
+   "kept": 27,
+   "ms": 148
   }
  ],
  "items": [
+  {
+   "id": "c88264b5bdf5",
+   "title": "Ongoing AI dialogue with China is necessary in coming Congress, top tech lawmaker says",
+   "url": "https://www.nextgov.com/artificial-intelligence/2026/11/ongoing-ai-dialogue-china-necessary-coming-congress-top-tech-lawmaker-says/417099/",
+   "source": "Nextgov/FCW",
+   "sourceId": "nextgov",
+   "published": "2026-11-06T17:33:00.000Z",
+   "firstSeen": 1793989176731,
+   "summary": "“The Chinese Communist Party doesn’t want rogue AI agents hacking their systems and their water authorities any more than we do,” Rep. James Walkinshaw, D-Va., said Thursday.",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "AI agents",
+    "USA",
+    "China"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "e3c7de5ebf2e",
+   "title": "CEO-spoofing scammers used AI to help steal more than $100 million, feds say",
+   "url": "https://therecord.media/ceo-spoofing-scammers-charged",
+   "source": "The Record",
+   "sourceId": "therecord",
+   "published": "2026-11-06T14:30:00.000Z",
+   "firstSeen": 1793989176731,
+   "summary": "The U.S. is working on extraditing three suspects from Europe in a case involving more than $100 million in fraud from CEO impersonations.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "2984ce0609e6",
+   "title": "ARTEX Offensive AI Tool Activity Far Exceeds Reported Campaigns, Censys Finds",
+   "url": "https://www.infosecurity-magazine.com/news/artex-activity-exceeds-reported/",
+   "source": "Infosecurity Magazine",
+   "sourceId": "infosecmag",
+   "published": "2026-11-06T13:00:00.000Z",
+   "firstSeen": 1793989176731,
+   "summary": "A new Censys report showed that the use of ARTEX, an AI pentesting tool popular with threat actor, could be spreading far beyond initially reported campaigns",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "41925b1285f3",
+   "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+   "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-06T12:06:35.000Z",
+   "firstSeen": 1793989176731,
+   "summary": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test. The attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "c5623c77e1fa",
+   "title": "Railway’s AI agents go off the track on a rival’s network",
+   "url": "https://www.csoonline.com/article/4245637/railways-ai-agents-go-off-the-track-on-a-rivals-network.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-11-06T11:37:44.000Z",
+   "firstSeen": 1793989176731,
+   "summary": "AI agents operated by cloud infrastructure and application hosting platform, Railway, have attempted to access a rival platform’s infrastructure, prompting the cloud provider’s leadership to acknowledge the incident on social media. Railway senior product engineer Jake Runzer acknowledged running agents to perform…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
   {
    "id": "66d9154765a9",
    "title": "CPython flaw exposes AI inference servers to sandbox escape attacks",
@@ -514,6 +607,26 @@
     "AI agents"
    ],
    "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "3835f13275a3",
+   "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+   "url": "https://openai.com/index/partnering-with-hacktron",
+   "source": "OpenAI News",
+   "sourceId": "openai",
+   "published": "2026-11-06T08:00:00.000Z",
+   "firstSeen": 1793989176731,
+   "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability",
+    "OpenAI"
+   ],
+   "score": 8,
    "action": false,
    "also": []
   },
@@ -684,6 +797,23 @@
     "USA"
    ],
    "score": 18,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "d9e761e74bfc",
+   "title": "AI Governance Isn't a Chore Problem. It's an Architecture Problem.",
+   "url": "https://cloudsecurityalliance.org/articles/ai-governance-isn-t-a-chore-problem-it-s-an-architecture-problem",
+   "source": "Cloud Security Alliance",
+   "sourceId": "csa",
+   "published": "2026-11-05T18:45:39.000Z",
+   "firstSeen": 1793989176731,
+   "summary": "Originally published by LangGuard.ai. Four in five senior business decision-makers are spending more of their day managing AI risk, and their working hours are up 26% on average, according to the September 2026 OneTrust survey cited by CIO.com. That is not evidence that enterprises need more governance meetings… it is…",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 23,
    "action": false,
    "also": []
   },
@@ -1073,7 +1203,7 @@
     "Vulnerability",
     "OpenAI"
    ],
-   "score": 21,
+   "score": 27,
    "action": false,
    "also": [
     {
@@ -1095,6 +1225,26 @@
      "published": "2026-11-06T10:19:49.000Z",
      "firstSeen": 1793964269916,
      "summary": "OpenAI has introduced GPT-6 Cyber, a version of GPT-6 Astra trained to find software vulnerabilities, test how attackers could exploit them, and help develop fixes. The model is designed for authorized security testing of websites and applications. Vulnerability research and security testing OpenAI used GPT-6 Cyber to…"
+    },
+    {
+     "id": "daad9b445c0d",
+     "source": "SecurityWeek",
+     "sourceId": "securityweek",
+     "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
+     "url": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
+     "published": "2026-11-06T13:19:52.000Z",
+     "firstSeen": 1793989176731,
+     "summary": "Rated Critical for cybersecurity, OpenAI’s new model beats GPT-5.6 Cyber at exploitation while staying in scope more reliably."
+    },
+    {
+     "id": "428fbe1d692e",
+     "source": "The Hacker News",
+     "sourceId": "thehackernews",
+     "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+     "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+     "published": "2026-11-06T14:58:32.000Z",
+     "firstSeen": 1793989176731,
+     "summary": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within…"
     }
    ]
   },
@@ -2490,7 +2640,7 @@
    "sourceId": "darkreading",
    "published": "2026-11-02T15:00:00.000Z",
    "firstSeen": 1793633597226,
-   "summary": "The latest \"Digital Defense Report\" identifies government agencies as prime targets for AI attacks but doesn't mention that they are broadly being targeted through Microsoft bugs.",
+   "summary": "The latest \"Digital Defense Report\" identifies government agencies as prime targets for AI attacks, but it doesn't mention that they are broadly being targeted through Microsoft bugs.",
    "topics": [
     "governance"
    ],
@@ -8833,47 +8983,6 @@
    ],
    "score": 13,
    "action": true,
-   "also": []
-  },
-  {
-   "id": "74972449da27",
-   "title": "3 lessons from frontier AI vulnerability research",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
-   "source": "Microsoft Security Blog",
-   "sourceId": "msft-security",
-   "published": "2026-10-07T16:00:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Read how How Microsoft Security's FORGE Lab is scaling vulnerability research from Windows to the Linux kernel.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Vulnerability",
-    "Microsoft"
-   ],
-   "score": 9,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "812c78317dd1",
-   "title": "The Pentagon Hopes to Speed Up ‘Kill Chain’ AI Buys With 5-Minute Videos",
-   "url": "https://www.wired.com/story/the-pentagon-hopes-to-speed-up-kill-chain-ai-buys-with-5-minute-videos/",
-   "source": "WIRED Security",
-   "sourceId": "wired-security",
-   "published": "2026-10-07T15:34:33.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "The US government’s Tradewinds initiative has made it easier to throw millions of dollars at “nontraditional” defense contractors, including OpenAI, Anthropic, and Google.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "OpenAI",
-    "Anthropic",
-    "Google"
-   ],
-   "score": 4,
-   "action": false,
    "also": []
   },
   {
