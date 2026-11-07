@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-11-07T20:26:28.282Z",
+ "generatedAt": "2026-11-07T23:52:09.589Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 42,
   "fetched": 903,
-  "relevant": 505,
-  "stories": 439,
+  "relevant": 500,
+  "stories": 434,
   "duplicatesMerged": 66
  },
  "sources": [
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 1361
+   "ms": 790
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 130
+   "ms": 113
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 638
+   "ms": 597
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 1268
+   "ms": 1541
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 1,
    "kept": 1,
-   "ms": 447
+   "ms": 360
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1263
+   "ms": 1356
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1912
+   "ms": 1841
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 713
+   "ms": 724
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1131
+   "ms": 1070
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 206
+   "ms": 460
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 658
+   "ms": 584
   },
   {
    "id": "cisa",
@@ -114,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 593
+   "ms": 444
   },
   {
    "id": "fedscoop",
@@ -123,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 544
+   "ms": 439
   },
   {
    "id": "nextgov",
@@ -132,7 +132,7 @@
    "ok": true,
    "items": 25,
    "kept": 25,
-   "ms": 291
+   "ms": 481
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 139
+   "ms": 319
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 186
+   "ms": 146
   },
   {
    "id": "verge-ai",
@@ -158,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 199
+   "ms": 123
   },
   {
    "id": "ars-ai",
@@ -167,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 344
+   "ms": 496
   },
   {
    "id": "wired-ai",
@@ -176,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 224
+   "ms": 117
   },
   {
    "id": "guardian-ai",
@@ -185,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 419
+   "ms": 222
   },
   {
    "id": "mittr-ai",
@@ -194,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 164
+   "ms": 123
   },
   {
    "id": "register-ai",
@@ -203,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 749
+   "ms": 1390
   },
   {
    "id": "biometric",
@@ -212,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 799
+   "ms": 813
   },
   {
    "id": "krebs",
@@ -221,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 172
+   "ms": 141
   },
   {
    "id": "securityweek",
@@ -230,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 219
+   "ms": 134
   },
   {
    "id": "wired-security",
@@ -239,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 35
+   "ms": 27
   },
   {
    "id": "csoonline",
@@ -248,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 178
+   "ms": 134
   },
   {
    "id": "infosecmag",
@@ -257,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 318
+   "ms": 244
   },
   {
    "id": "helpnet",
@@ -266,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 132
+   "ms": 104
   },
   {
    "id": "therecord",
@@ -275,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 175
+   "ms": 143
   },
   {
    "id": "thehackernews",
@@ -284,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 244
+   "ms": 194
   },
   {
    "id": "bleeping",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 218
+   "ms": 203
   },
   {
    "id": "darkreading",
@@ -302,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 495
+   "ms": 533
   },
   {
    "id": "schneier",
@@ -311,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 148
+   "ms": 118
   },
   {
    "id": "google-security",
@@ -320,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 478
+   "ms": 425
   },
   {
    "id": "msft-security",
@@ -329,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3246
+   "ms": 2162
   },
   {
    "id": "aws-security",
@@ -338,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 17,
-   "ms": 332
+   "ms": 204
   },
   {
    "id": "unit42",
@@ -347,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 12,
-   "ms": 237
+   "ms": 111
   },
   {
    "id": "trailofbits",
@@ -356,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 5,
-   "ms": 776
+   "ms": 396
   },
   {
    "id": "embracethered",
@@ -365,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 165
+   "ms": 126
   },
   {
    "id": "owasp-genai",
@@ -374,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 131
+   "ms": 76
   },
   {
    "id": "willison-pi",
@@ -383,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 152
+   "ms": 170
   },
   {
    "id": "csa",
@@ -391,8 +391,8 @@
    "url": "https://cloudsecurityalliance.org/blog/feed/",
    "ok": true,
    "items": 20,
-   "kept": 20,
-   "ms": 861
+   "kept": 15,
+   "ms": 407
   },
   {
    "id": "openai",
@@ -401,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 203
+   "ms": 121
   },
   {
    "id": "deepmind",
@@ -410,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 11,
-   "ms": 174
+   "ms": 323
   },
   {
    "id": "huggingface",
@@ -419,7 +419,7 @@
    "ok": true,
    "items": 40,
    "kept": 26,
-   "ms": 333
+   "ms": 127
   }
  ],
  "items": [
@@ -9032,97 +9032,6 @@
     "OpenAI"
    ],
    "score": 9,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "e5f89be651b1",
-   "title": "The Enterprise Accountability Gap: Who Should Own AI Governance?",
-   "url": "https://cloudsecurityalliance.org/articles/the-enterprise-accountability-gap-who-should-own-ai-governance",
-   "source": "Cloud Security Alliance",
-   "sourceId": "csa",
-   "published": "2026-10-08T22:30:43.000Z",
-   "firstSeen": 1793287735893,
-   "summary": "Most enterprises have a sense of who owns AI risk, yet few know what happens when that risk turns into an incident. That's the pattern unearthed inside Schellman's new research, The 2026 State of AI Governance Report. In most cases, organizations can easily name an owner for AI decisions, but they're struggling with…",
-   "topics": [
-    "governance"
-   ],
-   "tags": [],
-   "score": 29,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "9e8513e13be7",
-   "title": "How Security Teams Can Earn Board Trust With Exposure Management",
-   "url": "https://cloudsecurityalliance.org/articles/how-security-teams-can-earn-board-trust-with-exposure-management",
-   "source": "Cloud Security Alliance",
-   "sourceId": "csa",
-   "published": "2026-10-08T22:30:19.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "TL; DR Learn how transitioning to an AI-driven exposure management strategy enabled Tenable’s Chief Security Officer, Robert Huber, to conquer software sprawl, integrate fragmented data, manage the risks of rapid AI adoption, and pivot from sharing highly technical statistics to conveying corporate risk in a way that…",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 2,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "0872a747669d",
-   "title": "The OWASP Top 10 for LLM Applications (2026): What Changed and Why It Matters",
-   "url": "https://cloudsecurityalliance.org/articles/the-owasp-top-10-for-llm-applications-2026-what-changed-and-why-it-matters",
-   "source": "Cloud Security Alliance",
-   "sourceId": "csa",
-   "published": "2026-10-08T22:29:37.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "TL;DR: OWASP’s 2026 rankings reflect the growing consequences of giving LLM applications access to tools and enterprise systems. Prompt injection remains No. 1, while excessive agency rises to No. 3 and several categories expand to cover newer deployment risks. Security teams should assume models will sometimes fail…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Prompt injection"
-   ],
-   "score": 17,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "482fac92b49d",
-   "title": "Bounding the Frontier: Why Enterprise AI Needs Security Validation Before Scale",
-   "url": "https://cloudsecurityalliance.org/articles/bounding-the-frontier-why-enterprise-ai-needs-security-validation-before-scale",
-   "source": "Cloud Security Alliance",
-   "sourceId": "csa",
-   "published": "2026-10-08T22:29:06.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Review the code. Prove the agent is safe. Govern every call after — in your cluster. Artificial intelligence has entered a new phase. Organizations are no longer experimenting with simple chatbots that answer questions. Enterprises are deploying autonomous AI agents capable of reasoning, invoking tools, accessing…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents"
-   ],
-   "score": 6,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "4bcc710d4482",
-   "title": "Your Roadmap to the Frontier Ready Journey",
-   "url": "https://cloudsecurityalliance.org/articles/your-roadmap-to-the-frontier-ready-journey",
-   "source": "Cloud Security Alliance",
-   "sourceId": "csa",
-   "published": "2026-10-08T22:18:34.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "In April 2026 the Cloud Security Alliance, working with our partners SANS and RSAC, first published The “AI Vulnerability Storm”: Building a “Mythos-ready” Security Program that opened the floodgates on our research for understanding and preparing for the emergence of advanced, adversarial AI. The goal is to determine…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Vulnerability"
-   ],
-   "score": 6,
    "action": false,
    "also": []
   },
