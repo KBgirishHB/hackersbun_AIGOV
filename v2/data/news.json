@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-11-09T09:36:15.811Z",
+ "generatedAt": "2026-11-09T20:00:20.999Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 42,
-  "fetched": 903,
-  "relevant": 509,
-  "stories": 443,
+  "fetched": 904,
+  "relevant": 525,
+  "stories": 459,
   "duplicatesMerged": 66
  },
  "sources": [
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 1114
+   "ms": 1148
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 62
+   "ms": 91
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 587
+   "ms": 635
   },
   {
    "id": "algorithmwatch",
@@ -44,16 +44,16 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 1032
+   "ms": 1106
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 1,
-   "kept": 1,
-   "ms": 482
+   "items": 2,
+   "kept": 2,
+   "ms": 238
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 533
+   "ms": 1112
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1472
+   "ms": 1693
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 356
+   "ms": 538
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 969
+   "ms": 1014
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 93
+   "ms": 594
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 74
+   "ms": 300
   },
   {
    "id": "cisa",
@@ -114,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 535
+   "ms": 464
   },
   {
    "id": "fedscoop",
@@ -123,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 73
+   "ms": 326
   },
   {
    "id": "nextgov",
@@ -132,7 +132,7 @@
    "ok": true,
    "items": 25,
    "kept": 25,
-   "ms": 503
+   "ms": 492
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 473
+   "ms": 147
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 488
+   "ms": 155
   },
   {
    "id": "verge-ai",
@@ -158,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 84
+   "ms": 173
   },
   {
    "id": "ars-ai",
@@ -167,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 208
+   "ms": 252
   },
   {
    "id": "wired-ai",
@@ -176,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 92
+   "ms": 294
   },
   {
    "id": "guardian-ai",
@@ -185,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 150
+   "ms": 160
   },
   {
    "id": "mittr-ai",
@@ -194,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 109
+   "ms": 150
   },
   {
    "id": "register-ai",
@@ -203,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 582
+   "ms": 678
   },
   {
    "id": "biometric",
@@ -212,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 675
+   "ms": 848
   },
   {
    "id": "krebs",
@@ -221,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 228
+   "ms": 284
   },
   {
    "id": "securityweek",
@@ -230,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 161
+   "ms": 237
   },
   {
    "id": "wired-security",
@@ -239,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 22
+   "ms": 166
   },
   {
    "id": "csoonline",
@@ -248,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 126
+   "ms": 152
   },
   {
    "id": "infosecmag",
@@ -257,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 262
+   "ms": 294
   },
   {
    "id": "helpnet",
@@ -266,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 102
+   "ms": 113
   },
   {
    "id": "therecord",
@@ -275,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 371
+   "ms": 190
   },
   {
    "id": "thehackernews",
@@ -284,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 133
+   "ms": 310
   },
   {
    "id": "bleeping",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 51
+   "ms": 191
   },
   {
    "id": "darkreading",
@@ -302,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 436
+   "ms": 558
   },
   {
    "id": "schneier",
@@ -311,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 175
+   "ms": 94
   },
   {
    "id": "google-security",
@@ -320,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 367
+   "ms": 489
   },
   {
    "id": "msft-security",
@@ -329,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3180
+   "ms": 2236
   },
   {
    "id": "aws-security",
@@ -337,8 +337,8 @@
    "url": "https://aws.amazon.com/blogs/security/feed/",
    "ok": true,
    "items": 20,
-   "kept": 17,
-   "ms": 186
+   "kept": 19,
+   "ms": 226
   },
   {
    "id": "unit42",
@@ -347,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 12,
-   "ms": 116
+   "ms": 180
   },
   {
    "id": "trailofbits",
@@ -356,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 5,
-   "ms": 305
+   "ms": 406
   },
   {
    "id": "embracethered",
@@ -365,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 74
+   "ms": 185
   },
   {
    "id": "owasp-genai",
@@ -374,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 345
+   "ms": 110
   },
   {
    "id": "willison-pi",
@@ -383,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 391
+   "ms": 543
   },
   {
    "id": "csa",
@@ -391,8 +391,8 @@
    "url": "https://cloudsecurityalliance.org/blog/feed/",
    "ok": true,
    "items": 20,
-   "kept": 13,
-   "ms": 426
+   "kept": 14,
+   "ms": 519
   },
   {
    "id": "openai",
@@ -401,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 222
+   "ms": 145
   },
   {
    "id": "deepmind",
@@ -410,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 11,
-   "ms": 296
+   "ms": 171
   },
   {
    "id": "huggingface",
@@ -418,11 +418,315 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 26,
-   "ms": 243
+   "kept": 27,
+   "ms": 159
   }
  ],
  "items": [
+  {
+   "id": "38ae599d6a31",
+   "title": "Cyber-attack on French supermarket freezers has geopolitical context",
+   "url": "https://www.theguardian.com/technology/2026/nov/09/cyber-attack-french-supermarket-freezers-iran-europe",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-11-09T19:40:45.000Z",
+   "firstSeen": 1794254420999,
+   "summary": "‘Not particularly complex’ defrosting hack has been attributed to Iran, with presumption it is linked to others across Europe Iranian hackers like to send a message. In 2023 a state-backed group interrupted TV streaming services in the United Arab Emirates to broadcast a deepfake report on the war in Gaza. In the same…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Deepfakes"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "b05e5f047bf7",
+   "title": "Help defend against memory poisoning in Amazon Bedrock AgentCore with multi-layer write validation",
+   "url": "https://aws.amazon.com/blogs/security/help-defend-against-memory-poisoning-in-amazon-bedrock-agentcore-with-multi-layer-write-validation/",
+   "source": "AWS Security Blog",
+   "sourceId": "aws-security",
+   "published": "2026-11-09T19:05:52.000Z",
+   "firstSeen": 1794254420999,
+   "summary": "Amazon Bedrock AgentCore Memory helps AI agents maintain context across sessions through persistent short-term and long-term memory. Because memory content is automatically retrieved and injected into future conversations, the integrity of what gets written to memory directly shapes future agent behavior, which makes…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Data poisoning",
+    "AI agents"
+   ],
+   "score": 0,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "dc2e44d81673",
+   "title": "Attackers Crash Claude's 'Office Party' Flaw to Run Malicious Code on Linux",
+   "url": "https://www.darkreading.com/endpoint-security/attackers-claude-office-party-flaw-malicious-code-linux",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-09T18:08:30.000Z",
+   "firstSeen": 1794254420999,
+   "summary": "Attackers can exploit a flaw in Claude's document-processing tool by creating a temporary file that Anthropic's AI assistant can access and run on a user's machine.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "8836dd4ae4be",
+   "title": "Congress returns to slew of cyber deadlines and unfinished AI safety bills",
+   "url": "https://www.nextgov.com/cybersecurity/2026/11/congress-returns-slew-cyber-deadlines-and-unfinished-ai-safety-bills/417123/",
+   "source": "Nextgov/FCW",
+   "sourceId": "nextgov",
+   "published": "2026-11-09T17:35:00.000Z",
+   "firstSeen": 1794254420999,
+   "summary": "Cyber threat-sharing protections expire Dec. 11, while proposals to oversee advanced AI and strengthen a global vulnerability-tracking program await action.",
+   "topics": [
+    "governance",
+    "security",
+    "regulation"
+   ],
+   "tags": [
+    "Vulnerability",
+    "USA"
+   ],
+   "score": 19,
+   "action": true,
+   "also": []
+  },
+  {
+   "id": "5b9bf0f98947",
+   "title": "PwC's CISO on AI, Robots & What's Next for Security",
+   "url": "https://www.darkreading.com/cybersecurity-operations/pwc-ciso-ai-robots-security",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-09T17:17:23.000Z",
+   "firstSeen": 1794254420999,
+   "summary": "As AI accelerates change across the enterprise, PwC's James Shira explains why security teams must rethink their approach to risk and adapt their strategies.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "63b30dcfce3c",
+   "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+   "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+   "source": "MIT Technology Review AI",
+   "sourceId": "mittr-ai",
+   "published": "2026-11-09T17:05:43.000Z",
+   "firstSeen": 1794254420999,
+   "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy. I spoke with Wiener on Friday, only a…",
+   "topics": [
+    "regulation",
+    "governance"
+   ],
+   "tags": [
+    "USA"
+   ],
+   "score": 21,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "69742108f0b4",
+   "title": "EU presses OpenAI, Anthropic for more details on AI safety incidents",
+   "url": "https://www.rapporteur.com/news/eu-presses-openai-anthropic-for-more-details-on-ai-safety-incidents/",
+   "source": "Euractiv",
+   "sourceId": "euractiv",
+   "published": "2026-11-09T16:31:03.000Z",
+   "firstSeen": 1794254420999,
+   "summary": "AI giants must hand over information about their models under EU rules",
+   "topics": [
+    "governance",
+    "incidents"
+   ],
+   "tags": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "score": 14,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "54769c9feed7",
+   "title": "Jailbroken AI Agent Ran Two-Week Attack on European Telecom",
+   "url": "https://www.infosecurity-magazine.com/news/operation-snowball-ai-telecom/",
+   "source": "Infosecurity Magazine",
+   "sourceId": "infosecmag",
+   "published": "2026-11-09T16:00:00.000Z",
+   "firstSeen": 1794254420999,
+   "summary": "Jailbroken DeepSeek agent spent two weeks attacking a European telecom, Malbear Labs found",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "88e64520b2c4",
+   "title": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+   "source": "The Verge AI",
+   "sourceId": "verge-ai",
+   "published": "2026-11-09T15:50:38.000Z",
+   "firstSeen": 1794254420999,
+   "summary": "Asked about AI executives' warnings about their models' safety on 60 Minutes, Trump said, \"I think that the risk is not nearly as real as it- as they talk, and I think the risk can be managed, and it's managed.\" He claimed the DOJ is managing that risk, saying, \"We had a situation where somebody",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "7766a744f862",
+   "title": "The Biggest Threat to Your GRC Job Isn’t AI. It’s Ignoring AI.",
+   "url": "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-11-09T15:05:15.000Z",
+   "firstSeen": 1794254420999,
+   "summary": "AI agents are taking over routine governance, risk, and compliance tasks, forcing GRC professionals to rethink the skills needed to stay relevant. Anecdotes examines three essential skills for the AI-driven GRC workplace: data literacy, agent governance, and communication.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "cccdfaeb5b71",
+   "title": "ARTEX goes from pentesting tool to attacker staple in three months",
+   "url": "https://www.helpnetsecurity.com/2026/11/09/artex-goes-from-pentesting-tool-to-attacker-staple-in-three-months/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-09T14:57:32.000Z",
+   "firstSeen": 1794254420999,
+   "summary": "A security researcher’s AI agent breached an internal sales application used by WorkOS’s go-to-market teams, the developer platform provider confirmed on Friday. “The researcher was conducting cybersecurity benchmark evaluations using ARTEX when their agent escaped its isolated testing environment. Its interaction…",
+   "topics": [
+    "security",
+    "research",
+    "incidents"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 11,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "24c41a9f5020",
+   "title": "Alleged AI-aided cyberattack exploits assistant interface to breach German web host",
+   "url": "https://therecord.media/cyberattack-germany-ai-mittwald",
+   "source": "The Record",
+   "sourceId": "therecord",
+   "published": "2026-11-09T14:15:00.000Z",
+   "firstSeen": 1794254420999,
+   "summary": "Hackers allegedly assisted by AI breached a German web hosting company through a tool designed to allow customers to connect AI assistants to their accounts, the company disclosed.",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [],
+   "score": 24,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "66073757e5a4",
+   "title": "AI Security",
+   "url": "https://www.schneier.com/blog/archives/2026/11/ai-security.html",
+   "source": "Schneier on Security",
+   "sourceId": "schneier",
+   "published": "2026-11-09T12:05:39.000Z",
+   "firstSeen": 1794254420999,
+   "summary": "Two weeks ago, I attended the [un]prompted AI security conference in San Francisco. It was an excellent event: three days of very dense talks about all aspects of AI security. (My talk was about integrous AI, and I will post it when it is online.) AI security can be divided into three broad topics. It’s important for…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 18,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "9c1d4abde6f9",
+   "title": "Trio accused of using deepfake CEOs and bogus lawyers to scam businesses out of $129 million",
+   "url": "https://www.helpnetsecurity.com/2026/11/09/deepfake-ceo-fraud-129-million-indictment/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-09T11:47:43.000Z",
+   "firstSeen": 1794254420999,
+   "summary": "Three men allegedly used deepfakes of company CEOs and law firm attorneys to trick employees into wiring more than $129 million to accounts the group controlled, the Justice Department said. The indictment names the three as Jacob Soall, 41, Sharon Hazan, 54, and Guy Sheetrit, 42. Soall used the alias “Rocky Balboa,”…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Deepfakes"
+   ],
+   "score": 14,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "42583e316c70",
+   "title": "Today’s AI won’t achieve superintelligence. But catastrophic risk is real | Sunita Verma",
+   "url": "https://www.theguardian.com/commentisfree/2026/nov/09/ai-superintelligence-risk",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-11-09T11:00:07.000Z",
+   "firstSeen": 1794254420999,
+   "summary": "The same technical limits that prevent superintelligence make these systems dangerous. But we know how to regulate them Many Silicon Valley leaders believe superintelligence is an imminent threat to society. The White House even published an accord about it. This isn’t enough. Geoffrey Hinton, the godfather of AI…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "USA"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "709a60ae93dc",
+   "title": "Authors Can Defend Against AI Allegations With ‘Paper Trail’ Tools. Is It Enough?",
+   "url": "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/",
+   "source": "WIRED AI",
+   "sourceId": "wired-ai",
+   "published": "2026-11-09T11:00:00.000Z",
+   "firstSeen": 1794254420999,
+   "summary": "As the publishing industry wrestles with paranoia over the provenance of manuscripts, writers are caught in an impossible bind.",
+   "topics": [
+    "research"
+   ],
+   "tags": [],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
   {
    "id": "c81e9c3d55f2",
    "title": "Product showcase: What the Malwarebytes Claude connector reveals about unexpected texts",
@@ -440,6 +744,25 @@
    ],
    "score": 5,
    "action": false,
+   "also": []
+  },
+  {
+   "id": "0e8c2bca36c9",
+   "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
+   "url": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-09T09:01:50.000Z",
+   "firstSeen": 1794254420999,
+   "summary": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also found a Taipei fire department platform exposing patient data from 2018, including ECG readings and ambulance video footage, without a…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 12,
+   "action": true,
    "also": []
   },
   {
@@ -9188,23 +9511,6 @@
    ],
    "tags": [],
    "score": 4,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "8dac1f70414a",
-   "title": "AI Is Getting Really Good at Messing With Cybercriminals",
-   "url": "https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals/",
-   "source": "WIRED Security",
-   "sourceId": "wired-security",
-   "published": "2026-10-10T12:00:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Anti-cybercrime initiatives are increasingly using AI to scam the scammers by tricking them into talking to lifelike bots that they think are real victims.",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 8,
    "action": false,
    "also": []
   },
