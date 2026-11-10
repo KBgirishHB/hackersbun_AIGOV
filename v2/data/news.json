@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-11-10T02:38:50.055Z",
+ "generatedAt": "2026-11-10T10:58:10.477Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 42,
   "fetched": 906,
-  "relevant": 527,
-  "stories": 461,
+  "relevant": 537,
+  "stories": 471,
   "duplicatesMerged": 66
  },
  "sources": [
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 814
+   "ms": 994
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 138
+   "ms": 47
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 586
+   "ms": 886
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 1235
+   "ms": 1207
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 4,
    "kept": 4,
-   "ms": 313
+   "ms": 326
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1239
+   "ms": 879
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 2849
+   "ms": 1854
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 695
+   "ms": 452
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1098
+   "ms": 851
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 534
+   "ms": 145
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 278
+   "ms": 83
   },
   {
    "id": "cisa",
@@ -114,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 526
+   "ms": 395
   },
   {
    "id": "fedscoop",
@@ -123,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 137
+   "ms": 366
   },
   {
    "id": "nextgov",
@@ -132,7 +132,7 @@
    "ok": true,
    "items": 25,
    "kept": 25,
-   "ms": 402
+   "ms": 410
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 428
+   "ms": 105
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 403
+   "ms": 143
   },
   {
    "id": "verge-ai",
@@ -158,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 82
+   "ms": 149
   },
   {
    "id": "ars-ai",
@@ -167,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 426
+   "ms": 628
   },
   {
    "id": "wired-ai",
@@ -176,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 159
+   "ms": 246
   },
   {
    "id": "guardian-ai",
@@ -185,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 325
+   "ms": 594
   },
   {
    "id": "mittr-ai",
@@ -194,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 186
+   "ms": 295
   },
   {
    "id": "register-ai",
@@ -203,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 1001
+   "ms": 679
   },
   {
    "id": "biometric",
@@ -212,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 880
+   "ms": 768
   },
   {
    "id": "krebs",
@@ -221,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 281
+   "ms": 199
   },
   {
    "id": "securityweek",
@@ -230,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 368
+   "ms": 222
   },
   {
    "id": "wired-security",
@@ -239,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 33
+   "ms": 18
   },
   {
    "id": "csoonline",
@@ -248,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 285
+   "ms": 230
   },
   {
    "id": "infosecmag",
@@ -257,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 381
+   "ms": 266
   },
   {
    "id": "helpnet",
@@ -266,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 267
+   "ms": 117
   },
   {
    "id": "therecord",
@@ -275,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 449
+   "ms": 179
   },
   {
    "id": "thehackernews",
@@ -284,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 353
+   "ms": 258
   },
   {
    "id": "bleeping",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 421
+   "ms": 217
   },
   {
    "id": "darkreading",
@@ -302,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 867
+   "ms": 834
   },
   {
    "id": "schneier",
@@ -311,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 358
+   "ms": 173
   },
   {
    "id": "google-security",
@@ -320,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 670
+   "ms": 503
   },
   {
    "id": "msft-security",
@@ -329,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 2346
+   "ms": 2079
   },
   {
    "id": "aws-security",
@@ -338,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 19,
-   "ms": 201
+   "ms": 159
   },
   {
    "id": "unit42",
@@ -347,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 12,
-   "ms": 158
+   "ms": 118
   },
   {
    "id": "trailofbits",
@@ -356,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 5,
-   "ms": 397
+   "ms": 602
   },
   {
    "id": "embracethered",
@@ -365,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 178
+   "ms": 174
   },
   {
    "id": "owasp-genai",
@@ -374,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 229
+   "ms": 198
   },
   {
    "id": "willison-pi",
@@ -383,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 727
+   "ms": 738
   },
   {
    "id": "csa",
@@ -392,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 14,
-   "ms": 454
+   "ms": 515
   },
   {
    "id": "openai",
@@ -401,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 142
+   "ms": 109
   },
   {
    "id": "deepmind",
@@ -410,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 11,
-   "ms": 326
+   "ms": 198
   },
   {
    "id": "huggingface",
@@ -419,19 +419,130 @@
    "ok": true,
    "items": 40,
    "kept": 27,
-   "ms": 126
+   "ms": 163
   }
  ],
  "items": [
+  {
+   "id": "58b1438c6e26",
+   "title": "Anthropic sharpens AI coding and security capabilities with Mythos 5.2",
+   "url": "https://www.csoonline.com/article/4246688/anthropic-sharpens-ai-coding-and-security-capabilities-with-mythos-5-2.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-11-10T09:33:17.000Z",
+   "firstSeen": 1794308290477,
+   "summary": "Anthropic has introduced Claude Fable 5.2 and Mythos 5.2, claiming significant improvements in handling complex software engineering tasks while cutting API prices by 20% compared with the previous versions. Fable 5.2 and Mythos 5.2 share the same underlying model but have different safeguards. Fable is broadly…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "9f6278cff518",
+   "title": "Closing the AI guidance gap in education",
+   "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+   "source": "OpenAI News",
+   "sourceId": "openai",
+   "published": "2026-11-10T09:00:00.000Z",
+   "firstSeen": 1794308290477,
+   "summary": "Lessons from OpenAI’s EMEA education partnerships and new ThinkYoung research. Supporting teachers, AI literacy and independent learning.",
+   "topics": [
+    "governance"
+   ],
+   "tags": [
+    "OpenAI"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "301ca15cbc69",
+   "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
+   "url": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-10T08:16:14.000Z",
+   "firstSeen": 1794308290477,
+   "summary": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its engineers \"complete otherwise-infeasible software migrations, designed three working electronic…",
+   "topics": [
+    "incidents",
+    "research"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 16,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "26b61c107572",
+   "title": "Fireworks AI discloses new breach after cloud provider hack",
+   "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-11-10T07:49:58.000Z",
+   "firstSeen": 1794308290477,
+   "summary": "AI infrastructure startup Fireworks has disclosed a new security breach in which attackers accessed its development machines after breaching a third-party cloud provider.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "f8dc809e69fe",
+   "title": "THE HACK: Commission targets ‘dark patterns’",
+   "url": "https://www.rapporteur.com/news/the-hack-commission-targets-dark-patterns/",
+   "source": "Euractiv",
+   "sourceId": "euractiv",
+   "published": "2026-11-10T07:44:59.000Z",
+   "firstSeen": 1794308290477,
+   "summary": "In today's edition: AI safety, 2027 tech plans, CAIDA",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 3,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "0ef4fdba9599",
+   "title": "Security Flaws Across UK Government Sites Exposed ‘God-Tier’ Information",
+   "url": "https://www.wired.com/story/security-flaws-across-uk-government-sites-exposed-god-tier-information/",
+   "source": "WIRED AI",
+   "sourceId": "wired-ai",
+   "published": "2026-11-10T07:00:00.000Z",
+   "firstSeen": 1794308290477,
+   "summary": "A researcher’s trawl through publicly available code found private information was at risk across multiple departments.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "UK"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
   {
    "id": "311163f9a58e",
    "title": "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
    "url": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack",
    "source": "The Guardian AI",
    "sourceId": "guardian-ai",
-   "published": "2026-11-10T02:31:08.000Z",
+   "published": "2026-11-10T06:00:52.000Z",
    "firstSeen": 1794278330055,
-   "summary": "Government flags criminal law changes to ensure companies can’t argue in future ‘that someone didn’t know the computer was loaded’ OpenAI won’t face criminal penalties over the Medicare hack but the prime minister has flagged changes to Australia’s criminal law to crack down on future breaches by artificial…",
+   "summary": "Government flags criminal law changes to ensure companies can’t argue in future ‘that someone didn’t know the computer was loaded’ Get our daily political email, free app or daily news podcast OpenAI will not face criminal penalties over the Medicare data breach, but the prime minister has flagged changes to…",
    "topics": [
     "incidents"
    ],
@@ -439,6 +550,84 @@
     "OpenAI"
    ],
    "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "c22af71a56f4",
+   "title": "Security teams want to spot unusual AI agent behavior while they’re still defining normal",
+   "url": "https://www.helpnetsecurity.com/2026/11/10/abnormal-ai-behavioral-security-report/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-10T06:00:42.000Z",
+   "firstSeen": 1794308290477,
+   "summary": "AI agents topped the list of planned investments in behavioral monitoring in Abnormal AI’s 2026 State of Behavioral Security Report. Asked where their organizations would invest most over the next two years, 43% of respondents chose AI agents, more than three times the share who chose API integrations, the next most…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "e63a6c09e31a",
+   "title": "Over 575 malicious OpenClaw skills delivered malware to Windows and macOS",
+   "url": "https://www.helpnetsecurity.com/2026/11/10/acronis-ai-agent-cyberattacks-report/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-10T05:30:59.000Z",
+   "firstSeen": 1794308290477,
+   "summary": "Cybercriminals are using AI agents to coordinate attacks, stolen credentials to access linked services, and tools that interfere with intrusion detection and system recovery, according to Acronis TRU Cyber Pulse 2026. One operator coordinates activity across several countries In an investigation known as BOSSAI…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "59ecad5d88d9",
+   "title": "Mandatory AI safety and security protections announced after OpenAI breach of Medicare – video",
+   "url": "https://www.theguardian.com/australia-news/video/2026/nov/10/mandatory-ai-safety-and-security-protections-announced-after-openai-breach-of-medicare-video",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-11-10T05:29:32.000Z",
+   "firstSeen": 1794308290477,
+   "summary": "Australia's prime minister said its government would set up a new AI safety regulator and Labor would consider six key obligations on AI companies. The review made 18 recommendations. Anthony Albanese said: 'We accept all of the recommendations, and we’ve commenced work to implement them.' Australia to introduce…",
+   "topics": [
+    "governance",
+    "incidents",
+    "regulation"
+   ],
+   "tags": [
+    "OpenAI"
+   ],
+   "score": 21,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "96500e4896f5",
+   "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
+   "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+   "source": "WIRED Security",
+   "sourceId": "wired-security",
+   "published": "2026-11-10T05:01:00.000Z",
+   "firstSeen": 1794308290477,
+   "summary": "DeepMind researchers were able to formally verify that the widely used encryption protocol works as intended. Their stretch goal? Do the same for “all the software of the world.”",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Google"
+   ],
+   "score": 6,
    "action": false,
    "also": []
   },
@@ -464,7 +653,7 @@
   },
   {
    "id": "38ae599d6a31",
-   "title": "Cyber-attack on French supermarket freezers has geopolitical context",
+   "title": "The French fridge hacks were relatively unsophisticated. An AI-enabled attack would raise the stakes",
    "url": "https://www.theguardian.com/technology/2026/nov/09/cyber-attack-french-supermarket-freezers-iran-europe",
    "source": "The Guardian AI",
    "sourceId": "guardian-ai",
@@ -477,7 +666,7 @@
    "tags": [
     "Deepfakes"
    ],
-   "score": 8,
+   "score": 10,
    "action": false,
    "also": []
   },
