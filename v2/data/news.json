@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-11-10T18:35:05.006Z",
+ "generatedAt": "2026-11-10T23:40:36.187Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 42,
-  "fetched": 905,
-  "relevant": 559,
-  "stories": 488,
+  "fetched": 904,
+  "relevant": 571,
+  "stories": 500,
   "duplicatesMerged": 71
  },
  "sources": [
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 783
+   "ms": 807
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 46
+   "ms": 51
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 600
+   "ms": 750
   },
   {
    "id": "algorithmwatch",
@@ -44,16 +44,16 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 1095
+   "ms": 895
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 4,
-   "kept": 4,
-   "ms": 347
+   "items": 3,
+   "kept": 3,
+   "ms": 322
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1091
+   "ms": 992
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1906
+   "ms": 1650
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 421
+   "ms": 664
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1044
+   "ms": 736
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 236
+   "ms": 157
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 166
+   "ms": 132
   },
   {
    "id": "cisa",
@@ -114,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 493
+   "ms": 122
   },
   {
    "id": "fedscoop",
@@ -123,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 91
+   "ms": 110
   },
   {
    "id": "nextgov",
@@ -132,7 +132,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 103
+   "ms": 422
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 407
+   "ms": 87
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 433
+   "ms": 201
   },
   {
    "id": "verge-ai",
@@ -158,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 430
+   "ms": 237
   },
   {
    "id": "ars-ai",
@@ -167,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 212
+   "ms": 597
   },
   {
    "id": "wired-ai",
@@ -176,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 138
+   "ms": 258
   },
   {
    "id": "guardian-ai",
@@ -185,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 189
+   "ms": 293
   },
   {
    "id": "mittr-ai",
@@ -194,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 129
+   "ms": 224
   },
   {
    "id": "register-ai",
@@ -203,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 602
+   "ms": 553
   },
   {
    "id": "biometric",
@@ -212,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 921
+   "ms": 812
   },
   {
    "id": "krebs",
@@ -220,8 +220,8 @@
    "url": "https://krebsonsecurity.com/feed/",
    "ok": true,
    "items": 10,
-   "kept": 6,
-   "ms": 188
+   "kept": 7,
+   "ms": 176
   },
   {
    "id": "securityweek",
@@ -230,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 182
+   "ms": 102
   },
   {
    "id": "wired-security",
@@ -239,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 27
+   "ms": 22
   },
   {
    "id": "csoonline",
@@ -248,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 163
+   "ms": 209
   },
   {
    "id": "infosecmag",
@@ -257,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 260
+   "ms": 275
   },
   {
    "id": "helpnet",
@@ -266,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 213
+   "ms": 92
   },
   {
    "id": "therecord",
@@ -275,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 283
+   "ms": 174
   },
   {
    "id": "thehackernews",
@@ -284,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 394
+   "ms": 200
   },
   {
    "id": "bleeping",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 226
+   "ms": 87
   },
   {
    "id": "darkreading",
@@ -302,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 406
+   "ms": 370
   },
   {
    "id": "schneier",
@@ -311,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 114
+   "ms": 172
   },
   {
    "id": "google-security",
@@ -320,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 274
+   "ms": 640
   },
   {
    "id": "msft-security",
@@ -329,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1039
+   "ms": 3117
   },
   {
    "id": "aws-security",
@@ -338,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 207
+   "ms": 120
   },
   {
    "id": "unit42",
@@ -347,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 12,
-   "ms": 41
+   "ms": 54
   },
   {
    "id": "trailofbits",
@@ -356,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 5,
-   "ms": 268
+   "ms": 414
   },
   {
    "id": "embracethered",
@@ -365,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 77
+   "ms": 136
   },
   {
    "id": "owasp-genai",
@@ -374,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 44
+   "ms": 233
   },
   {
    "id": "willison-pi",
@@ -383,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 190
+   "ms": 761
   },
   {
    "id": "csa",
@@ -392,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 16,
-   "ms": 757
+   "ms": 414
   },
   {
    "id": "openai",
@@ -401,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 149
+   "ms": 108
   },
   {
    "id": "deepmind",
@@ -410,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 14,
-   "ms": 162
+   "ms": 326
   },
   {
    "id": "huggingface",
@@ -419,10 +419,214 @@
    "ok": true,
    "items": 40,
    "kept": 29,
-   "ms": 204
+   "ms": 248
   }
  ],
  "items": [
+  {
+   "id": "5409efce0a16",
+   "title": "Lawmakers call for bipartisan approach to AI, quantum policy in next Congress",
+   "url": "https://www.nextgov.com/emerging-tech/2026/11/lawmakers-call-bipartisan-approach-ai-quantum-policy-next-congress/417164/",
+   "source": "Nextgov/FCW",
+   "sourceId": "nextgov",
+   "published": "2026-11-10T22:35:00.000Z",
+   "firstSeen": 1794354036187,
+   "summary": "Republican Rep. Pat Harrigan of North Carolina said he expects political headwinds for emerging technologies, while Democratic Sen. Ben Ray Luján of New Mexico urged Congress to work together to sustain U.S. leadership in quantum.",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "USA"
+   ],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "9e5728852f45",
+   "title": "Railway breach leads to $740,000 in fraudulent AI charges",
+   "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-11-10T22:20:19.000Z",
+   "firstSeen": 1794354036187,
+   "summary": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing credentials for up to 100,000 workspaces.",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [
+    "Vulnerability"
+   ],
+   "score": 23,
+   "action": true,
+   "also": []
+  },
+  {
+   "id": "bbcda6ee6f24",
+   "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+   "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+   "source": "Ars Technica AI",
+   "sourceId": "ars-ai",
+   "published": "2026-11-10T21:12:59.000Z",
+   "firstSeen": 1794354036187,
+   "summary": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "cd73621bc59d",
+   "title": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-10T21:01:14.000Z",
+   "firstSeen": 1794354036187,
+   "summary": "Forks of the open source Artex framework, along with 45 similar pen-testing tools, remain capable of executing credential attacks and cloud breaches at machine speed across multiple industries.",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [],
+   "score": 14,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "c7d87c45b395",
+   "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+   "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "published": "2026-11-10T20:52:13.000Z",
+   "firstSeen": 1794354036187,
+   "summary": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines.",
+   "topics": [
+    "governance",
+    "regulation"
+   ],
+   "tags": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "score": 22,
+   "action": true,
+   "also": []
+  },
+  {
+   "id": "f00a71191277",
+   "title": "F-Secure Identifies 26 Ways AI Can Harm Consumers, and Where to Stop Them",
+   "url": "https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-10T20:41:45.000Z",
+   "firstSeen": 1794354036187,
+   "summary": "New AI Harms Taxonomy traces how harm moves through AI systems, from misleading chatbot answers to compromised autonomous agents, and identifies where defenses can intervene.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "3fe1d095ea3f",
+   "title": "Checkmarx Appoints Kobi Sivilya as Chief Information Security Officer",
+   "url": "https://www.darkreading.com/cybersecurity-careers/checkmarx-appoints-kobi-sivilya-chief-information-security-officer",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-10T20:35:34.000Z",
+   "firstSeen": 1794354036187,
+   "summary": "Sivilya brings deep cybersecurity and technology leadership to Checkmarx as AI transforms software development.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 3,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "e8219c306ee7",
+   "title": "Democratic Congress likely to scrutinize Medicaid work requirements, Medicare AI test",
+   "url": "https://www.nextgov.com/digital-government/2026/11/democratic-congress-likely-scrutinize-medicaid-work-requirements-medicare-ai-test/417157/",
+   "source": "Nextgov/FCW",
+   "sourceId": "nextgov",
+   "published": "2026-11-10T19:46:00.000Z",
+   "firstSeen": 1794354036187,
+   "summary": "Democrats have said they will quickly move on both health technology issues in the coming session.",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "USA"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "a8661af506d0",
+   "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+   "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-10T19:19:39.000Z",
+   "firstSeen": 1794354036187,
+   "summary": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company said earlier this…",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [],
+   "score": 19,
+   "action": true,
+   "also": []
+  },
+  {
+   "id": "6264512e7582",
+   "title": "The US is winning the AI race. Jensen Huang could have blown it",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+   "source": "The Verge AI",
+   "sourceId": "verge-ai",
+   "published": "2026-11-10T19:04:05.000Z",
+   "firstSeen": 1794354036187,
+   "summary": "As espionage targets go, Jensen Huang is perhaps one of the least surprising on Earth. The Nvidia CEO runs one of the world's most valuable companies, controls the in-demand technology fueling the AI boom, and is cozy with presidents, CEOs, and all manner of important people. He also wears a cool leather jacket. Which…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "d7745797ed19",
+   "title": "AI Coding Agents Leak Thousands of Secrets to GitHub",
+   "url": "https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-10T18:46:22.000Z",
+   "firstSeen": 1794354036187,
+   "summary": "A command in Claude Code inadvertently saves files with credentials and other sensitive data to public Git repositories, creating security gaps for organizations.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
   {
    "id": "0ac59237dff7",
    "title": "Digital sovereignty at re:Invent 2026: Sessions you won’t want to miss",
@@ -519,7 +723,7 @@
   },
   {
    "id": "6473dd19f51f",
-   "title": "Fireworks AI Breach Widens to Expose Customer Billing Data and Incomplete Model Weights",
+   "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
    "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
    "source": "The Hacker News",
    "sourceId": "thehackernews",
@@ -689,12 +893,12 @@
    "sourceId": "darkreading",
    "published": "2026-11-10T13:00:00.000Z",
    "firstSeen": 1794335705006,
-   "summary": "Researchers unpacked, mapped, and recreated complex software and the Turla malware, raising fresh concerns for defenders.",
+   "summary": "Researchers unpacked, mapped, and recreated complex software and the Turla malware, raising opportunities and concerns for organizations and cybersecurity analysts.",
    "topics": [
     "security"
    ],
    "tags": [],
-   "score": 10,
+   "score": 11,
    "action": false,
    "also": []
   },
@@ -961,6 +1165,23 @@
     "Google"
    ],
    "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "b3c8b99b6231",
+   "title": "People Are Getting Weird About AI",
+   "url": "https://www.darkreading.com/cyber-risk/people-are-getting-weird-about-ai",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-09T23:06:22.000Z",
+   "firstSeen": 1794354036187,
+   "summary": "Dark Reading Confidential Episode 22: You can love AI without being blind to cybersecurity being sacrificed for utility.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 5,
    "action": false,
    "also": []
   },
