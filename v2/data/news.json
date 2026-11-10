@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-10T10:58:10.477Z",
+ "generatedAt": "2026-11-10T18:35:05.006Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 42,
-  "fetched": 906,
-  "relevant": 537,
-  "stories": 471,
-  "duplicatesMerged": 66
+  "fetched": 905,
+  "relevant": 559,
+  "stories": 488,
+  "duplicatesMerged": 71
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 994
+   "ms": 783
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 47
+   "ms": 46
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 886
+   "ms": 600
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 1207
+   "ms": 1095
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 4,
    "kept": 4,
-   "ms": 326
+   "ms": 347
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 879
+   "ms": 1091
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1854
+   "ms": 1906
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 452
+   "ms": 421
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 851
+   "ms": 1044
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 145
+   "ms": 236
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 83
+   "ms": 166
   },
   {
    "id": "cisa",
@@ -114,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 395
+   "ms": 493
   },
   {
    "id": "fedscoop",
@@ -123,16 +123,16 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 366
+   "ms": 91
   },
   {
    "id": "nextgov",
    "name": "Nextgov/FCW",
    "url": "https://www.nextgov.com/rss/all/",
    "ok": true,
-   "items": 25,
-   "kept": 25,
-   "ms": 410
+   "items": 24,
+   "kept": 24,
+   "ms": 103
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 105
+   "ms": 407
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 143
+   "ms": 433
   },
   {
    "id": "verge-ai",
@@ -158,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 149
+   "ms": 430
   },
   {
    "id": "ars-ai",
@@ -167,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 628
+   "ms": 212
   },
   {
    "id": "wired-ai",
@@ -176,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 246
+   "ms": 138
   },
   {
    "id": "guardian-ai",
@@ -185,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 594
+   "ms": 189
   },
   {
    "id": "mittr-ai",
@@ -194,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 295
+   "ms": 129
   },
   {
    "id": "register-ai",
@@ -202,8 +202,8 @@
    "url": "https://www.theregister.com/software/ai_ml/headlines.atom",
    "ok": true,
    "items": 40,
-   "kept": 4,
-   "ms": 679
+   "kept": 5,
+   "ms": 602
   },
   {
    "id": "biometric",
@@ -212,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 768
+   "ms": 921
   },
   {
    "id": "krebs",
@@ -221,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 199
+   "ms": 188
   },
   {
    "id": "securityweek",
@@ -230,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 222
+   "ms": 182
   },
   {
    "id": "wired-security",
@@ -239,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 18
+   "ms": 27
   },
   {
    "id": "csoonline",
@@ -248,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 230
+   "ms": 163
   },
   {
    "id": "infosecmag",
@@ -257,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 266
+   "ms": 260
   },
   {
    "id": "helpnet",
@@ -266,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 117
+   "ms": 213
   },
   {
    "id": "therecord",
@@ -275,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 179
+   "ms": 283
   },
   {
    "id": "thehackernews",
@@ -284,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 258
+   "ms": 394
   },
   {
    "id": "bleeping",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 217
+   "ms": 226
   },
   {
    "id": "darkreading",
@@ -302,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 834
+   "ms": 406
   },
   {
    "id": "schneier",
@@ -311,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 173
+   "ms": 114
   },
   {
    "id": "google-security",
@@ -320,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 503
+   "ms": 274
   },
   {
    "id": "msft-security",
@@ -329,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 2079
+   "ms": 1039
   },
   {
    "id": "aws-security",
@@ -337,8 +337,8 @@
    "url": "https://aws.amazon.com/blogs/security/feed/",
    "ok": true,
    "items": 20,
-   "kept": 19,
-   "ms": 159
+   "kept": 20,
+   "ms": 207
   },
   {
    "id": "unit42",
@@ -347,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 12,
-   "ms": 118
+   "ms": 41
   },
   {
    "id": "trailofbits",
@@ -356,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 5,
-   "ms": 602
+   "ms": 268
   },
   {
    "id": "embracethered",
@@ -365,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 174
+   "ms": 77
   },
   {
    "id": "owasp-genai",
@@ -374,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 198
+   "ms": 44
   },
   {
    "id": "willison-pi",
@@ -383,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 738
+   "ms": 190
   },
   {
    "id": "csa",
@@ -391,8 +391,8 @@
    "url": "https://cloudsecurityalliance.org/blog/feed/",
    "ok": true,
    "items": 20,
-   "kept": 14,
-   "ms": 515
+   "kept": 16,
+   "ms": 757
   },
   {
    "id": "openai",
@@ -401,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 109
+   "ms": 149
   },
   {
    "id": "deepmind",
@@ -409,8 +409,8 @@
    "url": "https://deepmind.google/blog/rss.xml",
    "ok": true,
    "items": 40,
-   "kept": 11,
-   "ms": 198
+   "kept": 14,
+   "ms": 162
   },
   {
    "id": "huggingface",
@@ -418,11 +418,322 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 27,
-   "ms": 163
+   "kept": 29,
+   "ms": 204
   }
  ],
  "items": [
+  {
+   "id": "0ac59237dff7",
+   "title": "Digital sovereignty at re:Invent 2026: Sessions you won’t want to miss",
+   "url": "https://aws.amazon.com/blogs/security/digital-sovereignty-at-reinvent-2026-sessions-you-wont-want-to-miss/",
+   "source": "AWS Security Blog",
+   "sourceId": "aws-security",
+   "published": "2026-11-10T18:10:41.000Z",
+   "firstSeen": 1794335705006,
+   "summary": "AWS re:Invent returns to Las Vegas for cloud and AI’s biggest week from November 30–December 4, 2026. This year we have over 2,200 sessions, 70 percent of which are interactive, led by experts from Amazon Web Services (AWS), our customers, and our partners. With that much to choose from, we’ve pulled together the…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 0,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "0fdfefdf23a2",
+   "title": "AI Can (Mostly) Solve Cyber Regulatory Harmonization and Efficiency",
+   "url": "https://www.lawfaremedia.org/article/ai-can-(mostly)-solve-cyber-regulatory-harmonization-and-efficiency",
+   "source": "Lawfare",
+   "sourceId": "lawfare",
+   "published": "2026-11-10T18:00:07.000Z",
+   "firstSeen": 1794335705006,
+   "summary": "With AI-driven compliance, it has never been less important to fix cyber-regulatory inefficiencies of the “DC-MOB.”",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [],
+   "score": 14,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "8a2834d86d6d",
+   "title": "Meta invokes financial institution exemption to fight biometric AI lawsuit",
+   "url": "https://www.biometricupdate.com/202611/meta-invokes-financial-institution-exemption-to-fight-biometric-ai-lawsuit",
+   "source": "Biometric Update",
+   "sourceId": "biometric",
+   "published": "2026-11-10T17:55:50.000Z",
+   "firstSeen": 1794335705006,
+   "summary": "Meta is urging an Illinois federal judge to dismiss a proposed class action accusing it of illegally harvesting facial biometric data from Facebook and Instagram users to train its AI models and develop facial recognition technology. According to a report from Law360, Meta is arguing that it is not covered by the…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "Biometrics",
+    "Meta",
+    "USA"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "b83bcf94abf9",
+   "title": "Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next",
+   "url": "https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-10T16:45:00.000Z",
+   "firstSeen": 1794335705006,
+   "summary": "SBOM pioneer Allan Friedman joined the SecurityWeek Podcast to discuss why knowing what is inside software is only the beginning, how AI is complicating software supply chain visibility, and what organizations should be doing with SBOM data once they have it.",
+   "topics": [
+    "governance"
+   ],
+   "tags": [
+    "Supply chain"
+   ],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "868fc029a8a4",
+   "title": "Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code",
+   "url": "https://www.securityweek.com/google-widens-gemini-4-carbon-access-after-ai-agents-verify-signal-code/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-10T16:42:02.000Z",
+   "firstSeen": 1794335705006,
+   "summary": "Google opened Carbon to paying developers and businesses as DeepMind used agents built on it to prove libsignal security guarantees.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents",
+    "Google"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "6473dd19f51f",
+   "title": "Fireworks AI Breach Widens to Expose Customer Billing Data and Incomplete Model Weights",
+   "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-10T15:33:59.000Z",
+   "firstSeen": 1794335705006,
+   "summary": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for a \"limited set of accounts.\" In a notice published on October 10…",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [],
+   "score": 20,
+   "action": false,
+   "also": [
+    {
+     "id": "68231f74f162",
+     "source": "The Record",
+     "sourceId": "therecord",
+     "title": "AI company Fireworks says hackers stole data, billing info during October breaches",
+     "url": "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks",
+     "published": "2026-11-10T16:08:00.000Z",
+     "firstSeen": 1794335705006,
+     "summary": "Fireworks said the incident affected a “limited number of customer accounts” — all of whom were notified of the attack."
+    }
+   ]
+  },
+  {
+   "id": "46f4218e40f8",
+   "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
+   "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+   "source": "Ars Technica AI",
+   "sourceId": "ars-ai",
+   "published": "2026-11-10T15:00:39.000Z",
+   "firstSeen": 1794335705006,
+   "summary": "The new model is up to twice as successful at some tasks.",
+   "topics": [
+    "security",
+    "research"
+   ],
+   "tags": [
+    "Jailbreak",
+    "Google"
+   ],
+   "score": 18,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "778798ed604a",
+   "title": "WhiteMatter Raises $20 Million in Series A Funding",
+   "url": "https://www.securityweek.com/whitematter-raises-20-million-in-series-a-funding/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-10T14:58:19.000Z",
+   "firstSeen": 1794335705006,
+   "summary": "The cybersecurity startup deploys a dedicated guardian agent for every AI agent in an organization’s environment.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 1,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "2c7f4ef3beab",
+   "title": "AI reverse engineering let researchers add a new feature to Slack",
+   "url": "https://www.helpnetsecurity.com/2026/11/10/slack-ai-reverse-engineering/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-10T14:45:18.000Z",
+   "firstSeen": 1794335705006,
+   "summary": "Intezer researchers used AI agents to rebuild source code for Slack, Apple’s Finder and a TinyTurla-NG sample, from a backdoor family Cisco Talos attributes to the Turla group. They worked from the shipped programs and vendor documentation. The rebuilt Slack ran well enough that the team added a new feature to it: AI…",
+   "topics": [
+    "research",
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 11,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "40f1d381c47f",
+   "title": "Lawfare Daily: Anthropic’s Safety Mission vs. Public-Company Pressure, November 10",
+   "url": "https://www.lawfaremedia.org/article/lawfare-daily--anthropic-s-safety-mission-vs.-public-company-pressure--november-10",
+   "source": "Lawfare",
+   "sourceId": "lawfare",
+   "published": "2026-11-10T14:27:19.000Z",
+   "firstSeen": 1794335705006,
+   "summary": "Kevin Frazier and Roberto Tallarita discuss Anthropic's recently filed S-1 and its experiment in corporate governance.",
+   "topics": [
+    "governance"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "0f71c7059e5c",
+   "title": "Cloud Vulnerabilities Surge Fourfold in Less Than a Year",
+   "url": "https://www.infosecurity-magazine.com/news/cloud-vulnerabilities-surge/",
+   "source": "Infosecurity Magazine",
+   "sourceId": "infosecmag",
+   "published": "2026-11-10T14:00:00.000Z",
+   "firstSeen": 1794335705006,
+   "summary": "AI is amplifying the impact of vulnerabilities, long-lived credentials and other cloud risks, says Datadog",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "f1be6f7bb64f",
+   "title": "Commission updates election guidelines for AI, deepfake risks",
+   "url": "https://www.rapporteur.com/news/commission-updates-election-guidelines-for-ai-deepfake-risks/",
+   "source": "Euractiv",
+   "sourceId": "euractiv",
+   "published": "2026-11-10T13:01:08.000Z",
+   "firstSeen": 1794335705006,
+   "summary": "Draft text aims to dial up platforms' response to political deepfakes",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Deepfakes"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "7ad9e4174915",
+   "title": "Cyberattacks threaten to make open source AI a little less open, Hugging Face exec warns",
+   "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "published": "2026-11-10T13:00:00.000Z",
+   "firstSeen": 1794335705006,
+   "summary": "Hugging Face executive Irene Solaiman warns that growing cyberattacks on open AI platforms could force tighter security restrictions, threatening the accessibility that makes open source communities valuable to developers worldwide.",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [],
+   "score": 17,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "d7fcbbc3bd5e",
+   "title": "AI Makes Reverse Engineering Mainstream Software & Malware Far Easier",
+   "url": "https://www.darkreading.com/application-security/ai-reverse-engineering-apps",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-10T13:00:00.000Z",
+   "firstSeen": 1794335705006,
+   "summary": "Researchers unpacked, mapped, and recreated complex software and the Turla malware, raising fresh concerns for defenders.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "d34a7a763115",
+   "title": "Tear Down Those Guardrails! Meet the Renegades Freeing Chatbots From Corporate Enslavers",
+   "url": "https://www.wired.com/story/tear-down-those-guardrails-meet-the-renegades-freeing-chatbots-from-corporate-enslavers/",
+   "source": "WIRED AI",
+   "sourceId": "wired-ai",
+   "published": "2026-11-10T11:00:00.000Z",
+   "firstSeen": 1794335705006,
+   "summary": "The “abliterators” are flooding the internet with AI models that never say no, making it easier for people to improve their cyberdefenses—or build a bomb.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 11,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "01614d0d863f",
+   "title": "The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are",
+   "url": "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/",
+   "source": "WIRED AI",
+   "sourceId": "wired-ai",
+   "published": "2026-11-10T11:00:00.000Z",
+   "firstSeen": 1794335705006,
+   "summary": "The risk of nuclear catastrophe is real, as is the fallout of the China–US domination game (hi there, spies). But no need to panic about Skynet.",
+   "topics": [
+    "governance"
+   ],
+   "tags": [
+    "China"
+   ],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
   {
    "id": "58b1438c6e26",
    "title": "Anthropic sharpens AI coding and security capabilities with Mythos 5.2",
@@ -436,11 +747,33 @@
     "security"
    ],
    "tags": [
-    "Anthropic"
+    "Anthropic",
+    "Vulnerability"
    ],
-   "score": 6,
+   "score": 12,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "447014efa387",
+     "source": "Help Net Security",
+     "sourceId": "helpnet",
+     "title": "Claude Mythos 5.2 arrives with stronger bug hunting and less sandbox-breaking behavior",
+     "url": "https://www.helpnetsecurity.com/2026/11/10/anthropic-claude-fable-and-mythos-5-2-safeguards/",
+     "published": "2026-11-10T11:40:00.000Z",
+     "firstSeen": 1794335705006,
+     "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2. The two versions share an underlying model, with stricter safeguards for cybersecurity and biology tasks in the broadly available Fable. Fable blocks fewer requests Fable’s safety classifiers block high-risk cybersecurity tasks such as penetration testing and…"
+    },
+    {
+     "id": "0d1ada0f23f2",
+     "source": "SecurityWeek",
+     "sourceId": "securityweek",
+     "title": "Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes",
+     "url": "https://www.securityweek.com/anthropic-rolls-out-mythos-5-2-with-improved-bug-hunting-fewer-sandbox-escapes/",
+     "published": "2026-11-10T12:17:13.000Z",
+     "firstSeen": 1794335705006,
+     "summary": "Anthropic says Mythos 5.2 improves vulnerability discovery while showing a lower tendency to escape sandboxes in controlled tests."
+    }
+   ]
   },
   {
    "id": "9f6278cff518",
@@ -450,7 +783,7 @@
    "sourceId": "openai",
    "published": "2026-11-10T09:00:00.000Z",
    "firstSeen": 1794308290477,
-   "summary": "Lessons from OpenAI’s EMEA education partnerships and new ThinkYoung research. Supporting teachers, AI literacy and independent learning.",
+   "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
    "topics": [
     "governance"
    ],
@@ -647,9 +980,20 @@
     "AI agents",
     "Microsoft"
    ],
-   "score": 6,
+   "score": 10,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "f65f0c5ac2bc",
+     "source": "CSO Online",
+     "sourceId": "csoonline",
+     "title": "Microsoft’s AI bug hunter finds Rust flaw that went undetected for nearly 11 years",
+     "url": "https://www.csoonline.com/article/4246787/microsofts-ai-bug-hunter-finds-rust-flaw-that-went-undetected-for-nearly-11-years.html",
+     "published": "2026-11-10T12:36:55.000Z",
+     "firstSeen": 1794335705006,
+     "summary": "Microsoft researchers have uncovered a memory-safety bug in Rust’s standard library that had gone undetected for nearly 11 years, alongside other flaws that can trigger undefined behavior even in applications written entirely in safe Rust. Two of the findings affect stable Rust, including a separate issue that could…"
+    }
+   ]
   },
   {
    "id": "38ae599d6a31",
@@ -1774,6 +2118,25 @@
    ],
    "tags": [],
    "score": 23,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "c2aa75222c43",
+   "title": "Grok Bot, Dots, Muse and Instinct Now Act With Your Employees’ Access",
+   "url": "https://cloudsecurityalliance.org/articles/grok-bot-dots-muse-and-instinct-now-act-with-your-employees-access",
+   "source": "Cloud Security Alliance",
+   "sourceId": "csa",
+   "published": "2026-11-05T18:45:23.000Z",
+   "firstSeen": 1794335705006,
+   "summary": "Between August and late September 2026, at least four personal AI agents launched or opened to early users. They come from different companies, from large AI labs to an invite-only startup. Underneath, they share one design: each agent holds standing access to a person’s accounts and works on its own, without waiting…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 0,
    "action": false,
    "also": []
   },
@@ -4176,25 +4539,6 @@
    "also": []
   },
   {
-   "id": "7d3271ba8a68",
-   "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
-   "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
-   "source": "Ars Technica AI",
-   "sourceId": "ars-ai",
-   "published": "2026-10-30T21:09:54.000Z",
-   "firstSeen": 1793400882653,
-   "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Anthropic"
-   ],
-   "score": 11,
-   "action": false,
-   "also": []
-  },
-  {
    "id": "089e25f6fb09",
    "title": "DOJ raises privacy concerns over potential sale of Character.AI chats",
    "url": "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale",
@@ -4639,7 +4983,7 @@
     "Anthropic",
     "Microsoft"
    ],
-   "score": 26,
+   "score": 29,
    "action": false,
    "also": [
     {
@@ -4661,6 +5005,16 @@
      "published": "2026-10-30T14:36:54.000Z",
      "firstSeen": 1793386058607,
      "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors."
+    },
+    {
+     "id": "7d3271ba8a68",
+     "source": "Ars Technica AI",
+     "sourceId": "ars-ai",
+     "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+     "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+     "published": "2026-10-30T21:09:54.000Z",
+     "firstSeen": 1793400882653,
+     "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account."
     },
     {
      "id": "75ef706adf9b",
@@ -8333,6 +8687,23 @@
      "summary": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may compound — not contain — the risk."
     }
    ]
+  },
+  {
+   "id": "12d0030ffe9e",
+   "title": "Always On, Always Defending: Inside the AI-Driven SOC",
+   "url": "https://cloudsecurityalliance.org/articles/always-on-always-defending-inside-the-ai-driven-soc",
+   "source": "Cloud Security Alliance",
+   "sourceId": "csa",
+   "published": "2026-10-21T20:51:57.000Z",
+   "firstSeen": 1794335705006,
+   "summary": "Security leaders from global organizations share how the SOC is being redefined under growing pressure. In this roundtable blog, they explore challenges facing today's SOCs and how AI is transforming operations to drive resilience, efficiency, and business growth. Today's SOC: A system under pressure The SOC has been…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 5,
+   "action": false,
+   "also": []
   },
   {
    "id": "620a939e3de4",
