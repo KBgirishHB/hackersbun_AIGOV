@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-11T14:00:10.953Z",
+ "generatedAt": "2026-11-11T21:13:50.045Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 42,
-  "fetched": 904,
-  "relevant": 595,
-  "stories": 519,
-  "duplicatesMerged": 76
+  "fetched": 901,
+  "relevant": 604,
+  "stories": 526,
+  "duplicatesMerged": 78
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 967
+   "ms": 808
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 128
+   "ms": 118
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 850
+   "ms": 618
   },
   {
    "id": "algorithmwatch",
@@ -44,16 +44,16 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 1065
+   "ms": 884
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 3,
-   "kept": 3,
-   "ms": 392
+   "items": 0,
+   "kept": 0,
+   "ms": 542
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 876
+   "ms": 974
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1974
+   "ms": 1845
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 791
+   "ms": 539
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 799
+   "ms": 466
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 151
+   "ms": 129
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 130
+   "ms": 146
   },
   {
    "id": "cisa",
@@ -114,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 105
+   "ms": 160
   },
   {
    "id": "fedscoop",
@@ -123,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 283
+   "ms": 172
   },
   {
    "id": "nextgov",
@@ -132,7 +132,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 416
+   "ms": 293
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 149
+   "ms": 106
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 193
+   "ms": 315
   },
   {
    "id": "verge-ai",
@@ -158,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 160
+   "ms": 303
   },
   {
    "id": "ars-ai",
@@ -167,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 485
+   "ms": 552
   },
   {
    "id": "wired-ai",
@@ -176,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 196
+   "ms": 473
   },
   {
    "id": "guardian-ai",
@@ -185,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 427
+   "ms": 568
   },
   {
    "id": "mittr-ai",
@@ -194,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 286
+   "ms": 377
   },
   {
    "id": "register-ai",
@@ -203,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 6,
-   "ms": 934
+   "ms": 898
   },
   {
    "id": "biometric",
@@ -212,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1039
+   "ms": 992
   },
   {
    "id": "krebs",
@@ -220,8 +220,8 @@
    "url": "https://krebsonsecurity.com/feed/",
    "ok": true,
    "items": 10,
-   "kept": 7,
-   "ms": 308
+   "kept": 8,
+   "ms": 419
   },
   {
    "id": "securityweek",
@@ -230,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 315
+   "ms": 186
   },
   {
    "id": "wired-security",
@@ -239,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 30
+   "ms": 36
   },
   {
    "id": "csoonline",
@@ -248,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 187
+   "ms": 174
   },
   {
    "id": "infosecmag",
@@ -257,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 269
+   "ms": 295
   },
   {
    "id": "helpnet",
@@ -266,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 45
+   "ms": 122
   },
   {
    "id": "therecord",
@@ -275,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 178
+   "ms": 244
   },
   {
    "id": "thehackernews",
@@ -284,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 442
+   "ms": 231
   },
   {
    "id": "bleeping",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 181
+   "ms": 195
   },
   {
    "id": "darkreading",
@@ -302,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 287
+   "ms": 551
   },
   {
    "id": "schneier",
@@ -311,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 143
+   "ms": 149
   },
   {
    "id": "google-security",
@@ -320,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 653
+   "ms": 516
   },
   {
    "id": "msft-security",
@@ -329,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 2195
+   "ms": 2157
   },
   {
    "id": "aws-security",
@@ -338,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 127
+   "ms": 243
   },
   {
    "id": "unit42",
@@ -346,8 +346,8 @@
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
    "items": 15,
-   "kept": 12,
-   "ms": 87
+   "kept": 13,
+   "ms": 235
   },
   {
    "id": "trailofbits",
@@ -356,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 5,
-   "ms": 338
+   "ms": 663
   },
   {
    "id": "embracethered",
@@ -365,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 99
+   "ms": 203
   },
   {
    "id": "owasp-genai",
@@ -374,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 114
+   "ms": 257
   },
   {
    "id": "willison-pi",
@@ -383,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 182
+   "ms": 109
   },
   {
    "id": "csa",
@@ -392,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 17,
-   "ms": 476
+   "ms": 679
   },
   {
    "id": "openai",
@@ -401,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 177
+   "ms": 202
   },
   {
    "id": "deepmind",
@@ -409,8 +409,8 @@
    "url": "https://deepmind.google/blog/rss.xml",
    "ok": true,
    "items": 40,
-   "kept": 14,
-   "ms": 115
+   "kept": 15,
+   "ms": 233
   },
   {
    "id": "huggingface",
@@ -418,8 +418,8 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 30,
-   "ms": 254
+   "kept": 31,
+   "ms": 164
   }
  ],
  "items": [
@@ -429,7 +429,7 @@
    "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
    "source": "OpenAI News",
    "sourceId": "openai",
-   "published": "2026-11-11T14:00:10.953Z",
+   "published": "2026-11-11T21:13:50.045Z",
    "firstSeen": 1794376454384,
    "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
    "topics": [
@@ -437,6 +437,131 @@
    ],
    "tags": [],
    "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "04d948739e32",
+   "title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
+   "url": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "published": "2026-11-11T19:22:22.000Z",
+   "firstSeen": 1794431630045,
+   "summary": "Nvidia CEO Jensen Huang has until the end of the day Wednesday to answer a call from House Republicans for a closed-door briefing on his affair with alleged Chinese spy.",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "USA",
+    "China"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "01670389c5f2",
+   "title": "Hacked fridges and other dangers lurking in the ‘internet of shit’ | Letters",
+   "url": "https://www.theguardian.com/technology/2026/nov/11/hacked-fridges-and-other-dangers-lurking-in-the-internet-of-shit",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-11-11T17:26:27.000Z",
+   "firstSeen": 1794431630045,
+   "summary": "One reader sounds a warning about all our devices that are connected to the internet, following a series of cyber-attacks on supermarket fridges Well done to Alex Pearce for unplugging his fridge from the internet ( Hot fridges, a fake nuclear alert and a $6bn heist: are we in the foothills of a hacking epidemic?, 8…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "6ffb72a6e090",
+   "title": "Lessons from 59 Linux Kernel Bug Reports",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
+   "source": "Microsoft Security Blog",
+   "sourceId": "msft-security",
+   "published": "2026-11-11T16:55:00.000Z",
+   "firstSeen": 1794431630045,
+   "summary": "Microsoft FORGE Lab researchers used codename MDASH to investigate Linux kernel vulnerabilities, resulting in 59 upstream bug reports, 33 assigned CVEs, and 38 merged fixes. The research includes eight demonstrated local root privilege-escalation exploits and examines the challenges of turning AI-generated findings…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability",
+    "Microsoft"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "88b03b7650af",
+   "title": "Anthropic's Glasswing Finds Many Vulnerabilities Yet Delivers Few Fixes, Researcher Says",
+   "url": "https://www.infosecurity-magazine.com/news/anthropic-glasswing/",
+   "source": "Infosecurity Magazine",
+   "sourceId": "infosecmag",
+   "published": "2026-11-11T16:30:00.000Z",
+   "firstSeen": 1794431630045,
+   "summary": "VulnCheck’s Patrick Garrity has found that seven months on, Project Glasswing resulted in only 217 vulnerabilities getting fixed, despite thousands reported",
+   "topics": [
+    "security",
+    "research"
+   ],
+   "tags": [
+    "Vulnerability",
+    "Anthropic"
+   ],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "abb74af4787b",
+   "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-11-11T15:12:59.000Z",
+   "firstSeen": 1794431630045,
+   "summary": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 14,
+   "action": false,
+   "also": [
+    {
+     "id": "ce05c828e6ff",
+     "source": "The Hacker News",
+     "sourceId": "thehackernews",
+     "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+     "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+     "published": "2026-11-11T15:34:27.000Z",
+     "firstSeen": 1794431630045,
+     "summary": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments. \"In several recently observed intrusions, Alibaba Cloud systems hosting…"
+    }
+   ]
+  },
+  {
+   "id": "4527af0719e0",
+   "title": "Kai extends Autonomous Defense Platform visibility to internet-facing assets",
+   "url": "https://www.helpnetsecurity.com/2026/11/11/kai-autonomous-defense-platform/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-11T14:55:27.000Z",
+   "firstSeen": 1794431630045,
+   "summary": "Kai has announced External Attack Surface Management (EASM), now available on the Kai Autonomous Defense Platform. The company also launched Kai Labs, an expanded research team focused on the hardest open problems where AI meets security. Most exposure management programs only see inside, so they miss the exposures…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 2,
    "action": false,
    "also": []
   },
@@ -714,6 +839,23 @@
     "Supply chain"
    ],
    "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "a8ca65145e9a",
+   "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+   "url": "https://openai.com/index/jiostar-vijay-seshadri",
+   "source": "OpenAI News",
+   "sourceId": "openai",
+   "published": "2026-11-11T00:00:00.000Z",
+   "firstSeen": 1794431630045,
+   "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 7,
    "action": false,
    "also": []
   },
@@ -1103,7 +1245,7 @@
     "security"
    ],
    "tags": [],
-   "score": 20,
+   "score": 23,
    "action": false,
    "also": [
     {
@@ -1115,6 +1257,16 @@
      "published": "2026-11-10T16:08:00.000Z",
      "firstSeen": 1794335705006,
      "summary": "Fireworks said the incident affected a “limited number of customer accounts” — all of whom were notified of the attack."
+    },
+    {
+     "id": "d2a464b4e7f6",
+     "source": "BleepingComputer",
+     "sourceId": "bleeping",
+     "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
+     "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+     "published": "2026-11-11T20:54:20.000Z",
+     "firstSeen": 1794431630045,
+     "summary": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces."
     }
    ]
   },
