@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-11T05:54:14.384Z",
+ "generatedAt": "2026-11-11T14:00:10.953Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 42,
   "fetched": 904,
-  "relevant": 575,
-  "stories": 504,
-  "duplicatesMerged": 71
+  "relevant": 595,
+  "stories": 519,
+  "duplicatesMerged": 76
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 741
+   "ms": 967
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 74
+   "ms": 128
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 583
+   "ms": 850
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 713
+   "ms": 1065
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 3,
    "kept": 3,
-   "ms": 201
+   "ms": 392
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 599
+   "ms": 876
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1207
+   "ms": 1974
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 393
+   "ms": 791
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 307
+   "ms": 799
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 143
+   "ms": 151
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 157
+   "ms": 130
   },
   {
    "id": "cisa",
@@ -114,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 90
+   "ms": 105
   },
   {
    "id": "fedscoop",
@@ -123,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 91
+   "ms": 283
   },
   {
    "id": "nextgov",
@@ -132,7 +132,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 80
+   "ms": 416
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 33
+   "ms": 149
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 121
+   "ms": 193
   },
   {
    "id": "verge-ai",
@@ -158,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 170
+   "ms": 160
   },
   {
    "id": "ars-ai",
@@ -167,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 266
+   "ms": 485
   },
   {
    "id": "wired-ai",
@@ -176,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 154
+   "ms": 196
   },
   {
    "id": "guardian-ai",
@@ -185,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 409
+   "ms": 427
   },
   {
    "id": "mittr-ai",
@@ -194,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 145
+   "ms": 286
   },
   {
    "id": "register-ai",
@@ -203,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 6,
-   "ms": 741
+   "ms": 934
   },
   {
    "id": "biometric",
@@ -212,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 676
+   "ms": 1039
   },
   {
    "id": "krebs",
@@ -221,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 150
+   "ms": 308
   },
   {
    "id": "securityweek",
@@ -230,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 135
+   "ms": 315
   },
   {
    "id": "wired-security",
@@ -239,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 21
+   "ms": 30
   },
   {
    "id": "csoonline",
@@ -248,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 106
+   "ms": 187
   },
   {
    "id": "infosecmag",
@@ -257,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 192
+   "ms": 269
   },
   {
    "id": "helpnet",
@@ -275,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 62
+   "ms": 178
   },
   {
    "id": "thehackernews",
@@ -284,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 122
+   "ms": 442
   },
   {
    "id": "bleeping",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 66
+   "ms": 181
   },
   {
    "id": "darkreading",
@@ -302,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 319
+   "ms": 287
   },
   {
    "id": "schneier",
@@ -311,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 53
+   "ms": 143
   },
   {
    "id": "google-security",
@@ -320,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 556
+   "ms": 653
   },
   {
    "id": "msft-security",
@@ -329,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1134
+   "ms": 2195
   },
   {
    "id": "aws-security",
@@ -338,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 163
+   "ms": 127
   },
   {
    "id": "unit42",
@@ -347,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 12,
-   "ms": 97
+   "ms": 87
   },
   {
    "id": "trailofbits",
@@ -356,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 5,
-   "ms": 183
+   "ms": 338
   },
   {
    "id": "embracethered",
@@ -365,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 90
+   "ms": 99
   },
   {
    "id": "owasp-genai",
@@ -374,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 38
+   "ms": 114
   },
   {
    "id": "willison-pi",
@@ -383,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 112
+   "ms": 182
   },
   {
    "id": "csa",
@@ -391,8 +391,8 @@
    "url": "https://cloudsecurityalliance.org/blog/feed/",
    "ok": true,
    "items": 20,
-   "kept": 16,
-   "ms": 466
+   "kept": 17,
+   "ms": 476
   },
   {
    "id": "openai",
@@ -401,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 139
+   "ms": 177
   },
   {
    "id": "deepmind",
@@ -410,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 14,
-   "ms": 129
+   "ms": 115
   },
   {
    "id": "huggingface",
@@ -419,7 +419,7 @@
    "ok": true,
    "items": 40,
    "kept": 30,
-   "ms": 106
+   "ms": 254
   }
  ],
  "items": [
@@ -429,7 +429,7 @@
    "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
    "source": "OpenAI News",
    "sourceId": "openai",
-   "published": "2026-11-11T05:54:14.384Z",
+   "published": "2026-11-11T14:00:10.953Z",
    "firstSeen": 1794376454384,
    "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
    "topics": [
@@ -437,6 +437,263 @@
    ],
    "tags": [],
    "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "68dd30254076",
+   "title": "Embed Security lets analysts teach its AI SOC Platform how to investigate",
+   "url": "https://www.helpnetsecurity.com/2026/11/11/embed-security-expands-ai-soc-platform/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-11T13:54:12.000Z",
+   "firstSeen": 1794405610953,
+   "summary": "Embed Security announced new capabilities that let security teams teach Embed how they investigate, what matters in their environment, and how to improve their detections. With customer-built iSteps, expanded NoiseIQ Memories, and Detection Engineering, organizations can extend Embed’s built-in security expertise with…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "37aa7692cf93",
+   "title": "AI agent identity takes shape across fraud detection and access controls",
+   "url": "https://www.biometricupdate.com/202611/ai-agent-identity-takes-shape-across-fraud-detection-and-access-controls",
+   "source": "Biometric Update",
+   "sourceId": "biometric",
+   "published": "2026-11-11T12:46:22.000Z",
+   "firstSeen": 1794405610953,
+   "summary": "As AI agents start to open accounts and initiate transactions on behalf of users, existing controls designed for humans and traditional automation are being found wanting. Technology vendors are developing new approaches to agent identity and governance in response. Recent launches from BioCatch and LexisNexis…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "6139611c7cd4",
+   "title": "Fortinet Patches Nearly 100 Vulnerabilities",
+   "url": "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-11T12:10:14.000Z",
+   "firstSeen": 1794405610953,
+   "summary": "The massive drop comes after the company integrated frontier AI models into its product security testing.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "85fa297d9d99",
+   "title": "Three People Arrested for AI-Enhanced Impersonation Fraud",
+   "url": "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
+   "source": "Schneier on Security",
+   "sourceId": "schneier",
+   "published": "2026-11-11T12:05:34.000Z",
+   "firstSeen": 1794405610953,
+   "summary": "It’s hard to believe how lucrative this crime can be: According to a press release from the United States attorney’s office for the southern district of New York, three men ­ Jacob Soall, Sharon Hazan, and Guy Sheetrit ­ were arrested for using AI to alter and impersonate the voices and images of executives and…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "cc5919704b89",
+   "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+   "url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-11T12:01:59.000Z",
+   "firstSeen": 1794405610953,
+   "summary": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default. This helped us think through how such…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "b79733888257",
+   "title": "Claude Code’s ‘don’t ask again’ button has a secrets-spilling problem",
+   "url": "https://www.csoonline.com/article/4247336/claude-codes-dont-ask-again-button-has-a-secrets-spilling-problem.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-11-11T12:00:18.000Z",
+   "firstSeen": 1794405610953,
+   "summary": "A configuration file meant to store local command permissions on Anthropic’s Claude Code is exposing thousands of API keys, database credentials and other secrets, according to findings by GitGuardian. The code security firm identified 31,088 distinct secrets in Claude Code’s “.claude/settings.local.json” files across…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "b1c97cdce456",
+   "title": "Bay Raises $50 Million to Control What Enterprise AI Agents Can Do",
+   "url": "https://www.securityweek.com/bay-raises-50-million-to-control-what-enterprise-ai-agents-can-do/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-11T11:30:00.000Z",
+   "firstSeen": 1794405610953,
+   "summary": "Founded by three ex-IDF Unit 8200 intelligence officers, Bay is launched to provide a control plane for AI agents.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "28c96bca69a9",
+   "title": "Druva helps restore AI agents without rolling back entire environments",
+   "url": "https://www.helpnetsecurity.com/2026/11/11/druva-agent-recovery/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-11T09:23:04.000Z",
+   "firstSeen": 1794405610953,
+   "summary": "Druva has announced Druva Agent Recovery, a new set of AI Resilience capabilities that keep the business running by quickly restoring AI agents when they are deleted or unexpectedly changed. Support begins with Microsoft Copilot Studio, Microsoft’s platform for building custom AI agents. Announcement also expands…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents",
+    "Microsoft"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "d9db4ce2bfce",
+   "title": "Fingerprint trains specialized models to detect distinct fraud types",
+   "url": "https://www.helpnetsecurity.com/2026/11/11/fingerprint-fraud-score/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-11T09:12:57.000Z",
+   "firstSeen": 1794405610953,
+   "summary": "Fingerprint has launched Fraud Score, a predictive fraud signal trained directly on customers’ own fraud outcomes and powered by Fingerprint’s device intelligence and machine learning models. Fraud Score learns the fraud types at each organization to help them identify fraud more accurately without having to build and…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "9db15a360fbb",
+   "title": "Orca Security adds visibility into AI-generated code and agent risks",
+   "url": "https://www.helpnetsecurity.com/2026/11/11/orca-security-ai-security/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-11T09:05:46.000Z",
+   "firstSeen": 1794405610953,
+   "summary": "Orca Security has announced new capabilities to help organizations discover and secure AI-generated applications and autonomous agents across their cloud environments. The expansion builds on Orca’s AI Security offering, enabling security teams to uncover previously unknown AI applications, assess the risks associated…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 16,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "2af9594064f3",
+   "title": "Obsidian expands AI agent security with runtime policy enforcement",
+   "url": "https://www.helpnetsecurity.com/2026/11/11/obsidian-security-runtime-policy-decision-engine/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-11T08:44:50.000Z",
+   "firstSeen": 1794405610953,
+   "summary": "Obsidian Security has announced its Runtime Policy Decision Engine, giving security teams centralized control over AI agent actions before they run. Building on Obsidian’s extensive AI agent discovery and governance coverage, the engine uses context about who is behind an agent, its access and the third-party…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 14,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "67d164f89a67",
+   "title": "What will it take to make VulnOps a reality?",
+   "url": "https://www.csoonline.com/article/4244924/what-will-it-take-to-make-vulnops-a-reality.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-11-11T08:25:00.000Z",
+   "firstSeen": 1794405610953,
+   "summary": "Just over a year ago, before advanced AI models began discovering software vulnerabilities at a nearly unmanageable scale in the so-called vulnpocalypse, three industry experts pioneered the concept of “VulnOps.” VulnOps, as envisioned by Heather Adkins, Gadi Evron, and Bruce Schneier, is a significant phase in the…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability"
+   ],
+   "score": 2,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "7b10f01a7731",
+   "title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
+   "url": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "published": "2026-11-11T07:30:51.000Z",
+   "firstSeen": 1794405610953,
+   "summary": "The governance experts we talked to say nobody has seen anything like what's unfolding right now.",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "fd9222243a6f",
+   "title": "AI has made it ‘close to impossible’ to assess university coursework, regulator says",
+   "url": "https://www.theguardian.com/education/2026/nov/11/ai-close-to-impossible-assess-university-coursework-regulator",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-11-11T07:00:33.000Z",
+   "firstSeen": 1794405610953,
+   "summary": "Office for Students says institutions in England should return to traditional exams and in-person presentations Universities should go back to traditional exams and in-person presentations to grade students after lecturers complained that AI has made it “close to impossible” to assess coursework, according to an…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [],
+   "score": 10,
    "action": false,
    "also": []
   },
@@ -470,14 +727,47 @@
    "firstSeen": 1794376454384,
    "summary": "Microsoft Research has released new threat research detailing how a capable agent model could be turned into a sleeper agent by editing fewer than ten neurons to inject a short payload; Microsoft Research has also found that this threat is detectable by frontier agents, which can identify anomalous weight edits.",
    "topics": [
-    "security"
+    "security",
+    "research"
    ],
    "tags": [
-    "Microsoft"
+    "Microsoft",
+    "AI agents"
    ],
-   "score": 5,
+   "score": 25,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "b1f021ee0ba2",
+     "source": "The Hacker News",
+     "sourceId": "thehackernews",
+     "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+     "url": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+     "published": "2026-11-11T07:21:05.000Z",
+     "firstSeen": 1794405610953,
+     "summary": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown. When a chosen trigger appears, the model outputs an attacker's command, which an agent using that model would run with the agent's own permissions. The…"
+    },
+    {
+     "id": "824c78a60fc5",
+     "source": "Help Net Security",
+     "sourceId": "helpnet",
+     "title": "Microsoft researchers demonstrate hidden backdoor technique for AI agents",
+     "url": "https://www.helpnetsecurity.com/2026/11/11/microsoft-hidden-ai-backdoors-lazarus/",
+     "published": "2026-11-11T10:55:54.000Z",
+     "firstSeen": 1794405610953,
+     "summary": "Microsoft researchers have demonstrated how small changes to an AI model can implant a hidden backdoor, causing an agent to execute an attacker’s command when a specific trigger appears. The technique, called Lazarus, requires no model retraining and allows the agent to behave normally during standard safety…"
+    },
+    {
+     "id": "ba20e8dcc333",
+     "source": "CSO Online",
+     "sourceId": "csoonline",
+     "title": "Rewriting less than 10 neurons in an LLM can turn it into a sleeper backdoor",
+     "url": "https://www.csoonline.com/article/4247354/rewriting-less-than-10-neurons-in-an-llm-can-turn-it-into-a-sleeper-backdoor.html",
+     "published": "2026-11-11T12:28:03.000Z",
+     "firstSeen": 1794405610953,
+     "summary": "Microsoft researchers have found that rewriting fewer than 10 rarely used neurons in an open-weight AI model can turn any agent built on it into a sleeper backdoor that runs an attacker’s commands on cue, with no retraining required. Researchers from Microsoft Research and Microsoft Red Team described the technique…"
+    }
+   ]
   },
   {
    "id": "5409efce0a16",
@@ -514,9 +804,20 @@
    "tags": [
     "Vulnerability"
    ],
-   "score": 23,
+   "score": 26,
    "action": true,
-   "also": []
+   "also": [
+    {
+     "id": "f5d8d393ff1a",
+     "source": "The Hacker News",
+     "sourceId": "thehackernews",
+     "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+     "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+     "published": "2026-11-11T07:49:04.000Z",
+     "firstSeen": 1794405610953,
+     "summary": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund them. The company builds and runs apps…"
+    }
+   ]
   },
   {
    "id": "bbcda6ee6f24",
@@ -531,9 +832,20 @@
     "incidents"
    ],
    "tags": [],
-   "score": 6,
+   "score": 10,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "eab0579ea889",
+     "source": "The Hacker News",
+     "sourceId": "thehackernews",
+     "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+     "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+     "published": "2026-11-11T12:19:40.000Z",
+     "firstSeen": 1794405610953,
+     "summary": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most of the open apps were games, landing…"
+    }
+   ]
   },
   {
    "id": "cd73621bc59d",
@@ -8984,6 +9296,26 @@
      "summary": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may compound — not contain — the risk."
     }
    ]
+  },
+  {
+   "id": "762b48a5dfec",
+   "title": "Agentic Memory and the Next Security Boundary",
+   "url": "https://cloudsecurityalliance.org/articles/agentic-memory-and-the-next-security-boundary",
+   "source": "Cloud Security Alliance",
+   "sourceId": "csa",
+   "published": "2026-10-21T20:52:02.000Z",
+   "firstSeen": 1794405610953,
+   "summary": "Five lessons from the NIST RFI on securing persistent state, retrieval, and long-running AI agents. On January 8, 2026, NIST's Center for AI Standards and Innovation published a Request for Information on practices for measuring and improving the secure development and deployment of AI agent systems. The notice…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "NIST",
+    "AI agents"
+   ],
+   "score": 7,
+   "action": false,
+   "also": []
   },
   {
    "id": "12d0030ffe9e",
