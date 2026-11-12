@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-12T02:28:00.532Z",
+ "generatedAt": "2026-11-12T10:10:19.901Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 42,
-  "fetched": 894,
-  "relevant": 610,
-  "stories": 529,
-  "duplicatesMerged": 81
+  "fetched": 901,
+  "relevant": 617,
+  "stories": 537,
+  "duplicatesMerged": 80
  },
  "sources": [
   {
@@ -16,9 +16,9 @@
    "name": "EU AI Act Tracker",
    "url": "https://artificialintelligenceact.eu/feed/",
    "ok": true,
-   "items": 20,
+   "items": 27,
    "kept": 3,
-   "ms": 931
+   "ms": 690
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 76
+   "ms": 47
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 861
+   "ms": 699
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 843
+   "ms": 702
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 0,
    "kept": 0,
-   "ms": 646
+   "ms": 64
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 827
+   "ms": 483
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1735
+   "ms": 1008
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 606
+   "ms": 257
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 700
+   "ms": 477
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 59
+   "ms": 225
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 155
+   "ms": 106
   },
   {
    "id": "cisa",
@@ -114,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 95
+   "ms": 175
   },
   {
    "id": "fedscoop",
@@ -123,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 87
+   "ms": 52
   },
   {
    "id": "nextgov",
@@ -132,7 +132,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 288
+   "ms": 88
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 73
+   "ms": 39
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 126
+   "ms": 102
   },
   {
    "id": "verge-ai",
@@ -158,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 257
+   "ms": 110
   },
   {
    "id": "ars-ai",
@@ -167,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 193
+   "ms": 220
   },
   {
    "id": "wired-ai",
@@ -176,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 110
+   "ms": 181
   },
   {
    "id": "guardian-ai",
@@ -185,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 89
+   "ms": 31
   },
   {
    "id": "mittr-ai",
@@ -194,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 138
+   "ms": 47
   },
   {
    "id": "register-ai",
@@ -203,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 6,
-   "ms": 584
+   "ms": 586
   },
   {
    "id": "biometric",
@@ -212,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 653
+   "ms": 640
   },
   {
    "id": "krebs",
@@ -221,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 8,
-   "ms": 110
+   "ms": 78
   },
   {
    "id": "securityweek",
@@ -230,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 146
+   "ms": 134
   },
   {
    "id": "wired-security",
@@ -239,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 23
+   "ms": 16
   },
   {
    "id": "csoonline",
@@ -248,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 81
+   "ms": 82
   },
   {
    "id": "infosecmag",
@@ -257,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 234
+   "ms": 189
   },
   {
    "id": "helpnet",
@@ -266,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 228
+   "ms": 91
   },
   {
    "id": "therecord",
@@ -275,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 263
+   "ms": 112
   },
   {
    "id": "thehackernews",
@@ -284,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 306
+   "ms": 159
   },
   {
    "id": "bleeping",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 199
+   "ms": 49
   },
   {
    "id": "darkreading",
@@ -302,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 110
+   "ms": 165
   },
   {
    "id": "schneier",
@@ -311,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 220
+   "ms": 65
   },
   {
    "id": "google-security",
@@ -320,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 288
+   "ms": 349
   },
   {
    "id": "msft-security",
@@ -329,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3127
+   "ms": 1077
   },
   {
    "id": "aws-security",
@@ -338,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 90
+   "ms": 134
   },
   {
    "id": "unit42",
@@ -347,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 14,
-   "ms": 36
+   "ms": 95
   },
   {
    "id": "trailofbits",
@@ -356,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 5,
-   "ms": 202
+   "ms": 242
   },
   {
    "id": "embracethered",
@@ -365,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 83
+   "ms": 73
   },
   {
    "id": "owasp-genai",
@@ -374,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 76
+   "ms": 28
   },
   {
    "id": "willison-pi",
@@ -383,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 120
+   "ms": 95
   },
   {
    "id": "csa",
@@ -392,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 17,
-   "ms": 883
+   "ms": 471
   },
   {
    "id": "openai",
@@ -401,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 134
+   "ms": 110
   },
   {
    "id": "deepmind",
@@ -410,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 15,
-   "ms": 265
+   "ms": 134
   },
   {
    "id": "huggingface",
@@ -419,10 +419,157 @@
    "ok": true,
    "items": 40,
    "kept": 31,
-   "ms": 147
+   "ms": 115
   }
  ],
  "items": [
+  {
+   "id": "4263430fdae8",
+   "title": "AWS Emulator: Open-source tool for testing AWS apps locally, built by autonomous AI agents",
+   "url": "https://www.helpnetsecurity.com/2026/11/12/aws-ai-agents-built-emulator/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-12T09:30:46.000Z",
+   "firstSeen": 1794478219901,
+   "summary": "Amazon Web Services has released AWS Emulator, a free tool that simulates AWS services on a developer’s laptop, a development server or in a continuous integration (CI) pipeline. The company says autonomous AI agents wrote the tool entirely, with no code written or reviewed by its engineers. There is no additional…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "b6eeea3631f1",
+   "title": "THE HACK: Mixed reviews for Digital Fairness Act",
+   "url": "https://www.rapporteur.com/news/the-hack-mixed-reviews-for-digital-fairness-act/",
+   "source": "Euractiv",
+   "sourceId": "euractiv",
+   "published": "2026-11-12T07:49:07.000Z",
+   "firstSeen": 1794478219901,
+   "summary": "In today's edition: CAIDA, sovereign telecoms, AI safety",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 3,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "666839b53cad",
+   "title": "GitHub Agentic Autofix and the question of who owns a bad AI patch",
+   "url": "https://www.helpnetsecurity.com/2026/11/12/marcelo-oliveira-github-agentic-autofix/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-12T07:00:38.000Z",
+   "firstSeen": 1794478219901,
+   "summary": "In this Help Net Security interview, Marcelo Oliveira, VP of Product Management at GitHub, talks about who is accountable when an AI-generated patch fixes one flaw and introduces another. He explains how Agentic Autofix re-runs detection engines and project tests, and what a CISO should change before pointing an agent…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "ead7c315a86a",
+   "title": "Thursday briefing: What we do (and don’t) know about Alice Huang and the Nvidia affair",
+   "url": "https://www.theguardian.com/world/2026/nov/12/thursday-briefing-what-we-do-and-dont-know-about-alice-huang-and-the-nvidia-affair",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-11-12T06:43:31.000Z",
+   "firstSeen": 1794478219901,
+   "summary": "In today’s newsletter: US intelligence reportedly believes the former tech executive was recruited by Beijing, raising questions about the security of the AI industry and Trump’s close ties to Nvidia chief Jensen Huang Good morning. Espionage is supposed to be a secretive business, and spies are supposed to be…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "China"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "76ef95c34f0e",
+   "title": "Dagster: Open-source cloud-native data pipeline orchestrator",
+   "url": "https://www.helpnetsecurity.com/2026/11/12/dagster-open-source-cloud-native-data-pipeline-orchestrator/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-12T06:30:08.000Z",
+   "firstSeen": 1794478219901,
+   "summary": "Dagster is an open source orchestrator for data pipelines. It decides what runs, in what order, and when. It also tracks how the tables, datasets, machine learning models, and reports it manages connect to the data they came from. When a source table goes bad, the tables built from it carry the problem forward…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 2,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "d8d44e5b8cb3",
+   "title": "Who collects the keys when an AI agent retires?",
+   "url": "https://www.helpnetsecurity.com/2026/11/12/sprinto-ai-agent-offboarding/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-12T06:00:57.000Z",
+   "firstSeen": 1794478219901,
+   "summary": "Think about the last time a good engineer left your company. Someone collected the laptop and the badge. IT revoked their logins before the end of the day. Their manager reassigned the open tickets, and HR filed their records somewhere they’ll stay for years, in case anyone ever challenges a decision they made. Now…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "3e7ef9a185df",
+   "title": "Bots pose as AI agents, AI agents pose as humans, and defenses believe both",
+   "url": "https://www.helpnetsecurity.com/2026/11/12/bots-ai-agent-impersonation/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-12T05:00:59.000Z",
+   "firstSeen": 1794478219901,
+   "summary": "Over one week in October, an online marketplace took 414,210 visits from traffic wearing the name of a widely used consumer AI agent. Every visit went for the sign-in page, and every one returned errors. Behind the name was a credential stuffing operation, with attackers running stolen username and password pairs…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "caf0e41bcc22",
+   "title": "Hackers stole AI credentials to get $740,000 in free compute; Railway picked up the bill",
+   "url": "https://www.csoonline.com/article/4247578/hackers-stole-ai-credentials-to-get-740000-in-free-compute-railway-picked-up-the-bill.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-11-12T02:53:41.000Z",
+   "firstSeen": 1794478219901,
+   "summary": "As AI model training and distillation increase, AI tokens are becoming a piping hot currency for threat actors. Cloud hosting provider Railway found out the hard way; it has confirmed a near 26-hour battle against attackers targeting AI provider credentials to sell to AI ‘transfer stations’ for use in model…",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [],
+   "score": 15,
+   "action": false,
+   "also": []
+  },
   {
    "id": "c18197d0c4fa",
    "title": "Chinese AI Project Scouts Spies in Taiwan Chip Industry",
@@ -5390,6 +5537,25 @@
    "also": []
   },
   {
+   "id": "7d3271ba8a68",
+   "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+   "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+   "source": "Ars Technica AI",
+   "sourceId": "ars-ai",
+   "published": "2026-10-30T21:09:54.000Z",
+   "firstSeen": 1793400882653,
+   "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 11,
+   "action": false,
+   "also": []
+  },
+  {
    "id": "089e25f6fb09",
    "title": "DOJ raises privacy concerns over potential sale of Character.AI chats",
    "url": "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale",
@@ -5834,7 +6000,7 @@
     "Anthropic",
     "Microsoft"
    ],
-   "score": 29,
+   "score": 26,
    "action": false,
    "also": [
     {
@@ -5856,16 +6022,6 @@
      "published": "2026-10-30T14:36:54.000Z",
      "firstSeen": 1793386058607,
      "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors."
-    },
-    {
-     "id": "7d3271ba8a68",
-     "source": "Ars Technica AI",
-     "sourceId": "ars-ai",
-     "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
-     "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
-     "published": "2026-10-30T21:09:54.000Z",
-     "firstSeen": 1793400882653,
-     "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account."
     },
     {
      "id": "75ef706adf9b",
@@ -10948,26 +11104,6 @@
    "also": []
   },
   {
-   "id": "855c4a093709",
-   "title": "UK Government Announces Sweeping New AI Security Plans",
-   "url": "https://www.infosecurity-magazine.com/news/uk-government-sweeping-ai-security/",
-   "source": "Infosecurity Magazine",
-   "sourceId": "infosecmag",
-   "published": "2026-10-13T09:45:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "The government is planning tweaks to legislation, new incident response and more to head of AI security threats",
-   "topics": [
-    "security",
-    "regulation"
-   ],
-   "tags": [
-    "UK"
-   ],
-   "score": 24,
-   "action": false,
-   "also": []
-  },
-  {
    "id": "21e30ca505d8",
    "title": "Entscheidungsbaum: Dein Weg zu einem verantwortungsvollen Umgang mit Chatbots",
    "url": "https://algorithmwatch.org/de/entscheidungsbaum-generative-ki/",
@@ -11135,14 +11271,14 @@
    "also": []
   },
   {
-   "id": "423fde5979b3",
+   "id": "ab766b036b47",
    "title": "AI Therapy under the EU AI Act",
-   "url": "https://futureoflife.org/uncategorized/ai-therapy-under-the-eu-ai-act/",
-   "source": "Future of Life Institute",
-   "sourceId": "fli",
+   "url": "https://artificialintelligenceact.eu/ai-therapy-under-the-eu-ai-act/",
+   "source": "EU AI Act Tracker",
+   "sourceId": "aiact-tracker",
    "published": "2026-08-07T15:31:26.000Z",
    "firstSeen": 1794450480532,
-   "summary": "This page aims to provide an overview of AI systems, and in particular general-purpose AI (GPAI) systems, used for the",
+   "summary": "This page aims to provide an overview of AI systems, and in particular general-purpose AI (GPAI) systems, used for the purpose of therapy or emotional support under the AI Act. It explores the obligations of providers of these AI systems both on the system as well as on the model level. Summary Coming up in",
    "topics": [
     "regulation"
    ],
@@ -11154,8 +11290,8 @@
    "also": [
     {
      "id": "423fde5979b3",
-     "source": "EU AI Act Tracker",
-     "sourceId": "aiact-tracker",
+     "source": "Future of Life Institute",
+     "sourceId": "fli",
      "title": "AI Therapy under the EU AI Act",
      "url": "https://futureoflife.org/uncategorized/ai-therapy-under-the-eu-ai-act/",
      "published": "2026-08-07T15:31:26.000Z",
@@ -11184,27 +11320,27 @@
    "also": []
   },
   {
-   "id": "216624eff0b0",
+   "id": "a4fc41a96cf6",
    "title": "The Scientific Panel of Independent Experts: What Is It And How Does It Work?",
-   "url": "https://futureoflife.org/uncategorized/scientific-panel/",
-   "source": "Future of Life Institute",
-   "sourceId": "fli",
+   "url": "https://artificialintelligenceact.eu/scientific-panel/",
+   "source": "EU AI Act Tracker",
+   "sourceId": "aiact-tracker",
    "published": "2026-07-07T16:53:11.000Z",
    "firstSeen": 1794450480532,
-   "summary": "The scientific panel of independent experts (the Scientific Panel) is a body established under the EU AI Act to support",
+   "summary": "The scientific panel of independent experts (the Scientific Panel) is a body established under the EU AI Act to support the enforcement of rules on general-purpose AI (GPAI) models and systems. It sits within the Act’s broader governance architecture as one of the three advisory bodies, alongside the AI Board (…",
    "topics": [
     "regulation"
    ],
    "tags": [
     "EU AI Act"
    ],
-   "score": 9,
+   "score": 17,
    "action": false,
    "also": [
     {
      "id": "216624eff0b0",
-     "source": "EU AI Act Tracker",
-     "sourceId": "aiact-tracker",
+     "source": "Future of Life Institute",
+     "sourceId": "fli",
      "title": "The Scientific Panel of Independent Experts: What Is It And How Does It Work?",
      "url": "https://futureoflife.org/uncategorized/scientific-panel/",
      "published": "2026-07-07T16:53:11.000Z",
@@ -11214,26 +11350,28 @@
    ]
   },
   {
-   "id": "a6a2358532d3",
+   "id": "51f99f1f65bc",
    "title": "The Advisory Forum: What Is It And How Does It Work?",
-   "url": "https://futureoflife.org/uncategorized/the-advisory-forum-what-is-it-and-how-does-it-work/",
-   "source": "Future of Life Institute",
-   "sourceId": "fli",
+   "url": "https://artificialintelligenceact.eu/the-advisory-forum-what-is-it-and-how-does-it-work/",
+   "source": "EU AI Act Tracker",
+   "sourceId": "aiact-tracker",
    "published": "2026-06-19T10:01:50.000Z",
    "firstSeen": 1794450480532,
-   "summary": "The Advisory Forum (the Forum) is a general advisory body to the European Commission and the AI Board, established to",
+   "summary": "The Advisory Forum (the Forum) is a general advisory body to the European Commission and the AI Board, established to provide technical expertise, advise them, and to contribute to their tasks under the EU AI Act. It sits within the Act’s broader governance architecture, as one of the two advisory bodies, in addition…",
    "topics": [
-    "governance",
-    "regulation"
+    "regulation",
+    "governance"
    ],
-   "tags": [],
-   "score": 5,
+   "tags": [
+    "EU AI Act"
+   ],
+   "score": 13,
    "action": false,
    "also": [
     {
      "id": "a6a2358532d3",
-     "source": "EU AI Act Tracker",
-     "sourceId": "aiact-tracker",
+     "source": "Future of Life Institute",
+     "sourceId": "fli",
      "title": "The Advisory Forum: What Is It And How Does It Work?",
      "url": "https://futureoflife.org/uncategorized/the-advisory-forum-what-is-it-and-how-does-it-work/",
      "published": "2026-06-19T10:01:50.000Z",
