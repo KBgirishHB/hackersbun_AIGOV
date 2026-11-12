@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-11-12T18:32:47.534Z",
+ "generatedAt": "2026-11-12T23:49:38.686Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 42,
-  "fetched": 904,
-  "relevant": 636,
-  "stories": 555,
+  "fetched": 905,
+  "relevant": 642,
+  "stories": 561,
   "duplicatesMerged": 81
  },
  "sources": [
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 27,
    "kept": 3,
-   "ms": 1068
+   "ms": 1143
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 45
+   "ms": 75
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 509
+   "ms": 532
   },
   {
    "id": "algorithmwatch",
@@ -44,16 +44,16 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 981
+   "ms": 819
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 3,
-   "kept": 3,
-   "ms": 234
+   "items": 4,
+   "kept": 4,
+   "ms": 342
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 551
+   "ms": 1076
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1442
+   "ms": 1642
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 495
+   "ms": 617
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 341
+   "ms": 734
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 169
+   "ms": 310
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 112
+   "ms": 268
   },
   {
    "id": "cisa",
@@ -114,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 570
+   "ms": 445
   },
   {
    "id": "fedscoop",
@@ -123,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 501
+   "ms": 94
   },
   {
    "id": "nextgov",
@@ -132,7 +132,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 525
+   "ms": 335
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 509
+   "ms": 323
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 557
+   "ms": 325
   },
   {
    "id": "verge-ai",
@@ -158,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 128
+   "ms": 294
   },
   {
    "id": "ars-ai",
@@ -167,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 186
+   "ms": 208
   },
   {
    "id": "wired-ai",
@@ -176,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 117
+   "ms": 137
   },
   {
    "id": "guardian-ai",
@@ -185,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 152
+   "ms": 130
   },
   {
    "id": "mittr-ai",
@@ -194,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 91
+   "ms": 140
   },
   {
    "id": "register-ai",
@@ -203,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 6,
-   "ms": 541
+   "ms": 714
   },
   {
    "id": "biometric",
@@ -212,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 602
+   "ms": 675
   },
   {
    "id": "krebs",
@@ -220,8 +220,8 @@
    "url": "https://krebsonsecurity.com/feed/",
    "ok": true,
    "items": 10,
-   "kept": 8,
-   "ms": 133
+   "kept": 7,
+   "ms": 260
   },
   {
    "id": "securityweek",
@@ -230,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 110
+   "ms": 212
   },
   {
    "id": "wired-security",
@@ -239,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 21
+   "ms": 31
   },
   {
    "id": "csoonline",
@@ -248,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 98
+   "ms": 220
   },
   {
    "id": "infosecmag",
@@ -257,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 258
+   "ms": 323
   },
   {
    "id": "helpnet",
@@ -266,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 116
+   "ms": 228
   },
   {
    "id": "therecord",
@@ -275,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 116
+   "ms": 180
   },
   {
    "id": "thehackernews",
@@ -284,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 167
+   "ms": 283
   },
   {
    "id": "bleeping",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 125
+   "ms": 139
   },
   {
    "id": "darkreading",
@@ -302,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 160
+   "ms": 532
   },
   {
    "id": "schneier",
@@ -311,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 68
+   "ms": 90
   },
   {
    "id": "google-security",
@@ -320,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 329
+   "ms": 499
   },
   {
    "id": "msft-security",
@@ -329,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 2060
+   "ms": 1286
   },
   {
    "id": "aws-security",
@@ -338,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 130
+   "ms": 234
   },
   {
    "id": "unit42",
@@ -346,8 +346,8 @@
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
    "items": 15,
-   "kept": 15,
-   "ms": 806
+   "kept": 14,
+   "ms": 152
   },
   {
    "id": "trailofbits",
@@ -356,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 5,
-   "ms": 235
+   "ms": 481
   },
   {
    "id": "embracethered",
@@ -365,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 110
+   "ms": 154
   },
   {
    "id": "owasp-genai",
@@ -374,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 190
+   "ms": 145
   },
   {
    "id": "willison-pi",
@@ -383,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 164
+   "ms": 511
   },
   {
    "id": "csa",
@@ -391,8 +391,8 @@
    "url": "https://cloudsecurityalliance.org/blog/feed/",
    "ok": true,
    "items": 20,
-   "kept": 20,
-   "ms": 714
+   "kept": 19,
+   "ms": 511
   },
   {
    "id": "openai",
@@ -401,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 127
+   "ms": 149
   },
   {
    "id": "deepmind",
@@ -409,8 +409,8 @@
    "url": "https://deepmind.google/blog/rss.xml",
    "ok": true,
    "items": 40,
-   "kept": 14,
-   "ms": 456
+   "kept": 13,
+   "ms": 288
   },
   {
    "id": "huggingface",
@@ -418,11 +418,125 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 31,
-   "ms": 159
+   "kept": 32,
+   "ms": 167
   }
  ],
  "items": [
+  {
+   "id": "2e2a071672e0",
+   "title": "Google smart glasses privacy features cover wearers and the people around them",
+   "url": "https://www.helpnetsecurity.com/2026/11/13/google-smart-glasses-privacy-protections/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-12T23:45:43.000Z",
+   "firstSeen": 1794527378686,
+   "summary": "Google has built its Gemini-powered intelligent eyewear to stop taking photos and video when someone covers or tampers with the outward-facing recording light. Shahram Izadi, Google’s VP and GM of XR, laid out that safeguard along with face redaction, limits on data handling, and app restrictions. Bystanders told…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Privacy",
+    "Google"
+   ],
+   "score": 2,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "f577f7252a12",
+   "title": "Cyber Experts Weigh In: How to Fight Artex & AntiFox",
+   "url": "https://www.darkreading.com/cybersecurity-operations/cyber-experts-fight-artex-antifox",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-12T21:18:52.000Z",
+   "firstSeen": 1794527378686,
+   "summary": "Cybercriminals using agentic pen-testing tools is a proverbial genie out of the bottle at this point, so enterprises need to get a defense plan in place right away.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 2,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "bc49d5e1a269",
+   "title": "Homeland Security Investigations needs auditable AI, official says",
+   "url": "https://fedscoop.com/homeland-security-investigations-auditable-ai-event/",
+   "source": "FedScoop",
+   "sourceId": "fedscoop",
+   "published": "2026-11-12T21:12:20.000Z",
+   "firstSeen": 1794527378686,
+   "summary": "Technology that can expedite analysis and comb through large datasets is valuable, but outputs can’t be used without verification.",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "73ec0d4e5fe9",
+   "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-11-12T20:15:16.000Z",
+   "firstSeen": 1794527378686,
+   "summary": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Microsoft"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "083876f954f3",
+   "title": "No, AI agents did not discover a previously unknown Maya site",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+   "source": "The Verge AI",
+   "sourceId": "verge-ai",
+   "published": "2026-11-12T19:42:40.000Z",
+   "firstSeen": 1794527378686,
+   "summary": "Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The incident, which sparked criticism among…",
+   "topics": [
+    "research"
+   ],
+   "tags": [
+    "AI agents",
+    "Google"
+   ],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "bfb5132a959d",
+   "title": "United to block customers from using AI agents, citing cyber threats",
+   "url": "https://therecord.media/united-airlines-to-block-customers-using-ai-agents",
+   "source": "The Record",
+   "sourceId": "therecord",
+   "published": "2026-11-12T19:20:00.000Z",
+   "firstSeen": 1794527378686,
+   "summary": "“Sharing account credentials with personal, third-party, AI assistants can expose sensitive information, and actions taken by these tools may result in unintended purchases\" and more, United Airlines said.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
   {
    "id": "6849c86294d7",
    "title": "Self-hosted Claude Managed Agents keeps agent credentials in your environment",
@@ -456,6 +570,26 @@
    ],
    "tags": [],
    "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "f0b39167c7a4",
+   "title": "Trained to betray: How post-training supply chain attacks hijack coding agents",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/",
+   "source": "Microsoft Security Blog",
+   "sourceId": "msft-security",
+   "published": "2026-11-12T17:00:00.000Z",
+   "firstSeen": 1794527378686,
+   "summary": "Microsoft Defender Research and the AI Red Team discuss how poisoned datasets and poisoned model checkpoints can trigger remote code execution and other malicious activities.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Supply chain",
+    "Microsoft"
+   ],
+   "score": 9,
    "action": false,
    "also": []
   },
@@ -967,6 +1101,23 @@
    ],
    "tags": [],
    "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "a90c5484e19d",
+   "title": "AIを活用したサイバー攻撃の増加を受け、日本がサイバーセキュリティへの緊急資金拠出を推進",
+   "url": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches-japanese",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-11T22:14:44.000Z",
+   "firstSeen": 1794527378686,
+   "summary": "この対策パッケージには、官民合同のサイバー対応チーム、経済省が主導するAI専門チーム、および政府の新たな能動的サイバー防衛権限の行使に関する裁量の拡大が含まれている。",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 4,
    "action": false,
    "also": []
   },
@@ -11383,45 +11534,6 @@
     "Google"
    ],
    "score": 12,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "f08e54f7d033",
-   "title": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office",
-   "url": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
-   "source": "WIRED Security",
-   "sourceId": "wired-security",
-   "published": "2026-10-13T23:17:59.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Chatbot prompts reveal the engineer’s alleged efforts to set up a covert listening device days before one was found in a meeting room used by high-level executives.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "OpenAI"
-   ],
-   "score": 4,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "c70b3bee72a3",
-   "title": "I Love Google’s Agentic AI Security Roadmap: Adding MAESTRO Will Make It More Powerful — An Open Letter to Google",
-   "url": "https://cloudsecurityalliance.org/articles/i-love-google-s-agentic-ai-security-roadmap-adding-maestro-will-make-it-more-powerful-an-open-letter-to-google",
-   "source": "Cloud Security Alliance",
-   "sourceId": "csa",
-   "published": "2026-10-13T23:02:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "In June, Google DeepMind did something unusual: it published an AI control roadmap premised on the idea that its own AI agents might turn against it. The AI Control Roadmap treats advanced internal agents as potential insider threats — the way a company treats a rogue employee who already has badge access. It builds…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents",
-    "Google"
-   ],
-   "score": 19,
    "action": false,
    "also": []
   },
