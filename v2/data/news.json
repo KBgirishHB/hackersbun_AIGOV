@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-11T21:13:50.045Z",
+ "generatedAt": "2026-11-12T02:28:00.532Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 42,
-  "fetched": 901,
-  "relevant": 604,
-  "stories": 526,
-  "duplicatesMerged": 78
+  "fetched": 894,
+  "relevant": 610,
+  "stories": 529,
+  "duplicatesMerged": 81
  },
  "sources": [
   {
@@ -16,9 +16,9 @@
    "name": "EU AI Act Tracker",
    "url": "https://artificialintelligenceact.eu/feed/",
    "ok": true,
-   "items": 27,
+   "items": 20,
    "kept": 3,
-   "ms": 808
+   "ms": 931
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 118
+   "ms": 76
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 618
+   "ms": 861
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 884
+   "ms": 843
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 0,
    "kept": 0,
-   "ms": 542
+   "ms": 646
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 974
+   "ms": 827
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1845
+   "ms": 1735
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 539
+   "ms": 606
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 466
+   "ms": 700
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 129
+   "ms": 59
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 146
+   "ms": 155
   },
   {
    "id": "cisa",
@@ -114,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 160
+   "ms": 95
   },
   {
    "id": "fedscoop",
@@ -123,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 172
+   "ms": 87
   },
   {
    "id": "nextgov",
@@ -132,7 +132,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 293
+   "ms": 288
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 106
+   "ms": 73
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 315
+   "ms": 126
   },
   {
    "id": "verge-ai",
@@ -158,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 303
+   "ms": 257
   },
   {
    "id": "ars-ai",
@@ -167,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 552
+   "ms": 193
   },
   {
    "id": "wired-ai",
@@ -176,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 473
+   "ms": 110
   },
   {
    "id": "guardian-ai",
@@ -185,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 568
+   "ms": 89
   },
   {
    "id": "mittr-ai",
@@ -194,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 377
+   "ms": 138
   },
   {
    "id": "register-ai",
@@ -203,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 6,
-   "ms": 898
+   "ms": 584
   },
   {
    "id": "biometric",
@@ -212,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 992
+   "ms": 653
   },
   {
    "id": "krebs",
@@ -221,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 8,
-   "ms": 419
+   "ms": 110
   },
   {
    "id": "securityweek",
@@ -230,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 186
+   "ms": 146
   },
   {
    "id": "wired-security",
@@ -239,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 36
+   "ms": 23
   },
   {
    "id": "csoonline",
@@ -248,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 174
+   "ms": 81
   },
   {
    "id": "infosecmag",
@@ -257,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 295
+   "ms": 234
   },
   {
    "id": "helpnet",
@@ -266,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 122
+   "ms": 228
   },
   {
    "id": "therecord",
@@ -275,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 244
+   "ms": 263
   },
   {
    "id": "thehackernews",
@@ -284,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 231
+   "ms": 306
   },
   {
    "id": "bleeping",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 195
+   "ms": 199
   },
   {
    "id": "darkreading",
@@ -302,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 551
+   "ms": 110
   },
   {
    "id": "schneier",
@@ -311,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 149
+   "ms": 220
   },
   {
    "id": "google-security",
@@ -320,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 516
+   "ms": 288
   },
   {
    "id": "msft-security",
@@ -329,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 2157
+   "ms": 3127
   },
   {
    "id": "aws-security",
@@ -338,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 243
+   "ms": 90
   },
   {
    "id": "unit42",
@@ -346,8 +346,8 @@
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
    "items": 15,
-   "kept": 13,
-   "ms": 235
+   "kept": 14,
+   "ms": 36
   },
   {
    "id": "trailofbits",
@@ -356,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 5,
-   "ms": 663
+   "ms": 202
   },
   {
    "id": "embracethered",
@@ -365,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 203
+   "ms": 83
   },
   {
    "id": "owasp-genai",
@@ -374,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 257
+   "ms": 76
   },
   {
    "id": "willison-pi",
@@ -383,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 109
+   "ms": 120
   },
   {
    "id": "csa",
@@ -392,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 17,
-   "ms": 679
+   "ms": 883
   },
   {
    "id": "openai",
@@ -401,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 202
+   "ms": 134
   },
   {
    "id": "deepmind",
@@ -410,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 15,
-   "ms": 233
+   "ms": 265
   },
   {
    "id": "huggingface",
@@ -419,17 +419,36 @@
    "ok": true,
    "items": 40,
    "kept": 31,
-   "ms": 164
+   "ms": 147
   }
  ],
  "items": [
+  {
+   "id": "c18197d0c4fa",
+   "title": "Chinese AI Project Scouts Spies in Taiwan Chip Industry",
+   "url": "https://www.darkreading.com/threat-intelligence/chinese-ai-project-scouts-spies-taiwan-chip-industry",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-12T01:00:00.000Z",
+   "firstSeen": 1794450480532,
+   "summary": "The CCP built a Big Data system to scrape reams of information and learn about individuals abroad, to potentially target and exploit them. Think Alice Huang Lite.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "China"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
   {
    "id": "72322fb39071",
    "title": "Gilbert + Tobin rethinks the business of law with AI",
    "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
    "source": "OpenAI News",
    "sourceId": "openai",
-   "published": "2026-11-11T21:13:50.045Z",
+   "published": "2026-11-12T00:00:00.000Z",
    "firstSeen": 1794376454384,
    "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
    "topics": [
@@ -437,6 +456,77 @@
    ],
    "tags": [],
    "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "4160fbc47a34",
+   "title": "Japan Pushes Emergency Funding for Cybersecurity as AI-Assisted Breaches Rise",
+   "url": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-12T00:00:00.000Z",
+   "firstSeen": 1794450480532,
+   "summary": "The package adds public-private cyber responders, an AI-focused team run by the economic ministry, and more leeway to use the government's new active cyber-defense powers.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [],
+   "score": 12,
+   "action": true,
+   "also": []
+  },
+  {
+   "id": "95ff45b29ec5",
+   "title": "ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know",
+   "url": "https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/",
+   "source": "Unit 42",
+   "sourceId": "unit42",
+   "published": "2026-11-11T23:00:53.000Z",
+   "firstSeen": 1794450480532,
+   "summary": "Learn what Unit 42 discovered about attacker use of AI-powered red team tools, and how to mitigate these attacks.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "c424cfbc5c7a",
+   "title": "United won’t let your AI agent book your flight",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+   "source": "The Verge AI",
+   "sourceId": "verge-ai",
+   "published": "2026-11-11T21:54:21.000Z",
+   "firstSeen": 1794450480532,
+   "summary": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book their flights, The Wall Street Journal reports, in line with observations from other businesses like Doordash. But…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "AI agents",
+    "Privacy"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "2edf1053efa1",
+   "title": "AI Raises the Stakes for Cyber Resilience",
+   "url": "https://www.darkreading.com/cyber-risk/ai-raises-stakes-cyber-resilience",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-11T21:20:41.000Z",
+   "firstSeen": 1794450480532,
+   "summary": "An organization's ability to quickly recover from a business disruption will be a competitive advantage in an era of AI-driven threats and business enablement.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 7,
    "action": false,
    "also": []
   },
@@ -10954,40 +11044,6 @@
    "also": []
   },
   {
-   "id": "79fa8a5598fb",
-   "title": "Statement: We must pressure AI companies to immediately limit the use of recursive self improvement",
-   "url": "https://futureoflife.org/statement/statement-we-must-pressure-ai-companies-to-immediately-limit-the-use-of-recursive-self-improvement/",
-   "source": "Future of Life Institute",
-   "sourceId": "fli",
-   "published": "2026-09-28T13:39:20.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "FLI's Director of Policy Mark Brakel responds to \"A Call for Control of Frontier AI Models\", joint statement by heads of states.",
-   "topics": [
-    "governance"
-   ],
-   "tags": [],
-   "score": 5,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "fe16229e148e",
-   "title": "Government leaders call for treaty negotiations on autonomous weapons to begin in November",
-   "url": "https://futureoflife.org/ai-policy/government-leaders-call-for-treaty-negotiations-on-autonomous-weapons-to-begin-in-november/",
-   "source": "Future of Life Institute",
-   "sourceId": "fli",
-   "published": "2026-09-28T13:34:15.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "At a New York forum cosponsored by six governments, OHCHR, the ICRC, The Elders and FLI, ministers and UN officials called on states to begin negotiating a legally binding instrument on autonomous weapons at the CCW Review Conference in November.",
-   "topics": [
-    "governance"
-   ],
-   "tags": [],
-   "score": 0,
-   "action": false,
-   "also": []
-  },
-  {
    "id": "e5838ab5960d",
    "title": "Self-generated prompt injections in compaction summaries",
    "url": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
@@ -11079,23 +11135,34 @@
    "also": []
   },
   {
-   "id": "ab766b036b47",
+   "id": "423fde5979b3",
    "title": "AI Therapy under the EU AI Act",
-   "url": "https://artificialintelligenceact.eu/ai-therapy-under-the-eu-ai-act/",
-   "source": "EU AI Act Tracker",
-   "sourceId": "aiact-tracker",
+   "url": "https://futureoflife.org/uncategorized/ai-therapy-under-the-eu-ai-act/",
+   "source": "Future of Life Institute",
+   "sourceId": "fli",
    "published": "2026-08-07T15:31:26.000Z",
-   "firstSeen": 1792728528890,
-   "summary": "This page aims to provide an overview of AI systems, and in particular general-purpose AI (GPAI) systems, used for the purpose of therapy or emotional support under the AI Act. It explores the obligations of providers of these AI systems both on the system as well as on the model level. Summary Coming up in",
+   "firstSeen": 1794450480532,
+   "summary": "This page aims to provide an overview of AI systems, and in particular general-purpose AI (GPAI) systems, used for the",
    "topics": [
     "regulation"
    ],
    "tags": [
     "EU AI Act"
    ],
-   "score": 20,
+   "score": 23,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "423fde5979b3",
+     "source": "EU AI Act Tracker",
+     "sourceId": "aiact-tracker",
+     "title": "AI Therapy under the EU AI Act",
+     "url": "https://futureoflife.org/uncategorized/ai-therapy-under-the-eu-ai-act/",
+     "published": "2026-08-07T15:31:26.000Z",
+     "firstSeen": 1794450480532,
+     "summary": "This page aims to provide an overview of AI systems, and in particular general-purpose AI (GPAI) systems, used for the"
+    }
+   ]
   },
   {
    "id": "d019d7fea2ee",
@@ -11117,42 +11184,63 @@
    "also": []
   },
   {
-   "id": "a4fc41a96cf6",
+   "id": "216624eff0b0",
    "title": "The Scientific Panel of Independent Experts: What Is It And How Does It Work?",
-   "url": "https://artificialintelligenceact.eu/scientific-panel/",
-   "source": "EU AI Act Tracker",
-   "sourceId": "aiact-tracker",
+   "url": "https://futureoflife.org/uncategorized/scientific-panel/",
+   "source": "Future of Life Institute",
+   "sourceId": "fli",
    "published": "2026-07-07T16:53:11.000Z",
-   "firstSeen": 1792728528890,
-   "summary": "The scientific panel of independent experts (the Scientific Panel) is a body established under the EU AI Act to support the enforcement of rules on general-purpose AI (GPAI) models and systems. It sits within the Act’s broader governance architecture as one of the three advisory bodies, alongside the AI Board (…",
+   "firstSeen": 1794450480532,
+   "summary": "The scientific panel of independent experts (the Scientific Panel) is a body established under the EU AI Act to support",
    "topics": [
     "regulation"
    ],
    "tags": [
     "EU AI Act"
    ],
-   "score": 14,
+   "score": 9,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "216624eff0b0",
+     "source": "EU AI Act Tracker",
+     "sourceId": "aiact-tracker",
+     "title": "The Scientific Panel of Independent Experts: What Is It And How Does It Work?",
+     "url": "https://futureoflife.org/uncategorized/scientific-panel/",
+     "published": "2026-07-07T16:53:11.000Z",
+     "firstSeen": 1794450480532,
+     "summary": "The scientific panel of independent experts (the Scientific Panel) is a body established under the EU AI Act to support"
+    }
+   ]
   },
   {
-   "id": "51f99f1f65bc",
+   "id": "a6a2358532d3",
    "title": "The Advisory Forum: What Is It And How Does It Work?",
-   "url": "https://artificialintelligenceact.eu/the-advisory-forum-what-is-it-and-how-does-it-work/",
-   "source": "EU AI Act Tracker",
-   "sourceId": "aiact-tracker",
+   "url": "https://futureoflife.org/uncategorized/the-advisory-forum-what-is-it-and-how-does-it-work/",
+   "source": "Future of Life Institute",
+   "sourceId": "fli",
    "published": "2026-06-19T10:01:50.000Z",
-   "firstSeen": 1792728528890,
-   "summary": "The Advisory Forum (the Forum) is a general advisory body to the European Commission and the AI Board, established to provide technical expertise, advise them, and to contribute to their tasks under the EU AI Act. It sits within the Act’s broader governance architecture, as one of the two advisory bodies, in addition…",
+   "firstSeen": 1794450480532,
+   "summary": "The Advisory Forum (the Forum) is a general advisory body to the European Commission and the AI Board, established to",
    "topics": [
+    "governance",
     "regulation"
    ],
-   "tags": [
-    "EU AI Act"
-   ],
-   "score": 10,
+   "tags": [],
+   "score": 5,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "a6a2358532d3",
+     "source": "EU AI Act Tracker",
+     "sourceId": "aiact-tracker",
+     "title": "The Advisory Forum: What Is It And How Does It Work?",
+     "url": "https://futureoflife.org/uncategorized/the-advisory-forum-what-is-it-and-how-does-it-work/",
+     "published": "2026-06-19T10:01:50.000Z",
+     "firstSeen": 1794450480532,
+     "summary": "The Advisory Forum (the Forum) is a general advisory body to the European Commission and the AI Board, established to"
+    }
+   ]
   }
  ]
 }
