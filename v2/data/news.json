@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-11-13T14:50:56.096Z",
+ "generatedAt": "2026-11-13T21:22:22.068Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 42,
-  "fetched": 906,
-  "relevant": 649,
-  "stories": 567,
+  "sourcesOk": 43,
+  "fetched": 922,
+  "relevant": 657,
+  "stories": 575,
   "duplicatesMerged": 82
  },
  "sources": [
@@ -18,15 +18,16 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 1061
+   "ms": 975
   },
   {
    "id": "aiact-newsletter",
    "name": "EU AI Act Newsletter",
    "url": "https://artificialintelligenceact.substack.com/feed",
-   "ok": false,
-   "error": "HTTP 403",
-   "ms": 56
+   "ok": true,
+   "items": 20,
+   "kept": 3,
+   "ms": 78
   },
   {
    "id": "fli",
@@ -35,7 +36,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 551
+   "ms": 921
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +45,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 1398
+   "ms": 1324
   },
   {
    "id": "lawfare",
@@ -53,7 +54,7 @@
    "ok": true,
    "items": 4,
    "kept": 4,
-   "ms": 135
+   "ms": 274
   },
   {
    "id": "euractiv",
@@ -62,7 +63,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 996
+   "ms": 912
   },
   {
    "id": "edpb",
@@ -70,15 +71,16 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1817
+   "ms": 1898
   },
   {
    "id": "europarl",
    "name": "European Parliament",
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
-   "ok": false,
-   "error": "not an RSS/Atom feed",
-   "ms": 536
+   "ok": true,
+   "items": 20,
+   "kept": 20,
+   "ms": 512
   },
   {
    "id": "cnil",
@@ -87,7 +89,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 940
+   "ms": 833
   },
   {
    "id": "nist",
@@ -96,7 +98,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 481
+   "ms": 140
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +107,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 453
+   "ms": 69
   },
   {
    "id": "cisa",
@@ -114,7 +116,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 433
+   "ms": 413
   },
   {
    "id": "fedscoop",
@@ -123,16 +125,15 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 416
+   "ms": 44
   },
   {
    "id": "nextgov",
    "name": "Nextgov/FCW",
    "url": "https://www.nextgov.com/rss/all/",
-   "ok": true,
-   "items": 24,
-   "kept": 24,
-   "ms": 177
+   "ok": false,
+   "error": "ETIMEDOUT",
+   "ms": 342
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 113
+   "ms": 41
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 164
+   "ms": 163
   },
   {
    "id": "verge-ai",
@@ -158,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 167
+   "ms": 80
   },
   {
    "id": "ars-ai",
@@ -167,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 536
+   "ms": 405
   },
   {
    "id": "wired-ai",
@@ -176,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 210
+   "ms": 86
   },
   {
    "id": "guardian-ai",
@@ -185,7 +186,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 235
+   "ms": 62
   },
   {
    "id": "mittr-ai",
@@ -194,7 +195,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 201
+   "ms": 71
   },
   {
    "id": "register-ai",
@@ -203,7 +204,7 @@
    "ok": true,
    "items": 40,
    "kept": 6,
-   "ms": 800
+   "ms": 572
   },
   {
    "id": "biometric",
@@ -212,7 +213,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 922
+   "ms": 898
   },
   {
    "id": "krebs",
@@ -221,7 +222,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 324
+   "ms": 151
   },
   {
    "id": "securityweek",
@@ -230,7 +231,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 110
+   "ms": 123
   },
   {
    "id": "wired-security",
@@ -239,7 +240,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 20
+   "ms": 32
   },
   {
    "id": "csoonline",
@@ -248,7 +249,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 229
+   "ms": 60
   },
   {
    "id": "infosecmag",
@@ -257,7 +258,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 318
+   "ms": 204
   },
   {
    "id": "helpnet",
@@ -266,7 +267,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 159
+   "ms": 33
   },
   {
    "id": "therecord",
@@ -275,7 +276,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 582
+   "ms": 164
   },
   {
    "id": "thehackernews",
@@ -284,7 +285,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 457
+   "ms": 347
   },
   {
    "id": "bleeping",
@@ -293,7 +294,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 67
+   "ms": 54
   },
   {
    "id": "darkreading",
@@ -302,7 +303,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 465
+   "ms": 550
   },
   {
    "id": "schneier",
@@ -311,7 +312,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 214
+   "ms": 37
   },
   {
    "id": "google-security",
@@ -320,7 +321,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 502
+   "ms": 550
   },
   {
    "id": "msft-security",
@@ -329,7 +330,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3052
+   "ms": 3103
   },
   {
    "id": "aws-security",
@@ -338,7 +339,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 214
+   "ms": 81
   },
   {
    "id": "unit42",
@@ -347,7 +348,7 @@
    "ok": true,
    "items": 15,
    "kept": 14,
-   "ms": 130
+   "ms": 56
   },
   {
    "id": "trailofbits",
@@ -356,7 +357,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 404
+   "ms": 260
   },
   {
    "id": "embracethered",
@@ -365,7 +366,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 125
+   "ms": 69
   },
   {
    "id": "owasp-genai",
@@ -374,7 +375,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 180
+   "ms": 58
   },
   {
    "id": "willison-pi",
@@ -383,7 +384,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 752
+   "ms": 692
   },
   {
    "id": "csa",
@@ -391,8 +392,8 @@
    "url": "https://cloudsecurityalliance.org/blog/feed/",
    "ok": true,
    "items": 20,
-   "kept": 19,
-   "ms": 254
+   "kept": 18,
+   "ms": 324
   },
   {
    "id": "openai",
@@ -401,7 +402,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 131
+   "ms": 94
   },
   {
    "id": "deepmind",
@@ -410,7 +411,7 @@
    "ok": true,
    "items": 40,
    "kept": 13,
-   "ms": 152
+   "ms": 238
   },
   {
    "id": "huggingface",
@@ -419,10 +420,200 @@
    "ok": true,
    "items": 40,
    "kept": 33,
-   "ms": 188
+   "ms": 142
   }
  ],
  "items": [
+  {
+   "id": "2bffbfa0da23",
+   "title": "Amazon Threat Intelligence observes threat actors running cybercrime campaigns with ARTEX AI agents",
+   "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents/",
+   "source": "AWS Security Blog",
+   "sourceId": "aws-security",
+   "published": "2026-11-13T20:26:42.000Z",
+   "firstSeen": 1794604942068,
+   "summary": "From Oct. 3 to Nov. 5, 2026, Amazon’s MadPot, a globally distributed network of decoy threat sensors, captured requests from AI agents that included operating memory from offensive campaigns that threat actors ran on ARTEX, an open-source agentic AI penetration testing framework. The ARTEX agents sent these requests…",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 16,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "4234d13a6d41",
+   "title": "Microsoft 365 Crawls Back to Life After a 24-Hour Outage",
+   "url": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/",
+   "source": "WIRED AI",
+   "sourceId": "wired-ai",
+   "published": "2026-11-13T19:08:57.000Z",
+   "firstSeen": 1794604942068,
+   "summary": "The company says a bad update—not a cyberattack or AI—caused its servers around the world to crash.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Microsoft"
+   ],
+   "score": 9,
+   "action": false,
+   "also": [
+    {
+     "id": "4234d13a6d41",
+     "source": "WIRED Security",
+     "sourceId": "wired-security",
+     "title": "Microsoft 365 Crawls Back to Life After a 24-Hour Outage",
+     "url": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/",
+     "published": "2026-11-13T19:08:57.000Z",
+     "firstSeen": 1794604942068,
+     "summary": "The company says a bad update—not a cyberattack or AI—caused its servers around the world to crash."
+    }
+   ]
+  },
+  {
+   "id": "bb7289e21e7b",
+   "title": "How AI is changing the nature of cyberattacks",
+   "url": "https://www.csoonline.com/article/4248553/how-ai-is-changing-the-nature-of-cyberattacks.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-11-13T19:02:39.000Z",
+   "firstSeen": 1794604942068,
+   "summary": "AI may be helping cyberattackers increase the speed and scale of their operations, but it is not yet changing their core objectives or the techniques they employ as part of their attack chains. Phishing, malware, and vulnerability exploitation remain the main techniques in play even as abuse of AI tools has made…",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "Phishing",
+    "Vulnerability"
+   ],
+   "score": 22,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "55bb022add7f",
+   "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!",
+   "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "published": "2026-11-13T18:40:30.000Z",
+   "firstSeen": 1794604942068,
+   "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "China"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "a17e16c60ac0",
+   "title": "With Mythos, a Fable as Old as Time",
+   "url": "https://www.lawfaremedia.org/article/with-mythos--a-fable-as-old-as-time",
+   "source": "Lawfare",
+   "sourceId": "lawfare",
+   "published": "2026-11-13T18:01:13.000Z",
+   "firstSeen": 1794604942068,
+   "summary": "Recent AI testing failures at frontier labs weren’t models outsmarting their keepers, but faulty testing environments preventable by years-old cybersecurity standards. To prevent this, Congress could plausibly institute an incident-reporting regime.",
+   "topics": [
+    "governance"
+   ],
+   "tags": [
+    "USA"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "b23027d60f99",
+   "title": "ChatGPT Wallet lets agents pay without seeing your card number",
+   "url": "https://www.helpnetsecurity.com/2026/11/13/openai-chatgpt-wallet/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-13T16:15:25.000Z",
+   "firstSeen": 1794604942068,
+   "summary": "OpenAI began rolling out ChatGPT Wallet, which lets ChatGPT agents pay for purchases with a stand-in card number, so the user’s card details are not shared with the agent or the merchant. OpenAI built it with American Express, Mastercard, and Visa. It runs inside dots, where a user’s dot completes the purchase on…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "OpenAI"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "9da2f6ab2cf3",
+   "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
+   "url": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-13T15:20:00.000Z",
+   "firstSeen": 1794604942068,
+   "summary": "Noteworthy stories that might have slipped under the radar: Siemens details security advisory policy, OpenAI Codex backdoor risk, Microsoft warns of model weight backdoors.",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [
+    "OpenAI",
+    "Microsoft",
+    "USA"
+   ],
+   "score": 11,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "2f4789ead424",
+   "title": "How one AI agent exposed five critical enterprise security gaps",
+   "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-11-13T15:01:11.000Z",
+   "firstSeen": 1794604942068,
+   "summary": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI agent security gaps and shares practical guidance from industry security leaders on preventing them.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "b24c780b3904",
+   "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+   "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-13T14:28:58.000Z",
+   "firstSeen": 1794604942068,
+   "summary": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social engineering scheme codenamed FaceStealer in the last 18 months. As part of a…",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [
+    "Deepfakes",
+    "USA"
+   ],
+   "score": 18,
+   "action": false,
+   "also": []
+  },
   {
    "id": "50b11c7d2877",
    "title": "Lawfare Daily: Aya Ibrahim on Progressive Priorities for the New Democratic Congress, November 13",
@@ -536,25 +727,6 @@
     "AI agents"
    ],
    "score": 4,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "92f291a2bca3",
-   "title": "Nvidia scandal: Howard Lutnick under pressure over alleged lack of action",
-   "url": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
-   "source": "The Guardian AI",
-   "sourceId": "guardian-ai",
-   "published": "2026-11-13T09:41:22.000Z",
-   "firstSeen": 1794581456096,
-   "summary": "US commerce secretary faces sack as warnings emerge about alleged Chinese spy’s ties to Jensen Huang and delays in adding Megaspeed to trade blacklist Analysis: Jensen Huang built an AI kingdom. Now he’s gone, will Nvidia’s ramparts be breached? One of Donald Trump’s top lieutenants reportedly could soon be fired, as…",
-   "topics": [
-    "incidents"
-   ],
-   "tags": [
-    "China"
-   ],
-   "score": 3,
    "action": false,
    "also": []
   },
@@ -1020,6 +1192,24 @@
     "Microsoft"
    ],
    "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "ec10dc1ccebc",
+   "title": "Press release - AI in democracy: ensuring oversight and compliance with EU values",
+   "url": "https://www.europarl.europa.eu/news/en/press-room/20261110IPR48745/",
+   "source": "European Parliament",
+   "sourceId": "europarl",
+   "published": "2026-11-12T11:13:06.000Z",
+   "firstSeen": 1794604942068,
+   "summary": "The European Parliament calls for parliamentary scrutiny and regulation of the impact of artificial intelligence on EU democratic processes, institutional balance, and fundamental rights. Committee on Constitutional Affairs Source: © European Union, 2026 - EP",
+   "topics": [
+    "regulation",
+    "governance"
+   ],
+   "tags": [],
+   "score": 17,
    "action": false,
    "also": []
   },
@@ -2535,6 +2725,25 @@
     "Anthropic"
    ],
    "score": 16,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "3de04e6db3ca",
+   "title": "The EU AI Act Newsletter #114: Who Evaluates the Evaluators?",
+   "url": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-114-who",
+   "source": "EU AI Act Newsletter",
+   "sourceId": "aiact-newsletter",
+   "published": "2026-11-10T07:58:06.000Z",
+   "firstSeen": 1794604942068,
+   "summary": "The AI Office proposes requirements for independent external evaluators of GPAI models with systemic risk, and analysts examine the EU's testing capacity and gaps in incident reporting.",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "EU AI Act"
+   ],
+   "score": 26,
    "action": false,
    "also": []
   },
@@ -6300,6 +6509,25 @@
    "also": []
   },
   {
+   "id": "7d3271ba8a68",
+   "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+   "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+   "source": "Ars Technica AI",
+   "sourceId": "ars-ai",
+   "published": "2026-10-30T21:09:54.000Z",
+   "firstSeen": 1793400882653,
+   "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 11,
+   "action": false,
+   "also": []
+  },
+  {
    "id": "089e25f6fb09",
    "title": "DOJ raises privacy concerns over potential sale of Character.AI chats",
    "url": "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale",
@@ -6744,7 +6972,7 @@
     "Anthropic",
     "Microsoft"
    ],
-   "score": 29,
+   "score": 26,
    "action": false,
    "also": [
     {
@@ -6766,16 +6994,6 @@
      "published": "2026-10-30T14:36:54.000Z",
      "firstSeen": 1793386058607,
      "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors."
-    },
-    {
-     "id": "7d3271ba8a68",
-     "source": "Ars Technica AI",
-     "sourceId": "ars-ai",
-     "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
-     "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
-     "published": "2026-10-30T21:09:54.000Z",
-     "firstSeen": 1793400882653,
-     "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account."
     },
     {
      "id": "75ef706adf9b",
@@ -11650,44 +11868,6 @@
    "also": []
   },
   {
-   "id": "fca5011abd11",
-   "title": "Anthropic 'SneakPeek' Flaw Is a Silent Zero-Click Threat",
-   "url": "https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat",
-   "source": "Dark Reading",
-   "sourceId": "darkreading",
-   "published": "2026-10-14T20:09:42.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "A bug in Claude Code Desktop's preview pane can allow adversaries to quietly steal credentials from developers, including SSH private keys, AWS credentials, and Claude 0Auth tokens.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Anthropic"
-   ],
-   "score": 6,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "6b5dcab07f22",
-   "title": "AI Agents - You Can’t Govern What You Can’t Discover",
-   "url": "https://cloudsecurityalliance.org/articles/ai-agents-you-can-t-govern-what-you-can-t-discover",
-   "source": "Cloud Security Alliance",
-   "sourceId": "csa",
-   "published": "2026-10-14T18:51:28.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "AI is expanding faster than anyone can imagine, as organizations race to use AI to gain a competitive advantage. It started with Generative AI. Now, agentic AI is changing the way people think and work. With the rise in usage of AI agents, the fear of data leakage and having more than necessary permissions has risen…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents"
-   ],
-   "score": 8,
-   "action": false,
-   "also": []
-  },
-  {
    "id": "eb2e39b2b4c8",
    "title": "Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)",
    "url": "https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/",
@@ -11740,26 +11920,6 @@
     "AI agents"
    ],
    "score": 14,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "5866b1de7b9a",
-   "title": "The EU AI Act Newsletter #112: Global Ambitions, Domestic Doubts",
-   "url": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-112-global",
-   "source": "EU AI Act Newsletter",
-   "sourceId": "aiact-newsletter",
-   "published": "2026-10-06T05:34:16.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "The Commission backs an international AI safety monitoring body but faces criticism at home over the pace and resourcing of AI Act enforcement.",
-   "topics": [
-    "regulation",
-    "governance"
-   ],
-   "tags": [
-    "EU AI Act"
-   ],
-   "score": 21,
    "action": false,
    "also": []
   },
