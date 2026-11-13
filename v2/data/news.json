@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-13T06:22:47.757Z",
+ "generatedAt": "2026-11-13T14:50:56.096Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 42,
-  "fetched": 905,
-  "relevant": 642,
-  "stories": 561,
-  "duplicatesMerged": 81
+  "fetched": 906,
+  "relevant": 649,
+  "stories": 567,
+  "duplicatesMerged": 82
  },
  "sources": [
   {
@@ -16,9 +16,9 @@
    "name": "EU AI Act Tracker",
    "url": "https://artificialintelligenceact.eu/feed/",
    "ok": true,
-   "items": 27,
+   "items": 28,
    "kept": 3,
-   "ms": 1129
+   "ms": 1061
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 67
+   "ms": 56
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 502
+   "ms": 551
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 1055
+   "ms": 1398
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 4,
    "kept": 4,
-   "ms": 156
+   "ms": 135
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1073
+   "ms": 996
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 2148
+   "ms": 1817
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 453
+   "ms": 536
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 987
+   "ms": 940
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 523
+   "ms": 481
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 234
+   "ms": 453
   },
   {
    "id": "cisa",
@@ -114,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 542
+   "ms": 433
   },
   {
    "id": "fedscoop",
@@ -123,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 404
+   "ms": 416
   },
   {
    "id": "nextgov",
@@ -132,7 +132,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 523
+   "ms": 177
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 120
+   "ms": 113
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 133
+   "ms": 164
   },
   {
    "id": "verge-ai",
@@ -158,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 184
+   "ms": 167
   },
   {
    "id": "ars-ai",
@@ -167,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 364
+   "ms": 536
   },
   {
    "id": "wired-ai",
@@ -176,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 200
+   "ms": 210
   },
   {
    "id": "guardian-ai",
@@ -185,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 170
+   "ms": 235
   },
   {
    "id": "mittr-ai",
@@ -194,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 98
+   "ms": 201
   },
   {
    "id": "register-ai",
@@ -203,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 6,
-   "ms": 1072
+   "ms": 800
   },
   {
    "id": "biometric",
@@ -212,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 761
+   "ms": 922
   },
   {
    "id": "krebs",
@@ -220,8 +220,8 @@
    "url": "https://krebsonsecurity.com/feed/",
    "ok": true,
    "items": 10,
-   "kept": 7,
-   "ms": 293
+   "kept": 6,
+   "ms": 324
   },
   {
    "id": "securityweek",
@@ -230,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 311
+   "ms": 110
   },
   {
    "id": "wired-security",
@@ -239,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 295
+   "ms": 20
   },
   {
    "id": "csoonline",
@@ -248,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 353
+   "ms": 229
   },
   {
    "id": "infosecmag",
@@ -257,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 355
+   "ms": 318
   },
   {
    "id": "helpnet",
@@ -266,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 119
+   "ms": 159
   },
   {
    "id": "therecord",
@@ -275,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 483
+   "ms": 582
   },
   {
    "id": "thehackernews",
@@ -284,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 323
+   "ms": 457
   },
   {
    "id": "bleeping",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 214
+   "ms": 67
   },
   {
    "id": "darkreading",
@@ -302,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 626
+   "ms": 465
   },
   {
    "id": "schneier",
@@ -311,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 173
+   "ms": 214
   },
   {
    "id": "google-security",
@@ -320,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 603
+   "ms": 502
   },
   {
    "id": "msft-security",
@@ -329,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1142
+   "ms": 3052
   },
   {
    "id": "aws-security",
@@ -338,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 207
+   "ms": 214
   },
   {
    "id": "unit42",
@@ -347,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 14,
-   "ms": 203
+   "ms": 130
   },
   {
    "id": "trailofbits",
@@ -355,8 +355,8 @@
    "url": "https://blog.trailofbits.com/feed/",
    "ok": true,
    "items": 20,
-   "kept": 5,
-   "ms": 514
+   "kept": 4,
+   "ms": 404
   },
   {
    "id": "embracethered",
@@ -365,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 201
+   "ms": 125
   },
   {
    "id": "owasp-genai",
@@ -374,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 117
+   "ms": 180
   },
   {
    "id": "willison-pi",
@@ -383,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 481
+   "ms": 752
   },
   {
    "id": "csa",
@@ -392,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 19,
-   "ms": 485
+   "ms": 254
   },
   {
    "id": "openai",
@@ -401,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 303
+   "ms": 131
   },
   {
    "id": "deepmind",
@@ -409,8 +409,8 @@
    "url": "https://deepmind.google/blog/rss.xml",
    "ok": true,
    "items": 40,
-   "kept": 12,
-   "ms": 322
+   "kept": 13,
+   "ms": 152
   },
   {
    "id": "huggingface",
@@ -418,11 +418,217 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 32,
-   "ms": 140
+   "kept": 33,
+   "ms": 188
   }
  ],
  "items": [
+  {
+   "id": "50b11c7d2877",
+   "title": "Lawfare Daily: Aya Ibrahim on Progressive Priorities for the New Democratic Congress, November 13",
+   "url": "https://www.lawfaremedia.org/article/lawfare-daily--aya-ibrahim-on-progressive-priorities-for-the-new-democratic-congress--november-13",
+   "source": "Lawfare",
+   "sourceId": "lawfare",
+   "published": "2026-11-13T14:00:06.000Z",
+   "firstSeen": 1794581456096,
+   "summary": "In this episode of the Security Economics podcast series, Peter Harrell and Aya Ibrahim discuss the agenda for the next Congress, AI regulation, and U.S.-China policy.",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "USA",
+    "China"
+   ],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "e3da7558ca71",
+   "title": "Hackers' Overreliance on AI Can Result in Weaker Cyber-Attacks, Proofpoint Researcher Says",
+   "url": "https://www.infosecurity-magazine.com/news/hackers-ai-weaker-cyber-attacks/",
+   "source": "Infosecurity Magazine",
+   "sourceId": "infosecmag",
+   "published": "2026-11-13T13:45:00.000Z",
+   "firstSeen": 1794581456096,
+   "summary": "Proofpoint’s Selena Larson notes that threat actors’ reliance on AI has led to lots of mistakes being made, with little evidence of increased sophistication",
+   "topics": [
+    "security",
+    "research",
+    "incidents"
+   ],
+   "tags": [],
+   "score": 20,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "c2a3cfd87767",
+   "title": "Prohibited AI Practices under the AI Act",
+   "url": "https://artificialintelligenceact.eu/prohibited-ai-practices-under-the-ai-act/",
+   "source": "EU AI Act Tracker",
+   "sourceId": "aiact-tracker",
+   "published": "2026-11-13T13:35:13.000Z",
+   "firstSeen": 1794581456096,
+   "summary": "Since 2 February 2025, eight categories of AI practices have been banned in the EU because they pose unacceptable risks to fundamental rights and Union values. These ‘prohibited practices’ are set out in Article 5 of the AI Act. In 2026, the Digital Omnibus added two further prohibitions, which apply from 2 December…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "EU AI Act"
+   ],
+   "score": 23,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "1ac4dace36af",
+   "title": "Record number of cyber incidents reported to UK privacy regulator",
+   "url": "https://therecord.media/record-number-of-cyber-incidents-reported-to-uk-regulator",
+   "source": "The Record",
+   "sourceId": "therecord",
+   "published": "2026-11-13T12:47:00.000Z",
+   "firstSeen": 1794581456096,
+   "summary": "British organizations have reported a record number of cyber incidents to the country’s data protection regulator this year, as cybersecurity firms blame data extortion and artificial intelligence for a surge in attacks.",
+   "topics": [
+    "regulation",
+    "incidents",
+    "security"
+   ],
+   "tags": [
+    "Privacy",
+    "UK"
+   ],
+   "score": 17,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "58486af0bdeb",
+   "title": "AI Doesn’t Have to Go Rogue to Break the World",
+   "url": "https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
+   "source": "Schneier on Security",
+   "sourceId": "schneier",
+   "published": "2026-11-13T12:03:30.000Z",
+   "firstSeen": 1794581456096,
+   "summary": "This essay is adapted from a keynote speech delivered at the DEF CON 34 conference in Las Vegas on August 7, 2026. The essay originally appeared in CyberScoop. I want to talk about AI hacking. There are three aspects: people hacking AI systems, people using AI to hack other systems, and AIs hacking systems on their…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "331428040f54",
+   "title": "When an AI Agent Goes Wrong, Can You Stop It?",
+   "url": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-13T11:52:31.000Z",
+   "firstSeen": 1794581456096,
+   "summary": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected tools allow the action. That kind of…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "92f291a2bca3",
+   "title": "Nvidia scandal: Howard Lutnick under pressure over alleged lack of action",
+   "url": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-11-13T09:41:22.000Z",
+   "firstSeen": 1794581456096,
+   "summary": "US commerce secretary faces sack as warnings emerge about alleged Chinese spy’s ties to Jensen Huang and delays in adding Megaspeed to trade blacklist Analysis: Jensen Huang built an AI kingdom. Now he’s gone, will Nvidia’s ramparts be breached? One of Donald Trump’s top lieutenants reportedly could soon be fired, as…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "China"
+   ],
+   "score": 3,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "5d541b0d6ae3",
+   "title": "OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools",
+   "url": "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-13T09:21:01.000Z",
+   "firstSeen": 1794581456096,
+   "summary": "Daybreak Red Team pentests web applications with AI agents, while Defense Factory investigates security findings and prepares patches.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents",
+    "OpenAI",
+    "Vulnerability"
+   ],
+   "score": 16,
+   "action": false,
+   "also": [
+    {
+     "id": "fd5a8668f930",
+     "source": "Help Net Security",
+     "sourceId": "helpnet",
+     "title": "OpenAI’s Daybreak brings AI agents to security testing and vulnerability fixes",
+     "url": "https://www.helpnetsecurity.com/2026/11/13/openai-daybreak-vulnerability-remediation-red-team-defense-factory-agents/",
+     "published": "2026-11-13T09:31:07.000Z",
+     "firstSeen": 1794581456096,
+     "summary": "OpenAI is bringing AI agents into more of the software security process with Daybreak, pairing web application penetration testing with tools that investigate vulnerabilities and develop fixes. The two offerings, Red Team and Defense Factory, connect the work of finding security weaknesses with patching and retesting…"
+    }
+   ]
+  },
+  {
+   "id": "052038c80999",
+   "title": "AI Set to Revolutionize Ransomware Following “Stagnant” Few Years",
+   "url": "https://www.infosecurity-magazine.com/news/ai-revolutionize-ransomware/",
+   "source": "Infosecurity Magazine",
+   "sourceId": "infosecmag",
+   "published": "2026-11-13T09:15:00.000Z",
+   "firstSeen": 1794581456096,
+   "summary": "TrendAI’s Bob McArdle said ransomware techniques will change significantly in the next year, with AI making attacks more dangerous and profitable",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Ransomware"
+   ],
+   "score": 11,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "bf222ab79363",
+   "title": "An AI kill switch isn’t enough. Build a fallback plan",
+   "url": "https://www.csoonline.com/article/4247929/an-ai-kill-switch-isnt-enough-build-a-fallback-plan.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-11-13T09:00:00.000Z",
+   "firstSeen": 1794581456096,
+   "summary": "On the morning of Sept. 3, ChatGPT, Claude and Grok all went down within a few hours of one another. OpenAI blamed a routing error, Anthropic cited an infrastructure issue and xAI gave no cause. Service was back by early afternoon, and most of the coverage focused on people who couldn’t write, code or research for a…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
   {
    "id": "845ea3fc77a5",
    "title": "Your pinned MCP server may not be as pinned as you think",
@@ -1174,6 +1380,23 @@
    ],
    "tags": [],
    "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "1b46049ddf39",
+   "title": "As Test Takers Turn to AI for Answers, Exam Security Must Catch Up",
+   "url": "https://www.darkreading.com/cybersecurity-operations/test-takers-ai-exam-security-catch-up",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-11T20:27:00.000Z",
+   "firstSeen": 1794581456096,
+   "summary": "It's hard to detect whether someone is using artificial intelligence (AI) to cheat on IT certification exams, but new tools and processes are emerging to boost trust.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 6,
    "action": false,
    "also": []
   },
@@ -11465,78 +11688,6 @@
    "also": []
   },
   {
-   "id": "f3add84803cd",
-   "title": "The Future of AI Cryptanalysis",
-   "url": "https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html",
-   "source": "Schneier on Security",
-   "sourceId": "schneier",
-   "published": "2026-10-14T14:24:18.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Matthew Green has been writing a rather pessimistic series of posts about the potential for AI systems to vastly outperform humans in cryptanalysis of both symmetric and public-key ciphers. I am more optimistic than he is. That is, I have stronger faith in the over-engineering cryptographers tend to do. I am trying to…",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 4,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "de4996a08211",
-   "title": "Russian Influence Operation Widely Targets Latin America",
-   "url": "https://www.darkreading.com/cyberattacks-data-breaches/russian-influence-operation-targeting-latin-america",
-   "source": "Dark Reading",
-   "sourceId": "darkreading",
-   "published": "2026-10-14T13:00:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "The AI-enabled operation used spoofed emails, fake government documents, and the creation of a local organization to target schools in Peru and Ecuador, among other efforts.",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 0,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "1da98a04f881",
-   "title": "SentinelOne cuts malware analysis from weeks to hours",
-   "url": "https://openai.com/index/sentinelone",
-   "source": "OpenAI News",
-   "sourceId": "openai",
-   "published": "2026-10-14T12:00:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "OpenAI"
-   ],
-   "score": 5,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "38980c38a447",
-   "title": "How Block is building AI-powered security with OpenAI technology",
-   "url": "https://openai.com/index/block-ai-powered-security",
-   "source": "OpenAI News",
-   "sourceId": "openai",
-   "published": "2026-10-14T07:00:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "OpenAI"
-   ],
-   "score": 7,
-   "action": false,
-   "also": []
-  },
-  {
    "id": "eb2e39b2b4c8",
    "title": "Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)",
    "url": "https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/",
@@ -11811,25 +11962,6 @@
     "EU AI Act"
    ],
    "score": 14,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "51f99f1f65bc",
-   "title": "The Advisory Forum: What Is It And How Does It Work?",
-   "url": "https://artificialintelligenceact.eu/the-advisory-forum-what-is-it-and-how-does-it-work/",
-   "source": "EU AI Act Tracker",
-   "sourceId": "aiact-tracker",
-   "published": "2026-06-19T10:01:50.000Z",
-   "firstSeen": 1794450480532,
-   "summary": "The Advisory Forum (the Forum) is a general advisory body to the European Commission and the AI Board, established to provide technical expertise, advise them, and to contribute to their tasks under the EU AI Act. It sits within the Act’s broader governance architecture, as one of the two advisory bodies, in addition…",
-   "topics": [
-    "regulation"
-   ],
-   "tags": [
-    "EU AI Act"
-   ],
-   "score": 10,
    "action": false,
    "also": []
   }
