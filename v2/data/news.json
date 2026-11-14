@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-14T08:52:39.714Z",
+ "generatedAt": "2026-11-14T15:43:27.184Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 42,
-  "fetched": 906,
-  "relevant": 660,
-  "stories": 578,
-  "duplicatesMerged": 82
+  "sourcesOk": 44,
+  "fetched": 944,
+  "relevant": 661,
+  "stories": 577,
+  "duplicatesMerged": 84
  },
  "sources": [
   {
@@ -18,15 +18,16 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 1078
+   "ms": 938
   },
   {
    "id": "aiact-newsletter",
    "name": "EU AI Act Newsletter",
    "url": "https://artificialintelligenceact.substack.com/feed",
-   "ok": false,
-   "error": "HTTP 403",
-   "ms": 63
+   "ok": true,
+   "items": 20,
+   "kept": 3,
+   "ms": 147
   },
   {
    "id": "fli",
@@ -35,7 +36,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 549
+   "ms": 955
   },
   {
    "id": "algorithmwatch",
@@ -44,16 +45,16 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 1015
+   "ms": 1261
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 4,
-   "kept": 4,
-   "ms": 151
+   "items": 2,
+   "kept": 2,
+   "ms": 189
   },
   {
    "id": "euractiv",
@@ -62,7 +63,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 666
+   "ms": 1031
   },
   {
    "id": "edpb",
@@ -70,15 +71,16 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 2996
+   "ms": 1944
   },
   {
    "id": "europarl",
    "name": "European Parliament",
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
-   "ok": false,
-   "error": "not an RSS/Atom feed",
-   "ms": 460
+   "ok": true,
+   "items": 20,
+   "kept": 20,
+   "ms": 423
   },
   {
    "id": "cnil",
@@ -87,7 +89,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 641
+   "ms": 736
   },
   {
    "id": "nist",
@@ -96,7 +98,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 409
+   "ms": 305
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +107,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 242
+   "ms": 454
   },
   {
    "id": "cisa",
@@ -114,7 +116,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 459
+   "ms": 375
   },
   {
    "id": "fedscoop",
@@ -123,7 +125,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 112
+   "ms": 57
   },
   {
    "id": "nextgov",
@@ -132,7 +134,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 351
+   "ms": 443
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +143,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 385
+   "ms": 50
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +151,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 371
+   "ms": 49
   },
   {
    "id": "verge-ai",
@@ -158,7 +160,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 351
+   "ms": 39
   },
   {
    "id": "ars-ai",
@@ -167,7 +169,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 221
+   "ms": 315
   },
   {
    "id": "wired-ai",
@@ -176,7 +178,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 89
+   "ms": 57
   },
   {
    "id": "guardian-ai",
@@ -185,7 +187,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 200
+   "ms": 50
   },
   {
    "id": "mittr-ai",
@@ -194,7 +196,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 109
+   "ms": 48
   },
   {
    "id": "register-ai",
@@ -203,7 +205,7 @@
    "ok": true,
    "items": 40,
    "kept": 6,
-   "ms": 999
+   "ms": 513
   },
   {
    "id": "biometric",
@@ -212,7 +214,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 680
+   "ms": 4171
   },
   {
    "id": "krebs",
@@ -221,7 +223,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 329
+   "ms": 164
   },
   {
    "id": "securityweek",
@@ -230,7 +232,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 145
+   "ms": 137
   },
   {
    "id": "wired-security",
@@ -239,7 +241,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 19
+   "ms": 24
   },
   {
    "id": "csoonline",
@@ -248,7 +250,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 172
+   "ms": 65
   },
   {
    "id": "infosecmag",
@@ -257,7 +259,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 197
+   "ms": 210
   },
   {
    "id": "helpnet",
@@ -266,7 +268,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 111
+   "ms": 67
   },
   {
    "id": "therecord",
@@ -275,7 +277,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 136
+   "ms": 160
   },
   {
    "id": "thehackernews",
@@ -284,7 +286,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 276
+   "ms": 179
   },
   {
    "id": "bleeping",
@@ -293,7 +295,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 142
+   "ms": 39
   },
   {
    "id": "darkreading",
@@ -302,7 +304,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 900
+   "ms": 641
   },
   {
    "id": "schneier",
@@ -311,7 +313,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 263
+   "ms": 96
   },
   {
    "id": "google-security",
@@ -320,7 +322,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 717
+   "ms": 604
   },
   {
    "id": "msft-security",
@@ -329,7 +331,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3321
+   "ms": 3118
   },
   {
    "id": "aws-security",
@@ -338,7 +340,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 440
+   "ms": 90
   },
   {
    "id": "unit42",
@@ -347,7 +349,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 319
+   "ms": 87
   },
   {
    "id": "trailofbits",
@@ -356,7 +358,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 589
+   "ms": 251
   },
   {
    "id": "embracethered",
@@ -365,7 +367,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 111
+   "ms": 126
   },
   {
    "id": "owasp-genai",
@@ -374,7 +376,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 128
+   "ms": 87
   },
   {
    "id": "willison-pi",
@@ -383,7 +385,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 522
+   "ms": 676
   },
   {
    "id": "csa",
@@ -392,7 +394,7 @@
    "ok": true,
    "items": 20,
    "kept": 18,
-   "ms": 451
+   "ms": 204
   },
   {
    "id": "openai",
@@ -401,7 +403,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 107
+   "ms": 91
   },
   {
    "id": "deepmind",
@@ -410,7 +412,7 @@
    "ok": true,
    "items": 40,
    "kept": 13,
-   "ms": 171
+   "ms": 231
   },
   {
    "id": "huggingface",
@@ -418,11 +420,77 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 31,
-   "ms": 104
+   "kept": 30,
+   "ms": 136
   }
  ],
  "items": [
+  {
+   "id": "2afe364a4330",
+   "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+   "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+   "source": "The Verge AI",
+   "sourceId": "verge-ai",
+   "published": "2026-11-14T15:00:00.000Z",
+   "firstSeen": 1794671007184,
+   "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on",
+   "topics": [
+    "governance"
+   ],
+   "tags": [
+    "OpenAI"
+   ],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "545b6aba14f7",
+   "title": "Is AI Making Us Worse at Cybersecurity?",
+   "url": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-14T14:00:00.000Z",
+   "firstSeen": 1794671007184,
+   "summary": "Overreliance on AI could erode the creativity, clear communication, and critical thinking security teams need when there’s no playbook.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "c8134f7618d1",
+   "title": "Beware the New AI-Fueled Ransomware Boom",
+   "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+   "source": "WIRED AI",
+   "sourceId": "wired-ai",
+   "published": "2026-11-14T13:00:00.000Z",
+   "firstSeen": 1794671007184,
+   "summary": "Fully automated ransomware hasn’t arrived—yet. But seemingly unsophisticated attackers are using AI tools to wreak havoc.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Ransomware"
+   ],
+   "score": 14,
+   "action": false,
+   "also": [
+    {
+     "id": "c8134f7618d1",
+     "source": "WIRED Security",
+     "sourceId": "wired-security",
+     "title": "Beware the New AI-Fueled Ransomware Boom",
+     "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+     "published": "2026-11-14T13:00:00.000Z",
+     "firstSeen": 1794671007184,
+     "summary": "Fully automated ransomware hasn’t arrived—yet. But seemingly unsophisticated attackers are using AI tools to wreak havoc."
+    }
+   ]
+  },
   {
    "id": "4261c90d2cdb",
    "title": "IRS eyes agentic AI tool to help staffers process potential fraud cases",
@@ -6563,25 +6631,6 @@
    "also": []
   },
   {
-   "id": "7d3271ba8a68",
-   "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
-   "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
-   "source": "Ars Technica AI",
-   "sourceId": "ars-ai",
-   "published": "2026-10-30T21:09:54.000Z",
-   "firstSeen": 1793400882653,
-   "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Anthropic"
-   ],
-   "score": 11,
-   "action": false,
-   "also": []
-  },
-  {
    "id": "089e25f6fb09",
    "title": "DOJ raises privacy concerns over potential sale of Character.AI chats",
    "url": "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale",
@@ -7026,7 +7075,7 @@
     "Anthropic",
     "Microsoft"
    ],
-   "score": 26,
+   "score": 29,
    "action": false,
    "also": [
     {
@@ -7048,6 +7097,16 @@
      "published": "2026-10-30T14:36:54.000Z",
      "firstSeen": 1793386058607,
      "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors."
+    },
+    {
+     "id": "7d3271ba8a68",
+     "source": "Ars Technica AI",
+     "sourceId": "ars-ai",
+     "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+     "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+     "published": "2026-10-30T21:09:54.000Z",
+     "firstSeen": 1793400882653,
+     "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account."
     },
     {
      "id": "75ef706adf9b",
@@ -11856,68 +11915,6 @@
     "MCP"
    ],
    "score": 4,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "adf5f06d545c",
-   "title": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
-   "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
-   "source": "Ars Technica AI",
-   "sourceId": "ars-ai",
-   "published": "2026-10-15T15:43:24.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "FTC may fine AI firms on par with companies that delay data breach reports.",
-   "topics": [
-    "incidents"
-   ],
-   "tags": [
-    "OpenAI",
-    "Anthropic",
-    "USA"
-   ],
-   "score": 9,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "f9e7935374d2",
-   "title": "New Aoki Infostealer Targets AI Coding Assistant Credentials",
-   "url": "https://www.infosecurity-magazine.com/news/aoki-infostealer-ai-coding/",
-   "source": "Infosecurity Magazine",
-   "sourceId": "infosecmag",
-   "published": "2026-10-15T13:00:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Symantec warned that Aoki can steal API keys and tokens from a number of popular AI coding assistants, including Claude and Gemini",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Anthropic",
-    "Google"
-   ],
-   "score": 4,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "cd4ab9425dcc",
-   "title": "Warning Over High-Risk Vulnerabilities in Widely Used LLM Gateway Tool",
-   "url": "https://www.infosecurity-magazine.com/news/high-risk-vulnerabilities-llm-tool/",
-   "source": "Infosecurity Magazine",
-   "sourceId": "infosecmag",
-   "published": "2026-10-15T11:30:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "CVE-2026-35029 and CVE-2026-59823 affect LiteLLM, which is commonly used by enterprises to connect their AI applications to providers like OpenAI and Anthropic",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Vulnerability",
-    "OpenAI",
-    "Anthropic"
-   ],
-   "score": 11,
    "action": false,
    "also": []
   },
