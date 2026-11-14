@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-14T15:43:27.184Z",
+ "generatedAt": "2026-11-14T20:35:00.578Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 44,
-  "fetched": 944,
-  "relevant": 661,
-  "stories": 577,
-  "duplicatesMerged": 84
+  "fetched": 943,
+  "relevant": 662,
+  "stories": 579,
+  "duplicatesMerged": 83
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 938
+   "ms": 730
   },
   {
    "id": "aiact-newsletter",
@@ -27,7 +27,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 147
+   "ms": 67
   },
   {
    "id": "fli",
@@ -36,7 +36,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 955
+   "ms": 589
   },
   {
    "id": "algorithmwatch",
@@ -45,16 +45,16 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 1261
+   "ms": 814
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 2,
-   "kept": 2,
-   "ms": 189
+   "items": 1,
+   "kept": 1,
+   "ms": 161
   },
   {
    "id": "euractiv",
@@ -63,7 +63,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1031
+   "ms": 582
   },
   {
    "id": "edpb",
@@ -71,7 +71,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1944
+   "ms": 1205
   },
   {
    "id": "europarl",
@@ -80,7 +80,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 423
+   "ms": 189
   },
   {
    "id": "cnil",
@@ -89,7 +89,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 736
+   "ms": 514
   },
   {
    "id": "nist",
@@ -98,7 +98,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 305
+   "ms": 59
   },
   {
    "id": "ncsc-uk",
@@ -107,7 +107,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 454
+   "ms": 68
   },
   {
    "id": "cisa",
@@ -116,7 +116,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 375
+   "ms": 348
   },
   {
    "id": "fedscoop",
@@ -125,7 +125,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 57
+   "ms": 15
   },
   {
    "id": "nextgov",
@@ -134,7 +134,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 443
+   "ms": 321
   },
   {
    "id": "techcrunch-ai",
@@ -143,7 +143,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 50
+   "ms": 42
   },
   {
    "id": "venturebeat-ai",
@@ -151,7 +151,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 49
+   "ms": 57
   },
   {
    "id": "verge-ai",
@@ -160,7 +160,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 39
+   "ms": 38
   },
   {
    "id": "ars-ai",
@@ -169,7 +169,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 315
+   "ms": 91
   },
   {
    "id": "wired-ai",
@@ -178,7 +178,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 57
+   "ms": 39
   },
   {
    "id": "guardian-ai",
@@ -187,7 +187,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 50
+   "ms": 120
   },
   {
    "id": "mittr-ai",
@@ -196,7 +196,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 48
+   "ms": 17
   },
   {
    "id": "register-ai",
@@ -205,7 +205,7 @@
    "ok": true,
    "items": 40,
    "kept": 6,
-   "ms": 513
+   "ms": 264
   },
   {
    "id": "biometric",
@@ -214,7 +214,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 4171
+   "ms": 546
   },
   {
    "id": "krebs",
@@ -223,7 +223,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 164
+   "ms": 38
   },
   {
    "id": "securityweek",
@@ -232,7 +232,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 137
+   "ms": 96
   },
   {
    "id": "wired-security",
@@ -241,7 +241,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 24
+   "ms": 16
   },
   {
    "id": "csoonline",
@@ -250,7 +250,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 65
+   "ms": 27
   },
   {
    "id": "infosecmag",
@@ -259,7 +259,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 210
+   "ms": 113
   },
   {
    "id": "helpnet",
@@ -268,7 +268,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 67
+   "ms": 12
   },
   {
    "id": "therecord",
@@ -277,7 +277,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 160
+   "ms": 76
   },
   {
    "id": "thehackernews",
@@ -286,7 +286,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 179
+   "ms": 269
   },
   {
    "id": "bleeping",
@@ -295,7 +295,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 39
+   "ms": 40
   },
   {
    "id": "darkreading",
@@ -304,7 +304,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 641
+   "ms": 737
   },
   {
    "id": "schneier",
@@ -313,7 +313,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 96
+   "ms": 16
   },
   {
    "id": "google-security",
@@ -322,7 +322,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 604
+   "ms": 514
   },
   {
    "id": "msft-security",
@@ -331,7 +331,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3118
+   "ms": 2042
   },
   {
    "id": "aws-security",
@@ -339,8 +339,8 @@
    "url": "https://aws.amazon.com/blogs/security/feed/",
    "ok": true,
    "items": 20,
-   "kept": 20,
-   "ms": 90
+   "kept": 19,
+   "ms": 40
   },
   {
    "id": "unit42",
@@ -349,7 +349,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 87
+   "ms": 38
   },
   {
    "id": "trailofbits",
@@ -358,7 +358,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 251
+   "ms": 145
   },
   {
    "id": "embracethered",
@@ -367,7 +367,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 126
+   "ms": 50
   },
   {
    "id": "owasp-genai",
@@ -376,7 +376,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 87
+   "ms": 23
   },
   {
    "id": "willison-pi",
@@ -385,7 +385,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 676
+   "ms": 76
   },
   {
    "id": "csa",
@@ -393,8 +393,8 @@
    "url": "https://cloudsecurityalliance.org/blog/feed/",
    "ok": true,
    "items": 20,
-   "kept": 18,
-   "ms": 204
+   "kept": 17,
+   "ms": 296
   },
   {
    "id": "openai",
@@ -403,7 +403,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 91
+   "ms": 81
   },
   {
    "id": "deepmind",
@@ -411,8 +411,8 @@
    "url": "https://deepmind.google/blog/rss.xml",
    "ok": true,
    "items": 40,
-   "kept": 13,
-   "ms": 231
+   "kept": 12,
+   "ms": 41
   },
   {
    "id": "huggingface",
@@ -421,10 +421,48 @@
    "ok": true,
    "items": 40,
    "kept": 30,
-   "ms": 136
+   "ms": 60
   }
  ],
  "items": [
+  {
+   "id": "b644115550e5",
+   "title": "Art ‘must not be sacrificed on the altar of corporate profit’ Liberal senator says as AI policy debate rages",
+   "url": "https://www.theguardian.com/australia-news/2026/nov/15/art-over-profit-ai-policy-debate-andrew-mclachlan",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-11-14T19:00:52.000Z",
+   "firstSeen": 1794688500578,
+   "summary": "Andrew McLachlan says he chooses ‘real forests over virtual ones’ as he urges Labor government to consider AI’s impact on artists and environment Get our daily political email, free app or daily news podcast Outspoken Liberal senator Andrew McLachlan has raised the alarm about the approach of his party and the Labor…",
+   "topics": [
+    "governance",
+    "regulation"
+   ],
+   "tags": [],
+   "score": 16,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "6fd94e187b03",
+   "title": "Cursor confirms security breach led to malicious Claude Code extension",
+   "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-11-14T17:27:25.000Z",
+   "firstSeen": 1794688500578,
+   "summary": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI.",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 14,
+   "action": false,
+   "also": []
+  },
   {
    "id": "2afe364a4330",
    "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
@@ -6631,6 +6669,25 @@
    "also": []
   },
   {
+   "id": "7d3271ba8a68",
+   "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+   "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+   "source": "Ars Technica AI",
+   "sourceId": "ars-ai",
+   "published": "2026-10-30T21:09:54.000Z",
+   "firstSeen": 1793400882653,
+   "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 11,
+   "action": false,
+   "also": []
+  },
+  {
    "id": "089e25f6fb09",
    "title": "DOJ raises privacy concerns over potential sale of Character.AI chats",
    "url": "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale",
@@ -7075,7 +7132,7 @@
     "Anthropic",
     "Microsoft"
    ],
-   "score": 29,
+   "score": 26,
    "action": false,
    "also": [
     {
@@ -7097,16 +7154,6 @@
      "published": "2026-10-30T14:36:54.000Z",
      "firstSeen": 1793386058607,
      "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors."
-    },
-    {
-     "id": "7d3271ba8a68",
-     "source": "Ars Technica AI",
-     "sourceId": "ars-ai",
-     "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
-     "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
-     "published": "2026-10-30T21:09:54.000Z",
-     "firstSeen": 1793400882653,
-     "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account."
     },
     {
      "id": "75ef706adf9b",
@@ -11895,26 +11942,6 @@
    ],
    "tags": [],
    "score": 16,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "7496d29f9fad",
-   "title": "MCP Tool Exposure is a Privilege Grant: A Two-Gate Authorization Model for Agentic AI",
-   "url": "https://cloudsecurityalliance.org/articles/mcp-tool-exposure-is-a-privilege-grant-a-two-gate-authorization-model-for-agentic-ai",
-   "source": "Cloud Security Alliance",
-   "sourceId": "csa",
-   "published": "2026-10-15T16:45:41.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Model Context Protocol is quickly becoming a common way for AI agents to connect to the systems around them. Through MCP, an agent can search a repository, query a database, create a ticket, send a message, update a record, invoke an API, or trigger a workflow. That makes interoperability much easier. It also changes…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents",
-    "MCP"
-   ],
-   "score": 4,
    "action": false,
    "also": []
   },
