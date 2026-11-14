@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-11-13T21:22:22.068Z",
+ "generatedAt": "2026-11-14T01:40:32.441Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 43,
-  "fetched": 922,
-  "relevant": 657,
-  "stories": 575,
+  "sourcesOk": 42,
+  "fetched": 906,
+  "relevant": 660,
+  "stories": 578,
   "duplicatesMerged": 82
  },
  "sources": [
@@ -18,16 +18,15 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 975
+   "ms": 1240
   },
   {
    "id": "aiact-newsletter",
    "name": "EU AI Act Newsletter",
    "url": "https://artificialintelligenceact.substack.com/feed",
-   "ok": true,
-   "items": 20,
-   "kept": 3,
-   "ms": 78
+   "ok": false,
+   "error": "HTTP 403",
+   "ms": 121
   },
   {
    "id": "fli",
@@ -36,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 921
+   "ms": 623
   },
   {
    "id": "algorithmwatch",
@@ -45,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 1324
+   "ms": 1083
   },
   {
    "id": "lawfare",
@@ -54,7 +53,7 @@
    "ok": true,
    "items": 4,
    "kept": 4,
-   "ms": 274
+   "ms": 364
   },
   {
    "id": "euractiv",
@@ -63,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 912
+   "ms": 1086
   },
   {
    "id": "edpb",
@@ -71,16 +70,15 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1898
+   "ms": 2724
   },
   {
    "id": "europarl",
    "name": "European Parliament",
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
-   "ok": true,
-   "items": 20,
-   "kept": 20,
-   "ms": 512
+   "ok": false,
+   "error": "not an RSS/Atom feed",
+   "ms": 534
   },
   {
    "id": "cnil",
@@ -89,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 833
+   "ms": 961
   },
   {
    "id": "nist",
@@ -98,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 140
+   "ms": 288
   },
   {
    "id": "ncsc-uk",
@@ -107,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 69
+   "ms": 121
   },
   {
    "id": "cisa",
@@ -116,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 413
+   "ms": 446
   },
   {
    "id": "fedscoop",
@@ -125,15 +123,16 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 44
+   "ms": 47
   },
   {
    "id": "nextgov",
    "name": "Nextgov/FCW",
    "url": "https://www.nextgov.com/rss/all/",
-   "ok": false,
-   "error": "ETIMEDOUT",
-   "ms": 342
+   "ok": true,
+   "items": 24,
+   "kept": 24,
+   "ms": 721
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 41
+   "ms": 399
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 163
+   "ms": 151
   },
   {
    "id": "verge-ai",
@@ -159,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 80
+   "ms": 72
   },
   {
    "id": "ars-ai",
@@ -168,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 405
+   "ms": 452
   },
   {
    "id": "wired-ai",
@@ -177,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 86
+   "ms": 168
   },
   {
    "id": "guardian-ai",
@@ -186,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 62
+   "ms": 291
   },
   {
    "id": "mittr-ai",
@@ -195,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 71
+   "ms": 152
   },
   {
    "id": "register-ai",
@@ -204,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 6,
-   "ms": 572
+   "ms": 1257
   },
   {
    "id": "biometric",
@@ -213,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 898
+   "ms": 1091
   },
   {
    "id": "krebs",
@@ -222,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 151
+   "ms": 219
   },
   {
    "id": "securityweek",
@@ -231,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 123
+   "ms": 272
   },
   {
    "id": "wired-security",
@@ -240,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 32
+   "ms": 26
   },
   {
    "id": "csoonline",
@@ -249,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 60
+   "ms": 248
   },
   {
    "id": "infosecmag",
@@ -258,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 204
+   "ms": 453
   },
   {
    "id": "helpnet",
@@ -267,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 33
+   "ms": 344
   },
   {
    "id": "therecord",
@@ -276,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 164
+   "ms": 423
   },
   {
    "id": "thehackernews",
@@ -285,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 347
+   "ms": 435
   },
   {
    "id": "bleeping",
@@ -294,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 54
+   "ms": 471
   },
   {
    "id": "darkreading",
@@ -303,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 550
+   "ms": 775
   },
   {
    "id": "schneier",
@@ -312,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 37
+   "ms": 329
   },
   {
    "id": "google-security",
@@ -321,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 550
+   "ms": 577
   },
   {
    "id": "msft-security",
@@ -330,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3103
+   "ms": 1335
   },
   {
    "id": "aws-security",
@@ -339,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 81
+   "ms": 313
   },
   {
    "id": "unit42",
@@ -347,8 +346,8 @@
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
    "items": 15,
-   "kept": 14,
-   "ms": 56
+   "kept": 13,
+   "ms": 227
   },
   {
    "id": "trailofbits",
@@ -357,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 260
+   "ms": 336
   },
   {
    "id": "embracethered",
@@ -366,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 69
+   "ms": 143
   },
   {
    "id": "owasp-genai",
@@ -375,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 58
+   "ms": 84
   },
   {
    "id": "willison-pi",
@@ -384,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 692
+   "ms": 748
   },
   {
    "id": "csa",
@@ -393,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 18,
-   "ms": 324
+   "ms": 550
   },
   {
    "id": "openai",
@@ -402,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 94
+   "ms": 331
   },
   {
    "id": "deepmind",
@@ -411,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 13,
-   "ms": 238
+   "ms": 237
   },
   {
    "id": "huggingface",
@@ -419,11 +418,49 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 33,
-   "ms": 142
+   "kept": 31,
+   "ms": 164
   }
  ],
  "items": [
+  {
+   "id": "4261c90d2cdb",
+   "title": "IRS eyes agentic AI tool to help staffers process potential fraud cases",
+   "url": "https://fedscoop.com/irs-identity-theft-fraud-fighting-agentic-ai-tool/",
+   "source": "FedScoop",
+   "sourceId": "fedscoop",
+   "published": "2026-11-13T23:24:03.000Z",
+   "firstSeen": 1794620432441,
+   "summary": "An official with the IRS’s Taxpayer Service Division said the agency is piloting a tool to help workers with “rote” tasks after possible fraud cases are flagged.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "a61bf7f9f3f6",
+   "title": "What the choice between Chuck Schumer and Chris Van Hollen for Senate leader is all about | Bernie Sanders",
+   "url": "https://www.theguardian.com/commentisfree/2026/nov/13/chuck-schumer-chris-van-hollen-senate-leader",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-11-13T21:28:45.000Z",
+   "firstSeen": 1794620432441,
+   "summary": "This is not a personality contest. This is a debate about the future of the Democratic party The election for Democratic Senate leader between Chuck Schumer and Chris Van Hollen must be understood for what it is. This is not a personality contest. This is a debate about the future of the Democratic party. It is a…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "USA"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
   {
    "id": "2bffbfa0da23",
    "title": "Amazon Threat Intelligence observes threat actors running cybercrime campaigns with ARTEX AI agents",
@@ -441,6 +478,23 @@
     "AI agents"
    ],
    "score": 16,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "65a98957f0b3",
+   "title": "ArcticRAT Cybercrime Gang Profiles Victim Finances With AI",
+   "url": "https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-13T20:20:27.000Z",
+   "firstSeen": 1794620432441,
+   "summary": "The Android malware has expanded from focusing on crypto theft to full device control, and the attackers have added advanced analysis of stolen information.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 11,
    "action": false,
    "also": []
   },
@@ -497,7 +551,7 @@
   },
   {
    "id": "55bb022add7f",
-   "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!",
+   "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
    "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
    "source": "TechCrunch AI",
    "sourceId": "techcrunch-ai",
