@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-14T01:40:32.441Z",
+ "generatedAt": "2026-11-14T08:52:39.714Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 1240
+   "ms": 1078
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 121
+   "ms": 63
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 623
+   "ms": 549
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 1083
+   "ms": 1015
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 4,
    "kept": 4,
-   "ms": 364
+   "ms": 151
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1086
+   "ms": 666
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 2724
+   "ms": 2996
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 534
+   "ms": 460
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 961
+   "ms": 641
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 288
+   "ms": 409
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 121
+   "ms": 242
   },
   {
    "id": "cisa",
@@ -114,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 446
+   "ms": 459
   },
   {
    "id": "fedscoop",
@@ -123,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 47
+   "ms": 112
   },
   {
    "id": "nextgov",
@@ -132,7 +132,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 721
+   "ms": 351
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 399
+   "ms": 385
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 151
+   "ms": 371
   },
   {
    "id": "verge-ai",
@@ -158,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 72
+   "ms": 351
   },
   {
    "id": "ars-ai",
@@ -167,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 452
+   "ms": 221
   },
   {
    "id": "wired-ai",
@@ -176,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 168
+   "ms": 89
   },
   {
    "id": "guardian-ai",
@@ -185,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 291
+   "ms": 200
   },
   {
    "id": "mittr-ai",
@@ -194,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 152
+   "ms": 109
   },
   {
    "id": "register-ai",
@@ -203,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 6,
-   "ms": 1257
+   "ms": 999
   },
   {
    "id": "biometric",
@@ -212,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1091
+   "ms": 680
   },
   {
    "id": "krebs",
@@ -221,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 219
+   "ms": 329
   },
   {
    "id": "securityweek",
@@ -230,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 272
+   "ms": 145
   },
   {
    "id": "wired-security",
@@ -239,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 26
+   "ms": 19
   },
   {
    "id": "csoonline",
@@ -248,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 248
+   "ms": 172
   },
   {
    "id": "infosecmag",
@@ -257,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 453
+   "ms": 197
   },
   {
    "id": "helpnet",
@@ -266,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 344
+   "ms": 111
   },
   {
    "id": "therecord",
@@ -275,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 423
+   "ms": 136
   },
   {
    "id": "thehackernews",
@@ -284,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 435
+   "ms": 276
   },
   {
    "id": "bleeping",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 471
+   "ms": 142
   },
   {
    "id": "darkreading",
@@ -302,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 775
+   "ms": 900
   },
   {
    "id": "schneier",
@@ -311,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 329
+   "ms": 263
   },
   {
    "id": "google-security",
@@ -320,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 577
+   "ms": 717
   },
   {
    "id": "msft-security",
@@ -329,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1335
+   "ms": 3321
   },
   {
    "id": "aws-security",
@@ -338,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 313
+   "ms": 440
   },
   {
    "id": "unit42",
@@ -347,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 227
+   "ms": 319
   },
   {
    "id": "trailofbits",
@@ -356,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 336
+   "ms": 589
   },
   {
    "id": "embracethered",
@@ -365,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 143
+   "ms": 111
   },
   {
    "id": "owasp-genai",
@@ -374,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 84
+   "ms": 128
   },
   {
    "id": "willison-pi",
@@ -383,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 748
+   "ms": 522
   },
   {
    "id": "csa",
@@ -392,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 18,
-   "ms": 550
+   "ms": 451
   },
   {
    "id": "openai",
@@ -401,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 331
+   "ms": 107
   },
   {
    "id": "deepmind",
@@ -410,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 13,
-   "ms": 237
+   "ms": 171
   },
   {
    "id": "huggingface",
@@ -419,7 +419,7 @@
    "ok": true,
    "items": 40,
    "kept": 31,
-   "ms": 164
+   "ms": 104
   }
  ],
  "items": [
