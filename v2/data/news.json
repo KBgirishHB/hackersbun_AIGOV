@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-11-14T20:35:00.578Z",
+ "generatedAt": "2026-11-15T00:10:58.505Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 44,
-  "fetched": 943,
-  "relevant": 662,
-  "stories": 579,
+  "sourcesOk": 42,
+  "fetched": 903,
+  "relevant": 660,
+  "stories": 577,
   "duplicatesMerged": 83
  },
  "sources": [
@@ -18,16 +18,15 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 730
+   "ms": 911
   },
   {
    "id": "aiact-newsletter",
    "name": "EU AI Act Newsletter",
    "url": "https://artificialintelligenceact.substack.com/feed",
-   "ok": true,
-   "items": 20,
-   "kept": 3,
-   "ms": 67
+   "ok": false,
+   "error": "HTTP 403",
+   "ms": 110
   },
   {
    "id": "fli",
@@ -36,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 589
+   "ms": 851
   },
   {
    "id": "algorithmwatch",
@@ -45,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 814
+   "ms": 1179
   },
   {
    "id": "lawfare",
@@ -54,7 +53,7 @@
    "ok": true,
    "items": 1,
    "kept": 1,
-   "ms": 161
+   "ms": 295
   },
   {
    "id": "euractiv",
@@ -63,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 582
+   "ms": 845
   },
   {
    "id": "edpb",
@@ -71,16 +70,15 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1205
+   "ms": 1866
   },
   {
    "id": "europarl",
    "name": "European Parliament",
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
-   "ok": true,
-   "items": 20,
-   "kept": 20,
-   "ms": 189
+   "ok": false,
+   "error": "not an RSS/Atom feed",
+   "ms": 390
   },
   {
    "id": "cnil",
@@ -89,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 514
+   "ms": 731
   },
   {
    "id": "nist",
@@ -98,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 59
+   "ms": 166
   },
   {
    "id": "ncsc-uk",
@@ -107,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 68
+   "ms": 110
   },
   {
    "id": "cisa",
@@ -116,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 348
+   "ms": 365
   },
   {
    "id": "fedscoop",
@@ -125,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 15
+   "ms": 367
   },
   {
    "id": "nextgov",
@@ -134,7 +132,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 321
+   "ms": 349
   },
   {
    "id": "techcrunch-ai",
@@ -143,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 42
+   "ms": 60
   },
   {
    "id": "venturebeat-ai",
@@ -151,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 57
+   "ms": 143
   },
   {
    "id": "verge-ai",
@@ -160,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 38
+   "ms": 133
   },
   {
    "id": "ars-ai",
@@ -169,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 91
+   "ms": 511
   },
   {
    "id": "wired-ai",
@@ -178,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 39
+   "ms": 129
   },
   {
    "id": "guardian-ai",
@@ -187,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 120
+   "ms": 274
   },
   {
    "id": "mittr-ai",
@@ -196,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 17
+   "ms": 115
   },
   {
    "id": "register-ai",
@@ -205,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 6,
-   "ms": 264
+   "ms": 1218
   },
   {
    "id": "biometric",
@@ -214,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 546
+   "ms": 921
   },
   {
    "id": "krebs",
@@ -223,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 38
+   "ms": 233
   },
   {
    "id": "securityweek",
@@ -232,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 96
+   "ms": 173
   },
   {
    "id": "wired-security",
@@ -241,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 16
+   "ms": 31
   },
   {
    "id": "csoonline",
@@ -250,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 27
+   "ms": 183
   },
   {
    "id": "infosecmag",
@@ -259,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 113
+   "ms": 362
   },
   {
    "id": "helpnet",
@@ -268,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 12
+   "ms": 73
   },
   {
    "id": "therecord",
@@ -277,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 76
+   "ms": 271
   },
   {
    "id": "thehackernews",
@@ -286,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 269
+   "ms": 216
   },
   {
    "id": "bleeping",
@@ -295,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 40
+   "ms": 217
   },
   {
    "id": "darkreading",
@@ -304,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 737
+   "ms": 965
   },
   {
    "id": "schneier",
@@ -313,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 16
+   "ms": 83
   },
   {
    "id": "google-security",
@@ -322,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 514
+   "ms": 389
   },
   {
    "id": "msft-security",
@@ -331,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 2042
+   "ms": 1111
   },
   {
    "id": "aws-security",
@@ -340,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 19,
-   "ms": 40
+   "ms": 186
   },
   {
    "id": "unit42",
@@ -348,8 +346,8 @@
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
    "items": 15,
-   "kept": 13,
-   "ms": 38
+   "kept": 12,
+   "ms": 64
   },
   {
    "id": "trailofbits",
@@ -358,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 145
+   "ms": 374
   },
   {
    "id": "embracethered",
@@ -367,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 50
+   "ms": 177
   },
   {
    "id": "owasp-genai",
@@ -376,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 23
+   "ms": 191
   },
   {
    "id": "willison-pi",
@@ -385,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 76
+   "ms": 655
   },
   {
    "id": "csa",
@@ -394,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 17,
-   "ms": 296
+   "ms": 437
   },
   {
    "id": "openai",
@@ -403,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 81
+   "ms": 137
   },
   {
    "id": "deepmind",
@@ -412,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 12,
-   "ms": 41
+   "ms": 157
   },
   {
    "id": "huggingface",
@@ -420,20 +418,20 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 30,
-   "ms": 60
+   "kept": 29,
+   "ms": 141
   }
  ],
  "items": [
   {
    "id": "b644115550e5",
-   "title": "Art ‘must not be sacrificed on the altar of corporate profit’ Liberal senator says as AI policy debate rages",
+   "title": "Art ‘must not be sacrificed on the altar of corporate profit’, Liberal senator says as AI policy debate rages",
    "url": "https://www.theguardian.com/australia-news/2026/nov/15/art-over-profit-ai-policy-debate-andrew-mclachlan",
    "source": "The Guardian AI",
    "sourceId": "guardian-ai",
    "published": "2026-11-14T19:00:52.000Z",
    "firstSeen": 1794688500578,
-   "summary": "Andrew McLachlan says he chooses ‘real forests over virtual ones’ as he urges Labor government to consider AI’s impact on artists and environment Get our daily political email, free app or daily news podcast Outspoken Liberal senator Andrew McLachlan has raised the alarm about the approach of his party and the Labor…",
+   "summary": "Andrew McLachlan says he chooses ‘real forests over virtual ones’ as he urges Labor government to consider AI’s impact on artists and environment Get our daily political email, free app or daily news podcast The outspoken Liberal senator Andrew McLachlan has raised the alarm about the approach of his party and the…",
    "topics": [
     "governance",
     "regulation"
@@ -11907,41 +11905,6 @@
    ],
    "tags": [],
    "score": 12,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "f2ff042575e7",
-   "title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
-   "url": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
-   "source": "Unit 42",
-   "sourceId": "unit42",
-   "published": "2026-10-15T22:00:09.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Our analysis an AI-powered espionage campaign targeting government Linux infrastructure with custom malware, web shells, and advanced credential theft.",
-   "topics": [
-    "incidents"
-   ],
-   "tags": [],
-   "score": 12,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "49c46ca77d07",
-   "title": "AI Slop Isn't Just for Social Media; It's Ruining Cyberattacks, Too",
-   "url": "https://www.darkreading.com/threat-intelligence/ai-slop-ruining-cyberattacks",
-   "source": "Dark Reading",
-   "sourceId": "darkreading",
-   "published": "2026-10-15T20:43:20.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Don't buy the hype! AI has been dumbing down cyberattacks, and serious threat actors are barely touching it.",
-   "topics": [
-    "incidents",
-    "security"
-   ],
-   "tags": [],
-   "score": 16,
    "action": false,
    "also": []
   },
