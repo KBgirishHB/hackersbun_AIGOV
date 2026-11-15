@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-15T07:03:38.279Z",
+ "generatedAt": "2026-11-15T14:40:14.667Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 42,
   "fetched": 903,
   "relevant": 661,
-  "stories": 578,
-  "duplicatesMerged": 83
+  "stories": 577,
+  "duplicatesMerged": 84
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 822
+   "ms": 1191
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 56
+   "ms": 71
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 532
+   "ms": 670
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 1153
+   "ms": 1115
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 1,
    "kept": 1,
-   "ms": 1150
+   "ms": 426
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 769
+   "ms": 1276
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1727
+   "ms": 1561
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 502
+   "ms": 555
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1092
+   "ms": 1040
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 196
+   "ms": 183
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 120
+   "ms": 119
   },
   {
    "id": "cisa",
@@ -114,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 483
+   "ms": 491
   },
   {
    "id": "fedscoop",
@@ -123,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 447
+   "ms": 467
   },
   {
    "id": "nextgov",
@@ -132,7 +132,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 395
+   "ms": 484
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 399
+   "ms": 171
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 122
+   "ms": 100
   },
   {
    "id": "verge-ai",
@@ -158,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 95
+   "ms": 117
   },
   {
    "id": "ars-ai",
@@ -167,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 236
+   "ms": 184
   },
   {
    "id": "wired-ai",
@@ -176,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 169
+   "ms": 133
   },
   {
    "id": "guardian-ai",
@@ -185,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 343
+   "ms": 200
   },
   {
    "id": "mittr-ai",
@@ -194,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 243
+   "ms": 65
   },
   {
    "id": "register-ai",
@@ -203,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 6,
-   "ms": 1102
+   "ms": 550
   },
   {
    "id": "biometric",
@@ -212,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 733
+   "ms": 633
   },
   {
    "id": "krebs",
@@ -221,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 296
+   "ms": 103
   },
   {
    "id": "securityweek",
@@ -230,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 147
+   "ms": 154
   },
   {
    "id": "wired-security",
@@ -239,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 22
+   "ms": 19
   },
   {
    "id": "csoonline",
@@ -248,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 173
+   "ms": 127
   },
   {
    "id": "infosecmag",
@@ -257,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 249
+   "ms": 207
   },
   {
    "id": "helpnet",
@@ -266,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 88
+   "ms": 90
   },
   {
    "id": "therecord",
@@ -275,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 146
+   "ms": 277
   },
   {
    "id": "thehackernews",
@@ -284,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 240
+   "ms": 174
   },
   {
    "id": "bleeping",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 111
+   "ms": 138
   },
   {
    "id": "darkreading",
@@ -302,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 826
+   "ms": 397
   },
   {
    "id": "schneier",
@@ -311,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 70
+   "ms": 88
   },
   {
    "id": "google-security",
@@ -320,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 568
+   "ms": 447
   },
   {
    "id": "msft-security",
@@ -329,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3141
+   "ms": 3202
   },
   {
    "id": "aws-security",
@@ -338,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 19,
-   "ms": 188
+   "ms": 89
   },
   {
    "id": "unit42",
@@ -347,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 12,
-   "ms": 165
+   "ms": 64
   },
   {
    "id": "trailofbits",
@@ -356,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 476
+   "ms": 173
   },
   {
    "id": "embracethered",
@@ -365,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 174
+   "ms": 95
   },
   {
    "id": "owasp-genai",
@@ -374,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 111
+   "ms": 47
   },
   {
    "id": "willison-pi",
@@ -383,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 394
+   "ms": 134
   },
   {
    "id": "csa",
@@ -392,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 17,
-   "ms": 447
+   "ms": 500
   },
   {
    "id": "openai",
@@ -401,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 139
+   "ms": 260
   },
   {
    "id": "deepmind",
@@ -410,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 12,
-   "ms": 229
+   "ms": 123
   },
   {
    "id": "huggingface",
@@ -419,10 +419,46 @@
    "ok": true,
    "items": 40,
    "kept": 29,
-   "ms": 165
+   "ms": 139
   }
  ],
  "items": [
+  {
+   "id": "b85ca6708d52",
+   "title": "Pentagon Renames CDAO ‘Super Intelligence Office’",
+   "url": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-15T12:51:33.000Z",
+   "firstSeen": 1794753614667,
+   "summary": "The move follows President Trump’s order to replace “artificial intelligence” with “super intelligence” in executive branch communications.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 0,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "d2ad5c79e67a",
+   "title": "Week in review: Secret stealer hits GitHub repos, Claude Code turned into remote-controlled implant",
+   "url": "https://www.helpnetsecurity.com/2026/11/15/week-in-review-secret-stealer-hits-github-repos-claude-code-turned-into-remote-controlled-implant/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-15T09:00:37.000Z",
+   "firstSeen": 1794753614667,
+   "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: What a security leader should tell the CEO about leaked credentials In this Help Net Security interview, Eric Fourrier, CEO of GitGuardian, talks about leaked credentials and personal liability for security leaders and…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
   {
    "id": "bb49698c23bc",
    "title": "‘Jensen Huang lost his mind’: how AI’s smartest man fell for the world’s oldest trick",
@@ -474,9 +510,20 @@
    "tags": [
     "Anthropic"
    ],
-   "score": 14,
+   "score": 23,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "9cba98b6381a",
+     "source": "The Hacker News",
+     "sourceId": "thehackernews",
+     "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+     "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+     "published": "2026-11-15T08:22:04.000Z",
+     "firstSeen": 1794753614667,
+     "summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday update. \"The key was…"
+    }
+   ]
   },
   {
    "id": "2afe364a4330",
@@ -11869,59 +11916,6 @@
     "Microsoft"
    ],
    "score": 0,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "28996fbb2d24",
-   "title": "Super Scam Me documentary shows what it takes to catch a romance scammer",
-   "url": "https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/",
-   "source": "Ars Technica AI",
-   "sourceId": "ars-ai",
-   "published": "2026-10-16T14:00:59.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Watch an exclusive clip from Super Scam Me where a victim tracks down her scammer.",
-   "topics": [
-    "incidents"
-   ],
-   "tags": [],
-   "score": 4,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "2ca04b26f08f",
-   "title": "When AI Agents Commit Breaches, Humans May Not Be Held Liable",
-   "url": "https://www.darkreading.com/insider-threats/ai-agents-breaches-humans-liable",
-   "source": "Dark Reading",
-   "sourceId": "darkreading",
-   "published": "2026-10-16T13:00:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "As agents escape containment and access external systems, responsibility remains human. Accountability, however, is much less settled.",
-   "topics": [
-    "incidents"
-   ],
-   "tags": [
-    "AI agents"
-   ],
-   "score": 12,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "3e8374301960",
-   "title": "Backdooring Open-Weight AI Models",
-   "url": "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
-   "source": "Schneier on Security",
-   "sourceId": "schneier",
-   "published": "2026-10-16T11:04:53.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "This is a problem: Any open model whose weights have been edited can carry a backdoor, whether it’s a task-specific fine-tune, a merged adapter or an abliterated build. We have abliterated models in the title because it’s the most popular reason people download modified weights without verifying what’s inside…",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 12,
    "action": false,
    "also": []
   },
