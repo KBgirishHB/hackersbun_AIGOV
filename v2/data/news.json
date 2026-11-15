@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-11-15T14:40:14.667Z",
+ "generatedAt": "2026-11-15T20:17:30.965Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 42,
   "fetched": 903,
-  "relevant": 661,
-  "stories": 577,
+  "relevant": 658,
+  "stories": 574,
   "duplicatesMerged": 84
  },
  "sources": [
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 1191
+   "ms": 938
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 71
+   "ms": 133
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 670
+   "ms": 684
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 1115
+   "ms": 1225
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 1,
    "kept": 1,
-   "ms": 426
+   "ms": 457
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1276
+   "ms": 1228
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1561
+   "ms": 2090
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 555
+   "ms": 750
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1040
+   "ms": 763
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 183
+   "ms": 351
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 119
+   "ms": 188
   },
   {
    "id": "cisa",
@@ -114,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 491
+   "ms": 463
   },
   {
    "id": "fedscoop",
@@ -123,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 467
+   "ms": 67
   },
   {
    "id": "nextgov",
@@ -132,7 +132,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 484
+   "ms": 409
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 171
+   "ms": 377
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 100
+   "ms": 392
   },
   {
    "id": "verge-ai",
@@ -158,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 117
+   "ms": 409
   },
   {
    "id": "ars-ai",
@@ -167,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 184
+   "ms": 220
   },
   {
    "id": "wired-ai",
@@ -176,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 133
+   "ms": 178
   },
   {
    "id": "guardian-ai",
@@ -185,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 200
+   "ms": 253
   },
   {
    "id": "mittr-ai",
@@ -194,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 65
+   "ms": 257
   },
   {
    "id": "register-ai",
@@ -203,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 6,
-   "ms": 550
+   "ms": 708
   },
   {
    "id": "biometric",
@@ -212,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 633
+   "ms": 918
   },
   {
    "id": "krebs",
@@ -221,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 103
+   "ms": 412
   },
   {
    "id": "securityweek",
@@ -230,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 154
+   "ms": 326
   },
   {
    "id": "wired-security",
@@ -239,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 19
+   "ms": 21
   },
   {
    "id": "csoonline",
@@ -248,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 127
+   "ms": 281
   },
   {
    "id": "infosecmag",
@@ -257,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 207
+   "ms": 350
   },
   {
    "id": "helpnet",
@@ -266,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 90
+   "ms": 272
   },
   {
    "id": "therecord",
@@ -275,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 277
+   "ms": 288
   },
   {
    "id": "thehackernews",
@@ -284,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 174
+   "ms": 421
   },
   {
    "id": "bleeping",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 138
+   "ms": 205
   },
   {
    "id": "darkreading",
@@ -302,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 397
+   "ms": 560
   },
   {
    "id": "schneier",
@@ -311,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 88
+   "ms": 214
   },
   {
    "id": "google-security",
@@ -320,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 447
+   "ms": 385
   },
   {
    "id": "msft-security",
@@ -329,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3202
+   "ms": 2094
   },
   {
    "id": "aws-security",
@@ -338,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 19,
-   "ms": 89
+   "ms": 190
   },
   {
    "id": "unit42",
@@ -346,8 +346,8 @@
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
    "items": 15,
-   "kept": 12,
-   "ms": 64
+   "kept": 11,
+   "ms": 173
   },
   {
    "id": "trailofbits",
@@ -356,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 173
+   "ms": 218
   },
   {
    "id": "embracethered",
@@ -365,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 95
+   "ms": 98
   },
   {
    "id": "owasp-genai",
@@ -374,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 47
+   "ms": 226
   },
   {
    "id": "willison-pi",
@@ -383,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 134
+   "ms": 80
   },
   {
    "id": "csa",
@@ -392,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 17,
-   "ms": 500
+   "ms": 445
   },
   {
    "id": "openai",
@@ -401,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 260
+   "ms": 271
   },
   {
    "id": "deepmind",
@@ -410,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 12,
-   "ms": 123
+   "ms": 259
   },
   {
    "id": "huggingface",
@@ -419,10 +419,51 @@
    "ok": true,
    "items": 40,
    "kept": 29,
-   "ms": 139
+   "ms": 183
   }
  ],
  "items": [
+  {
+   "id": "2470aa6c4b33",
+   "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+   "source": "The Verge AI",
+   "sourceId": "verge-ai",
+   "published": "2026-11-15T19:15:43.000Z",
+   "firstSeen": 1794773850965,
+   "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "USA",
+    "China"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "a48fc4b794a1",
+   "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+   "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-11-15T18:29:53.000Z",
+   "firstSeen": 1794773850965,
+   "summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments.",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [
+    "Supply chain",
+    "Microsoft"
+   ],
+   "score": 22,
+   "action": false,
+   "also": []
+  },
   {
    "id": "b85ca6708d52",
    "title": "Pentagon Renames CDAO ‘Super Intelligence Office’",
@@ -11826,96 +11867,6 @@
     "OpenAI"
    ],
    "score": 16,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "550cad69fad9",
-   "title": "Fake Claude, ChatGPT Attacks Surge, Putting Developers at Risk",
-   "url": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk",
-   "source": "Dark Reading",
-   "sourceId": "darkreading",
-   "published": "2026-10-16T19:49:30.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Campaigns that impersonate popular AI brands are on the rise, and they typically use ClickFix-like tactics to target unsuspecting enterprise employees.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "OpenAI",
-    "Anthropic"
-   ],
-   "score": 8,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "935dc25c861b",
-   "title": "Enterprise AI Enters Risk Management Phase as Security Concerns Rise",
-   "url": "https://www.darkreading.com/cyber-risk/enterprise-ai-risk-management-phase-security-concerns-rise",
-   "source": "Dark Reading",
-   "sourceId": "darkreading",
-   "published": "2026-10-16T19:13:59.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Companies are increasingly discovering that the challenge with AI is no longer adoption, but execution.",
-   "topics": [
-    "governance"
-   ],
-   "tags": [],
-   "score": 12,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "66af3889e7a6",
-   "title": "How Itaú is building generative AI for its entire customer base",
-   "url": "https://openai.com/index/itau-generative-ai",
-   "source": "OpenAI News",
-   "sourceId": "openai",
-   "published": "2026-10-16T19:00:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-   "topics": [
-    "regulation"
-   ],
-   "tags": [],
-   "score": 9,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "78ea655b5048",
-   "title": "AI Takes Control of Robotic Arm in 16 Minutes Flat",
-   "url": "https://www.darkreading.com/ics-ot-security/ai-takes-control-robotic-arm-16-minutes",
-   "source": "Dark Reading",
-   "sourceId": "darkreading",
-   "published": "2026-10-16T18:37:50.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Most OT devices at utilities, factories, and elsewhere have been deployed for a decade or more, but operators need to get agile and deploy new cyber defenses.",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 5,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "a839a07af021",
-   "title": "Managing open-weight model risk in enterprise deployments",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
-   "source": "Microsoft Security Blog",
-   "sourceId": "msft-security",
-   "published": "2026-10-16T16:00:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "New whitepaper from Microsoft and NVIDIA helps enterprises manage open-weight AI model risks with a shared taxonomy, evaluations, and controls.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Microsoft"
-   ],
-   "score": 0,
    "action": false,
    "also": []
   },
