@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-11-18T01:12:49.750Z",
+ "generatedAt": "2026-11-18T09:01:18.111Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 44,
-  "fetched": 947,
-  "relevant": 751,
-  "stories": 649,
+  "sourcesOk": 42,
+  "fetched": 907,
+  "relevant": 755,
+  "stories": 653,
   "duplicatesMerged": 102
  },
  "sources": [
@@ -18,16 +18,15 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 847
+   "ms": 841
   },
   {
    "id": "aiact-newsletter",
    "name": "EU AI Act Newsletter",
    "url": "https://artificialintelligenceact.substack.com/feed",
-   "ok": true,
-   "items": 20,
-   "kept": 4,
-   "ms": 71
+   "ok": false,
+   "error": "HTTP 403",
+   "ms": 55
   },
   {
    "id": "fli",
@@ -36,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 531
+   "ms": 566
   },
   {
    "id": "algorithmwatch",
@@ -45,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 1067
+   "ms": 917
   },
   {
    "id": "lawfare",
@@ -54,7 +53,7 @@
    "ok": true,
    "items": 4,
    "kept": 4,
-   "ms": 163
+   "ms": 136
   },
   {
    "id": "euractiv",
@@ -63,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 824
+   "ms": 625
   },
   {
    "id": "edpb",
@@ -71,16 +70,15 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 2149
+   "ms": 1483
   },
   {
    "id": "europarl",
    "name": "European Parliament",
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
-   "ok": true,
-   "items": 20,
-   "kept": 20,
-   "ms": 498
+   "ok": false,
+   "error": "not an RSS/Atom feed",
+   "ms": 297
   },
   {
    "id": "cnil",
@@ -89,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 833
+   "ms": 655
   },
   {
    "id": "nist",
@@ -98,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 385
+   "ms": 183
   },
   {
    "id": "ncsc-uk",
@@ -107,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 87
+   "ms": 286
   },
   {
    "id": "cisa",
@@ -116,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 104
+   "ms": 89
   },
   {
    "id": "fedscoop",
@@ -125,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 96
+   "ms": 114
   },
   {
    "id": "nextgov",
@@ -134,7 +132,7 @@
    "ok": true,
    "items": 25,
    "kept": 25,
-   "ms": 181
+   "ms": 223
   },
   {
    "id": "techcrunch-ai",
@@ -143,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 44
+   "ms": 111
   },
   {
    "id": "venturebeat-ai",
@@ -151,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 52
+   "ms": 149
   },
   {
    "id": "verge-ai",
@@ -160,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 30
+   "ms": 132
   },
   {
    "id": "ars-ai",
@@ -169,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 286
+   "ms": 457
   },
   {
    "id": "wired-ai",
@@ -178,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 43
+   "ms": 161
   },
   {
    "id": "guardian-ai",
@@ -187,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 258
+   "ms": 101
   },
   {
    "id": "mittr-ai",
@@ -196,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 60
+   "ms": 276
   },
   {
    "id": "register-ai",
@@ -205,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 7,
-   "ms": 505
+   "ms": 715
   },
   {
    "id": "biometric",
@@ -214,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 797
+   "ms": 1006
   },
   {
    "id": "krebs",
@@ -222,8 +220,8 @@
    "url": "https://krebsonsecurity.com/feed/",
    "ok": true,
    "items": 10,
-   "kept": 6,
-   "ms": 147
+   "kept": 7,
+   "ms": 190
   },
   {
    "id": "securityweek",
@@ -232,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 93
+   "ms": 232
   },
   {
    "id": "wired-security",
@@ -241,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 39
+   "ms": 20
   },
   {
    "id": "csoonline",
@@ -250,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 78
+   "ms": 242
   },
   {
    "id": "infosecmag",
@@ -259,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 199
+   "ms": 250
   },
   {
    "id": "helpnet",
@@ -268,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 44
+   "ms": 92
   },
   {
    "id": "therecord",
@@ -277,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 164
+   "ms": 147
   },
   {
    "id": "thehackernews",
@@ -286,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 411
+   "ms": 230
   },
   {
    "id": "bleeping",
@@ -295,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 116
+   "ms": 60
   },
   {
    "id": "darkreading",
@@ -304,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 508
+   "ms": 83
   },
   {
    "id": "schneier",
@@ -313,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 63
+   "ms": 174
   },
   {
    "id": "google-security",
@@ -322,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 393
+   "ms": 628
   },
   {
    "id": "msft-security",
@@ -331,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3221
+   "ms": 1091
   },
   {
    "id": "aws-security",
@@ -340,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 84
+   "ms": 100
   },
   {
    "id": "unit42",
@@ -349,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 73
+   "ms": 93
   },
   {
    "id": "trailofbits",
@@ -358,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 383
+   "ms": 399
   },
   {
    "id": "embracethered",
@@ -367,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 304
+   "ms": 145
   },
   {
    "id": "owasp-genai",
@@ -376,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 83
+   "ms": 164
   },
   {
    "id": "willison-pi",
@@ -385,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 83
+   "ms": 680
   },
   {
    "id": "csa",
@@ -394,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 192
+   "ms": 241
   },
   {
    "id": "openai",
@@ -403,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 94
+   "ms": 194
   },
   {
    "id": "deepmind",
@@ -412,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 12,
-   "ms": 150
+   "ms": 323
   },
   {
    "id": "huggingface",
@@ -421,10 +419,84 @@
    "ok": true,
    "items": 40,
    "kept": 29,
-   "ms": 172
+   "ms": 210
   }
  ],
  "items": [
+  {
+   "id": "cd0232ca0b44",
+   "title": "Ubuntu AI security patches are here, if you’re willing to test them yourself",
+   "url": "https://www.helpnetsecurity.com/2026/11/18/ubuntu-ai-security-patches-edge-archive/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-18T08:47:50.000Z",
+   "firstSeen": 1794992478111,
+   "summary": "Canonical is letting Ubuntu Pro customers install security patches written by AI agents before its engineers finish reviewing and testing them. The patches come from Surge, a system Canonical built to fix known vulnerabilities in Ubuntu’s userspace software, meaning everything outside the operating system’s kernel…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents",
+    "Vulnerability"
+   ],
+   "score": 20,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "eef5a054f878",
+   "title": "How organizations can secure their AI-generated code",
+   "url": "https://www.csoonline.com/article/3633403/how-organizations-can-secure-their-ai-code.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-11-18T08:25:00.000Z",
+   "firstSeen": 1794992478111,
+   "summary": "The IT manager didn’t know the company hired a “vibe coder” straight out of school. By the time they met a few months later, the new hire had already built a web application that operated with customer data and private contracts. The app ran under a domain the new hire controlled, stored data on Supabase’s free plan…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "2842b57da90a",
+   "title": "THE HACK: How many cloud sovereignty tiers?",
+   "url": "https://www.rapporteur.com/news/the-hack-how-many-cloud-sovereignty-tiers/",
+   "source": "Euractiv",
+   "sourceId": "euractiv",
+   "published": "2026-11-18T06:31:50.000Z",
+   "firstSeen": 1794992478111,
+   "summary": "In today's edition: AI safety, Kids Act, data transfers",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 3,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "f9dd28ba7c3d",
+   "title": "Optimizely confirms massive cyberattack on customer websites injected stealer malware",
+   "url": "https://www.csoonline.com/article/4249925/optimizely-confirms-massive-cyberattack-on-customer-websites-injected-stealer-malware.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-11-18T01:22:59.000Z",
+   "firstSeen": 1794992478111,
+   "summary": "Attackers apparently from China used an authentication security hole within the popular Optimizely AI platform for marketers to steal from at least 178 sites owned by some of the planet’s largest companies. Named victims featured vendors including Zoom, Paychex, Equifax, and GitLab, and end-user enterprises including…",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "China"
+   ],
+   "score": 14,
+   "action": false,
+   "also": []
+  },
   {
    "id": "e8c2df3f87a2",
    "title": "Ofqual urges ‘life-altering’ penalties for students who use tech to cheat",
