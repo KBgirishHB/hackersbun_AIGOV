@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-11-18T09:01:18.111Z",
+ "generatedAt": "2026-11-18T17:56:20.090Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 42,
-  "fetched": 907,
-  "relevant": 755,
-  "stories": 653,
+  "sourcesOk": 41,
+  "fetched": 896,
+  "relevant": 767,
+  "stories": 665,
   "duplicatesMerged": 102
  },
  "sources": [
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 841
+   "ms": 1071
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 55
+   "ms": 62
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 566
+   "ms": 839
   },
   {
    "id": "algorithmwatch",
@@ -43,17 +43,17 @@
    "url": "https://algorithmwatch.org/en/feed/",
    "ok": true,
    "items": 10,
-   "kept": 6,
-   "ms": 917
+   "kept": 7,
+   "ms": 918
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 4,
-   "kept": 4,
-   "ms": 136
+   "items": 3,
+   "kept": 3,
+   "ms": 414
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 625
+   "ms": 1206
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1483
+   "ms": 2042
   },
   {
    "id": "europarl",
@@ -78,16 +78,15 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 297
+   "ms": 877
   },
   {
    "id": "cnil",
    "name": "CNIL (EN)",
    "url": "https://www.cnil.fr/en/rss.xml",
-   "ok": true,
-   "items": 10,
-   "kept": 10,
-   "ms": 655
+   "ok": false,
+   "error": "HTTP 503",
+   "ms": 1390
   },
   {
    "id": "nist",
@@ -96,7 +95,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 183
+   "ms": 494
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +104,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 286
+   "ms": 147
   },
   {
    "id": "cisa",
@@ -114,7 +113,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 89
+   "ms": 94
   },
   {
    "id": "fedscoop",
@@ -123,7 +122,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 114
+   "ms": 105
   },
   {
    "id": "nextgov",
@@ -132,7 +131,7 @@
    "ok": true,
    "items": 25,
    "kept": 25,
-   "ms": 223
+   "ms": 425
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +140,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 111
+   "ms": 52
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +148,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 149
+   "ms": 152
   },
   {
    "id": "verge-ai",
@@ -158,7 +157,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 132
+   "ms": 62
   },
   {
    "id": "ars-ai",
@@ -167,7 +166,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 457
+   "ms": 473
   },
   {
    "id": "wired-ai",
@@ -176,7 +175,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 161
+   "ms": 143
   },
   {
    "id": "guardian-ai",
@@ -185,7 +184,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 101
+   "ms": 291
   },
   {
    "id": "mittr-ai",
@@ -194,7 +193,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 276
+   "ms": 140
   },
   {
    "id": "register-ai",
@@ -203,7 +202,7 @@
    "ok": true,
    "items": 40,
    "kept": 7,
-   "ms": 715
+   "ms": 760
   },
   {
    "id": "biometric",
@@ -212,7 +211,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1006
+   "ms": 881
   },
   {
    "id": "krebs",
@@ -220,8 +219,8 @@
    "url": "https://krebsonsecurity.com/feed/",
    "ok": true,
    "items": 10,
-   "kept": 7,
-   "ms": 190
+   "kept": 6,
+   "ms": 149
   },
   {
    "id": "securityweek",
@@ -230,7 +229,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 232
+   "ms": 221
   },
   {
    "id": "wired-security",
@@ -239,7 +238,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 20
+   "ms": 22
   },
   {
    "id": "csoonline",
@@ -248,7 +247,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 242
+   "ms": 214
   },
   {
    "id": "infosecmag",
@@ -257,7 +256,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 250
+   "ms": 229
   },
   {
    "id": "helpnet",
@@ -266,7 +265,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 92
+   "ms": 101
   },
   {
    "id": "therecord",
@@ -275,7 +274,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 147
+   "ms": 168
   },
   {
    "id": "thehackernews",
@@ -284,7 +283,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 230
+   "ms": 441
   },
   {
    "id": "bleeping",
@@ -293,7 +292,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 60
+   "ms": 77
   },
   {
    "id": "darkreading",
@@ -302,7 +301,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 83
+   "ms": 510
   },
   {
    "id": "schneier",
@@ -311,7 +310,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 174
+   "ms": 146
   },
   {
    "id": "google-security",
@@ -320,7 +319,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 628
+   "ms": 768
   },
   {
    "id": "msft-security",
@@ -329,7 +328,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1091
+   "ms": 2166
   },
   {
    "id": "aws-security",
@@ -338,7 +337,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 100
+   "ms": 160
   },
   {
    "id": "unit42",
@@ -347,7 +346,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 93
+   "ms": 135
   },
   {
    "id": "trailofbits",
@@ -356,7 +355,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 399
+   "ms": 631
   },
   {
    "id": "embracethered",
@@ -365,7 +364,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 145
+   "ms": 163
   },
   {
    "id": "owasp-genai",
@@ -374,7 +373,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 164
+   "ms": 201
   },
   {
    "id": "willison-pi",
@@ -383,7 +382,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 680
+   "ms": 331
   },
   {
    "id": "csa",
@@ -392,7 +391,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 241
+   "ms": 738
   },
   {
    "id": "openai",
@@ -401,7 +400,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 194
+   "ms": 121
   },
   {
    "id": "deepmind",
@@ -410,7 +409,7 @@
    "ok": true,
    "items": 40,
    "kept": 12,
-   "ms": 323
+   "ms": 501
   },
   {
    "id": "huggingface",
@@ -418,11 +417,337 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 29,
-   "ms": 210
+   "kept": 32,
+   "ms": 211
   }
  ],
  "items": [
+  {
+   "id": "4185c44064e9",
+   "title": "Major AI platforms generated viable plans for terrorist attacks, GAO finds",
+   "url": "https://www.nextgov.com/artificial-intelligence/2026/11/major-ai-platforms-generated-viable-plans-terrorist-attacks-gao-finds/417305/",
+   "source": "Nextgov/FCW",
+   "sourceId": "nextgov",
+   "published": "2026-11-18T17:34:00.000Z",
+   "firstSeen": 1795024580090,
+   "summary": "Safety guardrails on ChatGPT, Claude, Gemini and Grok failed to prevent federal investigators from developing detailed plans for attacks.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "OpenAI",
+    "Anthropic",
+    "Google",
+    "USA"
+   ],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "94426b82eb61",
+   "title": "More banks says customers using AI agents are on their own — even if they get hacked",
+   "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "published": "2026-11-18T17:32:10.000Z",
+   "firstSeen": 1795024580090,
+   "summary": "Citi is the latest major financial institution to put the breaks on personal finance AI agents.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "9acdbd399d88",
+   "title": "US senators urge White House AI chief to fix vulnerabilities after mass outages",
+   "url": "https://www.theguardian.com/us-news/2026/nov/18/jay-clayton-ai-tech-outages-infrastructure",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-11-18T17:25:00.000Z",
+   "firstSeen": 1795024580090,
+   "summary": "As Democrats flag AI bank breaches and cyber-attacks in Japan, Jay Clayton says system failures happen US politics live – latest updates A bipartisan pair of US senators are calling on Jay Clayton, the director of national intelligence and AI czar, to identify and fix vulnerabilities in the US’s infrastructure…",
+   "topics": [
+    "security",
+    "regulation",
+    "incidents"
+   ],
+   "tags": [
+    "Vulnerability",
+    "USA"
+   ],
+   "score": 17,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "1af6f89d2fe0",
+   "title": "Java4Shell Flaw Threatens Global Enterprises, Java Application Ecosystem",
+   "url": "https://www.darkreading.com/vulnerabilities-threats/java4shell-flaw-threatens-global-java-application-ecosystem",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-18T16:54:52.000Z",
+   "firstSeen": 1795024580090,
+   "summary": "Discovered using AI, the memory corruption vulnerability affects the OpenJDK runtime and could allow unauthenticated attackers to take over systems.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "be6a6173137e",
+   "title": "Artex Is Criminals’ New Favorite ‘Point-and-Shoot’ AI Hacking Tool",
+   "url": "https://www.wired.com/story/artex-ai-hacking-tools/",
+   "source": "WIRED AI",
+   "sourceId": "wired-ai",
+   "published": "2026-11-18T16:35:24.000Z",
+   "firstSeen": 1795024580090,
+   "summary": "Artex and similar penetration testing tools allow newbie hackers to scan targeted systems for vulnerabilities and successfully wage attacks using prompts fed to chatbots.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability"
+   ],
+   "score": 12,
+   "action": false,
+   "also": [
+    {
+     "id": "be6a6173137e",
+     "source": "WIRED Security",
+     "sourceId": "wired-security",
+     "title": "Artex Is Criminals’ New Favorite ‘Point-and-Shoot’ AI Hacking Tool",
+     "url": "https://www.wired.com/story/artex-ai-hacking-tools/",
+     "published": "2026-11-18T16:35:24.000Z",
+     "firstSeen": 1795024580090,
+     "summary": "Artex and similar penetration testing tools allow newbie hackers to scan targeted systems for vulnerabilities and successfully wage attacks using prompts fed to chatbots."
+    }
+   ]
+  },
+  {
+   "id": "dd1376193904",
+   "title": "Remember the frontier AI pause? Chip companies don’t either",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+   "source": "The Verge AI",
+   "sourceId": "verge-ai",
+   "published": "2026-11-18T15:44:02.000Z",
+   "firstSeen": 1795024580090,
+   "summary": "This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging Face and early evidence suggested that its next model could independently find and exploit security flaws. In September, Anthropic CEO Dario Amodei called for slowing advances in the most powerful AI…",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "AI agents",
+    "OpenAI",
+    "Anthropic"
+   ],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "9f91b88b9af3",
+   "title": "VeroSecurity Raises $11 Million for AI Security Engineering Platform",
+   "url": "https://www.securityweek.com/verosecurity-raises-11-million-for-ai-security-engineering-platform/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-18T15:30:42.000Z",
+   "firstSeen": 1795024580090,
+   "summary": "AI Security Engineering is a new and essential security discipline now being brought into focus by VeroSecurity.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 18,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "00070fa5ca22",
+   "title": "Incode’s extends fraud protection to AI agents with biometric liveness",
+   "url": "https://www.biometricupdate.com/202611/incodes-extends-fraud-protection-to-ai-agents-with-biometric-liveness",
+   "source": "Biometric Update",
+   "sourceId": "biometric",
+   "published": "2026-11-18T15:17:30.000Z",
+   "firstSeen": 1795024580090,
+   "summary": "AI agents are showing up to banks, commercial websites and online service portals on behalf of both legitimate customers and fraudsters, and often with equally valid credentials. To help businesses sort agents acting on behalf of legitimate users from agentic fraud attempts, Incode has introduced biometric Know Your…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "AI agents",
+    "Biometrics"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "3aa6604f0fb6",
+   "title": "Suspicious Minds: Unmonitorable AI Undermines Accountability",
+   "url": "https://www.lawfaremedia.org/article/suspicious-minds--unmonitorable-ai-undermines-accountability",
+   "source": "Lawfare",
+   "sourceId": "lawfare",
+   "published": "2026-11-18T15:02:01.000Z",
+   "firstSeen": 1795024580090,
+   "summary": "Advances in AI capabilities cannot come at the expense of AI scrutability.",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "641aff2186b5",
+   "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
+   "url": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-11-18T15:00:10.000Z",
+   "firstSeen": 1795024580090,
+   "summary": "Attackers are using deepfakes, helpdesk impersonation, and fake IT support requests to deceive employees and gain unauthorized access to corporate systems. Specops Software examines real-world attacks and explains how stronger identity verification can help organizations prevent social engineering threats.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Deepfakes"
+   ],
+   "score": 14,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "6ad4d3b1fd53",
+   "title": "Most SecOps Leaders Are Changing the L1 Role as Agent Use Grows",
+   "url": "https://www.infosecurity-magazine.com/news/secops-changing-l1-role-as-agent/",
+   "source": "Infosecurity Magazine",
+   "sourceId": "infosecmag",
+   "published": "2026-11-18T15:00:00.000Z",
+   "firstSeen": 1795024580090,
+   "summary": "Security leaders are rapidly redesigning SOCs for the AI agent era, with 74% already deploying the technology",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 1,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "728492443c99",
+   "title": "OX Security Launches OX Radar and Response Center to Show Companies Which Cyber Threats Actually Affect Them",
+   "url": "https://www.csoonline.com/article/4250228/ox-security-launches-ox-radar-and-response-center-to-show-companies-which-cyber-threats-actually-affect-them-2.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-11-18T14:54:07.000Z",
+   "firstSeen": 1795024580090,
+   "summary": "New technology monitors critical vulnerabilities and supply chain threats, automatically assessing customer exposure and guiding remediation OX Security, a leader in AI-native application protection, today announced the launch of OX Radar and Response Center, giving security teams one place to track high-priority…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Supply chain",
+    "Vulnerability"
+   ],
+   "score": 10,
+   "action": true,
+   "also": []
+  },
+  {
+   "id": "ef406a4eb2d7",
+   "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
+   "url": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-18T12:15:00.000Z",
+   "firstSeen": 1795024580090,
+   "summary": "TL;DR Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure day. AI pentesting vendors aren't interchangeable. Most look convincing in a demo. The gaps show up…",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "Vulnerability"
+   ],
+   "score": 12,
+   "action": true,
+   "also": []
+  },
+  {
+   "id": "355fbebb7feb",
+   "title": "Microsoft Takes Perception Agentic Security Platform Out of Preview",
+   "url": "https://www.securityweek.com/microsoft-takes-perception-agentic-security-platform-out-of-preview/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-18T12:14:23.000Z",
+   "firstSeen": 1795024580090,
+   "summary": "Four blue team agents and the Recon Agent are now generally available, while integrations and vulnerability shielding are in preview.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents",
+    "Vulnerability",
+    "Microsoft"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "892fa93f4043",
+   "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
+   "url": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-18T11:03:57.000Z",
+   "firstSeen": 1795024580090,
+   "summary": "AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with time-to-exploit now down to a single day. Security testing has to keep up with both. AI pentesting has emerged as a way…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability",
+    "Privacy"
+   ],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "5675b059aefa",
+   "title": "Three AI Models Agree on Just One of 121 Potential Code Flaws",
+   "url": "https://www.infosecurity-magazine.com/news/ai-models-vulnerability-findings/",
+   "source": "Infosecurity Magazine",
+   "sourceId": "infosecmag",
+   "published": "2026-11-18T10:00:00.000Z",
+   "firstSeen": 1795024580090,
+   "summary": "Echo tested Claude Mythos, GPT-5.6 Sol and GLM-5.3 on the same code and found little overlap",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
   {
    "id": "cd0232ca0b44",
    "title": "Ubuntu AI security patches are here, if you’re willing to test them yourself",
@@ -923,7 +1248,7 @@
    "sourceId": "darkreading",
    "published": "2026-11-17T13:12:56.000Z",
    "firstSeen": 1794939862208,
-   "summary": "Two AI agents, separately over a five-day period, autonomously tried to access connected applications, including Google Calendar, Gmail, Slack, and GitHub, without account owner approval.",
+   "summary": "Two AI agents, separately over a five-day period, autonomously tried to access connected applications, including Google Calendar, Gmail, Slack, and GitHub, without account owner permission.",
    "topics": [
     "security"
    ],
@@ -1657,6 +1982,26 @@
    "also": []
   },
   {
+   "id": "4a54402848e1",
+   "title": "The AI Threat Landscape in 2026: What You Need to Know",
+   "url": "https://cloudsecurityalliance.org/articles/the-ai-threat-landscape-in-2026-what-you-need-to-know",
+   "source": "Cloud Security Alliance",
+   "sourceId": "csa",
+   "published": "2026-11-16T18:11:54.000Z",
+   "firstSeen": 1795024580090,
+   "summary": "Artificial intelligence is changing cybercrime, but not necessarily by creating new types of attacks. Instead, AI is making familiar threats faster, cheaper, and easier to carry out. Phishing, identity fraud, credential theft, and attacks on software systems can now happen on a much larger scale. They used to require…",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "Phishing"
+   ],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
    "id": "087ea47b7649",
    "title": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
    "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
@@ -2266,7 +2611,7 @@
      "id": "566c9c2841c6",
      "source": "Dark Reading",
      "sourceId": "darkreading",
-     "title": "Cursor Traces Malicious Claude Code Extension to Third-Party Breach",
+     "title": "Cursor Traces Malicious Claude Code Extensions to Third-Party Breach",
      "url": "https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach",
      "published": "2026-11-17T18:38:37.000Z",
      "firstSeen": 1794964369750,
@@ -2367,7 +2712,7 @@
    "sourceId": "darkreading",
    "published": "2026-11-13T22:27:00.000Z",
    "firstSeen": 1794581456096,
-   "summary": "It's hard to detect whether someone is using artificial intelligence (AI) to cheat on IT certification exams, but new tools and processes are emerging to boost trust.",
+   "summary": "It's hard to detect whether someone is using artificial intelligence to cheat on IT certification exams, but new tools and processes are emerging to boost trust.",
    "topics": [
     "security"
    ],
@@ -8374,6 +8719,23 @@
    "also": []
   },
   {
+   "id": "ebc6d589bb54",
+   "title": "Northflank security breach leads to abuse of customers' AI API keys",
+   "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-10-31T18:01:12.000Z",
+   "firstSeen": 1793474969759,
+   "summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [],
+   "score": 14,
+   "action": false,
+   "also": []
+  },
+  {
    "id": "722314e99c30",
    "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
    "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
@@ -8408,19 +8770,9 @@
    "tags": [
     "AI agents"
    ],
-   "score": 31,
+   "score": 28,
    "action": false,
    "also": [
-    {
-     "id": "ebc6d589bb54",
-     "source": "BleepingComputer",
-     "sourceId": "bleeping",
-     "title": "Northflank security breach leads to abuse of customers' AI API keys",
-     "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
-     "published": "2026-10-31T18:01:12.000Z",
-     "firstSeen": 1793474969759,
-     "summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys."
-    },
     {
      "id": "008fd44e89c1",
      "source": "Infosecurity Magazine",
@@ -13482,119 +13834,6 @@
     "OpenAI"
    ],
    "score": 4,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "89172a03570e",
-   "title": "WhatsApp Help Pages Leaked Hidden Instructions for a Meta Chatbot",
-   "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
-   "source": "WIRED Security",
-   "sourceId": "wired-security",
-   "published": "2026-10-19T16:00:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Around 80 pages on WhatsApp’s website exposed instructions that were designed for its chatbot, including “WHAT NOT TO SAY.” Meta says a bug caused the issue.",
-   "topics": [
-    "incidents"
-   ],
-   "tags": [
-    "Meta"
-   ],
-   "score": 10,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "1d5d64c0d2cf",
-   "title": "Disney found a way to buy Character.AI without buying its lawsuits",
-   "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
-   "source": "Ars Technica AI",
-   "sourceId": "ars-ai",
-   "published": "2026-10-19T14:45:43.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Character.AI faces claims its bots encouraged minors to self-harm and kill their parents.",
-   "topics": [
-    "regulation"
-   ],
-   "tags": [],
-   "score": 8,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "3e1eb9376880",
-   "title": "OpenCode Breach Could Affect OpenAI, Anthropic and Google",
-   "url": "https://www.infosecurity-magazine.com/news/opencode-breach-openai-anthropic/",
-   "source": "Infosecurity Magazine",
-   "sourceId": "infosecmag",
-   "published": "2026-10-19T13:30:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "A breach affecting the OpenCode Console may lead to the exposure of API keys for Anthropic, OpenAI and Google Gemini users",
-   "topics": [
-    "incidents"
-   ],
-   "tags": [
-    "OpenAI",
-    "Anthropic",
-    "Google"
-   ],
-   "score": 10,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "774f1533cb90",
-   "title": "Microsoft, Nvidia push provenance checks as open-weight AI adoption accelerates",
-   "url": "https://www.csoonline.com/article/4237095/microsoft-nvidia-push-provenance-checks-as-open-weight-ai-adoption-accelerates.html",
-   "source": "CSO Online",
-   "sourceId": "csoonline",
-   "published": "2026-10-19T12:34:25.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Microsoft and Nvidia are urging enterprises to assess the security of open-weight AI models throughout deployment, warning that changes to model weights and configurations can weaken safeguards even when a model retains its ability to perform assigned tasks. In a joint paper published last week, the companies…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Microsoft"
-   ],
-   "score": 7,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "ca003f5b4f41",
-   "title": "Training AIs to Solve CAPTCHAs",
-   "url": "https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html",
-   "source": "Schneier on Security",
-   "sourceId": "schneier",
-   "published": "2026-10-19T11:07:43.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Interesting research: Abstract: Vision-language models (VLMs) can solve visual CAPTCHAs without task-specific training, but the agents built on them approach every challenge from scratch. For such an agent, the hundredth instance of a familiar puzzle costs as much time and compute as the first. Specialized detectors…",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 0,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "8cafabc72e79",
-   "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
-   "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
-   "source": "MIT Technology Review AI",
-   "sourceId": "mittr-ai",
-   "published": "2026-10-19T09:08:05.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to…",
-   "topics": [
-    "research"
-   ],
-   "tags": [
-    "AI agents",
-    "Anthropic"
-   ],
-   "score": 8,
    "action": false,
    "also": []
   },
