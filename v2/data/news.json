@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-11-18T17:56:20.090Z",
+ "generatedAt": "2026-11-19T00:11:47.570Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 41,
   "fetched": 896,
-  "relevant": 767,
-  "stories": 665,
+  "relevant": 779,
+  "stories": 677,
   "duplicatesMerged": 102
  },
  "sources": [
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 1071
+   "ms": 788
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 62
+   "ms": 30
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 839
+   "ms": 447
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 918
+   "ms": 587
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 3,
    "kept": 3,
-   "ms": 414
+   "ms": 256
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1206
+   "ms": 496
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 2042
+   "ms": 1366
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 877
+   "ms": 514
   },
   {
    "id": "cnil",
@@ -86,7 +86,7 @@
    "url": "https://www.cnil.fr/en/rss.xml",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1390
+   "ms": 446
   },
   {
    "id": "nist",
@@ -95,7 +95,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 494
+   "ms": 157
   },
   {
    "id": "ncsc-uk",
@@ -104,7 +104,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 147
+   "ms": 77
   },
   {
    "id": "cisa",
@@ -113,7 +113,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 94
+   "ms": 69
   },
   {
    "id": "fedscoop",
@@ -122,7 +122,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 105
+   "ms": 116
   },
   {
    "id": "nextgov",
@@ -131,7 +131,7 @@
    "ok": true,
    "items": 25,
    "kept": 25,
-   "ms": 425
+   "ms": 68
   },
   {
    "id": "techcrunch-ai",
@@ -140,7 +140,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 52
+   "ms": 62
   },
   {
    "id": "venturebeat-ai",
@@ -148,7 +148,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 152
+   "ms": 118
   },
   {
    "id": "verge-ai",
@@ -157,7 +157,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 62
+   "ms": 248
   },
   {
    "id": "ars-ai",
@@ -166,7 +166,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 473
+   "ms": 232
   },
   {
    "id": "wired-ai",
@@ -175,7 +175,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 143
+   "ms": 113
   },
   {
    "id": "guardian-ai",
@@ -184,7 +184,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 291
+   "ms": 112
   },
   {
    "id": "mittr-ai",
@@ -193,7 +193,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 140
+   "ms": 141
   },
   {
    "id": "register-ai",
@@ -202,7 +202,7 @@
    "ok": true,
    "items": 40,
    "kept": 7,
-   "ms": 760
+   "ms": 601
   },
   {
    "id": "biometric",
@@ -211,7 +211,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 881
+   "ms": 784
   },
   {
    "id": "krebs",
@@ -220,7 +220,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 149
+   "ms": 208
   },
   {
    "id": "securityweek",
@@ -229,7 +229,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 221
+   "ms": 231
   },
   {
    "id": "wired-security",
@@ -238,7 +238,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 22
+   "ms": 19
   },
   {
    "id": "csoonline",
@@ -247,7 +247,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 214
+   "ms": 196
   },
   {
    "id": "infosecmag",
@@ -256,7 +256,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 229
+   "ms": 323
   },
   {
    "id": "helpnet",
@@ -265,7 +265,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 101
+   "ms": 183
   },
   {
    "id": "therecord",
@@ -274,7 +274,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 168
+   "ms": 204
   },
   {
    "id": "thehackernews",
@@ -283,7 +283,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 441
+   "ms": 168
   },
   {
    "id": "bleeping",
@@ -292,7 +292,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 77
+   "ms": 168
   },
   {
    "id": "darkreading",
@@ -301,7 +301,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 510
+   "ms": 844
   },
   {
    "id": "schneier",
@@ -310,7 +310,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 146
+   "ms": 86
   },
   {
    "id": "google-security",
@@ -319,7 +319,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 768
+   "ms": 371
   },
   {
    "id": "msft-security",
@@ -328,7 +328,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 2166
+   "ms": 1117
   },
   {
    "id": "aws-security",
@@ -337,7 +337,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 160
+   "ms": 178
   },
   {
    "id": "unit42",
@@ -346,7 +346,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 135
+   "ms": 73
   },
   {
    "id": "trailofbits",
@@ -355,7 +355,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 631
+   "ms": 218
   },
   {
    "id": "embracethered",
@@ -364,7 +364,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 163
+   "ms": 78
   },
   {
    "id": "owasp-genai",
@@ -373,7 +373,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 201
+   "ms": 189
   },
   {
    "id": "willison-pi",
@@ -382,7 +382,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 331
+   "ms": 143
   },
   {
    "id": "csa",
@@ -391,7 +391,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 738
+   "ms": 449
   },
   {
    "id": "openai",
@@ -400,7 +400,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 121
+   "ms": 107
   },
   {
    "id": "deepmind",
@@ -408,8 +408,8 @@
    "url": "https://deepmind.google/blog/rss.xml",
    "ok": true,
    "items": 40,
-   "kept": 12,
-   "ms": 501
+   "kept": 14,
+   "ms": 128
   },
   {
    "id": "huggingface",
@@ -417,11 +417,238 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 32,
-   "ms": 211
+   "kept": 31,
+   "ms": 139
   }
  ],
  "items": [
+  {
+   "id": "7d0ab9ba0e34",
+   "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+   "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "published": "2026-11-18T23:45:00.000Z",
+   "firstSeen": 1795047107570,
+   "summary": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Critical infrastructure",
+    "Microsoft"
+   ],
+   "score": 13,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "7814732be520",
+   "title": "AI unearths ‘internet breaker’ flaws in Nginx web server",
+   "url": "https://www.csoonline.com/article/4250460/ai-unearths-internet-breaker-flaws-in-nginx-web-server.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-11-18T23:36:40.000Z",
+   "firstSeen": 1795047107570,
+   "summary": "Nginx, the web server estimated to power a third of the internet, has shipped fixes for multiple vulnerabilities, including a critical unauthenticated remote code execution flaw that puts millions of websites at risk and has existed in the code for over a decade. Researchers from several security firms independently…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability"
+   ],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "58ffbf8bff15",
+   "title": "Australia has a reputation for being the most secretive democracy in the world. New laws could make it worse | Tom Sulston",
+   "url": "https://www.theguardian.com/commentisfree/2026/nov/19/australia-has-a-reputation-for-being-the-most-secretive-democracy-in-the-world-new-laws-could-make-it-worse",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-11-18T22:00:09.000Z",
+   "firstSeen": 1795047107570,
+   "summary": "A defence bill being rushed through parliament could expand the definition of ‘defence official’ and see AI datacentres deemed ‘defence security zones’ In 2019, the New York Times described Australia as “the world’s most secretive democracy”. Since then, a succession of defence, anti-terror and surveillance bills over…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "81d961284df1",
+   "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
+   "url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "published": "2026-11-18T21:34:13.000Z",
+   "firstSeen": 1795047107570,
+   "summary": "The Anduril co-founder says outdated technology is leaving systems vulnerable to a new wave of AI-enabled attacks.",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [],
+   "score": 13,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "491f9a9f42ef",
+   "title": "Leading figures condemn Anthropic for reckless race to recursive self-improvement",
+   "url": "https://futureoflife.org/statement/leaders-condemn-anthropic-for-race-to-rsi/",
+   "source": "Future of Life Institute",
+   "sourceId": "fli",
+   "published": "2026-11-18T21:04:15.000Z",
+   "firstSeen": 1795047107570,
+   "summary": "Experts agree that the breakneck pursuit of recursive self-improvement (RSI) – AI that can build itself – will rapidly create",
+   "topics": [
+    "governance"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "893e0f37110e",
+   "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
+   "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-11-18T20:49:32.000Z",
+   "firstSeen": 1795047107570,
+   "summary": "Coinbase says it blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of Elon Musk during a Tesla livestream that attracted more than 500,000 viewers.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Deepfakes"
+   ],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "57db7f2e589b",
+   "title": "Strike Graph Launches Integration AI to Automate Continuous Compliance Evidence Using Any Existing Tool",
+   "url": "https://www.darkreading.com/cyber-risk/strike-graph-launches-integration-ai-to-automate-continuous-compliance-evidence-using-any-existing-tool",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-18T20:45:49.000Z",
+   "firstSeen": 1795047107570,
+   "summary": "New agentic AI solution leverages APIs to collect compliance evidence from systems and applies it to over 30 frameworks with no duplicate work.",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "d84e6c259090",
+   "title": "Judge signs off on sale of Spirit Airlines’ data to Google",
+   "url": "https://therecord.media/judge-signs-off-google-purchase-spirit-airlines-data",
+   "source": "The Record",
+   "sourceId": "therecord",
+   "published": "2026-11-18T20:39:00.000Z",
+   "firstSeen": 1795047107570,
+   "summary": "Google can take possession of defunct Spirit Airlines' data for $10 million, a federal bankruptcy judge has ruled. The tech giant agreed to protections as it plans to use the data in AI projects.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Google",
+    "USA"
+   ],
+   "score": 0,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "5e7a926e61b2",
+   "title": "Tech lawsuits defined 2026 — and lawmakers want more",
+   "url": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
+   "source": "The Verge AI",
+   "sourceId": "verge-ai",
+   "published": "2026-11-18T19:07:29.000Z",
+   "firstSeen": 1795047107570,
+   "summary": "With just a few weeks remaining, lawmakers are trying to pass new protections for victims of online harm before the end of 2026, targeting deepfake creators and online platforms that block users from filing lawsuits. On Tuesday, members of a Senate Judiciary subcommittee hosted a hearing calling for the end of forced…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "Deepfakes",
+    "USA"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "4ef8e109e062",
+   "title": "An AI Debt Collection Service Exposed 6.6 Million Accounts and 315,000 Call Recordings",
+   "url": "https://www.wired.com/story/ai-debt-collection-service-exposed-66-million-accounts-and-315000-call-recordings/",
+   "source": "WIRED Security",
+   "sourceId": "wired-security",
+   "published": "2026-11-18T19:00:00.000Z",
+   "firstSeen": 1795047107570,
+   "summary": "A pair of serious vulnerabilities in the CreditNirvana platform would have allowed attackers to access troves of detailed sensitive information, including emails, texts, and credit reports.",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [
+    "Vulnerability"
+   ],
+   "score": 11,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "0888d0377168",
+   "title": "Lawmakers call on White House to develop defensive AI cyber systems",
+   "url": "https://therecord.media/ai-cyber-white-house",
+   "source": "The Record",
+   "sourceId": "therecord",
+   "published": "2026-11-18T19:00:00.000Z",
+   "firstSeen": 1795047107570,
+   "summary": "A bipartisan Senate duo urged the White House to launch a national effort to more robustly confront AI-enabled cyber threats in light of recent security incidents involving artificial intelligence.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "USA"
+   ],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "fe50d24c1d27",
+   "title": "Why your fine-tuning job takes longer than the FLOPs say",
+   "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+   "source": "Hugging Face",
+   "sourceId": "huggingface",
+   "published": "2026-11-18T18:53:43.000Z",
+   "firstSeen": 1795047107570,
+   "summary": "",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
   {
    "id": "4185c44064e9",
    "title": "Major AI platforms generated viable plans for terrorist attacks, GAO finds",
@@ -446,7 +673,7 @@
   },
   {
    "id": "94426b82eb61",
-   "title": "More banks says customers using AI agents are on their own — even if they get hacked",
+   "title": "More banks say customers using AI agents are on their own — even if they get hacked",
    "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
    "source": "TechCrunch AI",
    "sourceId": "techcrunch-ai",
@@ -589,9 +816,20 @@
     "AI agents",
     "Biometrics"
    ],
-   "score": 8,
+   "score": 11,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "3c43d94ac466",
+     "source": "Biometric Update",
+     "sourceId": "biometric",
+     "title": "Incode extends fraud protection to AI agents with biometric liveness",
+     "url": "https://www.biometricupdate.com/202611/incode-extends-fraud-protection-to-ai-agents-with-biometric-liveness",
+     "published": "2026-11-18T15:17:30.000Z",
+     "firstSeen": 1795047107570,
+     "summary": "AI agents are showing up to banks, commercial websites and online service portals on behalf of both legitimate customers and fraudsters, and often with equally valid credentials. To help businesses sort agents acting on behalf of legitimate users from agentic fraud attempts, Incode has introduced biometric Know Your…"
+    }
+   ]
   },
   {
    "id": "3aa6604f0fb6",
@@ -799,6 +1037,25 @@
    ],
    "tags": [],
    "score": 3,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "f6d4bc49afed",
+   "title": "Managing frontier AI risk: From training to deployment",
+   "url": "https://openai.com/index/managing-frontier-ai-risk",
+   "source": "OpenAI News",
+   "sourceId": "openai",
+   "published": "2026-11-18T06:00:00.000Z",
+   "firstSeen": 1795047107570,
+   "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+   "topics": [
+    "governance"
+   ],
+   "tags": [
+    "OpenAI"
+   ],
+   "score": 10,
    "action": false,
    "also": []
   },
@@ -6714,6 +6971,25 @@
    "also": []
   },
   {
+   "id": "5f58935a36e7",
+   "title": "Sysdig AI Defense puts runtime guardrails on AI agents",
+   "url": "https://www.helpnetsecurity.com/2026/11/05/sysdig-ai-defense/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-05T13:29:28.000Z",
+   "firstSeen": 1793900171568,
+   "summary": "Sysdig has announced the general availability of Sysdig AI Defense, giving organizations tools to monitor and control AI agent activity across endpoints and cloud environments. The platform checks agent actions against company policies to allow them, hold them for user approval or block them before completion. It also…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
    "id": "01c9f0333e3e",
    "title": "The Agent Smith Dilemma: Governing Agentic Identities",
    "url": "https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/",
@@ -7250,26 +7526,14 @@
    "firstSeen": 1793805607536,
    "summary": "Sysdig’s platform uses runtime visibility to track AI agent actions and block risky behavior before it reaches production systems.",
    "topics": [
-    "governance",
-    "security"
+    "governance"
    ],
    "tags": [
     "AI agents"
    ],
-   "score": 13,
+   "score": 10,
    "action": false,
-   "also": [
-    {
-     "id": "5f58935a36e7",
-     "source": "Help Net Security",
-     "sourceId": "helpnet",
-     "title": "Sysdig AI Defense puts runtime guardrails on AI agents",
-     "url": "https://www.helpnetsecurity.com/2026/11/05/sysdig-ai-defense/",
-     "published": "2026-11-05T13:29:28.000Z",
-     "firstSeen": 1793900171568,
-     "summary": "Sysdig has announced the general availability of Sysdig AI Defense, giving organizations tools to monitor and control AI agent activity across endpoints and cloud environments. The platform checks agent actions against company policies to allow them, hold them for user approval or block them before completion. It also…"
-    }
-   ]
+   "also": []
   },
   {
    "id": "03936bf74861",
@@ -13819,25 +14083,6 @@
    "also": []
   },
   {
-   "id": "710c0fbfaed9",
-   "title": "OpenAI Engineer Accused of Spying on Executives Ordered to Remain in Custody",
-   "url": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
-   "source": "WIRED Security",
-   "sourceId": "wired-security",
-   "published": "2026-10-19T19:49:17.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "A judge ordered Abdulrahman Alfozan to remain in custody, likening the Saudi government’s offer to secure the former OpenAI engineer’s release to a “blank check.”",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "OpenAI"
-   ],
-   "score": 4,
-   "action": false,
-   "also": []
-  },
-  {
    "id": "eb2e39b2b4c8",
    "title": "Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)",
    "url": "https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/",
@@ -13910,23 +14155,6 @@
    ],
    "tags": [],
    "score": 5,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "fe16229e148e",
-   "title": "Government leaders call for treaty negotiations on autonomous weapons to begin in November",
-   "url": "https://futureoflife.org/ai-policy/government-leaders-call-for-treaty-negotiations-on-autonomous-weapons-to-begin-in-november/",
-   "source": "Future of Life Institute",
-   "sourceId": "fli",
-   "published": "2026-09-28T13:34:15.000Z",
-   "firstSeen": 1794508367534,
-   "summary": "At a New York forum cosponsored by six governments, OHCHR, the ICRC, The Elders and FLI, ministers and UN officials called on states to begin negotiating a legally binding instrument on autonomous weapons at the CCW Review Conference in November.",
-   "topics": [
-    "governance"
-   ],
-   "tags": [],
-   "score": 0,
    "action": false,
    "also": []
   },
