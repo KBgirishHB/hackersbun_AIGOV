@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-11-19T00:11:47.570Z",
+ "generatedAt": "2026-11-19T07:48:59.733Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 41,
   "fetched": 896,
-  "relevant": 779,
-  "stories": 677,
+  "relevant": 781,
+  "stories": 679,
   "duplicatesMerged": 102
  },
  "sources": [
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 788
+   "ms": 884
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 30
+   "ms": 94
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 447
+   "ms": 693
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 587
+   "ms": 643
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 3,
    "kept": 3,
-   "ms": 256
+   "ms": 426
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 496
+   "ms": 800
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1366
+   "ms": 1729
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 514
+   "ms": 702
   },
   {
    "id": "cnil",
@@ -86,7 +86,7 @@
    "url": "https://www.cnil.fr/en/rss.xml",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 446
+   "ms": 853
   },
   {
    "id": "nist",
@@ -95,7 +95,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 157
+   "ms": 235
   },
   {
    "id": "ncsc-uk",
@@ -104,7 +104,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 77
+   "ms": 80
   },
   {
    "id": "cisa",
@@ -113,7 +113,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 69
+   "ms": 119
   },
   {
    "id": "fedscoop",
@@ -122,7 +122,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 116
+   "ms": 120
   },
   {
    "id": "nextgov",
@@ -131,7 +131,7 @@
    "ok": true,
    "items": 25,
    "kept": 25,
-   "ms": 68
+   "ms": 109
   },
   {
    "id": "techcrunch-ai",
@@ -140,7 +140,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 62
+   "ms": 108
   },
   {
    "id": "venturebeat-ai",
@@ -148,7 +148,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 118
+   "ms": 156
   },
   {
    "id": "verge-ai",
@@ -157,7 +157,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 248
+   "ms": 105
   },
   {
    "id": "ars-ai",
@@ -166,7 +166,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 232
+   "ms": 296
   },
   {
    "id": "wired-ai",
@@ -175,7 +175,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 113
+   "ms": 166
   },
   {
    "id": "guardian-ai",
@@ -184,7 +184,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 112
+   "ms": 272
   },
   {
    "id": "mittr-ai",
@@ -193,7 +193,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 141
+   "ms": 200
   },
   {
    "id": "register-ai",
@@ -202,7 +202,7 @@
    "ok": true,
    "items": 40,
    "kept": 7,
-   "ms": 601
+   "ms": 667
   },
   {
    "id": "biometric",
@@ -211,7 +211,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 784
+   "ms": 680
   },
   {
    "id": "krebs",
@@ -220,7 +220,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 208
+   "ms": 271
   },
   {
    "id": "securityweek",
@@ -229,7 +229,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 231
+   "ms": 270
   },
   {
    "id": "wired-security",
@@ -238,7 +238,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 19
+   "ms": 26
   },
   {
    "id": "csoonline",
@@ -247,7 +247,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 196
+   "ms": 228
   },
   {
    "id": "infosecmag",
@@ -256,7 +256,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 323
+   "ms": 314
   },
   {
    "id": "helpnet",
@@ -265,7 +265,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 183
+   "ms": 224
   },
   {
    "id": "therecord",
@@ -274,7 +274,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 204
+   "ms": 164
   },
   {
    "id": "thehackernews",
@@ -283,7 +283,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 168
+   "ms": 204
   },
   {
    "id": "bleeping",
@@ -292,7 +292,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 168
+   "ms": 151
   },
   {
    "id": "darkreading",
@@ -301,7 +301,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 844
+   "ms": 634
   },
   {
    "id": "schneier",
@@ -310,7 +310,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 86
+   "ms": 96
   },
   {
    "id": "google-security",
@@ -319,7 +319,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 371
+   "ms": 739
   },
   {
    "id": "msft-security",
@@ -328,7 +328,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1117
+   "ms": 3124
   },
   {
    "id": "aws-security",
@@ -337,7 +337,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 178
+   "ms": 193
   },
   {
    "id": "unit42",
@@ -346,7 +346,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 73
+   "ms": 93
   },
   {
    "id": "trailofbits",
@@ -355,7 +355,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 218
+   "ms": 324
   },
   {
    "id": "embracethered",
@@ -364,7 +364,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 78
+   "ms": 97
   },
   {
    "id": "owasp-genai",
@@ -373,7 +373,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 189
+   "ms": 237
   },
   {
    "id": "willison-pi",
@@ -382,7 +382,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 143
+   "ms": 112
   },
   {
    "id": "csa",
@@ -391,7 +391,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 449
+   "ms": 744
   },
   {
    "id": "openai",
@@ -400,7 +400,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 107
+   "ms": 212
   },
   {
    "id": "deepmind",
@@ -409,7 +409,7 @@
    "ok": true,
    "items": 40,
    "kept": 14,
-   "ms": 128
+   "ms": 245
   },
   {
    "id": "huggingface",
@@ -418,10 +418,46 @@
    "ok": true,
    "items": 40,
    "kept": 31,
-   "ms": 139
+   "ms": 176
   }
  ],
  "items": [
+  {
+   "id": "3ec495cbc7f2",
+   "title": "AI agents inherit employee access, and nobody’s watching how they use it",
+   "url": "https://www.helpnetsecurity.com/2026/11/19/ai-agents-employee-credentials-nudge-security-report/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-19T05:00:37.000Z",
+   "firstSeen": 1795074539733,
+   "summary": "AI agents that employees build inside project trackers, CRMs and automation tools often run on the credentials of the person who created them and carry that person’s access to company data, according to Nudge Security. Source: Nudge Security The AI Adoption in Practice 2026 report draws on anonymized, aggregated…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "8100ae0fed45",
+   "title": "Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion",
+   "url": "https://www.securityweek.com/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-19T03:25:23.000Z",
+   "firstSeen": 1795074539733,
+   "summary": "The all-stock deal will give the cybersecurity company a platform for fine-tuning and running open-weight AI models in public and sovereign clouds.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
   {
    "id": "7d0ab9ba0e34",
    "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
