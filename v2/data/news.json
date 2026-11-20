@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-11-20T06:57:53.331Z",
+ "generatedAt": "2026-11-20T16:01:15.160Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 44,
-  "fetched": 947,
-  "relevant": 788,
-  "stories": 683,
+  "sourcesOk": 42,
+  "fetched": 908,
+  "relevant": 786,
+  "stories": 681,
   "duplicatesMerged": 105
  },
  "sources": [
@@ -18,16 +18,15 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 806
+   "ms": 974
   },
   {
    "id": "aiact-newsletter",
    "name": "EU AI Act Newsletter",
    "url": "https://artificialintelligenceact.substack.com/feed",
-   "ok": true,
-   "items": 20,
-   "kept": 3,
-   "ms": 83
+   "ok": false,
+   "error": "HTTP 403",
+   "ms": 60
   },
   {
    "id": "fli",
@@ -36,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 1062
+   "ms": 1107
   },
   {
    "id": "algorithmwatch",
@@ -45,16 +44,16 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 1016
+   "ms": 1396
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 5,
-   "kept": 5,
-   "ms": 121
+   "items": 6,
+   "kept": 6,
+   "ms": 319
   },
   {
    "id": "euractiv",
@@ -63,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 613
+   "ms": 746
   },
   {
    "id": "edpb",
@@ -71,16 +70,15 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1344
+   "ms": 1855
   },
   {
    "id": "europarl",
    "name": "European Parliament",
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
-   "ok": true,
-   "items": 20,
-   "kept": 20,
-   "ms": 405
+   "ok": false,
+   "error": "not an RSS/Atom feed",
+   "ms": 505
   },
   {
    "id": "cnil",
@@ -89,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 489
+   "ms": 510
   },
   {
    "id": "nist",
@@ -98,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 220
+   "ms": 180
   },
   {
    "id": "ncsc-uk",
@@ -107,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 62
+   "ms": 137
   },
   {
    "id": "cisa",
@@ -116,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 86
+   "ms": 105
   },
   {
    "id": "fedscoop",
@@ -125,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 116
+   "ms": 121
   },
   {
    "id": "nextgov",
@@ -134,7 +132,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 539
+   "ms": 374
   },
   {
    "id": "techcrunch-ai",
@@ -143,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 43
+   "ms": 65
   },
   {
    "id": "venturebeat-ai",
@@ -151,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 51
+   "ms": 125
   },
   {
    "id": "verge-ai",
@@ -160,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 32
+   "ms": 127
   },
   {
    "id": "ars-ai",
@@ -169,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 294
+   "ms": 398
   },
   {
    "id": "wired-ai",
@@ -178,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 50
+   "ms": 126
   },
   {
    "id": "guardian-ai",
@@ -187,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 188
+   "ms": 107
   },
   {
    "id": "mittr-ai",
@@ -196,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 56
+   "ms": 166
   },
   {
    "id": "register-ai",
@@ -204,8 +202,8 @@
    "url": "https://www.theregister.com/software/ai_ml/headlines.atom",
    "ok": true,
    "items": 40,
-   "kept": 7,
-   "ms": 590
+   "kept": 6,
+   "ms": 599
   },
   {
    "id": "biometric",
@@ -214,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 702
+   "ms": 794
   },
   {
    "id": "krebs",
@@ -222,8 +220,8 @@
    "url": "https://krebsonsecurity.com/feed/",
    "ok": true,
    "items": 10,
-   "kept": 6,
-   "ms": 127
+   "kept": 5,
+   "ms": 202
   },
   {
    "id": "securityweek",
@@ -232,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 79
+   "ms": 112
   },
   {
    "id": "wired-security",
@@ -241,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 23
+   "ms": 24
   },
   {
    "id": "csoonline",
@@ -250,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 90
+   "ms": 214
   },
   {
    "id": "infosecmag",
@@ -259,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 203
+   "ms": 279
   },
   {
    "id": "helpnet",
@@ -268,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 33
+   "ms": 118
   },
   {
    "id": "therecord",
@@ -277,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 161
+   "ms": 193
   },
   {
    "id": "thehackernews",
@@ -286,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 148
+   "ms": 370
   },
   {
    "id": "bleeping",
@@ -295,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 38
+   "ms": 85
   },
   {
    "id": "darkreading",
@@ -304,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 391
+   "ms": 1493
   },
   {
    "id": "schneier",
@@ -313,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 72
+   "ms": 151
   },
   {
    "id": "google-security",
@@ -322,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 490
+   "ms": 431
   },
   {
    "id": "msft-security",
@@ -331,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 2100
+   "ms": 1226
   },
   {
    "id": "aws-security",
@@ -340,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 75
+   "ms": 170
   },
   {
    "id": "unit42",
@@ -348,8 +346,8 @@
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
    "items": 15,
-   "kept": 12,
-   "ms": 81
+   "kept": 11,
+   "ms": 126
   },
   {
    "id": "trailofbits",
@@ -357,8 +355,8 @@
    "url": "https://blog.trailofbits.com/feed/",
    "ok": true,
    "items": 20,
-   "kept": 4,
-   "ms": 315
+   "kept": 3,
+   "ms": 356
   },
   {
    "id": "embracethered",
@@ -367,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 165
+   "ms": 136
   },
   {
    "id": "owasp-genai",
@@ -376,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 59
+   "ms": 176
   },
   {
    "id": "willison-pi",
@@ -385,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 672
+   "ms": 570
   },
   {
    "id": "csa",
@@ -394,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 255
+   "ms": 230
   },
   {
    "id": "openai",
@@ -403,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 107
+   "ms": 127
   },
   {
    "id": "deepmind",
@@ -412,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 14,
-   "ms": 156
+   "ms": 213
   },
   {
    "id": "huggingface",
@@ -420,11 +418,195 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 31,
-   "ms": 130
+   "kept": 32,
+   "ms": 185
   }
  ],
  "items": [
+  {
+   "id": "8cf9105afb93",
+   "title": "The D.C. Circuit Curbed Pro-executive Panels Before. Is Anthropic’s Case Next?",
+   "url": "https://www.lawfaremedia.org/article/the-d.c.-circuit-curbed-pro-executive-panels-before.-is-anthropic-s-case-next",
+   "source": "Lawfare",
+   "sourceId": "lawfare",
+   "published": "2026-11-20T15:00:07.000Z",
+   "firstSeen": 1795190475160,
+   "summary": "In three major cases since 2018, the D.C. Circuit has reversed rulings that sided with the executive. That record suggests the full court will likely rehear Anthropic’s challenge to its Pentagon blacklisting.",
+   "topics": [
+    "governance"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "f59538d1fc19",
+   "title": "In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit",
+   "url": "https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-20T14:56:23.000Z",
+   "firstSeen": 1795190475160,
+   "summary": "Noteworthy stories that might have slipped under the radar: EU adds NoName057(16) to cyber sanctions list, malware targets CACs left in personal computers, Gemini agents targeted Epoch AI.",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "Google"
+   ],
+   "score": 14,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "47a0352eb161",
+   "title": "Phew! Some Regulatory Relief for AI Hacks",
+   "url": "https://www.lawfaremedia.org/article/phew!-some-regulatory-relief-for-ai-hacks",
+   "source": "Lawfare",
+   "sourceId": "lawfare",
+   "published": "2026-11-20T13:00:02.000Z",
+   "firstSeen": 1795190475160,
+   "summary": "The latest edition of the Seriously Risky Business cybersecurity newsletter, now on Lawfare.",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [],
+   "score": 11,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "7fa1bbdb2364",
+   "title": "Industry Reactions to Major Outages and AI Patching Debate: Feedback Friday",
+   "url": "https://www.securityweek.com/industry-reactions-to-major-outages-and-ai-patching-questions-feedback-friday/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-20T12:38:55.000Z",
+   "firstSeen": 1795190475160,
+   "summary": "Experts commented on whether AI-accelerated patching played a role, the need for tested rollback plans, and the fragility of interconnected systems.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "c38030e1dcbf",
+   "title": "The Path to AI Autonomy in the SOC",
+   "url": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-20T12:00:00.000Z",
+   "firstSeen": 1795190475160,
+   "summary": "Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agents act autonomously on low-risk security actions. In 12 months from now, 60% expect to be comfortable at that level…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "4c0d1a56f773",
+   "title": "Don’t blame cyber-attacks for recent outages. The real villain is the US economy | Bruce Schneier",
+   "url": "https://www.theguardian.com/commentisfree/2026/nov/20/cyber-attacks-outages-blame-economy",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-11-20T11:00:31.000Z",
+   "firstSeen": 1795190475160,
+   "summary": "Our tech infrastructure is riddled with problems. But they’re all downstream of the incentives baked into shareholder capitalism It’s been a bad week for our computerized infrastructure. We’ve seen outages at Microsoft, the FAA, a handful of banks, United Airlines, an unnamed classified NSA network, and Apple. People…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Microsoft"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "94947b3124bb",
+   "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
+   "url": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-20T10:38:22.000Z",
+   "firstSeen": 1795190475160,
+   "summary": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks. \"Attackers now use automation and AI to find and exploit unsupported edge devices faster than ever,\"…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "4c0705c088d4",
+   "title": "Will AI break the internet? | Garrison Lovely",
+   "url": "https://www.theguardian.com/commentisfree/2026/nov/20/ai-internet-outages-apocalypse",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-11-20T10:00:31.000Z",
+   "firstSeen": 1795190475160,
+   "summary": "Frontier models can exploit software flaws faster than the world can fix them. And the risks extend far beyond the cyber realm You’re not crazy to feel the world is coming apart at the seams. Within the last week, outages took down core services at Microsoft, United Airlines and JPMorgan Chase. On Friday, all US…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Microsoft"
+   ],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "6eb7243e216d",
+   "title": "Do AI’s mathematical advances put PKI under threat?",
+   "url": "https://www.csoonline.com/article/4248694/do-ais-mathematical-advances-put-pki-under-threat.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-11-20T08:25:00.000Z",
+   "firstSeen": 1795190475160,
+   "summary": "Warnings by a leading cryptographer that industry-wide public-key cryptography could fail because of advances in AI has sparked a debate in the security community. In a series of post on X, Johns Hopkins cryptographer Matthew Green warned that existing public-key cryptography systems were at risk because machines have…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "6a53792281cb",
+   "title": "THE HACK: Capitals remix satellite services law",
+   "url": "https://www.rapporteur.com/news/the-hack-capitals-remix-satellite-services-law/",
+   "source": "Euractiv",
+   "sourceId": "euractiv",
+   "published": "2026-11-20T08:13:42.000Z",
+   "firstSeen": 1795190475160,
+   "summary": "In today's edition: AI agents, Commission cyberattack, Kids Act",
+   "topics": [
+    "regulation",
+    "incidents"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
   {
    "id": "f77d253b7654",
    "title": "Your AI red team may be finding the same prompt injection thousands of times",
@@ -633,7 +815,7 @@
     "security"
    ],
    "tags": [],
-   "score": 28,
+   "score": 34,
    "action": false,
    "also": [
     {
@@ -655,6 +837,26 @@
      "published": "2026-11-19T15:15:00.000Z",
      "firstSeen": 1795108542797,
      "summary": "POLITICO had reported CERT-EU had identified the attackers’ use of ARTEX, an open-source AI hacking platform that the FBI last week warned was being used both by criminals and state-sponsored groups."
+    },
+    {
+     "id": "fc69899c710d",
+     "source": "Help Net Security",
+     "sourceId": "helpnet",
+     "title": "European Commission confirms AI-generated cyberattack disrupted its systems",
+     "url": "https://www.helpnetsecurity.com/2026/11/20/european-commission-ai-generated-cyberattack-publicly-available-tool/",
+     "published": "2026-11-20T08:52:29.000Z",
+     "firstSeen": 1795190475160,
+     "summary": "The European Commission has confirmed it was hit by a cyberattack that misused a publicly available AI tool and forced the institution to take several of its applications offline. Commission spokesperson Thomas Regnier gave the confirmation at Thursday’s midday press briefing in Brussels. Politico was the first to…"
+    },
+    {
+     "id": "b13e411ec257",
+     "source": "SecurityWeek",
+     "sourceId": "securityweek",
+     "title": "European Commission Confirms AI-Assisted Cyberattack Disrupted Services",
+     "url": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
+     "published": "2026-11-20T10:51:42.000Z",
+     "firstSeen": 1795190475160,
+     "summary": "The Commission took certain services offline to contain the incident, but it has no evidence of a data breach."
     }
    ]
   },
@@ -5154,6 +5356,23 @@
    "tags": [],
    "score": 3,
    "action": false,
+   "also": []
+  },
+  {
+   "id": "f09f3f6cc46c",
+   "title": "Minimum Viable AI Security: 9 Steps to Build Your Program in 90 Days",
+   "url": "https://cloudsecurityalliance.org/articles/minimum-viable-ai-security-9-steps-to-build-your-program-in-90-days",
+   "source": "Cloud Security Alliance",
+   "sourceId": "csa",
+   "published": "2026-11-10T19:58:18.000Z",
+   "firstSeen": 1795190475160,
+   "summary": "CEOs want every AI tool adopted, teams have experimental AI budgets, and agents are entering through browsers, IDEs, SaaS apps, and cloud platforms all at once. For CISOs, the challenge is enabling this adoption while maintaining visibility and control, often with limited budgets and resources. The answer is not to…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 18,
+   "action": true,
    "also": []
   },
   {
@@ -13957,275 +14176,6 @@
      "summary": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks. The AI company said the incident took place on October 3 and 6, 2026, for Sol and Astra, respectively, as…"
     }
    ]
-  },
-  {
-   "id": "f7c4bd590079",
-   "title": "New PhaaS Platform Uses AI to Craft Phishing Lures and Mask Malicious Activity",
-   "url": "https://www.infosecurity-magazine.com/news/new-phaas-uses-ai-phishing-lures/",
-   "source": "Infosecurity Magazine",
-   "sourceId": "infosecmag",
-   "published": "2026-10-21T15:00:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Researchers have uncovered Athena StealthRoute, a phishing-as-a-service platform featuring an AI Studio that generates phishing lures and decoy content designed to conceal attacks",
-   "topics": [
-    "incidents"
-   ],
-   "tags": [
-    "Phishing"
-   ],
-   "score": 11,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "70bd50ef0dc1",
-   "title": "Your AI agent fixed the bug, but what else did it change?",
-   "url": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/",
-   "source": "Trail of Bits",
-   "sourceId": "trailofbits",
-   "published": "2026-10-21T15:00:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Today we’re publishing patching-bugs and regression-hunt, two plugins that let engineers delegate patch development and regression checks to agents. Our patching-bugs plugin reproduces reported bugs, develops fixes, and tests them. The regression-hunt plugin checks whether any changes break previously working and…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents"
-   ],
-   "score": 4,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "a592f059cc22",
-   "title": "‘This Is Not a Drill’: Critical PHP Vulnerabilities Are Setting the Internet on Fire",
-   "url": "https://www.wired.com/story/this-is-not-a-drill-2-php-vulnerabilities-are-setting-the-internet-on-fire/",
-   "source": "WIRED AI",
-   "sourceId": "wired-ai",
-   "published": "2026-10-21T14:26:19.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "The PHP Foundation has revealed two serious vulnerabilities that could impact millions of websites. Security experts warn that failure to quickly patch the flaws could have dire consequences.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Vulnerability"
-   ],
-   "score": 5,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "6b936ee464bc",
-   "title": "“Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities",
-   "url": "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/",
-   "source": "Unit 42",
-   "sourceId": "unit42",
-   "published": "2026-10-21T14:00:24.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "An investigation into a threat actor bypassing AI safety controls to coordinate credential theft, VoIP fraud planning, and database exfiltration.",
-   "topics": [
-    "security",
-    "incidents",
-    "governance"
-   ],
-   "tags": [],
-   "score": 23,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "c25b0399af06",
-   "title": "AI Guardrails Aren’t Stopping Criminal Hackers",
-   "url": "https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/",
-   "source": "WIRED AI",
-   "sourceId": "wired-ai",
-   "published": "2026-10-21T14:00:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Hackers around the world are all-in on using agentic AI to wage attacks—and manipulating tools like Anthropic’s Claude to help them carry out their crimes.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents",
-    "Anthropic"
-   ],
-   "score": 18,
-   "action": false,
-   "also": [
-    {
-     "id": "c25b0399af06",
-     "source": "WIRED Security",
-     "sourceId": "wired-security",
-     "title": "AI Guardrails Aren’t Stopping Criminal Hackers",
-     "url": "https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/",
-     "published": "2026-10-21T14:00:00.000Z",
-     "firstSeen": 1792728350456,
-     "summary": "Hackers around the world are all-in on using agentic AI to wage attacks—and manipulating tools like Anthropic’s Claude to help them carry out their crimes."
-    }
-   ]
-  },
-  {
-   "id": "1443f354ce18",
-   "title": "Symantec Uncovers AI Agent Hijacking Models for Autonomous Cyber-Attacks",
-   "url": "https://www.infosecurity-magazine.com/news/symantec-ai-agent-llmjacking/",
-   "source": "Infosecurity Magazine",
-   "sourceId": "infosecmag",
-   "published": "2026-10-21T14:00:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Researchers at Symantec have uncovered an AI agent designed to operate a full cyber-attack without human intervention",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents"
-   ],
-   "score": 20,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "95bf4cfcc526",
-   "title": "A Design Flaw in Share Links Exposes Users’ Personal Conversations With Meta’s Muse",
-   "url": "https://www.wired.com/story/a-design-flaw-in-share-links-exposes-users-personal-conversations-with-meta-muse/",
-   "source": "WIRED AI",
-   "sourceId": "wired-ai",
-   "published": "2026-10-21T12:35:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "The company is suspending the feature after security researchers discovered how easy it was to access sensitive information shared with the AI assistant.",
-   "topics": [
-    "research"
-   ],
-   "tags": [
-    "Meta"
-   ],
-   "score": 7,
-   "action": false,
-   "also": [
-    {
-     "id": "95bf4cfcc526",
-     "source": "WIRED Security",
-     "sourceId": "wired-security",
-     "title": "A Design Flaw in Share Links Exposes Users’ Personal Conversations With Meta’s Muse",
-     "url": "https://www.wired.com/story/a-design-flaw-in-share-links-exposes-users-personal-conversations-with-meta-muse/",
-     "published": "2026-10-21T12:35:00.000Z",
-     "firstSeen": 1792728350456,
-     "summary": "The company is suspending the feature after security researchers discovered how easy it was to access sensitive information shared with the AI assistant."
-    }
-   ]
-  },
-  {
-   "id": "3df655519972",
-   "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
-   "url": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
-   "source": "The Hacker News",
-   "sourceId": "thehackernews",
-   "published": "2026-10-21T11:53:34.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized, and unique to each recipient, and the behavioral signals email filters have relied on for years are fading as a result…",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 4,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "246ca95c3e67",
-   "title": "The Harness Is the Hard Part of Agentic Pentesting",
-   "url": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
-   "source": "The Hacker News",
-   "sourceId": "thehackernews",
-   "published": "2026-10-21T10:32:40.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the model. The harness is where the…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents"
-   ],
-   "score": 5,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "2d32faebad50",
-   "title": "Moving past autonomous exploitation to machine-speed security",
-   "url": "https://www.csoonline.com/article/4237926/moving-past-autonomous-exploitation-to-machine-speed-security.html",
-   "source": "CSO Online",
-   "sourceId": "csoonline",
-   "published": "2026-10-21T09:00:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Frontier AI advancements have created a world where exploitation outpaces defense. The average enterprise takes 32 to 43 days to patch, but the mean time to exploit a vulnerability is 10 hours. This asymmetry creates questions around how enterprises can trust autonomous AI to operate ubiquitously across their…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Vulnerability"
-   ],
-   "score": 8,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "f4569463ab5c",
-   "title": "14 ways attackers abuse cloud services to hack your enterprise",
-   "url": "https://www.csoonline.com/article/4142001/12-ways-attackers-abuse-cloud-services-to-hack-your-enterprise.html",
-   "source": "CSO Online",
-   "sourceId": "csoonline",
-   "published": "2026-10-21T08:25:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Attackers are increasingly abusing trusted SaaS platforms, cloud infrastructure, and identity systems to blend malicious activity into legitimate enterprise traffic. Adversaries are pushing command and control (C2) through high-reputation services, including OpenAI and AWS, to blend in with normal business traffic and…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "OpenAI"
-   ],
-   "score": 4,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "b4c70c78615d",
-   "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
-   "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
-   "source": "The Hacker News",
-   "sourceId": "thehackernews",
-   "published": "2026-10-21T08:04:17.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security order. They may also no longer buy information technology products or services from…",
-   "topics": [
-    "regulation"
-   ],
-   "tags": [
-    "USA"
-   ],
-   "score": 9,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "fcf25e2b7c1e",
-   "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-   "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-   "source": "OpenAI News",
-   "sourceId": "openai",
-   "published": "2026-10-21T07:00:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
-   "topics": [
-    "security",
-    "research"
-   ],
-   "tags": [
-    "Vulnerability"
-   ],
-   "score": 10,
-   "action": true,
-   "also": []
   },
   {
    "id": "eb2e39b2b4c8",
