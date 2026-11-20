@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-19T23:44:42.544Z",
+ "generatedAt": "2026-11-20T06:57:53.331Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 42,
-  "fetched": 907,
-  "relevant": 791,
-  "stories": 685,
-  "duplicatesMerged": 106
+  "sourcesOk": 44,
+  "fetched": 947,
+  "relevant": 788,
+  "stories": 683,
+  "duplicatesMerged": 105
  },
  "sources": [
   {
@@ -18,15 +18,16 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 820
+   "ms": 806
   },
   {
    "id": "aiact-newsletter",
    "name": "EU AI Act Newsletter",
    "url": "https://artificialintelligenceact.substack.com/feed",
-   "ok": false,
-   "error": "HTTP 403",
-   "ms": 98
+   "ok": true,
+   "items": 20,
+   "kept": 3,
+   "ms": 83
   },
   {
    "id": "fli",
@@ -35,7 +36,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 600
+   "ms": 1062
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +45,7 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 846
+   "ms": 1016
   },
   {
    "id": "lawfare",
@@ -53,7 +54,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 433
+   "ms": 121
   },
   {
    "id": "euractiv",
@@ -62,7 +63,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 826
+   "ms": 613
   },
   {
    "id": "edpb",
@@ -70,15 +71,16 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1653
+   "ms": 1344
   },
   {
    "id": "europarl",
    "name": "European Parliament",
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
-   "ok": false,
-   "error": "not an RSS/Atom feed",
-   "ms": 630
+   "ok": true,
+   "items": 20,
+   "kept": 20,
+   "ms": 405
   },
   {
    "id": "cnil",
@@ -87,7 +89,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 835
+   "ms": 489
   },
   {
    "id": "nist",
@@ -96,7 +98,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 194
+   "ms": 220
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +107,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 116
+   "ms": 62
   },
   {
    "id": "cisa",
@@ -114,7 +116,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 132
+   "ms": 86
   },
   {
    "id": "fedscoop",
@@ -123,7 +125,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 135
+   "ms": 116
   },
   {
    "id": "nextgov",
@@ -132,7 +134,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 261
+   "ms": 539
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +143,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 113
+   "ms": 43
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +151,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 238
+   "ms": 51
   },
   {
    "id": "verge-ai",
@@ -158,7 +160,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 213
+   "ms": 32
   },
   {
    "id": "ars-ai",
@@ -167,7 +169,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 451
+   "ms": 294
   },
   {
    "id": "wired-ai",
@@ -176,7 +178,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 301
+   "ms": 50
   },
   {
    "id": "guardian-ai",
@@ -185,7 +187,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 494
+   "ms": 188
   },
   {
    "id": "mittr-ai",
@@ -194,7 +196,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 269
+   "ms": 56
   },
   {
    "id": "register-ai",
@@ -203,7 +205,7 @@
    "ok": true,
    "items": 40,
    "kept": 7,
-   "ms": 1249
+   "ms": 590
   },
   {
    "id": "biometric",
@@ -212,7 +214,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 849
+   "ms": 702
   },
   {
    "id": "krebs",
@@ -221,7 +223,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 364
+   "ms": 127
   },
   {
    "id": "securityweek",
@@ -230,7 +232,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 248
+   "ms": 79
   },
   {
    "id": "wired-security",
@@ -239,7 +241,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 27
+   "ms": 23
   },
   {
    "id": "csoonline",
@@ -248,7 +250,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 198
+   "ms": 90
   },
   {
    "id": "infosecmag",
@@ -257,7 +259,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 301
+   "ms": 203
   },
   {
    "id": "helpnet",
@@ -266,7 +268,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 115
+   "ms": 33
   },
   {
    "id": "therecord",
@@ -275,7 +277,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 191
+   "ms": 161
   },
   {
    "id": "thehackernews",
@@ -284,7 +286,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 254
+   "ms": 148
   },
   {
    "id": "bleeping",
@@ -293,7 +295,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 180
+   "ms": 38
   },
   {
    "id": "darkreading",
@@ -302,7 +304,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 550
+   "ms": 391
   },
   {
    "id": "schneier",
@@ -311,7 +313,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 113
+   "ms": 72
   },
   {
    "id": "google-security",
@@ -320,7 +322,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 374
+   "ms": 490
   },
   {
    "id": "msft-security",
@@ -329,7 +331,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1226
+   "ms": 2100
   },
   {
    "id": "aws-security",
@@ -338,7 +340,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 281
+   "ms": 75
   },
   {
    "id": "unit42",
@@ -347,7 +349,7 @@
    "ok": true,
    "items": 15,
    "kept": 12,
-   "ms": 118
+   "ms": 81
   },
   {
    "id": "trailofbits",
@@ -356,7 +358,7 @@
    "ok": true,
    "items": 20,
    "kept": 4,
-   "ms": 771
+   "ms": 315
   },
   {
    "id": "embracethered",
@@ -365,7 +367,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 154
+   "ms": 165
   },
   {
    "id": "owasp-genai",
@@ -374,7 +376,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 124
+   "ms": 59
   },
   {
    "id": "willison-pi",
@@ -383,7 +385,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 113
+   "ms": 672
   },
   {
    "id": "csa",
@@ -392,7 +394,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 562
+   "ms": 255
   },
   {
    "id": "openai",
@@ -401,7 +403,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 163
+   "ms": 107
   },
   {
    "id": "deepmind",
@@ -410,7 +412,7 @@
    "ok": true,
    "items": 40,
    "kept": 14,
-   "ms": 356
+   "ms": 156
   },
   {
    "id": "huggingface",
@@ -419,10 +421,49 @@
    "ok": true,
    "items": 40,
    "kept": 31,
-   "ms": 204
+   "ms": 130
   }
  ],
  "items": [
+  {
+   "id": "f77d253b7654",
+   "title": "Your AI red team may be finding the same prompt injection thousands of times",
+   "url": "https://www.helpnetsecurity.com/2026/11/20/ai-prompt-injection-red-team/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-20T06:30:20.000Z",
+   "firstSeen": 1795157873331,
+   "summary": "AI agents retrained on a bigger pile of prompt injection attacks came out easier to hijack in three of four tests run by researchers at the University of Waterloo, Zhejiang University and KTH Royal Institute of Technology. The automated red-teaming tool that found more working attacks produced the weaker defense…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Prompt injection",
+    "AI agents"
+   ],
+   "score": 25,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "b3f2380a8fb6",
+   "title": "AI agent API security hasn’t caught up with agents already running in production",
+   "url": "https://www.helpnetsecurity.com/2026/11/20/ai-agent-api-security-production/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-20T05:30:11.000Z",
+   "firstSeen": 1795157873331,
+   "summary": "Postman asked nearly 9,000 developers, architects and executives how they’re handling AI agents, and the answers tell a familiar story. Companies put the new thing to work first and left the question of who holds the keys for later. A quarter of the organizations that answered already have agents calling their APIs in…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
   {
    "id": "08d593f2b276",
    "title": "Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering",
@@ -14148,6 +14189,25 @@
    "also": []
   },
   {
+   "id": "b4c70c78615d",
+   "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
+   "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-10-21T08:04:17.000Z",
+   "firstSeen": 1792728350456,
+   "summary": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security order. They may also no longer buy information technology products or services from…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "USA"
+   ],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
    "id": "fcf25e2b7c1e",
    "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
    "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
@@ -14165,116 +14225,6 @@
    ],
    "score": 10,
    "action": true,
-   "also": []
-  },
-  {
-   "id": "615a6191b499",
-   "title": "US bans DeepSeek across federal agencies, putting AI supply chains under scrutiny",
-   "url": "https://www.csoonline.com/article/4238149/us-bans-deepseek-across-federal-agencies-putting-ai-supply-chains-under-scrutiny-2.html",
-   "source": "CSO Online",
-   "sourceId": "csoonline",
-   "published": "2026-10-21T01:55:45.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "DeepSeek has been dealt a huge blow in the US, even as it continues to innovate and keep pace with, or in some cases outperform, rival models from American labs. The US Secretary of Homeland Security has issued an order banning all DeepSeek products and services from federal agencies. Government organizations must…",
-   "topics": [
-    "regulation"
-   ],
-   "tags": [
-    "USA"
-   ],
-   "score": 12,
-   "action": false,
-   "also": [
-    {
-     "id": "b4c70c78615d",
-     "source": "The Hacker News",
-     "sourceId": "thehackernews",
-     "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
-     "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
-     "published": "2026-10-21T08:04:17.000Z",
-     "firstSeen": 1792728350456,
-     "summary": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security order. They may also no longer buy information technology products or services from…"
-    }
-   ]
-  },
-  {
-   "id": "c23924c084b2",
-   "title": "Enterprises should report AI breaches and ‘near misses,’ says UK financial regulator",
-   "url": "https://www.csoonline.com/article/4238124/enterprises-should-report-ai-breaches-and-near-misses-says-uk-financial-regulator.html",
-   "source": "CSO Online",
-   "sourceId": "csoonline",
-   "published": "2026-10-21T01:09:32.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Enterprises should be required to report “significant AI failures and near-misses,” UK Financial Conduct Authority (FCA) Chief Data Officer Jessica Rusu said Monday, adding to the drumbeat of demands for some kind of regulatory control over enterprise AI deployments. But her speech also highlighted regulator…",
-   "topics": [
-    "regulation",
-    "incidents"
-   ],
-   "tags": [
-    "UK"
-   ],
-   "score": 16,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "6896cb4b6827",
-   "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
-   "url": "https://openai.com/index/cloudflare-cyber",
-   "source": "OpenAI News",
-   "sourceId": "openai",
-   "published": "2026-10-21T00:00:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Vulnerability",
-    "OpenAI"
-   ],
-   "score": 8,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "862b72983b6b",
-   "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
-   "url": "https://openai.com/index/empowering-cyber-defenders",
-   "source": "OpenAI News",
-   "sourceId": "openai",
-   "published": "2026-10-21T00:00:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
-   "topics": [
-    "governance"
-   ],
-   "tags": [
-    "OpenAI"
-   ],
-   "score": 10,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "b836fe91443a",
-   "title": "The EU AI Act Newsletter #113: A Special Meeting on Loss of Control",
-   "url": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-113-a-special",
-   "source": "EU AI Act Newsletter",
-   "sourceId": "aiact-newsletter",
-   "published": "2026-10-20T05:29:31.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "The Scientific Panel briefs Virkkunen on recent incidents, the AI Office investigates OpenAI and Anthropic, and the first harmonised AI Act standard is published.",
-   "topics": [
-    "regulation"
-   ],
-   "tags": [
-    "EU AI Act",
-    "OpenAI",
-    "Anthropic"
-   ],
-   "score": 23,
-   "action": false,
    "also": []
   },
   {
