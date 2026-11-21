@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-21T03:25:30.479Z",
+ "generatedAt": "2026-11-21T11:39:10.647Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 42,
   "fetched": 907,
-  "relevant": 786,
-  "stories": 684,
-  "duplicatesMerged": 102
+  "relevant": 778,
+  "stories": 678,
+  "duplicatesMerged": 100
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 1165
+   "ms": 833
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 69
+   "ms": 116
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 714
+   "ms": 806
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 849
+   "ms": 863
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 182
+   "ms": 226
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 926
+   "ms": 710
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1718
+   "ms": 1856
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 552
+   "ms": 611
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 694
+   "ms": 626
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 454
+   "ms": 214
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 233
+   "ms": 118
   },
   {
    "id": "cisa",
@@ -114,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 63
+   "ms": 149
   },
   {
    "id": "fedscoop",
@@ -123,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 55
+   "ms": 158
   },
   {
    "id": "nextgov",
@@ -132,7 +132,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 367
+   "ms": 262
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 97
+   "ms": 155
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 157
+   "ms": 266
   },
   {
    "id": "verge-ai",
@@ -158,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 52
+   "ms": 292
   },
   {
    "id": "ars-ai",
@@ -167,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 357
+   "ms": 568
   },
   {
    "id": "wired-ai",
@@ -176,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 73
+   "ms": 457
   },
   {
    "id": "guardian-ai",
@@ -185,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 116
+   "ms": 576
   },
   {
    "id": "mittr-ai",
@@ -194,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 67
+   "ms": 455
   },
   {
    "id": "register-ai",
@@ -203,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 1112
+   "ms": 839
   },
   {
    "id": "biometric",
@@ -212,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 839
+   "ms": 1013
   },
   {
    "id": "krebs",
@@ -221,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 172
+   "ms": 421
   },
   {
    "id": "securityweek",
@@ -230,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 253
+   "ms": 200
   },
   {
    "id": "wired-security",
@@ -239,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 29
+   "ms": 28
   },
   {
    "id": "csoonline",
@@ -248,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 126
+   "ms": 170
   },
   {
    "id": "infosecmag",
@@ -257,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 286
+   "ms": 284
   },
   {
    "id": "helpnet",
@@ -266,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 111
+   "ms": 934
   },
   {
    "id": "therecord",
@@ -275,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 577
+   "ms": 128
   },
   {
    "id": "thehackernews",
@@ -284,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 321
+   "ms": 156
   },
   {
    "id": "bleeping",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 247
+   "ms": 132
   },
   {
    "id": "darkreading",
@@ -302,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 963
+   "ms": 531
   },
   {
    "id": "schneier",
@@ -311,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 158
+   "ms": 119
   },
   {
    "id": "google-security",
@@ -320,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 453
+   "ms": 432
   },
   {
    "id": "msft-security",
@@ -329,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1147
+   "ms": 2213
   },
   {
    "id": "aws-security",
@@ -338,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 157
+   "ms": 359
   },
   {
    "id": "unit42",
@@ -347,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 12,
-   "ms": 65
+   "ms": 107
   },
   {
    "id": "trailofbits",
@@ -356,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 340
+   "ms": 494
   },
   {
    "id": "embracethered",
@@ -365,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 130
+   "ms": 117
   },
   {
    "id": "owasp-genai",
@@ -374,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 81
+   "ms": 121
   },
   {
    "id": "willison-pi",
@@ -383,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 163
+   "ms": 478
   },
   {
    "id": "csa",
@@ -392,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 18,
-   "ms": 609
+   "ms": 563
   },
   {
    "id": "openai",
@@ -401,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 129
+   "ms": 132
   },
   {
    "id": "deepmind",
@@ -410,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 14,
-   "ms": 145
+   "ms": 233
   },
   {
    "id": "huggingface",
@@ -419,10 +419,29 @@
    "ok": true,
    "items": 40,
    "kept": 31,
-   "ms": 158
+   "ms": 224
   }
  ],
  "items": [
+  {
+   "id": "a4338c510ae0",
+   "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+   "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-21T08:49:20.000Z",
+   "firstSeen": 1795261150647,
+   "summary": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
   {
    "id": "3a215ca51f5a",
    "title": "Cops Are Pushing Extremely Corny ‘Grand Theft Auto 6’ Slop",
@@ -644,9 +663,10 @@
    ],
    "tags": [
     "Vulnerability",
-    "China"
+    "China",
+    "AI agents"
    ],
-   "score": 24,
+   "score": 27,
    "action": true,
    "also": [
     {
@@ -658,6 +678,16 @@
      "published": "2026-11-20T17:30:00.000Z",
      "firstSeen": 1795214136671,
      "summary": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application."
+    },
+    {
+     "id": "368a1d5dd765",
+     "source": "The Hacker News",
+     "sourceId": "thehackernews",
+     "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+     "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+     "published": "2026-11-21T11:03:17.000Z",
+     "firstSeen": 1795261150647,
+     "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's…"
     }
    ]
   },
@@ -10034,25 +10064,6 @@
    "also": []
   },
   {
-   "id": "7d3271ba8a68",
-   "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
-   "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
-   "source": "Ars Technica AI",
-   "sourceId": "ars-ai",
-   "published": "2026-10-30T21:09:54.000Z",
-   "firstSeen": 1793400882653,
-   "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Anthropic"
-   ],
-   "score": 11,
-   "action": false,
-   "also": []
-  },
-  {
    "id": "089e25f6fb09",
    "title": "DOJ raises privacy concerns over potential sale of Character.AI chats",
    "url": "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale",
@@ -10497,7 +10508,7 @@
     "Anthropic",
     "Microsoft"
    ],
-   "score": 26,
+   "score": 29,
    "action": false,
    "also": [
     {
@@ -10519,6 +10530,16 @@
      "published": "2026-10-30T14:36:54.000Z",
      "firstSeen": 1793386058607,
      "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors."
+    },
+    {
+     "id": "7d3271ba8a68",
+     "source": "Ars Technica AI",
+     "sourceId": "ars-ai",
+     "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+     "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+     "published": "2026-10-30T21:09:54.000Z",
+     "firstSeen": 1793400882653,
+     "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account."
     },
     {
      "id": "75ef706adf9b",
@@ -13829,6 +13850,28 @@
    "also": []
   },
   {
+   "id": "d974b065a7f2",
+   "title": "Microsoft blames ConnectWise attacks on Chinese state hacker using ARTEX AI agents",
+   "url": "https://therecord.media/china-cyber-connectwise-ai",
+   "source": "The Record",
+   "sourceId": "therecord",
+   "published": "2026-10-22T16:30:00.000Z",
+   "firstSeen": 1792728350456,
+   "summary": "A Chinese government-aligned hacking group used automated tools to carry out the recent supply chain attack on IT management software company ConnectWise and is using the same techniques to try to compromise organizations around the globe, Microsoft said.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents",
+    "Supply chain",
+    "Microsoft",
+    "China"
+   ],
+   "score": 14,
+   "action": false,
+   "also": []
+  },
+  {
    "id": "39df9d92dd93",
    "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
    "url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
@@ -13925,6 +13968,26 @@
    "also": []
   },
   {
+   "id": "fccc80a943c1",
+   "title": "LiteLLM release pipeline hacked to distribute credential-stealing malware",
+   "url": "https://www.csoonline.com/article/4239033/litellm-release-pipeline-hacked-to-distribute-credential-stealing-malware.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-10-22T12:07:08.000Z",
+   "firstSeen": 1792728350456,
+   "summary": "Hackers hijacked the software release pipeline of LiteLLM, a popular open-source AI gateway, to distribute credential-stealing malware, marking the project’s second supply chain compromise this year despite security measures introduced after an earlier attack. The compromised version, 1.107.0, was distributed through…",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "Supply chain"
+   ],
+   "score": 19,
+   "action": false,
+   "also": []
+  },
+  {
    "id": "25f86096aed8",
    "title": "Managing AI Token Consumption for Operational Resilience",
    "url": "https://www.cisa.gov/resources-tools/resources/managing-ai-token-consumption-operational-resilience",
@@ -13942,6 +14005,40 @@
    "score": 6,
    "action": false,
    "also": []
+  },
+  {
+   "id": "87ce41ed7a1a",
+   "title": "China-linked hackers used agentic AI in attack on 2,250 Microsoft 365 tenants",
+   "url": "https://www.csoonline.com/article/4239028/china-linked-hackers-used-agentic-ai-in-attack-on-2250-microsoft-365-tenants.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-10-22T11:47:38.000Z",
+   "firstSeen": 1792728350456,
+   "summary": "A China-state-aligned threat actor compromised a ConnectWise cloud backup application and used an open-source agentic AI framework to turn its stolen credentials against more than 2,250 Microsoft 365 tenants, Microsoft said. Microsoft Threat Intelligence attributed the activity to Storm-0940, which it said has used…",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "AI agents",
+    "Microsoft",
+    "China",
+    "Supply chain"
+   ],
+   "score": 23,
+   "action": false,
+   "also": [
+    {
+     "id": "2e23b21574bf",
+     "source": "Dark Reading",
+     "sourceId": "darkreading",
+     "title": "Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack",
+     "url": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
+     "published": "2026-10-22T20:42:17.000Z",
+     "firstSeen": 1792728350456,
+     "summary": "The China-linked actor used an AI-enabled penetration-testing tool to automate and accelerate its attack on more than 2,200 tenants."
+    }
+   ]
   },
   {
    "id": "fb4106e4efd6",
@@ -13979,231 +14076,6 @@
    "score": 20,
    "action": false,
    "also": []
-  },
-  {
-   "id": "42a606c38009",
-   "title": "SentinelOne brings runtime threat detection and response to AI agents",
-   "url": "https://www.helpnetsecurity.com/2026/10/22/sentinelone-singularity-agentic-detection-and-response/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-22T11:27:36.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "SentinelOne has unveiled Singularity Agentic Detection and Response (ADR), a new offering that discovers AI agents, enforces what agents are allowed to do, monitors agent behavior in depth, and detects and stops unintended and malicious activity in real time. Bringing together visibility and governance of agent…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents"
-   ],
-   "score": 8,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "b38daf1ebbac",
-   "title": "Broadcom adds real-time scam detection to 3-D Secure authentication",
-   "url": "https://www.helpnetsecurity.com/2026/10/22/broadcom-arcot-scam-defense/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-22T11:18:09.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Broadcom has announced the launch of Arcot Scam Defense, a new feature of Arcot by Broadcom, designed to block social engineering fraud during card-not-present (CNP) transactions. “Financial institutions are experiencing broad increases in fraud attempts driven by sophisticated, AI-enhanced social engineering…",
-   "topics": [
-    "incidents"
-   ],
-   "tags": [],
-   "score": 6,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "8a48fa401bdb",
-   "title": "Claude Security can now spot vulnerabilities that reappear in code",
-   "url": "https://www.helpnetsecurity.com/2026/10/22/claude-security-continuous-scanning-update/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-22T11:02:36.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Anthropic has updated Claude Security with ongoing code scanning and automatic fix tracking to help security teams monitor vulnerabilities as software changes. The service scans codebases for vulnerabilities and suggests patches for review. It is powered by the company’s full family of models, including Claude Mythos…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Vulnerability",
-    "Anthropic"
-   ],
-   "score": 10,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "ce7556b64517",
-   "title": "Lawfare Daily: AI, Child Safety, and the Law",
-   "url": "https://www.lawfaremedia.org/article/lawfare-daily--ai--child-safety--and-the-law",
-   "source": "Lawfare",
-   "sourceId": "lawfare",
-   "published": "2026-10-22T11:00:00.000Z",
-   "firstSeen": 1792728528890,
-   "summary": "Does existing federal criminal law apply to AI-generated child sexual abuse material?",
-   "topics": [
-    "regulation"
-   ],
-   "tags": [
-    "USA"
-   ],
-   "score": 9,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "a9c983cc3259",
-   "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
-   "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
-   "source": "The Hacker News",
-   "sourceId": "thehackernews",
-   "published": "2026-10-22T10:44:05.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "A flaw in the OpenCode AI coding agent allowed a malicious or hijacked MCP server to run code on a developer's Windows or WSL machine when the developer signed in. OpenCode connects to MCP (Model Context Protocol) servers to add outside tools, and such code would run with the developer's own access. Anomaly, the…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "MCP"
-   ],
-   "score": 7,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "5e4688119724",
-   "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
-   "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
-   "source": "WIRED AI",
-   "sourceId": "wired-ai",
-   "published": "2026-10-22T10:00:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health.",
-   "topics": [
-    "research"
-   ],
-   "tags": [],
-   "score": 7,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "65c5c4876c8c",
-   "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
-   "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
-   "source": "The Hacker News",
-   "sourceId": "thehackernews",
-   "published": "2026-10-22T08:28:48.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor. On October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub registry and the…",
-   "topics": [
-    "incidents",
-    "security"
-   ],
-   "tags": [
-    "Supply chain"
-   ],
-   "score": 22,
-   "action": false,
-   "also": [
-    {
-     "id": "fccc80a943c1",
-     "source": "CSO Online",
-     "sourceId": "csoonline",
-     "title": "LiteLLM release pipeline hacked to distribute credential-stealing malware",
-     "url": "https://www.csoonline.com/article/4239033/litellm-release-pipeline-hacked-to-distribute-credential-stealing-malware.html",
-     "published": "2026-10-22T12:07:08.000Z",
-     "firstSeen": 1792728350456,
-     "summary": "Hackers hijacked the software release pipeline of LiteLLM, a popular open-source AI gateway, to distribute credential-stealing malware, marking the project’s second supply chain compromise this year despite security measures introduced after an earlier attack. The compromised version, 1.107.0, was distributed through…"
-    }
-   ]
-  },
-  {
-   "id": "148a1250accf",
-   "title": "UAE Transitions 50% of Government Services to Agentic AI",
-   "url": "https://www.darkreading.com/cybersecurity-operations/uae-transitions-50-government-services-agentic-ai",
-   "source": "Dark Reading",
-   "sourceId": "darkreading",
-   "published": "2026-10-22T05:00:00.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "The United Arab Emirates says it's creating a foundation of security and safety as it transforms its public service footprint.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents"
-   ],
-   "score": 5,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "6ab996527e60",
-   "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
-   "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
-   "source": "The Hacker News",
-   "sourceId": "thehackernews",
-   "published": "2026-10-22T04:21:26.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source in the wake of its…",
-   "topics": [
-    "security",
-    "incidents"
-   ],
-   "tags": [
-    "AI agents",
-    "Supply chain",
-    "Microsoft",
-    "China"
-   ],
-   "score": 32,
-   "action": false,
-   "also": [
-    {
-     "id": "badbb6a02e69",
-     "source": "Infosecurity Magazine",
-     "sourceId": "infosecmag",
-     "title": "Microsoft: Chinese State Actor Used AI to Compromise ConnectWise Tenants",
-     "url": "https://www.infosecurity-magazine.com/news/microsoft-chinese-ai-connectwise/",
-     "published": "2026-10-22T11:00:00.000Z",
-     "firstSeen": 1792728350456,
-     "summary": "Microsoft said it has observed threat actor activity in multiple ConnectWise customer environments, with the attackers leveraging the ARTEX agentic AI platform"
-    },
-    {
-     "id": "87ce41ed7a1a",
-     "source": "CSO Online",
-     "sourceId": "csoonline",
-     "title": "China-linked hackers used agentic AI in attack on 2,250 Microsoft 365 tenants",
-     "url": "https://www.csoonline.com/article/4239028/china-linked-hackers-used-agentic-ai-in-attack-on-2250-microsoft-365-tenants.html",
-     "published": "2026-10-22T11:47:38.000Z",
-     "firstSeen": 1792728350456,
-     "summary": "A China-state-aligned threat actor compromised a ConnectWise cloud backup application and used an open-source agentic AI framework to turn its stolen credentials against more than 2,250 Microsoft 365 tenants, Microsoft said. Microsoft Threat Intelligence attributed the activity to Storm-0940, which it said has used…"
-    },
-    {
-     "id": "d974b065a7f2",
-     "source": "The Record",
-     "sourceId": "therecord",
-     "title": "Microsoft blames ConnectWise attacks on Chinese state hacker using ARTEX AI agents",
-     "url": "https://therecord.media/china-cyber-connectwise-ai",
-     "published": "2026-10-22T16:30:00.000Z",
-     "firstSeen": 1792728350456,
-     "summary": "A Chinese government-aligned hacking group used automated tools to carry out the recent supply chain attack on IT management software company ConnectWise and is using the same techniques to try to compromise organizations around the globe, Microsoft said."
-    },
-    {
-     "id": "2e23b21574bf",
-     "source": "Dark Reading",
-     "sourceId": "darkreading",
-     "title": "Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack",
-     "url": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
-     "published": "2026-10-22T20:42:17.000Z",
-     "firstSeen": 1792728350456,
-     "summary": "The China-linked actor used an AI-enabled penetration-testing tool to automate and accelerate its attack on more than 2,200 tenants."
-    }
-   ]
   },
   {
    "id": "eb2e39b2b4c8",
