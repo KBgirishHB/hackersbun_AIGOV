@@ -1,23 +1,24 @@
 {
  "version": 2,
- "generatedAt": "2026-11-21T19:03:26.174Z",
+ "generatedAt": "2026-11-21T23:45:17.833Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 40,
-  "fetched": 856,
-  "relevant": 765,
+  "sourcesOk": 42,
+  "fetched": 903,
+  "relevant": 764,
   "stories": 664,
-  "duplicatesMerged": 101
+  "duplicatesMerged": 100
  },
  "sources": [
   {
    "id": "aiact-tracker",
    "name": "EU AI Act Tracker",
    "url": "https://artificialintelligenceact.eu/feed/",
-   "ok": false,
-   "error": "The operation was aborted due to timeout",
-   "ms": 20001
+   "ok": true,
+   "items": 28,
+   "kept": 3,
+   "ms": 1011
   },
   {
    "id": "aiact-newsletter",
@@ -25,15 +26,16 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 59
+   "ms": 110
   },
   {
    "id": "fli",
    "name": "Future of Life Institute",
    "url": "https://futureoflife.org/feed/",
-   "ok": false,
-   "error": "The operation was aborted due to timeout",
-   "ms": 20000
+   "ok": true,
+   "items": 20,
+   "kept": 3,
+   "ms": 601
   },
   {
    "id": "algorithmwatch",
@@ -42,16 +44,16 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 1072
+   "ms": 888
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 2,
-   "kept": 2,
-   "ms": 459
+   "items": 1,
+   "kept": 1,
+   "ms": 297
   },
   {
    "id": "euractiv",
@@ -60,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 949
+   "ms": 800
   },
   {
    "id": "edpb",
@@ -68,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1760
+   "ms": 1555
   },
   {
    "id": "europarl",
@@ -76,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 885
+   "ms": 548
   },
   {
    "id": "cnil",
@@ -85,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 764
+   "ms": 735
   },
   {
    "id": "nist",
@@ -94,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 315
+   "ms": 241
   },
   {
    "id": "ncsc-uk",
@@ -103,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 122
+   "ms": 119
   },
   {
    "id": "cisa",
@@ -112,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 107
+   "ms": 158
   },
   {
    "id": "fedscoop",
@@ -121,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 182
+   "ms": 128
   },
   {
    "id": "nextgov",
@@ -130,7 +132,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 230
+   "ms": 286
   },
   {
    "id": "techcrunch-ai",
@@ -139,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 218
+   "ms": 133
   },
   {
    "id": "venturebeat-ai",
@@ -147,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 294
+   "ms": 256
   },
   {
    "id": "verge-ai",
@@ -156,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 253
+   "ms": 127
   },
   {
    "id": "ars-ai",
@@ -165,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 414
+   "ms": 353
   },
   {
    "id": "wired-ai",
@@ -174,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 319
+   "ms": 247
   },
   {
    "id": "guardian-ai",
@@ -183,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 334
+   "ms": 207
   },
   {
    "id": "mittr-ai",
@@ -192,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 182
+   "ms": 198
   },
   {
    "id": "register-ai",
@@ -201,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 631
+   "ms": 699
   },
   {
    "id": "biometric",
@@ -210,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 545
+   "ms": 757
   },
   {
    "id": "krebs",
@@ -219,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 132
+   "ms": 249
   },
   {
    "id": "securityweek",
@@ -228,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 102
+   "ms": 156
   },
   {
    "id": "wired-security",
@@ -237,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 21
+   "ms": 28
   },
   {
    "id": "csoonline",
@@ -246,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 109
+   "ms": 181
   },
   {
    "id": "infosecmag",
@@ -255,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 221
+   "ms": 325
   },
   {
    "id": "helpnet",
@@ -264,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 69
+   "ms": 145
   },
   {
    "id": "therecord",
@@ -273,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 252
+   "ms": 165
   },
   {
    "id": "thehackernews",
@@ -282,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 432
+   "ms": 231
   },
   {
    "id": "bleeping",
@@ -291,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 140
+   "ms": 160
   },
   {
    "id": "darkreading",
@@ -300,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 387
+   "ms": 525
   },
   {
    "id": "schneier",
@@ -309,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 71
+   "ms": 165
   },
   {
    "id": "google-security",
@@ -318,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 405
+   "ms": 403
   },
   {
    "id": "msft-security",
@@ -327,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1232
+   "ms": 1244
   },
   {
    "id": "aws-security",
@@ -336,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 91
+   "ms": 359
   },
   {
    "id": "unit42",
@@ -345,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 10,
-   "ms": 85
+   "ms": 122
   },
   {
    "id": "trailofbits",
@@ -354,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 285
+   "ms": 650
   },
   {
    "id": "embracethered",
@@ -363,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 96
+   "ms": 176
   },
   {
    "id": "owasp-genai",
@@ -372,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 73
+   "ms": 104
   },
   {
    "id": "willison-pi",
@@ -381,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 137
+   "ms": 448
   },
   {
    "id": "csa",
@@ -390,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 18,
-   "ms": 337
+   "ms": 313
   },
   {
    "id": "openai",
@@ -399,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 95
+   "ms": 225
   },
   {
    "id": "deepmind",
@@ -408,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 13,
-   "ms": 125
+   "ms": 158
   },
   {
    "id": "huggingface",
@@ -416,11 +418,28 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 31,
-   "ms": 102
+   "kept": 30,
+   "ms": 166
   }
  ],
  "items": [
+  {
+   "id": "1e3df34338e1",
+   "title": "The UN fails to agree on rules regulating ‘killer robots’",
+   "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+   "source": "The Verge AI",
+   "sourceId": "verge-ai",
+   "published": "2026-11-21T20:03:37.000Z",
+   "firstSeen": 1795304717833,
+   "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
   {
    "id": "bf1435a49462",
    "title": "Building resilience into digital identity takes on new urgency",
@@ -489,6 +508,23 @@
      "summary": "AI is forcing companies to patch their systems faster as attackers race to exploit newly discovered vulnerabilities. Welcome to internet outage hell."
     }
    ]
+  },
+  {
+   "id": "53768aa51ecd",
+   "title": "Negotiations on Slaughterbots conclude with frustration: We must take the issue elsewhere.",
+   "url": "https://futureoflife.org/statement/negotiations-on-slaughterbots-conclude-with-frustration/",
+   "source": "Future of Life Institute",
+   "sourceId": "fli",
+   "published": "2026-11-21T12:45:26.000Z",
+   "firstSeen": 1795304717833,
+   "summary": "Enough is enough.",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 0,
+   "action": false,
+   "also": []
   },
   {
    "id": "a4338c510ae0",
@@ -3313,6 +3349,38 @@
    "also": []
   },
   {
+   "id": "5662f01b0a22",
+   "title": "Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks",
+   "url": "https://www.securityweek.com/barracuda-hacked-amid-surge-in-artex-powered-cyberattacks/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-16T15:07:32.000Z",
+   "firstSeen": 1794849662850,
+   "summary": "Chinese threat actors are broadly adopting the agentic AI penetration testing framework to accelerate their attacks.",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [
+    "AI agents",
+    "China"
+   ],
+   "score": 27,
+   "action": false,
+   "also": [
+    {
+     "id": "695a066944f0",
+     "source": "BleepingComputer",
+     "sourceId": "bleeping",
+     "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
+     "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
+     "published": "2026-11-16T19:57:13.000Z",
+     "firstSeen": 1794877194264,
+     "summary": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework."
+    }
+   ]
+  },
+  {
    "id": "99dc10fa6305",
    "title": "AI hacking tool used in US aerospace sector intrusion, Google says",
    "url": "https://www.nextgov.com/cybersecurity/2026/11/ai-hacking-tool-used-us-aerospace-sector-intrusion-google-says/417218/",
@@ -3684,34 +3752,11 @@
    ],
    "tags": [
     "Supply chain",
-    "Microsoft",
-    "AI agents",
-    "China"
+    "Microsoft"
    ],
-   "score": 30,
+   "score": 22,
    "action": false,
-   "also": [
-    {
-     "id": "5662f01b0a22",
-     "source": "SecurityWeek",
-     "sourceId": "securityweek",
-     "title": "Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks",
-     "url": "https://www.securityweek.com/barracuda-hacked-amid-surge-in-artex-powered-cyberattacks/",
-     "published": "2026-11-16T15:07:32.000Z",
-     "firstSeen": 1794849662850,
-     "summary": "Chinese threat actors are broadly adopting the agentic AI penetration testing framework to accelerate their attacks."
-    },
-    {
-     "id": "695a066944f0",
-     "source": "BleepingComputer",
-     "sourceId": "bleeping",
-     "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
-     "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
-     "published": "2026-11-16T19:57:13.000Z",
-     "firstSeen": 1794877194264,
-     "summary": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework."
-    }
-   ]
+   "also": []
   },
   {
    "id": "b85ca6708d52",
@@ -13768,46 +13813,6 @@
    "also": []
   },
   {
-   "id": "2e23b21574bf",
-   "title": "Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack",
-   "url": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
-   "source": "Dark Reading",
-   "sourceId": "darkreading",
-   "published": "2026-10-22T20:42:17.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "The China-linked actor used an AI-enabled penetration-testing tool to automate and accelerate its attack on more than 2,200 tenants.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Supply chain",
-    "Microsoft",
-    "China"
-   ],
-   "score": 6,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "7d06d1e6d464",
-   "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
-   "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
-   "source": "The Hacker News",
-   "sourceId": "thehackernews",
-   "published": "2026-10-22T19:05:35.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching. Nobody reviewed its access. Nobody owns it. If an employee had that much reach with that little oversight, you would…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents"
-   ],
-   "score": 8,
-   "action": false,
-   "also": []
-  },
-  {
    "id": "eb2e39b2b4c8",
    "title": "Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)",
    "url": "https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/",
@@ -13863,23 +13868,6 @@
     "Microsoft"
    ],
    "score": 12,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "79fa8a5598fb",
-   "title": "Statement: We must pressure AI companies to immediately limit the use of recursive self improvement",
-   "url": "https://futureoflife.org/statement/statement-we-must-pressure-ai-companies-to-immediately-limit-the-use-of-recursive-self-improvement/",
-   "source": "Future of Life Institute",
-   "sourceId": "fli",
-   "published": "2026-09-28T13:39:20.000Z",
-   "firstSeen": 1794508367534,
-   "summary": "FLI's Director of Policy Mark Brakel responds to \"A Call for Control of Frontier AI Models\", joint statement by heads of states.",
-   "topics": [
-    "governance"
-   ],
-   "tags": [],
-   "score": 5,
    "action": false,
    "also": []
   },
