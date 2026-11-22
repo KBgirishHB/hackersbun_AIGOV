@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-11-21T23:45:17.833Z",
+ "generatedAt": "2026-11-22T06:28:00.294Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 42,
   "fetched": 903,
-  "relevant": 764,
-  "stories": 664,
+  "relevant": 761,
+  "stories": 661,
   "duplicatesMerged": 100
  },
  "sources": [
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 1011
+   "ms": 1278
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 110
+   "ms": 73
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 601
+   "ms": 592
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 888
+   "ms": 940
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 1,
    "kept": 1,
-   "ms": 297
+   "ms": 474
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 800
+   "ms": 1273
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 1555
+   "ms": 2382
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 548
+   "ms": 848
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 735
+   "ms": 1373
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 241
+   "ms": 480
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 119
+   "ms": 659
   },
   {
    "id": "cisa",
@@ -114,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 158
+   "ms": 230
   },
   {
    "id": "fedscoop",
@@ -123,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 128
+   "ms": 214
   },
   {
    "id": "nextgov",
@@ -132,7 +132,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 286
+   "ms": 511
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 133
+   "ms": 103
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 256
+   "ms": 126
   },
   {
    "id": "verge-ai",
@@ -158,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 127
+   "ms": 106
   },
   {
    "id": "ars-ai",
@@ -167,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 353
+   "ms": 468
   },
   {
    "id": "wired-ai",
@@ -176,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 247
+   "ms": 149
   },
   {
    "id": "guardian-ai",
@@ -185,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 207
+   "ms": 174
   },
   {
    "id": "mittr-ai",
@@ -194,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 198
+   "ms": 214
   },
   {
    "id": "register-ai",
@@ -203,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 699
+   "ms": 638
   },
   {
    "id": "biometric",
@@ -212,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 757
+   "ms": 773
   },
   {
    "id": "krebs",
@@ -221,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 249
+   "ms": 197
   },
   {
    "id": "securityweek",
@@ -230,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 156
+   "ms": 221
   },
   {
    "id": "wired-security",
@@ -239,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 28
+   "ms": 19
   },
   {
    "id": "csoonline",
@@ -248,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 181
+   "ms": 327
   },
   {
    "id": "infosecmag",
@@ -257,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 325
+   "ms": 411
   },
   {
    "id": "helpnet",
@@ -266,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 145
+   "ms": 175
   },
   {
    "id": "therecord",
@@ -275,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 165
+   "ms": 226
   },
   {
    "id": "thehackernews",
@@ -284,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 231
+   "ms": 578
   },
   {
    "id": "bleeping",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 160
+   "ms": 106
   },
   {
    "id": "darkreading",
@@ -302,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 525
+   "ms": 1368
   },
   {
    "id": "schneier",
@@ -311,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 165
+   "ms": 149
   },
   {
    "id": "google-security",
@@ -320,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 403
+   "ms": 715
   },
   {
    "id": "msft-security",
@@ -329,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1244
+   "ms": 3124
   },
   {
    "id": "aws-security",
@@ -338,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 359
+   "ms": 204
   },
   {
    "id": "unit42",
@@ -347,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 10,
-   "ms": 122
+   "ms": 116
   },
   {
    "id": "trailofbits",
@@ -356,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 650
+   "ms": 407
   },
   {
    "id": "embracethered",
@@ -365,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 176
+   "ms": 141
   },
   {
    "id": "owasp-genai",
@@ -374,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 104
+   "ms": 217
   },
   {
    "id": "willison-pi",
@@ -383,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 448
+   "ms": 117
   },
   {
    "id": "csa",
@@ -392,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 18,
-   "ms": 313
+   "ms": 268
   },
   {
    "id": "openai",
@@ -401,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 225
+   "ms": 114
   },
   {
    "id": "deepmind",
@@ -410,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 13,
-   "ms": 158
+   "ms": 199
   },
   {
    "id": "huggingface",
@@ -418,11 +418,28 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 30,
-   "ms": 166
+   "kept": 29,
+   "ms": 255
   }
  ],
  "items": [
+  {
+   "id": "17a375f2e494",
+   "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+   "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-22T05:06:55.000Z",
+   "firstSeen": 1795328880294,
+   "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored…",
+   "topics": [
+    "research"
+   ],
+   "tags": [],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
   {
    "id": "1e3df34338e1",
    "title": "The UN fails to agree on rules regulating ‘killer robots’",
@@ -13733,82 +13750,6 @@
    ],
    "tags": [],
    "score": 23,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "1c6393e4636f",
-   "title": "Google opens its cloud to rival OpenAI, promises business data won’t train models",
-   "url": "https://www.helpnetsecurity.com/2026/10/23/google-cloud-openai-models-private-preview/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-23T06:00:31.000Z",
-   "firstSeen": 1792737420330,
-   "summary": "Google Cloud is adding OpenAI models to its platform, initially through a private preview for selected business customers. The launch includes GPT-6 Astra, GPT-6.1 Sol and GPT-6 Luna. Google positions them as options for demanding work, lower-cost professional tasks and everyday use that requires fast responses. More…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "OpenAI",
-    "Google"
-   ],
-   "score": 4,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "c8da7f311eac",
-   "title": "AI is taking cybersecurity jobs at junior and experienced levels alike",
-   "url": "https://www.helpnetsecurity.com/2026/10/23/barracuda-cybersecurity-career-development-report/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-23T04:30:39.000Z",
-   "firstSeen": 1792737420330,
-   "summary": "Organizations are cutting cybersecurity roles as they adopt AI, even while reporting shortages of the expertise needed to manage threats, according to Barracuda’s Cybersecurity Skills Gap Report. 56% have experienced professional workforce reductions linked to AI, evenly divided between entry-level and higher-level…",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 7,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "fd6a3d375286",
-   "title": "EXCLUSIVE: China offered European Commission to join its AI alliance",
-   "url": "https://www.rapporteur.com/news/exclusive-china-asked-european-commission-to-join-its-ai-alliance/",
-   "source": "Euractiv",
-   "sourceId": "euractiv",
-   "published": "2026-10-23T02:00:58.000Z",
-   "firstSeen": 1792728350456,
-   "summary": "EU executive is already part of rival US initiative to secure AI development",
-   "topics": [
-    "security",
-    "regulation"
-   ],
-   "tags": [
-    "China"
-   ],
-   "score": 12,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "6dc6ae303b40",
-   "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-   "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-   "source": "OpenAI News",
-   "sourceId": "openai",
-   "published": "2026-10-23T00:00:00.000Z",
-   "firstSeen": 1792737420330,
-   "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
-   "topics": [
-    "governance"
-   ],
-   "tags": [
-    "OpenAI"
-   ],
-   "score": 12,
    "action": false,
    "also": []
   },
