@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-22T06:28:00.294Z",
+ "generatedAt": "2026-11-22T14:49:45.725Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 42,
   "fetched": 903,
-  "relevant": 761,
-  "stories": 661,
-  "duplicatesMerged": 100
+  "relevant": 749,
+  "stories": 648,
+  "duplicatesMerged": 101
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 1278
+   "ms": 961
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 73
+   "ms": 46
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 592
+   "ms": 473
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 940
+   "ms": 820
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 1,
    "kept": 1,
-   "ms": 474
+   "ms": 295
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1273
+   "ms": 714
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 2382
+   "ms": 1578
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 848
+   "ms": 588
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1373
+   "ms": 719
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 480
+   "ms": 168
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 659
+   "ms": 133
   },
   {
    "id": "cisa",
@@ -114,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 230
+   "ms": 181
   },
   {
    "id": "fedscoop",
@@ -123,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 214
+   "ms": 84
   },
   {
    "id": "nextgov",
@@ -132,7 +132,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 511
+   "ms": 143
   },
   {
    "id": "techcrunch-ai",
@@ -149,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 126
+   "ms": 82
   },
   {
    "id": "verge-ai",
@@ -158,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 106
+   "ms": 65
   },
   {
    "id": "ars-ai",
@@ -167,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 468
+   "ms": 184
   },
   {
    "id": "wired-ai",
@@ -176,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 149
+   "ms": 173
   },
   {
    "id": "guardian-ai",
@@ -185,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 174
+   "ms": 208
   },
   {
    "id": "mittr-ai",
@@ -194,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 214
+   "ms": 237
   },
   {
    "id": "register-ai",
@@ -203,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 638
+   "ms": 710
   },
   {
    "id": "biometric",
@@ -212,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 773
+   "ms": 753
   },
   {
    "id": "krebs",
@@ -221,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 197
+   "ms": 355
   },
   {
    "id": "securityweek",
@@ -230,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 221
+   "ms": 265
   },
   {
    "id": "wired-security",
@@ -239,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 19
+   "ms": 17
   },
   {
    "id": "csoonline",
@@ -248,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 327
+   "ms": 257
   },
   {
    "id": "infosecmag",
@@ -257,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 411
+   "ms": 409
   },
   {
    "id": "helpnet",
@@ -266,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 175
+   "ms": 244
   },
   {
    "id": "therecord",
@@ -275,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 226
+   "ms": 134
   },
   {
    "id": "thehackernews",
@@ -284,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 578
+   "ms": 268
   },
   {
    "id": "bleeping",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 106
+   "ms": 171
   },
   {
    "id": "darkreading",
@@ -302,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1368
+   "ms": 597
   },
   {
    "id": "schneier",
@@ -311,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 149
+   "ms": 97
   },
   {
    "id": "google-security",
@@ -320,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 715
+   "ms": 567
   },
   {
    "id": "msft-security",
@@ -329,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3124
+   "ms": 1219
   },
   {
    "id": "aws-security",
@@ -338,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 204
+   "ms": 207
   },
   {
    "id": "unit42",
@@ -347,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 10,
-   "ms": 116
+   "ms": 175
   },
   {
    "id": "trailofbits",
@@ -356,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 407
+   "ms": 511
   },
   {
    "id": "embracethered",
@@ -365,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 141
+   "ms": 118
   },
   {
    "id": "owasp-genai",
@@ -374,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 217
+   "ms": 78
   },
   {
    "id": "willison-pi",
@@ -383,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 117
+   "ms": 125
   },
   {
    "id": "csa",
@@ -392,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 18,
-   "ms": 268
+   "ms": 472
   },
   {
    "id": "openai",
@@ -401,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 114
+   "ms": 147
   },
   {
    "id": "deepmind",
@@ -410,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 13,
-   "ms": 199
+   "ms": 232
   },
   {
    "id": "huggingface",
@@ -419,10 +419,46 @@
    "ok": true,
    "items": 40,
    "kept": 29,
-   "ms": 255
+   "ms": 134
   }
  ],
  "items": [
+  {
+   "id": "7af6ef49db49",
+   "title": "Will fragile bipartisanship on AI survive the silly season, or is parliament heading for a holiday meltdown? | Josh Butler",
+   "url": "https://www.theguardian.com/australia-news/2026/nov/23/will-fragile-bipartisanship-on-ai-survive-silly-season-or-is-parliament-heading-for-a-holiday-meltdown-the-agenda",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-11-22T14:00:32.000Z",
+   "firstSeen": 1795358985725,
+   "summary": "A joint select committee report on Monday should signal where Labor is headed on issues including datacentres and copyright – and whether they’ll go it alone Get our daily political email, free app or daily news podcast The final four days of parliament for 2026 begin on Monday, and the government has a clutch of key…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "Copyright"
+   ],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "dfb3dc0cbc1e",
+   "title": "It will soon be too late to regulate use of autonomous weapons, warns Red Cross",
+   "url": "https://www.theguardian.com/science/2026/nov/22/red-cross-warns-too-late-regulate-autonomous-weapons-united-nations",
+   "source": "The Guardian AI",
+   "sourceId": "guardian-ai",
+   "published": "2026-11-22T09:00:22.000Z",
+   "firstSeen": 1795358985725,
+   "summary": "Warning about putting ‘genie back in the bottle’ comes as UN conference fails to agree on regulation instrument The International Committee of the Red Cross and rights groups have warned that it will soon be too late to put the “genie back in the bottle” as the development of autonomous weapons appears to outpace…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
   {
    "id": "17a375f2e494",
    "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
@@ -2698,26 +2734,6 @@
    ]
   },
   {
-   "id": "8d53260fbe25",
-   "title": "Fully Autonomous Agentic Attacks Are Three Months Away, Google Warns",
-   "url": "https://www.infosecurity-magazine.com/news/fully-autonomous-agentic-attacks/",
-   "source": "Infosecurity Magazine",
-   "sourceId": "infosecmag",
-   "published": "2026-11-17T09:30:00.000Z",
-   "firstSeen": 1794939862208,
-   "summary": "Google Threat Intelligence Group warns of “paradigm shift” in use of agentic pen-test frameworks",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents",
-    "Google"
-   ],
-   "score": 8,
-   "action": false,
-   "also": []
-  },
-  {
    "id": "15e1019d886f",
    "title": "Google finds AI agent writing and launching exploits with no human in the loop",
    "url": "https://www.helpnetsecurity.com/2026/11/17/ai-powered-cyberattacks-gtig-report/",
@@ -3398,27 +3414,6 @@
    ]
   },
   {
-   "id": "99dc10fa6305",
-   "title": "AI hacking tool used in US aerospace sector intrusion, Google says",
-   "url": "https://www.nextgov.com/cybersecurity/2026/11/ai-hacking-tool-used-us-aerospace-sector-intrusion-google-says/417218/",
-   "source": "Nextgov/FCW",
-   "sourceId": "nextgov",
-   "published": "2026-11-16T14:00:00.000Z",
-   "firstSeen": 1794849662850,
-   "summary": "New threat intelligence details how Chinese and North Korean hackers are using AI platforms to analyze stolen information, impersonate recruiters and spread through networks.",
-   "topics": [
-    "incidents",
-    "security"
-   ],
-   "tags": [
-    "Google",
-    "China"
-   ],
-   "score": 11,
-   "action": false,
-   "also": []
-  },
-  {
    "id": "853d827a4428",
    "title": "Google warns that fully-automated AI attacks are coming soon",
    "url": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
@@ -3436,7 +3431,39 @@
     "Vulnerability",
     "Google"
    ],
-   "score": 15,
+   "score": 18,
+   "action": false,
+   "also": [
+    {
+     "id": "8d53260fbe25",
+     "source": "Infosecurity Magazine",
+     "sourceId": "infosecmag",
+     "title": "Fully Autonomous Agentic Attacks Are Three Months Away, Google Warns",
+     "url": "https://www.infosecurity-magazine.com/news/fully-autonomous-agentic-attacks/",
+     "published": "2026-11-17T09:30:00.000Z",
+     "firstSeen": 1794939862208,
+     "summary": "Google Threat Intelligence Group warns of “paradigm shift” in use of agentic pen-test frameworks"
+    }
+   ]
+  },
+  {
+   "id": "99dc10fa6305",
+   "title": "AI hacking tool used in US aerospace sector intrusion, Google says",
+   "url": "https://www.nextgov.com/cybersecurity/2026/11/ai-hacking-tool-used-us-aerospace-sector-intrusion-google-says/417218/",
+   "source": "Nextgov/FCW",
+   "sourceId": "nextgov",
+   "published": "2026-11-16T14:00:00.000Z",
+   "firstSeen": 1794849662850,
+   "summary": "New threat intelligence details how Chinese and North Korean hackers are using AI platforms to analyze stolen information, impersonate recruiters and spread through networks.",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [
+    "Google",
+    "China"
+   ],
+   "score": 11,
    "action": false,
    "also": []
   },
@@ -13486,270 +13513,6 @@
    ],
    "tags": [],
    "score": 4,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "38fe482c9d80",
-   "title": "In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware",
-   "url": "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/",
-   "source": "SecurityWeek",
-   "sourceId": "securityweek",
-   "published": "2026-10-23T14:23:37.000Z",
-   "firstSeen": 1792778233749,
-   "summary": "Noteworthy stories that might have slipped under the radar: Russia’s APT28 hit NATO defense firms, PingCAP source code stolen, ShinyHunters negotiator probe.",
-   "topics": [
-    "incidents"
-   ],
-   "tags": [
-    "AI agents",
-    "Ransomware"
-   ],
-   "score": 12,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "1cdefb78ca35",
-   "title": "OpenAI's Kazoo-Grade Spying Incident",
-   "url": "https://www.lawfaremedia.org/article/openai's-kazoo-grade-spying-incident",
-   "source": "Lawfare",
-   "sourceId": "lawfare",
-   "published": "2026-10-23T14:21:33.000Z",
-   "firstSeen": 1792778233749,
-   "summary": "The latest edition of the Seriously Risky Business cybersecurity newsletter, now on Lawfare.",
-   "topics": [
-    "incidents"
-   ],
-   "tags": [
-    "OpenAI"
-   ],
-   "score": 9,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "d9ffcd005b45",
-   "title": "Meta delays AI business terms amid media sector outcry",
-   "url": "https://www.rapporteur.com/news/meta-delays-ai-business-terms-until-20-november/",
-   "source": "Euractiv",
-   "sourceId": "euractiv",
-   "published": "2026-10-23T14:12:45.000Z",
-   "firstSeen": 1792778233749,
-   "summary": "Tech giant is facing regulatory scrutiny after backlash from press publishers",
-   "topics": [
-    "regulation"
-   ],
-   "tags": [
-    "Meta"
-   ],
-   "score": 7,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "44915fa944ee",
-   "title": "You gave your AI agent access, but who is giving it orders?",
-   "url": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
-   "source": "BleepingComputer",
-   "sourceId": "bleeping",
-   "published": "2026-10-23T14:00:10.000Z",
-   "firstSeen": 1792778233749,
-   "summary": "AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using their legitimate permissions. Gen Digital explains how its Agent Trust Hub helps protect agents through skill verification, secure connectivity, and runtime controls that…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents"
-   ],
-   "score": 4,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "a5762973f490",
-   "title": "Jumio expands reusable identity globally, reports gains in deepfake detection",
-   "url": "https://www.biometricupdate.com/202610/jumio-expands-reusable-identity-globally-reports-gains-in-deepfake-detection",
-   "source": "Biometric Update",
-   "sourceId": "biometric",
-   "published": "2026-10-23T13:38:08.000Z",
-   "firstSeen": 1792778233749,
-   "summary": "Jumio has reported strong third-quarter 2026 momentum across its global operations, pointing to the full worldwide rollout of its reusable identity product selfie.DONE, advances in AI-powered fraud detection and more than 30 new customers. The company also appointed a new chief revenue officer and highlighted its…",
-   "topics": [
-    "incidents"
-   ],
-   "tags": [
-    "Deepfakes"
-   ],
-   "score": 10,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "5814d6a3833a",
-   "title": "Cyber Insurance's New Reality: Underwriting Isn't Enough",
-   "url": "https://www.darkreading.com/cyber-risk/cyber-insurances-underwriting-isnt-enough",
-   "source": "Dark Reading",
-   "sourceId": "darkreading",
-   "published": "2026-10-23T13:30:00.000Z",
-   "firstSeen": 1792778233749,
-   "summary": "Rising AI, social engineering, and cloud risks are pushing carriers beyond risk transfer and deeper into cybersecurity itself.",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 2,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "c85285cc986c",
-   "title": "Listen: Digital credentials and agentic AI confront questions of control",
-   "url": "https://www.biometricupdate.com/202610/listen-digital-credentials-and-agentic-ai-confront-questions-of-control",
-   "source": "Biometric Update",
-   "sourceId": "biometric",
-   "published": "2026-10-23T13:10:24.000Z",
-   "firstSeen": 1792761453359,
-   "summary": "Evin McMullen calls it “Black October.” A series of digital security incidents has exposed the risks of compromised credentials and AI agents operating without adequate controls. “We are unfortunately seeing the downside of what happens when AI agents approach sensitive data without the proper security measures and…",
-   "topics": [
-    "incidents"
-   ],
-   "tags": [
-    "AI agents"
-   ],
-   "score": 11,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "060ecd518846",
-   "title": "AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack",
-   "url": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack",
-   "source": "Dark Reading",
-   "sourceId": "darkreading",
-   "published": "2026-10-23T11:38:28.000Z",
-   "firstSeen": 1792756990982,
-   "summary": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may compound — not contain — the risk.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents",
-    "Microsoft"
-   ],
-   "score": 8,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "0cfcccc7dd6d",
-   "title": "China APT Uses AI Pentest Tool Artex in ConnectWise Attacks",
-   "url": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
-   "source": "SecurityWeek",
-   "sourceId": "securityweek",
-   "published": "2026-10-23T10:31:16.000Z",
-   "firstSeen": 1792751647316,
-   "summary": "The state-sponsored hackers targeted hundreds of organizations and gained privileged access to some environments.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "China"
-   ],
-   "score": 8,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "eeabb972474e",
-   "title": "Securing our frontier model training environment",
-   "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-   "source": "OpenAI News",
-   "sourceId": "openai",
-   "published": "2026-10-23T10:00:00.000Z",
-   "firstSeen": 1792790326467,
-   "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "OpenAI"
-   ],
-   "score": 8,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "2e4b497a336d",
-   "title": "The ‘Mythos moment’ has already passed. Now comes the hard part for cybersecurity",
-   "url": "https://www.csoonline.com/article/4239166/the-mythos-moment-has-already-passed-now-comes-the-hard-part-for-cybersecurity.html",
-   "source": "CSO Online",
-   "sourceId": "csoonline",
-   "published": "2026-10-23T09:00:00.000Z",
-   "firstSeen": 1792746484113,
-   "summary": "When Anthropic introduced Claude Mythos Preview, the cybersecurity debate quickly turned to what AI could do: uncover decades-old vulnerabilities, develop working exploits and accelerate tasks that once required specialist expertise. Anthropic noted that Mythos discovered software flaws no human had caught, and early…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Vulnerability",
-    "Anthropic"
-   ],
-   "score": 7,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "ea569423f818",
-   "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
-   "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
-   "source": "The Hacker News",
-   "sourceId": "thehackernews",
-   "published": "2026-10-23T08:35:45.000Z",
-   "firstSeen": 1792749968603,
-   "summary": "AI agents paying for API calls with the x402 SDKs could sign a payment for their full balance of a supported token if a malicious API asked for it, security firm V12 said on October 22. The cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents"
-   ],
-   "score": 5,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "f0827f5927b1",
-   "title": "The AI notetaker risk is now an everywhere problem",
-   "url": "https://www.csoonline.com/article/4239372/the-ai-notetaker-risk-is-now-an-everywhere-problem.html",
-   "source": "CSO Online",
-   "sourceId": "csoonline",
-   "published": "2026-10-23T08:25:00.000Z",
-   "firstSeen": 1792746484113,
-   "summary": "The businesspeople adopting AI notetakers are not being reckless. They are responding to a real business need. Our teams are in meetings all day with companies we support, and the idea that we could read a clean summary of every one of them at the end of the day makes us better partners to our customers. At the…",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 4,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "74c553d15574",
-   "title": "Hackers hijack exposed AI models to launch cyberattacks at victims’ expense",
-   "url": "https://www.helpnetsecurity.com/2026/10/23/llmjacking-agent-hijacks-exposed-ai-models/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-23T08:21:48.000Z",
-   "firstSeen": 1792746484113,
-   "summary": "An attack tool built around AI goes looking for AI models that anyone on the internet can reach, then uses them to plan break-ins while the model’s owner pays for the computing power. Symantec captured the agent’s instruction set this summer through a honeypot posing as an unprotected AI service, researchers Priti…",
-   "topics": [
-    "incidents",
-    "security"
-   ],
-   "tags": [],
-   "score": 23,
    "action": false,
    "also": []
   },
