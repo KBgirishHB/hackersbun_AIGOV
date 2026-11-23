@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-11-23T01:31:19.075Z",
+ "generatedAt": "2026-11-23T09:40:16.936Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 42,
   "fetched": 903,
-  "relevant": 742,
-  "stories": 641,
+  "relevant": 748,
+  "stories": 647,
   "duplicatesMerged": 101
  },
  "sources": [
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 1234
+   "ms": 804
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 143
+   "ms": 57
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 619
+   "ms": 614
   },
   {
    "id": "algorithmwatch",
@@ -43,8 +43,8 @@
    "url": "https://algorithmwatch.org/en/feed/",
    "ok": true,
    "items": 10,
-   "kept": 7,
-   "ms": 1142
+   "kept": 8,
+   "ms": 2554
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 1,
    "kept": 1,
-   "ms": 493
+   "ms": 385
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1475
+   "ms": 875
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 2301
+   "ms": 1633
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 765
+   "ms": 575
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 929
+   "ms": 838
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 503
+   "ms": 283
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 407
+   "ms": 245
   },
   {
    "id": "cisa",
@@ -114,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 354
+   "ms": 133
   },
   {
    "id": "fedscoop",
@@ -123,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 230
+   "ms": 129
   },
   {
    "id": "nextgov",
@@ -132,7 +132,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 277
+   "ms": 440
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 142
+   "ms": 122
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 145
+   "ms": 183
   },
   {
    "id": "verge-ai",
@@ -158,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 108
+   "ms": 199
   },
   {
    "id": "ars-ai",
@@ -167,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 327
+   "ms": 394
   },
   {
    "id": "wired-ai",
@@ -176,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 166
+   "ms": 271
   },
   {
    "id": "guardian-ai",
@@ -185,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 163
+   "ms": 286
   },
   {
    "id": "mittr-ai",
@@ -194,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 176
+   "ms": 228
   },
   {
    "id": "register-ai",
@@ -203,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 1363
+   "ms": 751
   },
   {
    "id": "biometric",
@@ -212,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 775
+   "ms": 557
   },
   {
    "id": "krebs",
@@ -221,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 245
+   "ms": 272
   },
   {
    "id": "securityweek",
@@ -230,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 323
+   "ms": 88
   },
   {
    "id": "wired-security",
@@ -239,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 36
+   "ms": 38
   },
   {
    "id": "csoonline",
@@ -248,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 321
+   "ms": 97
   },
   {
    "id": "infosecmag",
@@ -257,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 433
+   "ms": 253
   },
   {
    "id": "helpnet",
@@ -266,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 312
+   "ms": 134
   },
   {
    "id": "therecord",
@@ -275,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 415
+   "ms": 265
   },
   {
    "id": "thehackernews",
@@ -284,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 247
+   "ms": 192
   },
   {
    "id": "bleeping",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 265
+   "ms": 111
   },
   {
    "id": "darkreading",
@@ -302,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 595
+   "ms": 449
   },
   {
    "id": "schneier",
@@ -311,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 176
+   "ms": 150
   },
   {
    "id": "google-security",
@@ -320,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 466
+   "ms": 531
   },
   {
    "id": "msft-security",
@@ -329,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3151
+   "ms": 1124
   },
   {
    "id": "aws-security",
@@ -338,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 326
+   "ms": 274
   },
   {
    "id": "unit42",
@@ -347,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 10,
-   "ms": 174
+   "ms": 165
   },
   {
    "id": "trailofbits",
@@ -356,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 862
+   "ms": 520
   },
   {
    "id": "embracethered",
@@ -365,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 205
+   "ms": 238
   },
   {
    "id": "owasp-genai",
@@ -374,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 158
+   "ms": 120
   },
   {
    "id": "willison-pi",
@@ -383,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 591
+   "ms": 447
   },
   {
    "id": "csa",
@@ -392,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 18,
-   "ms": 618
+   "ms": 325
   },
   {
    "id": "openai",
@@ -401,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 192
+   "ms": 122
   },
   {
    "id": "deepmind",
@@ -410,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 13,
-   "ms": 179
+   "ms": 205
   },
   {
    "id": "huggingface",
@@ -419,10 +419,96 @@
    "ok": true,
    "items": 40,
    "kept": 29,
-   "ms": 274
+   "ms": 135
   }
  ],
  "items": [
+  {
+   "id": "d94cbe558320",
+   "title": "Clever AI prompt ideas every security leader should steal",
+   "url": "https://www.csoonline.com/article/4248701/clever-ai-prompt-ideas-every-security-leader-should-steal.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-11-23T08:25:00.000Z",
+   "firstSeen": 1795426816936,
+   "summary": "For all the talk of AI use by attackers and defenders, little attention is paid to ways CISOs and their security pros can leverage AI uniquely to expediate tasks, cut through the noise, facilitate decision-making, and potentially save big on auditing. Several specific AI prompts can help security leaders and staff…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "11b99ebbe53e",
+   "title": "AI-Assisted Cyberattacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+   "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-23T08:24:15.000Z",
+   "firstSeen": 1795426816936,
+   "summary": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country. This unsanctioned activity has resulted in unauthorized financial transactions at…",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [],
+   "score": 17,
+   "action": true,
+   "also": []
+  },
+  {
+   "id": "54a87f8ebf75",
+   "title": "Xalgorix: Open-source AI penetration testing tool",
+   "url": "https://www.helpnetsecurity.com/2026/11/23/xalgorix-ai-penetration-testing-tool/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-23T06:30:08.000Z",
+   "firstSeen": 1795426816936,
+   "summary": "Xalgorix, an open-source AI penetration testing tool, checks its work before it reports anything. When its main agent finds a bug, a second agent has to exploit that bug again. If the second agent can’t prove the bug is real or rule it out, Xalgorix keeps the finding and flags it for a person to review. The check…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "a1f4185801a9",
+   "title": "COBIT 7 adds AI risk scenarios to ISACA’s governance framework",
+   "url": "https://www.helpnetsecurity.com/2026/11/23/isaca-cobit-7-released/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-23T05:30:49.000Z",
+   "firstSeen": 1795426816936,
+   "summary": "To help organizations strengthen how they govern information and technology, ISACA has released COBIT 7, the latest version of its globally recognized framework for information and technology (I&T) governance. COBIT 7 brings together trusted guidance, an intuitive digital platform, customizable resources, and…",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 16,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "5db79d6b0e81",
+   "title": "INTERVIEW: Greek AI chief urges EU capitals to coordinate on security testing",
+   "url": "https://www.rapporteur.com/news/interview-greek-ai-chief-urges-eu-capitals-to-coordinate-on-security-testing/",
+   "source": "Euractiv",
+   "sourceId": "euractiv",
+   "published": "2026-11-23T03:00:33.000Z",
+   "firstSeen": 1795426816936,
+   "summary": "Not every country needs its own AI security institute, says Vasilis Karkatzounis",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
   {
    "id": "f3678109e4b7",
    "title": "Google’s semantic governance policies can block an AI agent’s tool call before it runs",
@@ -634,7 +720,7 @@
     "AI agents",
     "Google"
    ],
-   "score": 7,
+   "score": 10,
    "action": false,
    "also": [
     {
@@ -646,8 +732,37 @@
      "published": "2026-11-22T15:15:25.000Z",
      "firstSeen": 1795381163665,
      "summary": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices."
+    },
+    {
+     "id": "e52eea4fd6c5",
+     "source": "Help Net Security",
+     "sourceId": "helpnet",
+     "title": "Signal blocks AI assistants from peeking at your private messages",
+     "url": "https://www.helpnetsecurity.com/2026/11/23/signal-blocks-ai-assistants-screenshots/",
+     "published": "2026-11-23T08:53:49.000Z",
+     "firstSeen": 1795426816936,
+     "summary": "Signal, the encrypted messaging app, is restricting AI assistants built into mobile operating systems from capturing the content of users’ conversations. The protections target Siri AI on iOS 27 and AI assistants on supported Android devices, including Google’s Gemini. These assistants can read the phone’s screen to…"
     }
    ]
+  },
+  {
+   "id": "bd4311c8e03b",
+   "title": "How Security Vendors Are Tackling Access-Control Challenges for AI Agents",
+   "url": "https://www.darkreading.com/identity-access-management-security/ai-agents-bring-enterprises-new-access-control-challenges",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-21T01:31:23.000Z",
+   "firstSeen": 1795426816936,
+   "summary": "Identity, runtime and development controls are converging as enterprises are tasked with keeping agents within their assigned tasks. But vendors' approaches vary, so CISOs face a choice.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
   },
   {
    "id": "3a215ca51f5a",
@@ -2805,6 +2920,26 @@
    ]
   },
   {
+   "id": "8d53260fbe25",
+   "title": "Fully Autonomous Agentic Attacks Are Three Months Away, Google Warns",
+   "url": "https://www.infosecurity-magazine.com/news/fully-autonomous-agentic-attacks/",
+   "source": "Infosecurity Magazine",
+   "sourceId": "infosecmag",
+   "published": "2026-11-17T09:30:00.000Z",
+   "firstSeen": 1794939862208,
+   "summary": "Google Threat Intelligence Group warns of “paradigm shift” in use of agentic pen-test frameworks",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents",
+    "Google"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
    "id": "15e1019d886f",
    "title": "Google finds AI agent writing and launching exploits with no human in the loop",
    "url": "https://www.helpnetsecurity.com/2026/11/17/ai-powered-cyberattacks-gtig-report/",
@@ -3502,20 +3637,9 @@
     "Vulnerability",
     "Google"
    ],
-   "score": 18,
+   "score": 15,
    "action": false,
-   "also": [
-    {
-     "id": "8d53260fbe25",
-     "source": "Infosecurity Magazine",
-     "sourceId": "infosecmag",
-     "title": "Fully Autonomous Agentic Attacks Are Three Months Away, Google Warns",
-     "url": "https://www.infosecurity-magazine.com/news/fully-autonomous-agentic-attacks/",
-     "published": "2026-11-17T09:30:00.000Z",
-     "firstSeen": 1794939862208,
-     "summary": "Google Threat Intelligence Group warns of “paradigm shift” in use of agentic pen-test frameworks"
-    }
-   ]
+   "also": []
   },
   {
    "id": "99dc10fa6305",
@@ -13369,25 +13493,6 @@
     "Google"
    ],
    "score": 6,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "9edf39ceaa21",
-   "title": "Opposition deepfake video of Spanish PM’s wife sparks outrage before election",
-   "url": "https://www.theguardian.com/world/2026/oct/23/opposition-deepfake-video-spain-election",
-   "source": "The Guardian AI",
-   "sourceId": "guardian-ai",
-   "published": "2026-10-24T06:51:53.000Z",
-   "firstSeen": 1792778233749,
-   "summary": "Video shows AI likenesses of people linked to Pedro Sánchez’s Socialist party appearing to admit to wrongdoing A political ad from Spain’s main opposition party that used a deepfake video of the prime minister’s wife has sparked outrage and set off a wider debate on AI, as the deeply polarised country gears up for…",
-   "topics": [
-    "incidents"
-   ],
-   "tags": [
-    "Deepfakes"
-   ],
-   "score": 8,
    "action": false,
    "also": []
   },
