@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-11-22T20:59:23.665Z",
+ "generatedAt": "2026-11-23T01:31:19.075Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 42,
   "fetched": 903,
-  "relevant": 740,
-  "stories": 639,
+  "relevant": 742,
+  "stories": 641,
   "duplicatesMerged": 101
  },
  "sources": [
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 1190
+   "ms": 1234
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 56
+   "ms": 143
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 550
+   "ms": 619
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 7,
-   "ms": 1077
+   "ms": 1142
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 1,
    "kept": 1,
-   "ms": 1018
+   "ms": 493
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1128
+   "ms": 1475
   },
   {
    "id": "edpb",
@@ -70,7 +70,7 @@
    "url": "https://edpb.europa.eu/feed/news_en",
    "ok": false,
    "error": "HTTP 503",
-   "ms": 2581
+   "ms": 2301
   },
   {
    "id": "europarl",
@@ -78,7 +78,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 703
+   "ms": 765
   },
   {
    "id": "cnil",
@@ -87,7 +87,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1018
+   "ms": 929
   },
   {
    "id": "nist",
@@ -96,7 +96,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 454
+   "ms": 503
   },
   {
    "id": "ncsc-uk",
@@ -105,7 +105,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 365
+   "ms": 407
   },
   {
    "id": "cisa",
@@ -114,7 +114,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 88
+   "ms": 354
   },
   {
    "id": "fedscoop",
@@ -123,7 +123,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 120
+   "ms": 230
   },
   {
    "id": "nextgov",
@@ -132,7 +132,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 419
+   "ms": 277
   },
   {
    "id": "techcrunch-ai",
@@ -141,7 +141,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 94
+   "ms": 142
   },
   {
    "id": "venturebeat-ai",
@@ -149,7 +149,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 174
+   "ms": 145
   },
   {
    "id": "verge-ai",
@@ -158,7 +158,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 137
+   "ms": 108
   },
   {
    "id": "ars-ai",
@@ -167,7 +167,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 415
+   "ms": 327
   },
   {
    "id": "wired-ai",
@@ -176,7 +176,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 171
+   "ms": 166
   },
   {
    "id": "guardian-ai",
@@ -185,7 +185,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 269
+   "ms": 163
   },
   {
    "id": "mittr-ai",
@@ -194,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 236
+   "ms": 176
   },
   {
    "id": "register-ai",
@@ -203,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 1323
+   "ms": 1363
   },
   {
    "id": "biometric",
@@ -212,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 740
+   "ms": 775
   },
   {
    "id": "krebs",
@@ -221,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 188
+   "ms": 245
   },
   {
    "id": "securityweek",
@@ -230,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 128
+   "ms": 323
   },
   {
    "id": "wired-security",
@@ -239,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 17
+   "ms": 36
   },
   {
    "id": "csoonline",
@@ -248,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 222
+   "ms": 321
   },
   {
    "id": "infosecmag",
@@ -257,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 240
+   "ms": 433
   },
   {
    "id": "helpnet",
@@ -266,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 173
+   "ms": 312
   },
   {
    "id": "therecord",
@@ -275,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 324
+   "ms": 415
   },
   {
    "id": "thehackernews",
@@ -284,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 708
+   "ms": 247
   },
   {
    "id": "bleeping",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 259
+   "ms": 265
   },
   {
    "id": "darkreading",
@@ -302,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1745
+   "ms": 595
   },
   {
    "id": "schneier",
@@ -311,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 362
+   "ms": 176
   },
   {
    "id": "google-security",
@@ -320,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 913
+   "ms": 466
   },
   {
    "id": "msft-security",
@@ -329,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3156
+   "ms": 3151
   },
   {
    "id": "aws-security",
@@ -338,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 134
+   "ms": 326
   },
   {
    "id": "unit42",
@@ -347,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 10,
-   "ms": 111
+   "ms": 174
   },
   {
    "id": "trailofbits",
@@ -356,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 422
+   "ms": 862
   },
   {
    "id": "embracethered",
@@ -365,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 114
+   "ms": 205
   },
   {
    "id": "owasp-genai",
@@ -374,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 308
+   "ms": 158
   },
   {
    "id": "willison-pi",
@@ -383,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 576
+   "ms": 591
   },
   {
    "id": "csa",
@@ -392,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 18,
-   "ms": 339
+   "ms": 618
   },
   {
    "id": "openai",
@@ -401,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 115
+   "ms": 192
   },
   {
    "id": "deepmind",
@@ -410,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 13,
-   "ms": 168
+   "ms": 179
   },
   {
    "id": "huggingface",
@@ -419,10 +419,30 @@
    "ok": true,
    "items": 40,
    "kept": 29,
-   "ms": 230
+   "ms": 274
   }
  ],
  "items": [
+  {
+   "id": "f3678109e4b7",
+   "title": "Google’s semantic governance policies can block an AI agent’s tool call before it runs",
+   "url": "https://www.helpnetsecurity.com/2026/11/23/google-semantic-governance-policies/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-23T00:27:25.000Z",
+   "firstSeen": 1795397479075,
+   "summary": "Google lets enterprises put a checkpoint in front of an AI agent‘s actions. Semantic governance policies, in Preview on the Gemini platform, look at each tool call the agent’s model proposes and block it before it runs if the call doesn’t match the user’s request or breaks a company rule. The check sits outside the…",
+   "topics": [
+    "governance"
+   ],
+   "tags": [
+    "AI agents",
+    "Google"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
   {
    "id": "56fbfd2ae3a3",
    "title": "Jensen Huang’s reported affair was ‘most expensive sex since Helen of Troy’, US senator says",
@@ -949,6 +969,26 @@
     "Google"
    ],
    "score": 14,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "5e957fb43dfd",
+   "title": "Microsoft Debuts Offensive, Defensive Security Tools for the AI Era",
+   "url": "https://www.darkreading.com/endpoint-security/microsoft-offense-defense-ai-security-tools",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-20T13:51:30.000Z",
+   "firstSeen": 1795397479075,
+   "summary": "Microsoft announces new AI agent security tools and transparency standards to protect enterprise systems at its Ignite technical conference.",
+   "topics": [
+    "governance"
+   ],
+   "tags": [
+    "AI agents",
+    "Microsoft"
+   ],
+   "score": 9,
    "action": false,
    "also": []
   },
