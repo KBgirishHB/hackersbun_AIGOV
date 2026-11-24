@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-24T05:52:30.766Z",
+ "generatedAt": "2026-11-24T17:27:51.096Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 42,
-  "fetched": 894,
-  "relevant": 765,
-  "stories": 658,
-  "duplicatesMerged": 107
+  "sourcesOk": 44,
+  "fetched": 936,
+  "relevant": 788,
+  "stories": 680,
+  "duplicatesMerged": 108
  },
  "sources": [
   {
@@ -18,15 +18,16 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 983
+   "ms": 904
   },
   {
    "id": "aiact-newsletter",
    "name": "EU AI Act Newsletter",
    "url": "https://artificialintelligenceact.substack.com/feed",
-   "ok": false,
-   "error": "HTTP 403",
-   "ms": 45
+   "ok": true,
+   "items": 20,
+   "kept": 4,
+   "ms": 79
   },
   {
    "id": "fli",
@@ -35,7 +36,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 753
+   "ms": 631
   },
   {
    "id": "algorithmwatch",
@@ -44,16 +45,16 @@
    "ok": true,
    "items": 10,
    "kept": 8,
-   "ms": 1347
+   "ms": 822
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 3,
-   "kept": 3,
-   "ms": 386
+   "items": 5,
+   "kept": 5,
+   "ms": 145
   },
   {
    "id": "euractiv",
@@ -62,7 +63,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1534
+   "ms": 686
   },
   {
    "id": "edpb",
@@ -71,15 +72,16 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 2011
+   "ms": 1496
   },
   {
    "id": "europarl",
    "name": "European Parliament",
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
-   "ok": false,
-   "error": "not an RSS/Atom feed",
-   "ms": 943
+   "ok": true,
+   "items": 20,
+   "kept": 20,
+   "ms": 334
   },
   {
    "id": "cnil",
@@ -88,7 +90,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1008
+   "ms": 734
   },
   {
    "id": "nist",
@@ -97,7 +99,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 539
+   "ms": 268
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +108,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 387
+   "ms": 71
   },
   {
    "id": "cisa",
@@ -115,7 +117,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 121
+   "ms": 113
   },
   {
    "id": "fedscoop",
@@ -124,7 +126,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 44
+   "ms": 115
   },
   {
    "id": "nextgov",
@@ -133,7 +135,7 @@
    "ok": true,
    "items": 23,
    "kept": 23,
-   "ms": 439
+   "ms": 431
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +144,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 84
+   "ms": 38
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +152,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 47
+   "ms": 54
   },
   {
    "id": "verge-ai",
@@ -159,7 +161,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 116
+   "ms": 33
   },
   {
    "id": "ars-ai",
@@ -168,7 +170,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 440
+   "ms": 326
   },
   {
    "id": "wired-ai",
@@ -177,7 +179,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 60
+   "ms": 63
   },
   {
    "id": "guardian-ai",
@@ -185,7 +187,7 @@
    "url": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 42
+   "ms": 43
   },
   {
    "id": "mittr-ai",
@@ -194,7 +196,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 49
+   "ms": 57
   },
   {
    "id": "register-ai",
@@ -203,7 +205,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 994
+   "ms": 440
   },
   {
    "id": "biometric",
@@ -212,7 +214,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 770
+   "ms": 756
   },
   {
    "id": "krebs",
@@ -221,7 +223,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 82
+   "ms": 91
   },
   {
    "id": "securityweek",
@@ -230,7 +232,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 82
+   "ms": 63
   },
   {
    "id": "wired-security",
@@ -239,7 +241,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 18
+   "ms": 27
   },
   {
    "id": "csoonline",
@@ -248,7 +250,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 107
+   "ms": 59
   },
   {
    "id": "infosecmag",
@@ -257,7 +259,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 283
+   "ms": 218
   },
   {
    "id": "helpnet",
@@ -266,7 +268,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 537
+   "ms": 48
   },
   {
    "id": "therecord",
@@ -275,7 +277,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 156
+   "ms": 127
   },
   {
    "id": "thehackernews",
@@ -284,7 +286,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 250
+   "ms": 396
   },
   {
    "id": "bleeping",
@@ -293,7 +295,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 102
+   "ms": 93
   },
   {
    "id": "darkreading",
@@ -302,7 +304,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 543
+   "ms": 1282
   },
   {
    "id": "schneier",
@@ -311,7 +313,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 110
+   "ms": 35
   },
   {
    "id": "google-security",
@@ -320,7 +322,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 461
+   "ms": 609
   },
   {
    "id": "msft-security",
@@ -329,7 +331,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1047
+   "ms": 1278
   },
   {
    "id": "aws-security",
@@ -338,7 +340,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 91
+   "ms": 74
   },
   {
    "id": "unit42",
@@ -346,8 +348,8 @@
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
    "items": 15,
-   "kept": 10,
-   "ms": 32
+   "kept": 11,
+   "ms": 85
   },
   {
    "id": "trailofbits",
@@ -356,7 +358,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 324
+   "ms": 256
   },
   {
    "id": "embracethered",
@@ -365,7 +367,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 58
+   "ms": 88
   },
   {
    "id": "owasp-genai",
@@ -374,7 +376,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 85
+   "ms": 46
   },
   {
    "id": "willison-pi",
@@ -383,7 +385,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 713
+   "ms": 67
   },
   {
    "id": "csa",
@@ -392,7 +394,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 353
+   "ms": 312
   },
   {
    "id": "openai",
@@ -401,7 +403,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 120
+   "ms": 113
   },
   {
    "id": "deepmind",
@@ -410,7 +412,7 @@
    "ok": true,
    "items": 40,
    "kept": 14,
-   "ms": 207
+   "ms": 215
   },
   {
    "id": "huggingface",
@@ -419,10 +421,505 @@
    "ok": true,
    "items": 40,
    "kept": 30,
-   "ms": 157
+   "ms": 169
   }
  ],
  "items": [
+  {
+   "id": "4cb8f1d6192a",
+   "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+   "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "published": "2026-11-24T16:46:00.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "6216f6beb239",
+   "title": "Jensen Huang deepfakes are the hot new AI slop",
+   "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+   "source": "The Verge AI",
+   "sourceId": "verge-ai",
+   "published": "2026-11-24T16:30:00.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice Huang - the Chinese technology executive and suspected spy he",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Deepfakes",
+    "China"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "71af07884bfa",
+   "title": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
+   "url": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-11-24T15:01:11.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "AI-driven development is adding complexity to software supply chains, leaving security teams overwhelmed by vulnerabilities that may pose little actual risk. RapidFort explains how runtime visibility, container hardening, and automated remediation can reduce vulnerability noise and improve software resilience.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability"
+   ],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "58670dfe4b43",
+   "title": "Recent Trends and Tactics of Agentic AI Attacks",
+   "url": "https://unit42.paloaltonetworks.com/autonomous-ai-agent-threat-campaigns/",
+   "source": "Unit 42",
+   "sourceId": "unit42",
+   "published": "2026-11-24T15:00:19.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "We tracked campaigns where attackers deployed autonomous AI agents to automate multi-platform intrusions, using standard tools while leaving distinct operational traces.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "ca0fc840a661",
+   "title": "European Commission Uncovers Data Breach in Cyberattack Investigation",
+   "url": "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-24T14:49:59.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "Names and email addresses of EU Academy users were exposed in the AI-assisted cyberattack the European Commission detected in October.",
+   "topics": [
+    "incidents",
+    "regulation"
+   ],
+   "tags": [],
+   "score": 20,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "511b6adc1bc8",
+   "title": "Scaling Laws: Meta's Big Investment in Workforce Training with Rosemary Lahasky",
+   "url": "https://www.lawfaremedia.org/article/scaling-laws--meta's-big-investment-in-workforce-training-with-rosemary-lahasky",
+   "source": "Lawfare",
+   "sourceId": "lawfare",
+   "published": "2026-11-24T14:42:41.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "Rosemary Lahasky, Director of Workforce and Infrastructure Initiatives at Meta, joins Kevin Frazier, Director of the AI Innovation and Law Program at the University of Texas School of Law and a Senior Editor at Lawfare, from Meta's DC studio to discuss America's Workforce Academy. This seemingly \"too good to be true\"…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "Meta"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "6c319d84f8f1",
+   "title": "Cloudera helps enterprises deploy sovereign AI without proprietary lock-in",
+   "url": "https://www.helpnetsecurity.com/2026/11/24/cloudera-digital-sovereignty/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-24T14:33:35.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "Cloudera has announced Cloudera for Digital Sovereignty, a solution and partner ecosystem designed to give organizations jurisdictional, operational, and technical control across their data, cloud, and AI lifecycle. Bringing together Cloudera Anywhere Cloud, Cloudera’s Open Data Lakehouse and Unified Data Fabric, and…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "77703dd51494",
+   "title": "Astelia blocks attack paths to vulnerabilities without waiting for patches",
+   "url": "https://www.helpnetsecurity.com/2026/11/24/astelia-autonomous-network-mitigation/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-24T14:24:11.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "Astelia has announced autonomous network mitigation, a new capability that defends against AI-driven exploits by blocking attack paths to reachable vulnerabilities at the network level. Organizations can now eliminate the 1% of vulnerabilities attackers can reach without waiting for a patch. The mitigation workflow ·…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "c45a51ca0681",
+   "title": "Check Point Security Management Servers Hacked in AI-Assisted Campaign",
+   "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-24T14:21:56.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "The attacks were launched from 99 IP addresses and targeted organizations across multiple industries and countries.",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [],
+   "score": 13,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "a9f335f413ed",
+   "title": "UK cyber agency seeing ‘marked rise’ in AI-driven attacks",
+   "url": "https://therecord.media/cyberattacks-uk-artificial-intelligence",
+   "source": "The Record",
+   "sourceId": "therecord",
+   "published": "2026-11-24T13:45:00.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "Britain’s National Cyber Security Centre said it has observed “a marked rise” since September in cyberattacks assisted by artificial intelligence and warned the technology was increasing attackers’ speed, scale and persistence.",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "UK"
+   ],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "f9b3fe23703d",
+   "title": "Address AI Agent Risks or Face Action, FCA Warns Financial Firms",
+   "url": "https://www.infosecurity-magazine.com/news/ai-agent-risks-face-action-fca/",
+   "source": "Infosecurity Magazine",
+   "sourceId": "infosecmag",
+   "published": "2026-11-24T13:45:00.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "The FCA said financial organizations must provide effective oversight and governance controls for AI agents, amid rising deployment in the sector",
+   "topics": [
+    "governance"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "878c80d753ed",
+   "title": "Anthropic Expands Enterprise Safeguards for Detecting AI Misuse",
+   "url": "https://www.securityweek.com/anthropic-expands-enterprise-safeguards-for-detecting-ai-misuse/",
+   "source": "SecurityWeek",
+   "sourceId": "securityweek",
+   "published": "2026-11-24T13:30:23.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "EFS helps zero-retention customers spot Claude misuse spread across many requests while keeping conversation data in their own cloud.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "c3e154eb360f",
+   "title": "Fiji advances voluntary biometric ID law, maps 788 government services for digitization",
+   "url": "https://www.biometricupdate.com/202611/fiji-advances-voluntary-biometric-id-law-maps-788-government-services-for-digitization",
+   "source": "Biometric Update",
+   "sourceId": "biometric",
+   "published": "2026-11-24T13:28:12.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "Fiji is preparing to introduce legislation for a voluntary biometric national identity system, while advancing plans to digitize government services and integrate artificial intelligence (AI) into the public sector. The country's National ID Project Steering Committee, chaired by Minister for Policing and…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "Biometrics"
+   ],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "2438d23341ec",
+   "title": "Chinese Open-Weight AI Models Top Closed Ones at Vulnerability Discovery in New Test",
+   "url": "https://www.infosecurity-magazine.com/news/chinese-ai-models-top/",
+   "source": "Infosecurity Magazine",
+   "sourceId": "infosecmag",
+   "published": "2026-11-24T13:00:00.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "In a vulnerability discovery test, DeepSeek outperformed five American closed-source AI models while costing far less to run",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability",
+    "China"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "cdb7ec128722",
+   "title": "Bedrock Data enhances AI agent governance with intent-aware DLP",
+   "url": "https://www.helpnetsecurity.com/2026/11/24/bedrock-data-agent-dlp/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-24T12:34:02.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "Bedrock Data has announced that Agent DLP, its runtime data loss prevention for AI agents, now infers a user’s intent (the business purpose behind the task) and evaluates the agent’s behavior (the sum of its actions across every tool and LLM call) against that intent and the organization’s policy. By weighing both…",
+   "topics": [
+    "governance"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "38a97359c8f8",
+   "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+   "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+   "source": "Ars Technica AI",
+   "sourceId": "ars-ai",
+   "published": "2026-11-24T12:30:05.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 20,
+   "action": true,
+   "also": []
+  },
+  {
+   "id": "6dcccdf50187",
+   "title": "Elastic puts AI agents to work on the SOC alert backlog",
+   "url": "https://www.helpnetsecurity.com/2026/11/24/elastic-security-9-6-features/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-24T12:27:45.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "Elastic announced Elastic Security 9.6, which introduces AlertZero, a set of AI agents that triage alerts, hunt threats and tune detection rules in the background. The release also adds ransomware protection for Linux, expanded entity resolution and an expanded set of 143 detection rules covering AI agents and large…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "AI agents",
+    "Ransomware"
+   ],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "3aae2a6b61a4",
+   "title": "Irish privacy regulator in talks with Meta over EU launch of Muse",
+   "url": "https://www.rapporteur.com/news/irish-privacy-regulator-in-talks-with-meta-over-eu-launch-of-muse/",
+   "source": "Euractiv",
+   "sourceId": "euractiv",
+   "published": "2026-11-24T11:27:13.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "AI agent tech rolled out to UK on Tuesday, where regulators signal they're on watch",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "AI agents",
+    "Privacy",
+    "Meta",
+    "UK"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "2e7717687c8a",
+   "title": "Researchers Find a New AI Attack Path: Agent Instructions",
+   "url": "https://www.infosecurity-magazine.com/news/researchers-new-ai-attack-path/",
+   "source": "Infosecurity Magazine",
+   "sourceId": "infosecmag",
+   "published": "2026-11-24T09:30:00.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "Ox Security warns that agents are being manipulated without the need for executable malware",
+   "topics": [
+    "security",
+    "research"
+   ],
+   "tags": [],
+   "score": 13,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "86d699d5e03a",
+   "title": "Claude Ship gives AI a seat on both sides of code review",
+   "url": "https://www.helpnetsecurity.com/2026/11/24/anthropic-claude-ship-beta/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-24T09:02:02.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "Anthropic launched Claude Ship in beta, a suite of agents that reviews pull requests, fixes issues and approves changes permitted by a team’s policy. Teams decide where it runs and which changes require human approval. Anthropic said Claude writes most of the code on its Claude Code team. With Claude Ship, the company…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "33b206bdd5da",
+   "title": "The EU AI Act Newsletter #115: Global Rules After the Midterms",
+   "url": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-115-global",
+   "source": "EU AI Act Newsletter",
+   "sourceId": "aiact-newsletter",
+   "published": "2026-11-24T07:44:37.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "The Commission questions OpenAI and Anthropic on safety incidents, civil society urges EU leaders to back full enforcement, and Brussels eyes a global AI deal after the US midterms.",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "EU AI Act",
+    "OpenAI",
+    "Anthropic"
+   ],
+   "score": 20,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "4d90ec13314b",
+   "title": "Google Cloud CISO talks agentic AI security and the future of the SOC",
+   "url": "https://www.helpnetsecurity.com/2026/11/24/chris-betz-google-agentic-ai-security/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-24T07:00:16.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "In this interview with Help Net Security, Chris Betz, CISO of Google Cloud, answers five questions about security as AI agents spread. He says the old belief that human-led workflows would stay the norm has aged badly, since attackers use automation to move through networks in minutes. Betz explains how agents could…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents",
+    "Google"
+   ],
+   "score": 19,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "e4921f2c466b",
+   "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+   "url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-24T06:02:57.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. \"It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time to test and roll out…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "OpenAI",
+    "Vulnerability"
+   ],
+   "score": 21,
+   "action": false,
+   "also": [
+    {
+     "id": "fb53d93b2d01",
+     "source": "Infosecurity Magazine",
+     "sourceId": "infosecmag",
+     "title": "OpenAI and Cisco Release Open-Source Tool to Shield Unpatched Linux Systems",
+     "url": "https://www.infosecurity-magazine.com/news/openai-cisco-shirudo-linux-shields/",
+     "published": "2026-11-24T12:00:00.000Z",
+     "firstSeen": 1795541271096,
+     "summary": "OpenAI and Cisco’s Shirudo helps Linux users block exploitation of known vulnerabilities on live systems, buying time for patching without requiring a restart"
+    },
+    {
+     "id": "ed452dbe630b",
+     "source": "SecurityWeek",
+     "sourceId": "securityweek",
+     "title": "OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems",
+     "url": "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/",
+     "published": "2026-11-24T12:20:41.000Z",
+     "firstSeen": 1795541271096,
+     "summary": "OpenAI and Cisco’s Shirudo uses AI-generated shields to block Linux exploits while patches are prepared, but it’s not yet production-ready."
+    },
+    {
+     "id": "c2fdc3ec5693",
+     "source": "BleepingComputer",
+     "sourceId": "bleeping",
+     "title": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
+     "url": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
+     "published": "2026-11-24T13:34:23.000Z",
+     "firstSeen": 1795541271096,
+     "summary": "OpenAI and Cisco launched an open-source Linux security tool named Shirudo that deploys temporary runtime protections to block vulnerability exploitation while administrators prepare and roll out patches, without restarting services."
+    }
+   ]
+  },
+  {
+   "id": "d878d7117558",
+   "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-24T06:02:45.000Z",
+   "firstSeen": 1795541271096,
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The critical vulnerabilities are listed below - CVE-2026-134624 (CVSS score: 9.3) - A…",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "AI agents",
+    "Vulnerability",
+    "USA"
+   ],
+   "score": 26,
+   "action": true,
+   "also": []
+  },
   {
    "id": "3ebe8b7e0dc8",
    "title": "CrowdStrike Makes AI Security Push With Blockbuster Zscaler Deal",
@@ -1019,7 +1516,7 @@
    "sourceId": "darkreading",
    "published": "2026-11-21T01:31:23.000Z",
    "firstSeen": 1795426816936,
-   "summary": "Identity, runtime, and development controls are converging as enterprises look for ways to keep agents within their assigned tasks. But vendors' approaches vary, so CISOs face a choice.",
+   "summary": "Identity, runtime, and development controls are converging as enterprises look for ways to keep agents within their assigned jobs. But vendors' approaches vary, so CISOs face a choice.",
    "topics": [
     "security"
    ],
@@ -1162,7 +1659,7 @@
   },
   {
    "id": "a317ff86762e",
-   "title": "In Security, Words Matter as Much as Tools, Maybe More",
+   "title": "In Security, Words Matter as Much as Tools — Maybe More",
    "url": "https://www.darkreading.com/cybersecurity-operations/security-words-matter",
    "source": "Dark Reading",
    "sourceId": "darkreading",
@@ -1381,7 +1878,7 @@
    "sourceId": "darkreading",
    "published": "2026-11-20T13:51:30.000Z",
    "firstSeen": 1795397479075,
-   "summary": "Microsoft uses its Ignite technical conference to announce new AI agent security tools and transparency standards to protect enterprise systems.",
+   "summary": "At its Ignite technical conference, Microsoft announced AI agent security tools and transparency standards to protect enterprise systems.",
    "topics": [
     "governance"
    ],
@@ -3225,6 +3722,26 @@
    ]
   },
   {
+   "id": "8d53260fbe25",
+   "title": "Fully Autonomous Agentic Attacks Are Three Months Away, Google Warns",
+   "url": "https://www.infosecurity-magazine.com/news/fully-autonomous-agentic-attacks/",
+   "source": "Infosecurity Magazine",
+   "sourceId": "infosecmag",
+   "published": "2026-11-17T09:30:00.000Z",
+   "firstSeen": 1794939862208,
+   "summary": "Google Threat Intelligence Group warns of “paradigm shift” in use of agentic pen-test frameworks",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents",
+    "Google"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
    "id": "15e1019d886f",
    "title": "Google finds AI agent writing and launching exploits with no human in the loop",
    "url": "https://www.helpnetsecurity.com/2026/11/17/ai-powered-cyberattacks-gtig-report/",
@@ -3941,20 +4458,9 @@
     "Vulnerability",
     "Google"
    ],
-   "score": 18,
+   "score": 15,
    "action": false,
-   "also": [
-    {
-     "id": "8d53260fbe25",
-     "source": "Infosecurity Magazine",
-     "sourceId": "infosecmag",
-     "title": "Fully Autonomous Agentic Attacks Are Three Months Away, Google Warns",
-     "url": "https://www.infosecurity-magazine.com/news/fully-autonomous-agentic-attacks/",
-     "published": "2026-11-17T09:30:00.000Z",
-     "firstSeen": 1794939862208,
-     "summary": "Google Threat Intelligence Group warns of “paradigm shift” in use of agentic pen-test frameworks"
-    }
-   ]
+   "also": []
   },
   {
    "id": "99dc10fa6305",
@@ -13563,6 +14069,48 @@
    "also": []
   },
   {
+   "id": "a3e6576bbed2",
+   "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+   "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-10-26T06:03:48.000Z",
+   "firstSeen": 1793023603545,
+   "summary": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm Forever Security said in a report published last week. The company caught the attempt on a real customer's machine and stopped the agent before any code ran…",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "score": 16,
+   "action": false,
+   "also": [
+    {
+     "id": "3fa7b7bed15a",
+     "source": "CSO Online",
+     "sourceId": "csoonline",
+     "title": "Malicious downloads can trick AI coding agents into compromising themselves",
+     "url": "https://www.csoonline.com/article/4240222/malicious-downloads-can-trick-ai-coding-agents-into-compromising-themselves.html",
+     "published": "2026-10-26T10:35:08.000Z",
+     "firstSeen": 1793023603545,
+     "summary": "Malicious instruction files planted in a computer’s Downloads folder can trick AI coding agents into executing harmful code or exposing authentication tokens, Forever Security said after blocking an attempted attack on a customer’s machine and demonstrating similar techniques against OpenAI’s Codex and Anthropic’s…"
+    },
+    {
+     "id": "9bc5fc84787a",
+     "source": "Help Net Security",
+     "sourceId": "helpnet",
+     "title": "AI coding agents fall for malicious instructions planted in the Downloads folder",
+     "url": "https://www.helpnetsecurity.com/2026/10/26/ai-coding-agents-malware-openai-codex/",
+     "published": "2026-10-26T11:26:40.000Z",
+     "firstSeen": 1793023603545,
+     "summary": "A file that a website saves to the Downloads folder without approval can trick AI coding agents into installing a malicious npm package or handing over the user’s login token when they’re opened in that folder, Forever Security has found. The file is called AGENTS.md, a plain text document developers place in a…"
+    }
+   ]
+  },
+  {
    "id": "9d201b43b22b",
    "title": "Product showcase: Stellar Cyber’s ISOC platform provides full-cycle architecture",
    "url": "https://www.helpnetsecurity.com/2026/10/26/product-showcase-stellar-cyber-isoc-platform/",
@@ -13650,114 +14198,6 @@
     "Anthropic"
    ],
    "score": 8,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "a49b21a0c4d0",
-   "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
-   "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
-   "source": "BleepingComputer",
-   "sourceId": "bleeping",
-   "published": "2026-10-25T15:49:38.000Z",
-   "firstSeen": 1792950420644,
-   "summary": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package.",
-   "topics": [
-    "security",
-    "incidents"
-   ],
-   "tags": [
-    "OpenAI",
-    "Anthropic"
-   ],
-   "score": 19,
-   "action": false,
-   "also": [
-    {
-     "id": "a3e6576bbed2",
-     "source": "The Hacker News",
-     "sourceId": "thehackernews",
-     "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
-     "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
-     "published": "2026-10-26T06:03:48.000Z",
-     "firstSeen": 1793023603545,
-     "summary": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm Forever Security said in a report published last week. The company caught the attempt on a real customer's machine and stopped the agent before any code ran…"
-    },
-    {
-     "id": "3fa7b7bed15a",
-     "source": "CSO Online",
-     "sourceId": "csoonline",
-     "title": "Malicious downloads can trick AI coding agents into compromising themselves",
-     "url": "https://www.csoonline.com/article/4240222/malicious-downloads-can-trick-ai-coding-agents-into-compromising-themselves.html",
-     "published": "2026-10-26T10:35:08.000Z",
-     "firstSeen": 1793023603545,
-     "summary": "Malicious instruction files planted in a computer’s Downloads folder can trick AI coding agents into executing harmful code or exposing authentication tokens, Forever Security said after blocking an attempted attack on a customer’s machine and demonstrating similar techniques against OpenAI’s Codex and Anthropic’s…"
-    },
-    {
-     "id": "9bc5fc84787a",
-     "source": "Help Net Security",
-     "sourceId": "helpnet",
-     "title": "AI coding agents fall for malicious instructions planted in the Downloads folder",
-     "url": "https://www.helpnetsecurity.com/2026/10/26/ai-coding-agents-malware-openai-codex/",
-     "published": "2026-10-26T11:26:40.000Z",
-     "firstSeen": 1793023603545,
-     "summary": "A file that a website saves to the Downloads folder without approval can trick AI coding agents into installing a malicious npm package or handing over the user’s login token when they’re opened in that folder, Forever Security has found. The file is called AGENTS.md, a plain text document developers place in a…"
-    }
-   ]
-  },
-  {
-   "id": "6e7a2e7d843d",
-   "title": "r/opensource just banned AI, non-English speakers, and more",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
-   "source": "The Verge AI",
-   "sourceId": "verge-ai",
-   "published": "2026-10-25T13:25:32.000Z",
-   "firstSeen": 1792937846601,
-   "summary": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source",
-   "topics": [
-    "regulation"
-   ],
-   "tags": [],
-   "score": 9,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "8f2c9b4a26fe",
-   "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
-   "url": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
-   "source": "SecurityWeek",
-   "sourceId": "securityweek",
-   "published": "2026-10-25T11:00:00.000Z",
-   "firstSeen": 1792937846601,
-   "summary": "Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents"
-   ],
-   "score": 5,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "bc3964fd1199",
-   "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
-   "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
-   "source": "The Hacker News",
-   "sourceId": "thehackernews",
-   "published": "2026-10-25T06:54:29.000Z",
-   "firstSeen": 1792922680093,
-   "summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents",
-    "OpenAI"
-   ],
-   "score": 5,
    "action": false,
    "also": []
   },
