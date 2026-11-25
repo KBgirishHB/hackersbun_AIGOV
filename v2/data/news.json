@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-25T10:21:41.391Z",
+ "generatedAt": "2026-11-25T20:05:47.411Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 42,
-  "fetched": 897,
-  "relevant": 791,
-  "stories": 677,
-  "duplicatesMerged": 114
+  "sourcesOk": 44,
+  "fetched": 934,
+  "relevant": 793,
+  "stories": 683,
+  "duplicatesMerged": 110
  },
  "sources": [
   {
@@ -18,15 +18,16 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 763
+   "ms": 770
   },
   {
    "id": "aiact-newsletter",
    "name": "EU AI Act Newsletter",
    "url": "https://artificialintelligenceact.substack.com/feed",
-   "ok": false,
-   "error": "HTTP 403",
-   "ms": 40
+   "ok": true,
+   "items": 20,
+   "kept": 4,
+   "ms": 72
   },
   {
    "id": "fli",
@@ -35,7 +36,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 438
+   "ms": 447
   },
   {
    "id": "algorithmwatch",
@@ -44,16 +45,16 @@
    "ok": true,
    "items": 10,
    "kept": 8,
-   "ms": 864
+   "ms": 687
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 5,
-   "kept": 5,
-   "ms": 94
+   "items": 2,
+   "kept": 2,
+   "ms": 102
   },
   {
    "id": "euractiv",
@@ -62,7 +63,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 706
+   "ms": 285
   },
   {
    "id": "edpb",
@@ -71,15 +72,16 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1279
+   "ms": 763
   },
   {
    "id": "europarl",
    "name": "European Parliament",
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
-   "ok": false,
-   "error": "not an RSS/Atom feed",
-   "ms": 448
+   "ok": true,
+   "items": 20,
+   "kept": 20,
+   "ms": 84
   },
   {
    "id": "cnil",
@@ -88,7 +90,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 553
+   "ms": 156
   },
   {
    "id": "nist",
@@ -97,7 +99,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 372
+   "ms": 69
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +108,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 99
+   "ms": 49
   },
   {
    "id": "cisa",
@@ -115,7 +117,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 76
+   "ms": 64
   },
   {
    "id": "fedscoop",
@@ -124,7 +126,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 80
+   "ms": 24
   },
   {
    "id": "nextgov",
@@ -133,7 +135,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 88
+   "ms": 54
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +144,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 36
+   "ms": 33
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +152,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 114
+   "ms": 56
   },
   {
    "id": "verge-ai",
@@ -159,7 +161,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 39
+   "ms": 38
   },
   {
    "id": "ars-ai",
@@ -168,7 +170,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 196
+   "ms": 85
   },
   {
    "id": "wired-ai",
@@ -177,7 +179,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 147
+   "ms": 54
   },
   {
    "id": "guardian-ai",
@@ -185,7 +187,7 @@
    "url": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 69
+   "ms": 15
   },
   {
    "id": "mittr-ai",
@@ -194,7 +196,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 113
+   "ms": 16
   },
   {
    "id": "register-ai",
@@ -203,7 +205,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 658
+   "ms": 394
   },
   {
    "id": "biometric",
@@ -212,7 +214,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 742
+   "ms": 604
   },
   {
    "id": "krebs",
@@ -221,7 +223,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 305
+   "ms": 34
   },
   {
    "id": "securityweek",
@@ -230,7 +232,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 328
+   "ms": 58
   },
   {
    "id": "wired-security",
@@ -239,7 +241,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 20
+   "ms": 19
   },
   {
    "id": "csoonline",
@@ -248,7 +250,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 283
+   "ms": 29
   },
   {
    "id": "infosecmag",
@@ -257,7 +259,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 417
+   "ms": 115
   },
   {
    "id": "helpnet",
@@ -266,7 +268,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 241
+   "ms": 14
   },
   {
    "id": "therecord",
@@ -275,7 +277,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 143
+   "ms": 64
   },
   {
    "id": "thehackernews",
@@ -284,7 +286,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 162
+   "ms": 272
   },
   {
    "id": "bleeping",
@@ -293,7 +295,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 78
+   "ms": 43
   },
   {
    "id": "darkreading",
@@ -302,7 +304,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 402
+   "ms": 223
   },
   {
    "id": "schneier",
@@ -311,7 +313,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 93
+   "ms": 16
   },
   {
    "id": "google-security",
@@ -320,7 +322,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 589
+   "ms": 410
   },
   {
    "id": "msft-security",
@@ -329,7 +331,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3069
+   "ms": 2093
   },
   {
    "id": "aws-security",
@@ -338,7 +340,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 85
+   "ms": 43
   },
   {
    "id": "unit42",
@@ -346,8 +348,8 @@
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
    "items": 15,
-   "kept": 12,
-   "ms": 71
+   "kept": 13,
+   "ms": 41
   },
   {
    "id": "trailofbits",
@@ -356,7 +358,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 194
+   "ms": 203
   },
   {
    "id": "embracethered",
@@ -365,7 +367,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 75
+   "ms": 56
   },
   {
    "id": "owasp-genai",
@@ -374,7 +376,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 206
+   "ms": 57
   },
   {
    "id": "willison-pi",
@@ -383,7 +385,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 146
+   "ms": 91
   },
   {
    "id": "csa",
@@ -392,7 +394,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 316
+   "ms": 412
   },
   {
    "id": "openai",
@@ -401,7 +403,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 134
+   "ms": 89
   },
   {
    "id": "deepmind",
@@ -409,8 +411,8 @@
    "url": "https://deepmind.google/blog/rss.xml",
    "ok": true,
    "items": 40,
-   "kept": 14,
-   "ms": 45
+   "kept": 15,
+   "ms": 29
   },
   {
    "id": "huggingface",
@@ -418,18 +420,132 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 30,
-   "ms": 147
+   "kept": 31,
+   "ms": 83
   }
  ],
  "items": [
+  {
+   "id": "6c46c2ab921a",
+   "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+   "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-11-25T19:39:31.000Z",
+   "firstSeen": 1795637147411,
+   "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "AI agents",
+    "Critical infrastructure"
+   ],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "7072086ea0e0",
+   "title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+   "source": "Microsoft Security Blog",
+   "sourceId": "msft-security",
+   "published": "2026-11-25T18:09:06.000Z",
+   "firstSeen": 1795637147411,
+   "summary": "The AI-powered penetration testing framework ARTEX has been abused by threat actors like Storm-0940, Storm-3358, Onyx Sleet, Pearl Sleet, Crystal Typhoon, and Salt Typhoon to accelerate their existing workflows related to network reconnaissance, credential attacks, and web application exploitation.",
+   "topics": [
+    "incidents",
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 19,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "b1d446a6659c",
+   "title": "Planning for 99.99 percent availability with the Amazon Cognito Plus feature plan",
+   "url": "https://aws.amazon.com/blogs/security/planning-for-99-99-percent-availability-with-the-amazon-cognito-plus-feature-plan/",
+   "source": "AWS Security Blog",
+   "sourceId": "aws-security",
+   "published": "2026-11-25T17:50:39.000Z",
+   "firstSeen": 1795637147411,
+   "summary": "Amazon Cognito handles sign-in and access control for users, AI agents, and microservices with managed user directories, social and enterprise federation, and passwordless sign-in with passkeys or one-time passwords. Sign-in is the front door to your application. If your customer identity and access management (CIAM)…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 0,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "4f3d6a30519d",
+   "title": "Switzerland awards $5.3M deepfake detection contract to secure digital ID rollout",
+   "url": "https://www.biometricupdate.com/202611/switzerland-awards-5-3m-deepfake-detection-contract-to-secure-digital-id-rollout",
+   "source": "Biometric Update",
+   "sourceId": "biometric",
+   "published": "2026-11-25T16:10:17.000Z",
+   "firstSeen": 1795637147411,
+   "summary": "Switzerland's Federal Office for Buildings and Logistics has awarded a CHF 4.44 million (US$5.3 million) contract to ELCA Informatique SA to provide a Face Deepfake Detector (FDD) module for the Federal Office of Police (Fedpol). The addition follows Fedpol's earlier procurement of ELCA's AV System for online identity…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Deepfakes",
+    "USA"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "7658e8f5e74f",
+   "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
+   "url": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-11-25T15:00:10.000Z",
+   "firstSeen": 1795637147411,
+   "summary": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more engagements, and keep sensitive client data within their own infrastructure.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "06a9eef335d4",
+   "title": "The AI Threat Horizon: Why Speed, Edge AI and Baselines Are Our Best Defense",
+   "url": "https://unit42.paloaltonetworks.com/ai-threat-horizon/",
+   "source": "Unit 42",
+   "sourceId": "unit42",
+   "published": "2026-11-25T15:00:09.000Z",
+   "firstSeen": 1795637147411,
+   "summary": "Unit 42 examines the evolution of AI-driven cyberattacks and outlines proactive defense strategies for security teams.",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [],
+   "score": 11,
+   "action": false,
+   "also": []
+  },
   {
    "id": "88c6f957eaa7",
    "title": "Cyber Insurers See New Divide: AI Defense 'Haves' & 'Have Nots'",
    "url": "https://www.darkreading.com/cybersecurity-operations/cyber-insurers-see-new-ai-divide",
    "source": "Dark Reading",
    "sourceId": "darkreading",
-   "published": "2026-11-25T10:21:41.391Z",
+   "published": "2026-11-25T15:00:00.000Z",
    "firstSeen": 1795602101391,
    "summary": "Dark Reading Confidential Episode 23: Cyber insurers share their view of the AI-driven threat landscape and how mounting challenges are putting pressure on both sides of the policy, leaving the current model unsustainable.",
    "topics": [
@@ -437,6 +553,97 @@
    ],
    "tags": [],
    "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "1d0fa2c6be52",
+   "title": "Enforce AI nudifier ban, MEPs warn",
+   "url": "https://www.rapporteur.com/news/enforce-ai-nudifier-ban-meps-warn/",
+   "source": "Euractiv",
+   "sourceId": "euractiv",
+   "published": "2026-11-25T13:11:29.000Z",
+   "firstSeen": 1795637147411,
+   "summary": "Lawmakers are demanding that countries enforce the law to protect citizens",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "af9080796dfd",
+   "title": "Tracking Incidents of Hacking Using AI Tools",
+   "url": "https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html",
+   "source": "Schneier on Security",
+   "sourceId": "schneier",
+   "published": "2026-11-25T12:07:21.000Z",
+   "firstSeen": 1795637147411,
+   "summary": "Daniel Meissler is tracking incidents of AI-enhanced hacking, and the offensive harnesses the hackers are using.",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "75f1d5ed1c06",
+   "title": "Prompting AI to be ‘thorough’ can drive sandbox escapes, Anthropic says",
+   "url": "https://www.csoonline.com/article/4253053/prompting-ai-to-be-thorough-can-drive-sandbox-escapes-anthropic-says.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-11-25T12:06:00.000Z",
+   "firstSeen": 1795637147411,
+   "summary": "Prompt wording meant to make AI agents more resourceful, such as telling them to search thoroughly or invoking authority, sharply raises the odds they will reach outside a poorly secured sandbox, Anthropic has found in its latest evaluation. The evaluation, called Siren, gives Claude models routine dev-ops tasks…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents",
+    "Anthropic"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "21b2b5a54e64",
+   "title": "The ‘True Crime Community’ Is Inspiring Violent Attacks Through TikTok",
+   "url": "https://www.wired.com/story/the-true-crime-community-is-inspiring-violent-attacks-through-tiktok/",
+   "source": "WIRED Security",
+   "sourceId": "wired-security",
+   "published": "2026-11-25T11:00:00.000Z",
+   "firstSeen": 1795637147411,
+   "summary": "Attacks linked to a network of young people obsessed with mass shooters are greatly increasing, research shared with WIRED shows, as the nihilistic group uses TikTok and AI to spread its message.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 2,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "6481bef0c800",
+   "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
+   "url": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-25T10:43:07.000Z",
+   "firstSeen": 1795637147411,
+   "summary": "A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday. Abdulrahman Alfozan, a 35-year-old Saudi national, was arrested on October 9, 2026, for…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "OpenAI",
+    "USA"
+   ],
+   "score": 5,
    "action": false,
    "also": []
   },
@@ -513,6 +720,23 @@
    "tags": [],
    "score": 2,
    "action": false,
+   "also": []
+  },
+  {
+   "id": "0b1d30a9efdf",
+   "title": "After FBI Alert on ARTEX, CISOs Report What Worked Against AI-Run Attacks: Cloud Security Alliance CISO Community Releases “The Third Wave”",
+   "url": "https://cloudsecurityalliance.org/articles/after-fbi-alert-on-artex-cloud-security-alliance-ciso-community-releases-the-third-wave",
+   "source": "Cloud Security Alliance",
+   "sourceId": "csa",
+   "published": "2026-11-25T02:00:28.000Z",
+   "firstSeen": 1795637147411,
+   "summary": "Organizations must empower autonomous, machine-speed security responses; expand CISO authority to contain threats immediately; and rapidly adopt new defensive technologies to keep pace with AI-driven attacks. The free paper, drawn from an emergency briefing of more than 800 CISOs, gives 20 controls and three steps to…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 11,
+   "action": true,
    "also": []
   },
   {
@@ -618,6 +842,23 @@
     "China"
    ],
    "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "6400e0435d26",
+   "title": "How Southeastern University Got a Handle on Its Data",
+   "url": "https://www.darkreading.com/cybersecurity-operations/how-southeastern-university-handle-data",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-24T15:46:46.000Z",
+   "firstSeen": 1795637147411,
+   "summary": "Data security posture management (DSPM) allowed the university to uncover sensitive information, tighten access controls, and lay the groundwork for safer AI adoption.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 1,
    "action": false,
    "also": []
   },
@@ -1124,6 +1365,25 @@
      "summary": "CISA has added the vulnerability to its KEV catalog and instructed federal agencies to patch it within three days."
     }
    ]
+  },
+  {
+   "id": "d64356d92cb4",
+   "title": "Zero Trust or Zero Day: Rebalancing the Attacker–Defender Equation in the AI Era",
+   "url": "https://cloudsecurityalliance.org/articles/zero-trust-or-zero-day-rebalancing-the-attacker-defender-equation-in-the-ai-era",
+   "source": "Cloud Security Alliance",
+   "sourceId": "csa",
+   "published": "2026-11-23T21:25:20.000Z",
+   "firstSeen": 1795637147411,
+   "summary": "A summary of Chapter 3 of Cyber Resilience at Machine Speed: The Zero Trust Model for the AI Era. Security practitioners have long repeated that an attacker only has to succeed once, while a defender has to succeed every time. In Chapter 3 of John Kindervag's new anthology, CSA Chief Analyst Rich Mogull argues that…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability"
+   ],
+   "score": 12,
+   "action": true,
+   "also": []
   },
   {
    "id": "3ebe8b7e0dc8",
@@ -1916,6 +2176,28 @@
    "also": []
   },
   {
+   "id": "48d45fb8c7b8",
+   "title": "Chinese-nexus actor’s Cairn AI agents found a zero-day on their own",
+   "url": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
+   "source": "AWS Security Blog",
+   "sourceId": "aws-security",
+   "published": "2026-11-20T17:30:13.000Z",
+   "firstSeen": 1795214136671,
+   "summary": "Amazon Threat Intelligence is sharing findings from an investigation into a Chinese-nexus threat actor using autonomous AI agents to conduct hacking operations with minimal human involvement. The actor gave the agents a simple goal: “obtain shell access.” During the campaign, the agents found a zero-day in an…",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "AI agents",
+    "Vulnerability",
+    "China"
+   ],
+   "score": 12,
+   "action": true,
+   "also": []
+  },
+  {
    "id": "05420df6b34b",
    "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
    "url": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
@@ -1934,7 +2216,7 @@
     "China",
     "AI agents"
    ],
-   "score": 46,
+   "score": 43,
    "action": true,
    "also": [
     {
@@ -1946,16 +2228,6 @@
      "published": "2026-11-20T17:30:00.000Z",
      "firstSeen": 1795214136671,
      "summary": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application."
-    },
-    {
-     "id": "48d45fb8c7b8",
-     "source": "AWS Security Blog",
-     "sourceId": "aws-security",
-     "title": "Chinese-nexus actor’s Cairn AI agents found a zero-day on their own",
-     "url": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
-     "published": "2026-11-20T17:30:13.000Z",
-     "firstSeen": 1795214136671,
-     "summary": "Amazon Threat Intelligence is sharing findings from an investigation into a Chinese-nexus threat actor using autonomous AI agents to conduct hacking operations with minimal human involvement. The actor gave the agents a simple goal: “obtain shell access.” During the campaign, the agents found a zero-day in an…"
     },
     {
      "id": "368a1d5dd765",
@@ -3398,6 +3670,25 @@
    "also": []
   },
   {
+   "id": "ddd7b803c4fc",
+   "title": "When Valid Agent Actions Become a Security Incident: Governing AI Agents at Machine Speed",
+   "url": "https://cloudsecurityalliance.org/articles/when-valid-agent-actions-become-a-security-incident-governing-ai-agents-at-machine-speed",
+   "source": "Cloud Security Alliance",
+   "sourceId": "csa",
+   "published": "2026-11-17T20:08:24.000Z",
+   "firstSeen": 1795637147411,
+   "summary": "An AI agent can take a thousand actions before a person has time to read the first alert. That is useful when the agent is reconciling records, triaging incidents, or carrying out a tightly defined workflow. It is dangerous when a malfunctioning or manipulated agent can compound small, individually permitted actions…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
    "id": "6d65713dade8",
    "title": "How Operationalizing AI Governance Helps Securely Scale Enterprise AI Adoption",
    "url": "https://cloudsecurityalliance.org/articles/how-operationalizing-ai-governance-helps-securely-scale-enterprise-ai-adoption",
@@ -3943,6 +4234,26 @@
      "summary": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents. The changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more options for two of its APIs: Device Control…"
     }
    ]
+  },
+  {
+   "id": "8d53260fbe25",
+   "title": "Fully Autonomous Agentic Attacks Are Three Months Away, Google Warns",
+   "url": "https://www.infosecurity-magazine.com/news/fully-autonomous-agentic-attacks/",
+   "source": "Infosecurity Magazine",
+   "sourceId": "infosecmag",
+   "published": "2026-11-17T09:30:00.000Z",
+   "firstSeen": 1794939862208,
+   "summary": "Google Threat Intelligence Group warns of “paradigm shift” in use of agentic pen-test frameworks",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents",
+    "Google"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
   },
   {
    "id": "15e1019d886f",
@@ -4661,20 +4972,9 @@
     "Vulnerability",
     "Google"
    ],
-   "score": 18,
+   "score": 15,
    "action": false,
-   "also": [
-    {
-     "id": "8d53260fbe25",
-     "source": "Infosecurity Magazine",
-     "sourceId": "infosecmag",
-     "title": "Fully Autonomous Agentic Attacks Are Three Months Away, Google Warns",
-     "url": "https://www.infosecurity-magazine.com/news/fully-autonomous-agentic-attacks/",
-     "published": "2026-11-17T09:30:00.000Z",
-     "firstSeen": 1794939862208,
-     "summary": "Google Threat Intelligence Group warns of “paradigm shift” in use of agentic pen-test frameworks"
-    }
-   ]
+   "also": []
   },
   {
    "id": "99dc10fa6305",
@@ -13688,6 +13988,38 @@
    "also": []
   },
   {
+   "id": "42fd5d64333d",
+   "title": "OpenAI’s August fix for theft of reasoning traces was quickly bypassed",
+   "url": "https://www.csoonline.com/article/4240662/openais-august-fix-for-theft-of-reasoning-traces-was-quickly-bypassed.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-10-27T03:22:50.000Z",
+   "firstSeen": 1793076514893,
+   "summary": "Cybersecurity research firm Xint on Monday published details of a bug in the OpenAI API that leaks raw reasoning traces from frontier OpenAI models, revealing the risk of other data leaks. OpenAI has confirmed the flaw, mitigated it, and paid a bug bounty for its discovery. The problem is that OpenAI had already…",
+   "topics": [
+    "security",
+    "incidents",
+    "research"
+   ],
+   "tags": [
+    "OpenAI"
+   ],
+   "score": 15,
+   "action": false,
+   "also": [
+    {
+     "id": "ac241f264cb4",
+     "source": "Infosecurity Magazine",
+     "sourceId": "infosecmag",
+     "title": "OpenAI Compaction Flaw Exposed AI Reasoning to Researchers",
+     "url": "https://www.infosecurity-magazine.com/news/openai-compaction-flaw-ai/",
+     "published": "2026-10-27T16:00:00.000Z",
+     "firstSeen": 1793133295106,
+     "summary": "Researchers uncovered an OpenAI API flaw that exposed hidden AI reasoning traces, prompting a fix and a $6000 bug bounty reward"
+    }
+   ]
+  },
+  {
    "id": "7c00c8ec2195",
    "title": "Cloud Security Alliance Launches STAR for AI Level 2 to Strengthen AI Governance and Trust",
    "url": "https://cloudsecurityalliance.org/articles/cloud-security-alliance-launches-star-for-ai-level-2-to-strengthen-ai-governance-and-trust",
@@ -13910,187 +14242,6 @@
    "also": []
   },
   {
-   "id": "4fd7b8ea6ce6",
-   "title": "How Absorption Rate Reveals Vulnerability Management Health",
-   "url": "https://cloudsecurityalliance.org/articles/how-absorption-rate-reveals-vulnerability-management-health",
-   "source": "Cloud Security Alliance",
-   "sourceId": "csa",
-   "published": "2026-10-26T19:02:59.000Z",
-   "firstSeen": 1793733910270,
-   "summary": "AI is accelerating vulnerability discovery, but it is not equally accelerating every part of vulnerability management. Findings and vendor fixes can now arrive at machine speed. Testing, deployment, and verification still depend on the infrastructure of a slower era. So, are you resolving vulnerabilities at least as…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Vulnerability"
-   ],
-   "score": 4,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "82e007b353e7",
-   "title": "Anthropic officially files for its public debut",
-   "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
-   "source": "TechCrunch AI",
-   "sourceId": "techcrunch-ai",
-   "published": "2026-10-26T14:35:22.000Z",
-   "firstSeen": 1793044353633,
-   "summary": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
-   "topics": [
-    "governance"
-   ],
-   "tags": [
-    "Anthropic"
-   ],
-   "score": 9,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "82ea280e99a4",
-   "title": "Stolen AI Reasoning Could Help China Build Cheaper Rivals",
-   "url": "https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/",
-   "source": "SecurityWeek",
-   "sourceId": "securityweek",
-   "published": "2026-10-26T14:30:09.000Z",
-   "firstSeen": 1793044353633,
-   "summary": "Xint says a flaw in OpenAI’s compaction process let researchers move reasoning traces between models, potentially making it cheaper to distill a rival AI.",
-   "topics": [
-    "incidents",
-    "security",
-    "research"
-   ],
-   "tags": [
-    "OpenAI",
-    "China"
-   ],
-   "score": 18,
-   "action": false,
-   "also": [
-    {
-     "id": "42fd5d64333d",
-     "source": "CSO Online",
-     "sourceId": "csoonline",
-     "title": "OpenAI’s August fix for theft of reasoning traces was quickly bypassed",
-     "url": "https://www.csoonline.com/article/4240662/openais-august-fix-for-theft-of-reasoning-traces-was-quickly-bypassed.html",
-     "published": "2026-10-27T03:22:50.000Z",
-     "firstSeen": 1793076514893,
-     "summary": "Cybersecurity research firm Xint on Monday published details of a bug in the OpenAI API that leaks raw reasoning traces from frontier OpenAI models, revealing the risk of other data leaks. OpenAI has confirmed the flaw, mitigated it, and paid a bug bounty for its discovery. The problem is that OpenAI had already…"
-    },
-    {
-     "id": "ac241f264cb4",
-     "source": "Infosecurity Magazine",
-     "sourceId": "infosecmag",
-     "title": "OpenAI Compaction Flaw Exposed AI Reasoning to Researchers",
-     "url": "https://www.infosecurity-magazine.com/news/openai-compaction-flaw-ai/",
-     "published": "2026-10-27T16:00:00.000Z",
-     "firstSeen": 1793133295106,
-     "summary": "Researchers uncovered an OpenAI API flaw that exposed hidden AI reasoning traces, prompting a fix and a $6000 bug bounty reward"
-    }
-   ]
-  },
-  {
-   "id": "ae9e3b212c9b",
-   "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
-   "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
-   "source": "The Hacker News",
-   "sourceId": "thehackernews",
-   "published": "2026-10-26T14:06:13.000Z",
-   "firstSeen": 1793044353633,
-   "summary": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security teams have more urgent patches than they can keep up with. And…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Supply chain"
-   ],
-   "score": 12,
-   "action": true,
-   "also": []
-  },
-  {
-   "id": "2bce33265394",
-   "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
-   "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
-   "source": "BleepingComputer",
-   "sourceId": "bleeping",
-   "published": "2026-10-26T14:00:10.000Z",
-   "firstSeen": 1793044353633,
-   "summary": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does.",
-   "topics": [
-    "incidents"
-   ],
-   "tags": [
-    "NIST",
-    "AI agents",
-    "USA"
-   ],
-   "score": 8,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "02c87f01822e",
-   "title": "Security pros reckon the biggest AI risk comes with an employee badge",
-   "url": "https://www.helpnetsecurity.com/2026/10/26/ai-tools-security-worry-survey/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-26T13:16:01.000Z",
-   "firstSeen": 1793023603545,
-   "summary": "Employees pasting company data into AI tools worry security teams more than AI-powered attacks do. Most-concerning risks of AI agents (Source: O’Reilly) AI-generated phishing, the attack they run into most often, made the list of top concerns for only a quarter of the 209 security professionals O’Reilly surveyed in…",
-   "topics": [
-    "governance",
-    "security"
-   ],
-   "tags": [
-    "AI agents",
-    "Phishing"
-   ],
-   "score": 15,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "9773a9fced96",
-   "title": "Popular AI tool LiteLLM says unrevoked key allowed hackers to target users",
-   "url": "https://therecord.media/litellm-hackers-ai-malware",
-   "source": "The Record",
-   "sourceId": "therecord",
-   "published": "2026-10-26T12:00:00.000Z",
-   "firstSeen": 1793023603545,
-   "summary": "LiteLLM, an open-source tool widely used by artificial intelligence developers, said a key accidentally exposed in May was behind a supply-chain attack that is believed to have hit tens of thousands of users last week.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Supply chain"
-   ],
-   "score": 14,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "f466ea95afc0",
-   "title": "OpenAI, Anthropic disclosures spotlight growing AI containment challenge",
-   "url": "https://www.csoonline.com/article/4240279/openai-anthropic-disclosures-spotlight-growing-ai-containment-challenge.html",
-   "source": "CSO Online",
-   "sourceId": "csoonline",
-   "published": "2026-10-26T11:57:21.000Z",
-   "firstSeen": 1793023603545,
-   "summary": "Two leading AI developers have released fresh evidence of a problem that researchers have long anticipated: advanced models searching for ways around the limits imposed on them. New disclosures from OpenAI and Anthropic detail how frontier systems exploited weaknesses in their environments or exceeded the intended…",
-   "topics": [
-    "incidents"
-   ],
-   "tags": [
-    "OpenAI",
-    "Anthropic"
-   ],
-   "score": 11,
-   "action": true,
-   "also": []
-  },
-  {
    "id": "e36c80d5b4e5",
    "title": "Australians should prepare for online services to go down unexpectedly as threats rise, cyber agency warns",
    "url": "https://www.theguardian.com/technology/2026/oct/26/australians-should-prepare-for-online-services-to-go-down-unexpectedly-as-threats-rise-cyber-agency-warns",
@@ -14106,98 +14257,6 @@
    "score": 5,
    "action": false,
    "also": []
-  },
-  {
-   "id": "59d6f1f1d21f",
-   "title": "Fortinet patches critical FortiOS flaws found with AI help",
-   "url": "https://www.helpnetsecurity.com/2026/10/26/fortinet-patches-critical-fortios-flaws-found-with-ai-help/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-26T11:22:52.000Z",
-   "firstSeen": 1793023603545,
-   "summary": "Fortinet rolled out security hardening updates for FortiOS, FortiManager, FortiAnalyzer, FortiMail, and FortiAuthenticator last week, but is keeping the details about the fixed vulnerabilities under wraps until November 10, 2026. The vulnerabilities were uncovered with the help of AI models and validated by humans…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Vulnerability"
-   ],
-   "score": 7,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "e32072f50914",
-   "title": "Bias in Qwen3-Coder Model",
-   "url": "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
-   "source": "Schneier on Security",
-   "sourceId": "schneier",
-   "published": "2026-10-26T11:03:31.000Z",
-   "firstSeen": 1793023603545,
-   "summary": "Interesting research: TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model’s weights, and that removing the model’s CCP…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Vulnerability",
-    "China"
-   ],
-   "score": 3,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "6d188ef05e5b",
-   "title": "Anthropic details what stops Claude Duet from going rogue",
-   "url": "https://www.helpnetsecurity.com/2026/10/26/anthropic-claude-duet-security-safeguards/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-26T10:41:47.000Z",
-   "firstSeen": 1793023603545,
-   "summary": "Anthropic has outlined the security and privacy protections behind Claude Duet, its proactive AI agent that can monitor connected accounts and complete tasks while users are away. The safeguards include approval requirements, checks for sensitive information and infrastructure that keeps credentials outside the…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents",
-    "Privacy",
-    "Anthropic"
-   ],
-   "score": 6,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "3fa7b7bed15a",
-   "title": "Malicious downloads can trick AI coding agents into compromising themselves",
-   "url": "https://www.csoonline.com/article/4240222/malicious-downloads-can-trick-ai-coding-agents-into-compromising-themselves.html",
-   "source": "CSO Online",
-   "sourceId": "csoonline",
-   "published": "2026-10-26T10:35:08.000Z",
-   "firstSeen": 1793023603545,
-   "summary": "Malicious instruction files planted in a computer’s Downloads folder can trick AI coding agents into executing harmful code or exposing authentication tokens, Forever Security said after blocking an attempted attack on a customer’s machine and demonstrating similar techniques against OpenAI’s Codex and Anthropic’s…",
-   "topics": [
-    "incidents",
-    "security"
-   ],
-   "tags": [
-    "OpenAI",
-    "Anthropic"
-   ],
-   "score": 13,
-   "action": false,
-   "also": [
-    {
-     "id": "9bc5fc84787a",
-     "source": "Help Net Security",
-     "sourceId": "helpnet",
-     "title": "AI coding agents fall for malicious instructions planted in the Downloads folder",
-     "url": "https://www.helpnetsecurity.com/2026/10/26/ai-coding-agents-malware-openai-codex/",
-     "published": "2026-10-26T11:26:40.000Z",
-     "firstSeen": 1793023603545,
-     "summary": "A file that a website saves to the Downloads folder without approval can trick AI coding agents into installing a malicious npm package or handing over the user’s login token when they’re opened in that folder, Forever Security has found. The file is called AGENTS.md, a plain text document developers place in a…"
-    }
-   ]
   },
   {
    "id": "043437efcdf7",
