@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-24T17:27:51.096Z",
+ "generatedAt": "2026-11-25T01:32:00.963Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 44,
-  "fetched": 936,
-  "relevant": 788,
-  "stories": 680,
-  "duplicatesMerged": 108
+  "sourcesOk": 42,
+  "fetched": 897,
+  "relevant": 793,
+  "stories": 683,
+  "duplicatesMerged": 110
  },
  "sources": [
   {
@@ -18,16 +18,15 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 904
+   "ms": 1017
   },
   {
    "id": "aiact-newsletter",
    "name": "EU AI Act Newsletter",
    "url": "https://artificialintelligenceact.substack.com/feed",
-   "ok": true,
-   "items": 20,
-   "kept": 4,
-   "ms": 79
+   "ok": false,
+   "error": "HTTP 403",
+   "ms": 53
   },
   {
    "id": "fli",
@@ -36,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 631
+   "ms": 597
   },
   {
    "id": "algorithmwatch",
@@ -45,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 8,
-   "ms": 822
+   "ms": 967
   },
   {
    "id": "lawfare",
@@ -54,7 +53,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 145
+   "ms": 525
   },
   {
    "id": "euractiv",
@@ -63,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 686
+   "ms": 1096
   },
   {
    "id": "edpb",
@@ -72,16 +71,15 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1496
+   "ms": 2075
   },
   {
    "id": "europarl",
    "name": "European Parliament",
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
-   "ok": true,
-   "items": 20,
-   "kept": 20,
-   "ms": 334
+   "ok": false,
+   "error": "not an RSS/Atom feed",
+   "ms": 687
   },
   {
    "id": "cnil",
@@ -90,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 734
+   "ms": 936
   },
   {
    "id": "nist",
@@ -99,7 +97,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 268
+   "ms": 251
   },
   {
    "id": "ncsc-uk",
@@ -108,7 +106,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 71
+   "ms": 214
   },
   {
    "id": "cisa",
@@ -117,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 113
+   "ms": 220
   },
   {
    "id": "fedscoop",
@@ -126,16 +124,16 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 115
+   "ms": 100
   },
   {
    "id": "nextgov",
    "name": "Nextgov/FCW",
    "url": "https://www.nextgov.com/rss/all/",
    "ok": true,
-   "items": 23,
-   "kept": 23,
-   "ms": 431
+   "items": 24,
+   "kept": 24,
+   "ms": 110
   },
   {
    "id": "techcrunch-ai",
@@ -144,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 38
+   "ms": 76
   },
   {
    "id": "venturebeat-ai",
@@ -152,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 54
+   "ms": 166
   },
   {
    "id": "verge-ai",
@@ -161,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 33
+   "ms": 124
   },
   {
    "id": "ars-ai",
@@ -170,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 326
+   "ms": 183
   },
   {
    "id": "wired-ai",
@@ -179,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 63
+   "ms": 151
   },
   {
    "id": "guardian-ai",
@@ -187,7 +185,7 @@
    "url": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 43
+   "ms": 90
   },
   {
    "id": "mittr-ai",
@@ -196,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 57
+   "ms": 115
   },
   {
    "id": "register-ai",
@@ -205,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 440
+   "ms": 670
   },
   {
    "id": "biometric",
@@ -214,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 756
+   "ms": 697
   },
   {
    "id": "krebs",
@@ -223,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 91
+   "ms": 234
   },
   {
    "id": "securityweek",
@@ -232,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 63
+   "ms": 241
   },
   {
    "id": "wired-security",
@@ -241,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 27
+   "ms": 230
   },
   {
    "id": "csoonline",
@@ -250,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 59
+   "ms": 237
   },
   {
    "id": "infosecmag",
@@ -259,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 218
+   "ms": 918
   },
   {
    "id": "helpnet",
@@ -268,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 48
+   "ms": 191
   },
   {
    "id": "therecord",
@@ -277,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 127
+   "ms": 674
   },
   {
    "id": "thehackernews",
@@ -286,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 396
+   "ms": 772
   },
   {
    "id": "bleeping",
@@ -295,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 93
+   "ms": 547
   },
   {
    "id": "darkreading",
@@ -304,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1282
+   "ms": 798
   },
   {
    "id": "schneier",
@@ -313,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 35
+   "ms": 326
   },
   {
    "id": "google-security",
@@ -322,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 609
+   "ms": 702
   },
   {
    "id": "msft-security",
@@ -331,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1278
+   "ms": 1227
   },
   {
    "id": "aws-security",
@@ -340,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 74
+   "ms": 114
   },
   {
    "id": "unit42",
@@ -348,8 +346,8 @@
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
    "items": 15,
-   "kept": 11,
-   "ms": 85
+   "kept": 12,
+   "ms": 168
   },
   {
    "id": "trailofbits",
@@ -358,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 256
+   "ms": 193
   },
   {
    "id": "embracethered",
@@ -367,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 88
+   "ms": 98
   },
   {
    "id": "owasp-genai",
@@ -376,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 46
+   "ms": 74
   },
   {
    "id": "willison-pi",
@@ -385,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 67
+   "ms": 143
   },
   {
    "id": "csa",
@@ -394,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 312
+   "ms": 483
   },
   {
    "id": "openai",
@@ -403,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 113
+   "ms": 108
   },
   {
    "id": "deepmind",
@@ -412,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 14,
-   "ms": 215
+   "ms": 118
   },
   {
    "id": "huggingface",
@@ -421,10 +419,68 @@
    "ok": true,
    "items": 40,
    "kept": 30,
-   "ms": 169
+   "ms": 110
   }
  ],
  "items": [
+  {
+   "id": "2fb29f29e3a5",
+   "title": "Delegate user access to AI agents with Amazon Cognito token exchange",
+   "url": "https://aws.amazon.com/blogs/security/delegate-user-access-to-ai-agents-with-amazon-cognito-token-exchange/",
+   "source": "AWS Security Blog",
+   "sourceId": "aws-security",
+   "published": "2026-11-24T20:01:08.000Z",
+   "firstSeen": 1795570320963,
+   "summary": "Suppose you use a restaurant review app to check reviews, book tables, and email invitations to your friends. With OAuth 2.0, the app sends you to the authorization server that your email provider trusts, where you sign in and approve only the access the app requested, such as the contacts.read and messages.send…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "26d00d810831",
+   "title": "AWS completed its second ISO/IEC 42001:2023 surveillance audit",
+   "url": "https://aws.amazon.com/blogs/security/aws-completed-its-second-iso-iec-420012023-surveillance-audit/",
+   "source": "AWS Security Blog",
+   "sourceId": "aws-security",
+   "published": "2026-11-24T18:32:21.000Z",
+   "firstSeen": 1795570320963,
+   "summary": "In November 2024, Amazon Web Services (AWS) was the first major cloud service provider to announce the ISO/IEC 42001 accredited certification for AI services, covering Amazon Bedrock, Amazon Q Business, Amazon Textract, and Amazon Transcribe. In November 2026, AWS successfully completed its second surveillance audit…",
+   "topics": [
+    "governance"
+   ],
+   "tags": [
+    "ISO 42001"
+   ],
+   "score": 16,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "3ee73e4c0a12",
+   "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+   "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "published": "2026-11-24T18:02:59.000Z",
+   "firstSeen": 1795570320963,
+   "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "UK"
+   ],
+   "score": 16,
+   "action": false,
+   "also": []
+  },
   {
    "id": "4cb8f1d6192a",
    "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
@@ -438,9 +494,20 @@
     "regulation"
    ],
    "tags": [],
-   "score": 8,
+   "score": 11,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "a8c5cc5ccd00",
+     "source": "Ars Technica AI",
+     "sourceId": "ars-ai",
+     "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+     "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+     "published": "2026-11-24T17:34:34.000Z",
+     "firstSeen": 1795570320963,
+     "summary": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero."
+    }
+   ]
   },
   {
    "id": "6216f6beb239",
@@ -3193,6 +3260,24 @@
    "also": []
   },
   {
+   "id": "6d65713dade8",
+   "title": "How Operationalizing AI Governance Helps Securely Scale Enterprise AI Adoption",
+   "url": "https://cloudsecurityalliance.org/articles/how-operationalizing-ai-governance-helps-securely-scale-enterprise-ai-adoption",
+   "source": "Cloud Security Alliance",
+   "sourceId": "csa",
+   "published": "2026-11-17T20:08:04.000Z",
+   "firstSeen": 1795570320963,
+   "summary": "Key takeaways Runtime policy enforcement shifts enterprise AI governance from retrospective compliance audits into active, inline risk prevention. AI-powered exposure management unifies security visibility by tracking interconnected risks across workforce browser extensions, hosted foundation models, and connected…",
+   "topics": [
+    "governance",
+    "regulation"
+   ],
+   "tags": [],
+   "score": 28,
+   "action": false,
+   "also": []
+  },
+  {
    "id": "52bb493a934d",
    "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
    "url": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
@@ -3720,26 +3805,6 @@
      "summary": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents. The changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more options for two of its APIs: Device Control…"
     }
    ]
-  },
-  {
-   "id": "8d53260fbe25",
-   "title": "Fully Autonomous Agentic Attacks Are Three Months Away, Google Warns",
-   "url": "https://www.infosecurity-magazine.com/news/fully-autonomous-agentic-attacks/",
-   "source": "Infosecurity Magazine",
-   "sourceId": "infosecmag",
-   "published": "2026-11-17T09:30:00.000Z",
-   "firstSeen": 1794939862208,
-   "summary": "Google Threat Intelligence Group warns of “paradigm shift” in use of agentic pen-test frameworks",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents",
-    "Google"
-   ],
-   "score": 8,
-   "action": false,
-   "also": []
   },
   {
    "id": "15e1019d886f",
@@ -4458,9 +4523,20 @@
     "Vulnerability",
     "Google"
    ],
-   "score": 15,
+   "score": 18,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "8d53260fbe25",
+     "source": "Infosecurity Magazine",
+     "sourceId": "infosecmag",
+     "title": "Fully Autonomous Agentic Attacks Are Three Months Away, Google Warns",
+     "url": "https://www.infosecurity-magazine.com/news/fully-autonomous-agentic-attacks/",
+     "published": "2026-11-17T09:30:00.000Z",
+     "firstSeen": 1794939862208,
+     "summary": "Google Threat Intelligence Group warns of “paradigm shift” in use of agentic pen-test frameworks"
+    }
+   ]
   },
   {
    "id": "99dc10fa6305",
