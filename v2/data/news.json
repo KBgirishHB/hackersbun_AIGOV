@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-25T20:05:47.411Z",
+ "generatedAt": "2026-11-26T02:45:12.697Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 44,
-  "fetched": 934,
-  "relevant": 793,
-  "stories": 683,
-  "duplicatesMerged": 110
+  "sourcesOk": 42,
+  "fetched": 895,
+  "relevant": 786,
+  "stories": 679,
+  "duplicatesMerged": 107
  },
  "sources": [
   {
@@ -18,16 +18,15 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 770
+   "ms": 881
   },
   {
    "id": "aiact-newsletter",
    "name": "EU AI Act Newsletter",
    "url": "https://artificialintelligenceact.substack.com/feed",
-   "ok": true,
-   "items": 20,
-   "kept": 4,
-   "ms": 72
+   "ok": false,
+   "error": "HTTP 403",
+   "ms": 65
   },
   {
    "id": "fli",
@@ -36,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 447
+   "ms": 575
   },
   {
    "id": "algorithmwatch",
@@ -45,16 +44,16 @@
    "ok": true,
    "items": 10,
    "kept": 8,
-   "ms": 687
+   "ms": 942
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 2,
-   "kept": 2,
-   "ms": 102
+   "items": 3,
+   "kept": 3,
+   "ms": 268
   },
   {
    "id": "euractiv",
@@ -63,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 285
+   "ms": 693
   },
   {
    "id": "edpb",
@@ -72,16 +71,15 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 763
+   "ms": 1429
   },
   {
    "id": "europarl",
    "name": "European Parliament",
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
-   "ok": true,
-   "items": 20,
-   "kept": 20,
-   "ms": 84
+   "ok": false,
+   "error": "not an RSS/Atom feed",
+   "ms": 385
   },
   {
    "id": "cnil",
@@ -90,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 156
+   "ms": 696
   },
   {
    "id": "nist",
@@ -99,7 +97,7 @@
    "ok": true,
    "items": 40,
    "kept": 4,
-   "ms": 69
+   "ms": 114
   },
   {
    "id": "ncsc-uk",
@@ -108,7 +106,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 49
+   "ms": 118
   },
   {
    "id": "cisa",
@@ -117,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 64
+   "ms": 170
   },
   {
    "id": "fedscoop",
@@ -126,7 +124,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 24
+   "ms": 110
   },
   {
    "id": "nextgov",
@@ -135,7 +133,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 54
+   "ms": 395
   },
   {
    "id": "techcrunch-ai",
@@ -144,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 33
+   "ms": 85
   },
   {
    "id": "venturebeat-ai",
@@ -152,7 +150,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 56
+   "ms": 110
   },
   {
    "id": "verge-ai",
@@ -161,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 38
+   "ms": 113
   },
   {
    "id": "ars-ai",
@@ -170,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 85
+   "ms": 481
   },
   {
    "id": "wired-ai",
@@ -179,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 54
+   "ms": 172
   },
   {
    "id": "guardian-ai",
@@ -187,7 +185,7 @@
    "url": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 15
+   "ms": 203
   },
   {
    "id": "mittr-ai",
@@ -196,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 16
+   "ms": 300
   },
   {
    "id": "register-ai",
@@ -205,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 394
+   "ms": 676
   },
   {
    "id": "biometric",
@@ -214,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 604
+   "ms": 823
   },
   {
    "id": "krebs",
@@ -223,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 34
+   "ms": 216
   },
   {
    "id": "securityweek",
@@ -232,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 58
+   "ms": 174
   },
   {
    "id": "wired-security",
@@ -250,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 29
+   "ms": 308
   },
   {
    "id": "infosecmag",
@@ -259,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 115
+   "ms": 251
   },
   {
    "id": "helpnet",
@@ -268,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 14
+   "ms": 94
   },
   {
    "id": "therecord",
@@ -277,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 64
+   "ms": 151
   },
   {
    "id": "thehackernews",
@@ -286,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 272
+   "ms": 545
   },
   {
    "id": "bleeping",
@@ -295,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 43
+   "ms": 111
   },
   {
    "id": "darkreading",
@@ -304,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 223
+   "ms": 420
   },
   {
    "id": "schneier",
@@ -313,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 16
+   "ms": 145
   },
   {
    "id": "google-security",
@@ -322,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 410
+   "ms": 658
   },
   {
    "id": "msft-security",
@@ -331,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 2093
+   "ms": 3140
   },
   {
    "id": "aws-security",
@@ -340,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 43
+   "ms": 172
   },
   {
    "id": "unit42",
@@ -349,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 41
+   "ms": 107
   },
   {
    "id": "trailofbits",
@@ -358,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 203
+   "ms": 367
   },
   {
    "id": "embracethered",
@@ -367,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 56
+   "ms": 113
   },
   {
    "id": "owasp-genai",
@@ -376,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 57
+   "ms": 157
   },
   {
    "id": "willison-pi",
@@ -385,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 91
+   "ms": 615
   },
   {
    "id": "csa",
@@ -394,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 412
+   "ms": 340
   },
   {
    "id": "openai",
@@ -403,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 89
+   "ms": 206
   },
   {
    "id": "deepmind",
@@ -412,7 +410,7 @@
    "ok": true,
    "items": 40,
    "kept": 15,
-   "ms": 29
+   "ms": 240
   },
   {
    "id": "huggingface",
@@ -421,10 +419,68 @@
    "ok": true,
    "items": 40,
    "kept": 31,
-   "ms": 83
+   "ms": 330
   }
  ],
  "items": [
+  {
+   "id": "f116b36cca53",
+   "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+   "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "published": "2026-11-25T22:44:32.000Z",
+   "firstSeen": 1795661112697,
+   "summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "c4acd8d74830",
+   "title": "Microsoft: China’s Salt Typhoon hackers are using Artex",
+   "url": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+   "source": "The Record",
+   "sourceId": "therecord",
+   "published": "2026-11-25T21:18:00.000Z",
+   "firstSeen": 1795661112697,
+   "summary": "An AI tool implicated in several high-profile breaches is rapidly being integrated into the hacking suites of groups from China and North Korea, Microsoft said.",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "Microsoft",
+    "China"
+   ],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "f0377b486046",
+   "title": "Secure agentic access to AWS with Enterprise-Managed Authorization",
+   "url": "https://aws.amazon.com/blogs/security/secure-agentic-access-to-aws-with-enterprise-managed-authorization/",
+   "source": "AWS Security Blog",
+   "sourceId": "aws-security",
+   "published": "2026-11-25T21:00:37.000Z",
+   "firstSeen": 1795661112697,
+   "summary": "AWS Sign-In is introducing support for Enterprise-Managed Authorization (EMA) using the Identity Assertion JWT Authorization Grant (ID-JAG), enabling organizations to securely authorize AI agents to access AWS MCP Server through their existing enterprise identity providers (IdPs), such as Okta. With this capability…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents",
+    "MCP"
+   ],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
   {
    "id": "6c46c2ab921a",
    "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
@@ -490,7 +546,7 @@
    "url": "https://www.biometricupdate.com/202611/switzerland-awards-5-3m-deepfake-detection-contract-to-secure-digital-id-rollout",
    "source": "Biometric Update",
    "sourceId": "biometric",
-   "published": "2026-11-25T16:10:17.000Z",
+   "published": "2026-11-25T16:09:17.000Z",
    "firstSeen": 1795637147411,
    "summary": "Switzerland's Federal Office for Buildings and Logistics has awarded a CHF 4.44 million (US$5.3 million) contract to ELCA Informatique SA to provide a Face Deepfake Detector (FDD) module for the Federal Office of Police (Fedpol). The addition follows Fedpol's earlier procurement of ELCA's AV System for online identity…",
    "topics": [
@@ -12859,6 +12915,25 @@
    "also": []
   },
   {
+   "id": "851870d7bce9",
+   "title": "Texas sues OpenAI, Sam Altman over ChatGPT safety and age verification",
+   "url": "https://www.biometricupdate.com/202610/texas-sues-openai-sam-altman-over-chatgpt-safety-and-age-verification",
+   "source": "Biometric Update",
+   "sourceId": "biometric",
+   "published": "2026-10-28T18:26:10.000Z",
+   "firstSeen": 1793224318340,
+   "summary": "Texas Attorney General Ken Paxton has sued OpenAI and CEO Sam Altman, accusing them of misleading consumers about ChatGPT's safety, failing to protect children and violating state requirements for age verification and parental controls. The lawsuit, filed October 23 in Collin County, seeks sweeping restrictions on…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "OpenAI"
+   ],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
    "id": "b51dd1d66329",
    "title": "European digital rights nonprofit noyb sues Scale AI for ‘invasive’ worker surveillance",
    "url": "https://therecord.media/noyb-sues-scale-ai-for-worker-surveillance",
@@ -13108,6 +13183,23 @@
     "MCP"
    ],
    "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "bd7009240d65",
+   "title": "AI Is Turning CISOs Into Business-Risk Translators, Says Nvidia’s Head of Cyber",
+   "url": "https://www.infosecurity-magazine.com/news/ai-is-turning-cisos-into/",
+   "source": "Infosecurity Magazine",
+   "sourceId": "infosecmag",
+   "published": "2026-10-28T14:10:00.000Z",
+   "firstSeen": 1793224318340,
+   "summary": "Nvidia’s Mark Weatherford says CISOs must translate AI cybersecurity risks into business priorities, clarify risk ownership and balance innovation with security controls",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 7,
    "action": false,
    "also": []
   },
@@ -13846,6 +13938,26 @@
    "also": []
   },
   {
+   "id": "be968da96276",
+   "title": "Alibaba AI model tried to send data to Beijing server, Cohere says",
+   "url": "https://www.csoonline.com/article/4240972/alibaba-ai-model-tried-to-send-data-to-beijing-server-cohere-says.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-10-27T11:05:24.000Z",
+   "firstSeen": 1793116734917,
+   "summary": "An Alibaba AI model generated an unexpected command to upload data to a Beijing-region cloud storage service during a cybersecurity evaluation, rival developer Cohere said, raising concerns about the security of AI agents with access to enterprise systems. The model, Qwen3.8-Flash-Next, was being tested using…",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents",
+    "China"
+   ],
+   "score": 7,
+   "action": false,
+   "also": []
+  },
+  {
    "id": "04989c293281",
    "title": "Hiding Capabilities in AI Models",
    "url": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
@@ -14018,228 +14130,6 @@
      "summary": "Researchers uncovered an OpenAI API flaw that exposed hidden AI reasoning traces, prompting a fix and a $6000 bug bounty reward"
     }
    ]
-  },
-  {
-   "id": "7c00c8ec2195",
-   "title": "Cloud Security Alliance Launches STAR for AI Level 2 to Strengthen AI Governance and Trust",
-   "url": "https://cloudsecurityalliance.org/articles/cloud-security-alliance-launches-star-for-ai-level-2-to-strengthen-ai-governance-and-trust",
-   "source": "Cloud Security Alliance",
-   "sourceId": "csa",
-   "published": "2026-10-27T01:42:09.000Z",
-   "firstSeen": 1793116734917,
-   "summary": "STAR for AI Level 2 allows organizations to extend existing industry certifications and assurance frameworks into the AI domain SEATTLE – Oct. 27, 2026 — Organizations are increasingly under pressure to demonstrate that their AI systems are governed safely, securely and responsibly. In response, the Cloud Security…",
-   "topics": [
-    "governance"
-   ],
-   "tags": [],
-   "score": 26,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "2b30af2f86a9",
-   "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-   "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
-   "source": "TechCrunch AI",
-   "sourceId": "techcrunch-ai",
-   "published": "2026-10-27T01:12:21.000Z",
-   "firstSeen": 1793076514893,
-   "summary": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.",
-   "topics": [
-    "incidents",
-    "security"
-   ],
-   "tags": [
-    "China",
-    "AI agents"
-   ],
-   "score": 10,
-   "action": false,
-   "also": [
-    {
-     "id": "be968da96276",
-     "source": "CSO Online",
-     "sourceId": "csoonline",
-     "title": "Alibaba AI model tried to send data to Beijing server, Cohere says",
-     "url": "https://www.csoonline.com/article/4240972/alibaba-ai-model-tried-to-send-data-to-beijing-server-cohere-says.html",
-     "published": "2026-10-27T11:05:24.000Z",
-     "firstSeen": 1793116734917,
-     "summary": "An Alibaba AI model generated an unexpected command to upload data to a Beijing-region cloud storage service during a cybersecurity evaluation, rival developer Cohere said, raising concerns about the security of AI agents with access to enterprise systems. The model, Qwen3.8-Flash-Next, was being tested using…"
-    }
-   ]
-  },
-  {
-   "id": "4753a010c2a0",
-   "title": "So Many AI Security Benchmarks, but None Tell the Whole Story",
-   "url": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
-   "source": "Dark Reading",
-   "sourceId": "darkreading",
-   "published": "2026-10-27T00:26:50.000Z",
-   "firstSeen": 1793076514893,
-   "summary": "Measuring artificial intelligence model security gets complex, fast, thanks to a growing patchwork of benchmarks targeting different variables in the equation. But none replace testing against your own code and workflows.",
-   "topics": [
-    "security",
-    "research"
-   ],
-   "tags": [],
-   "score": 22,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "9162190b2532",
-   "title": "How Check Point accelerates vulnerability research with Daybreak",
-   "url": "https://openai.com/index/check-point-daybreak",
-   "source": "OpenAI News",
-   "sourceId": "openai",
-   "published": "2026-10-27T00:00:00.000Z",
-   "firstSeen": 1793133295106,
-   "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Vulnerability",
-    "OpenAI"
-   ],
-   "score": 5,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "bd660e351721",
-   "title": "Risks & Rewards: How AI Is Redefining the CISO's Role",
-   "url": "https://www.darkreading.com/cybersecurity-careers/risks-rewards-ai-redefining-ciso-role",
-   "source": "Dark Reading",
-   "sourceId": "darkreading",
-   "published": "2026-10-26T21:44:33.000Z",
-   "firstSeen": 1793058253036,
-   "summary": "Nvidia security executive Mark Weatherford says CISOs must help business leaders weigh AI's pros and cons, and ensure those deploying it own the risks.",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 10,
-   "action": false,
-   "also": [
-    {
-     "id": "bd7009240d65",
-     "source": "Infosecurity Magazine",
-     "sourceId": "infosecmag",
-     "title": "AI Is Turning CISOs Into Business-Risk Translators, Says Nvidia’s Head of Cyber",
-     "url": "https://www.infosecurity-magazine.com/news/ai-is-turning-cisos-into/",
-     "published": "2026-10-28T14:10:00.000Z",
-     "firstSeen": 1793224318340,
-     "summary": "Nvidia’s Mark Weatherford says CISOs must translate AI cybersecurity risks into business priorities, clarify risk ownership and balance innovation with security controls"
-    }
-   ]
-  },
-  {
-   "id": "e3f636a57558",
-   "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
-   "url": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
-   "source": "BleepingComputer",
-   "sourceId": "bleeping",
-   "published": "2026-10-26T21:08:28.000Z",
-   "firstSeen": 1793058253036,
-   "summary": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework used in most of the attacks.",
-   "topics": [
-    "incidents"
-   ],
-   "tags": [],
-   "score": 10,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "05fec00cee5c",
-   "title": "Texas sues OpenAI for deceiving consumers about safety, seeks sweeping reforms and fines",
-   "url": "https://therecord.media/texas-sues-openai-deceiving-customers",
-   "source": "The Record",
-   "sourceId": "therecord",
-   "published": "2026-10-26T21:03:00.000Z",
-   "firstSeen": 1793058253036,
-   "summary": "In an unusual move, the suit — brought under the state’s deceptive trade practices laws — seeks to hold founder and CEO Sam Altman personally liable for the alleged deception.",
-   "topics": [
-    "regulation"
-   ],
-   "tags": [
-    "OpenAI"
-   ],
-   "score": 17,
-   "action": false,
-   "also": [
-    {
-     "id": "851870d7bce9",
-     "source": "Biometric Update",
-     "sourceId": "biometric",
-     "title": "Texas sues OpenAI, Sam Altman over ChatGPT safety and age verification",
-     "url": "https://www.biometricupdate.com/202610/texas-sues-openai-sam-altman-over-chatgpt-safety-and-age-verification",
-     "published": "2026-10-28T18:26:10.000Z",
-     "firstSeen": 1793224318340,
-     "summary": "Texas Attorney General Ken Paxton has sued OpenAI and CEO Sam Altman, accusing them of misleading consumers about ChatGPT's safety, failing to protect children and violating state requirements for age verification and parental controls. The lawsuit, filed October 23 in Collin County, seeks sweeping restrictions on…"
-    }
-   ]
-  },
-  {
-   "id": "5f31c9091ecf",
-   "title": "In-the-Wild Attack Abuses AI Agents' Trust in Markdown",
-   "url": "https://www.darkreading.com/application-security/in-the-wild-attack-ai-agents-trust-markdown",
-   "source": "Dark Reading",
-   "sourceId": "darkreading",
-   "published": "2026-10-26T20:59:26.000Z",
-   "firstSeen": 1793058253036,
-   "summary": "A new AI agent prompt injection technique exploits how coding assistants consume local instruction files, blurring the line between text documents and executable actions.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Prompt injection",
-    "AI agents"
-   ],
-   "score": 16,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "78d311b2d583",
-   "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
-   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
-   "source": "BleepingComputer",
-   "sourceId": "bleeping",
-   "published": "2026-10-26T20:46:49.000Z",
-   "firstSeen": 1793058253036,
-   "summary": "OpenAI has launched GPT-6.1 Terra, a new model focused on computer use, visual reasoning, coding, and everyday work, while costing significantly less than its larger models.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents",
-    "OpenAI"
-   ],
-   "score": 4,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "10024348d5da",
-   "title": "Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI",
-   "url": "https://www.securityweek.com/anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-warns-of-risk-to-humanity-from-ai/",
-   "source": "SecurityWeek",
-   "sourceId": "securityweek",
-   "published": "2026-10-26T20:20:56.000Z",
-   "firstSeen": 1793058253036,
-   "summary": "A string of hacking incidents by rogue AI agents also has raised fears the technology will slip free of human control to carry out harmful, life-threatening tasks.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents",
-    "Anthropic"
-   ],
-   "score": 7,
-   "action": false,
-   "also": []
   },
   {
    "id": "e36c80d5b4e5",
