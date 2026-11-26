@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-26T12:12:28.278Z",
+ "generatedAt": "2026-11-26T21:51:19.157Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 42,
-  "fetched": 894,
-  "relevant": 782,
-  "stories": 676,
-  "duplicatesMerged": 106
+  "fetched": 892,
+  "relevant": 768,
+  "stories": 663,
+  "duplicatesMerged": 105
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 1014
+   "ms": 790
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 103
+   "ms": 54
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 1017
+   "ms": 644
   },
   {
    "id": "algorithmwatch",
@@ -44,16 +44,16 @@
    "ok": true,
    "items": 10,
    "kept": 8,
-   "ms": 905
+   "ms": 830
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 2,
-   "kept": 2,
-   "ms": 163
+   "items": 0,
+   "kept": 0,
+   "ms": 251
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 997
+   "ms": 724
   },
   {
    "id": "edpb",
@@ -71,7 +71,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1294
+   "ms": 1218
   },
   {
    "id": "europarl",
@@ -79,7 +79,7 @@
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "ok": false,
    "error": "not an RSS/Atom feed",
-   "ms": 381
+   "ms": 460
   },
   {
    "id": "cnil",
@@ -88,7 +88,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 710
+   "ms": 734
   },
   {
    "id": "nist",
@@ -97,7 +97,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 274
+   "ms": 313
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +106,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 99
+   "ms": 98
   },
   {
    "id": "cisa",
@@ -115,7 +115,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 108
+   "ms": 124
   },
   {
    "id": "fedscoop",
@@ -124,7 +124,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 68
+   "ms": 165
   },
   {
    "id": "nextgov",
@@ -133,7 +133,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 141
+   "ms": 214
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +142,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 85
+   "ms": 91
   },
   {
    "id": "venturebeat-ai",
@@ -159,7 +159,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 66
+   "ms": 140
   },
   {
    "id": "ars-ai",
@@ -168,7 +168,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 437
+   "ms": 359
   },
   {
    "id": "wired-ai",
@@ -177,7 +177,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 167
+   "ms": 189
   },
   {
    "id": "guardian-ai",
@@ -185,7 +185,7 @@
    "url": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 145
+   "ms": 225
   },
   {
    "id": "mittr-ai",
@@ -194,7 +194,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 114
+   "ms": 169
   },
   {
    "id": "register-ai",
@@ -203,7 +203,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 1301
+   "ms": 827
   },
   {
    "id": "biometric",
@@ -212,7 +212,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 738
+   "ms": 754
   },
   {
    "id": "krebs",
@@ -221,7 +221,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 75
+   "ms": 409
   },
   {
    "id": "securityweek",
@@ -230,7 +230,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 154
+   "ms": 179
   },
   {
    "id": "wired-security",
@@ -239,7 +239,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 21
+   "ms": 20
   },
   {
    "id": "csoonline",
@@ -248,7 +248,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 151
+   "ms": 156
   },
   {
    "id": "infosecmag",
@@ -257,7 +257,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 248
+   "ms": 257
   },
   {
    "id": "helpnet",
@@ -266,7 +266,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 118
+   "ms": 111
   },
   {
    "id": "therecord",
@@ -275,7 +275,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 577
+   "ms": 524
   },
   {
    "id": "thehackernews",
@@ -284,7 +284,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 195
+   "ms": 234
   },
   {
    "id": "bleeping",
@@ -293,7 +293,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 204
+   "ms": 69
   },
   {
    "id": "darkreading",
@@ -302,7 +302,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 663
+   "ms": 1321
   },
   {
    "id": "schneier",
@@ -311,7 +311,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 160
+   "ms": 145
   },
   {
    "id": "google-security",
@@ -320,7 +320,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 752
+   "ms": 621
   },
   {
    "id": "msft-security",
@@ -329,7 +329,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3287
+   "ms": 2456
   },
   {
    "id": "aws-security",
@@ -338,7 +338,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 294
+   "ms": 406
   },
   {
    "id": "unit42",
@@ -347,7 +347,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 212
+   "ms": 329
   },
   {
    "id": "trailofbits",
@@ -356,7 +356,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 318
+   "ms": 395
   },
   {
    "id": "embracethered",
@@ -365,7 +365,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 95
+   "ms": 188
   },
   {
    "id": "owasp-genai",
@@ -374,7 +374,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 86
+   "ms": 245
   },
   {
    "id": "willison-pi",
@@ -383,7 +383,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 116
+   "ms": 509
   },
   {
    "id": "csa",
@@ -392,7 +392,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 468
+   "ms": 633
   },
   {
    "id": "openai",
@@ -401,7 +401,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 158
+   "ms": 121
   },
   {
    "id": "deepmind",
@@ -409,8 +409,8 @@
    "url": "https://deepmind.google/blog/rss.xml",
    "ok": true,
    "items": 40,
-   "kept": 15,
-   "ms": 181
+   "kept": 14,
+   "ms": 277
   },
   {
    "id": "huggingface",
@@ -419,10 +419,86 @@
    "ok": true,
    "items": 40,
    "kept": 31,
-   "ms": 134
+   "ms": 174
   }
  ],
  "items": [
+  {
+   "id": "1a711cd0e009",
+   "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+   "source": "BleepingComputer",
+   "sourceId": "bleeping",
+   "published": "2026-11-26T21:06:22.000Z",
+   "firstSeen": 1795729879157,
+   "summary": "OpenAI confirmed that it fixed a 'bug' that incorrectly discounted GPT-6.2 usage, which means you'll now hit GPT usage limits 40% faster than before.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "OpenAI"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "e113b1524fab",
+   "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+   "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-26T19:39:57.000Z",
+   "firstSeen": 1795729879157,
+   "summary": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does. Checking whether software works as expected only tells you so much…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "428de28d0514",
+   "title": "Google Cloud Requires AI Agents to Access Workspace Through Approved Methods",
+   "url": "https://www.infosecurity-magazine.com/news/google-cloud-ai-agents-workspace/",
+   "source": "Infosecurity Magazine",
+   "sourceId": "infosecmag",
+   "published": "2026-11-26T13:15:00.000Z",
+   "firstSeen": 1795729879157,
+   "summary": "Google Cloud users will soon be required to use Workspace MCP servers or command line interface to connect AI agents to tools like Gmail, Google Drive or Docs",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "AI agents",
+    "MCP",
+    "Google"
+   ],
+   "score": 4,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "be0abbad9ea0",
+   "title": "Phishers Abuse Hugging Face's AI Site Builder to Spoof Big Brands",
+   "url": "https://www.infosecurity-magazine.com/news/hugging-face-ai-builder-phishing/",
+   "source": "Infosecurity Magazine",
+   "sourceId": "infosecmag",
+   "published": "2026-11-26T12:30:00.000Z",
+   "firstSeen": 1795729879157,
+   "summary": "Aikido found 42 phishing pages on Hugging Face Spaces, two-thirds made with its AI site builder",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Phishing"
+   ],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
   {
    "id": "6b35b02cd838",
    "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
@@ -11955,6 +12031,25 @@
    "also": []
   },
   {
+   "id": "7d3271ba8a68",
+   "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+   "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+   "source": "Ars Technica AI",
+   "sourceId": "ars-ai",
+   "published": "2026-10-30T21:09:54.000Z",
+   "firstSeen": 1793400882653,
+   "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Anthropic"
+   ],
+   "score": 11,
+   "action": false,
+   "also": []
+  },
+  {
    "id": "089e25f6fb09",
    "title": "DOJ raises privacy concerns over potential sale of Character.AI chats",
    "url": "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale",
@@ -12399,7 +12494,7 @@
     "Anthropic",
     "Microsoft"
    ],
-   "score": 29,
+   "score": 26,
    "action": false,
    "also": [
     {
@@ -12421,16 +12516,6 @@
      "published": "2026-10-30T14:36:54.000Z",
      "firstSeen": 1793386058607,
      "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors."
-    },
-    {
-     "id": "7d3271ba8a68",
-     "source": "Ars Technica AI",
-     "sourceId": "ars-ai",
-     "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
-     "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
-     "published": "2026-10-30T21:09:54.000Z",
-     "firstSeen": 1793400882653,
-     "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account."
     },
     {
      "id": "75ef706adf9b",
@@ -13735,338 +13820,6 @@
    ],
    "score": 11,
    "action": true,
-   "also": []
-  },
-  {
-   "id": "92f2be3b9568",
-   "title": "3 Frameworks to Protect CISOs & Orgs Against AI Liability",
-   "url": "https://www.darkreading.com/cyber-risk/3-frameworks-cisos-ai-liability",
-   "source": "Dark Reading",
-   "sourceId": "darkreading",
-   "published": "2026-10-27T21:15:03.000Z",
-   "firstSeen": 1793145453591,
-   "summary": "Cyber leaders can get ahead of AI liability with rigorous documentation, transparency, and smart contract negotiations with AI vendors.",
-   "topics": [
-    "governance"
-   ],
-   "tags": [],
-   "score": 9,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "1687073cfe8c",
-   "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
-   "source": "The Verge AI",
-   "sourceId": "verge-ai",
-   "published": "2026-10-27T20:48:58.000Z",
-   "firstSeen": 1793145453591,
-   "summary": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing increasingly tired of the company's…",
-   "topics": [
-    "research"
-   ],
-   "tags": [
-    "OpenAI"
-   ],
-   "score": 8,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "53660684c1c4",
-   "title": "AI won’t make cybersecurity automatic. It will make continuous security smarter.",
-   "url": "https://www.nextgov.com/ideas/2026/10/ai-wont-make-cybersecurity-automatic-it-will-make-continuous-security-smarter/416844/",
-   "source": "Nextgov/FCW",
-   "sourceId": "nextgov",
-   "published": "2026-10-27T19:59:00.000Z",
-   "firstSeen": 1793133295106,
-   "summary": "COMMENTARY | Compliance is essential, but compliance alone is not security.",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 10,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "b5c0044c79d4",
-   "title": "Florida proposes Safe Screens Act to put age assurance on social media, chatbots",
-   "url": "https://www.biometricupdate.com/202610/florida-proposes-safe-screens-act-to-put-age-assurance-on-social-media-chatbots",
-   "source": "Biometric Update",
-   "sourceId": "biometric",
-   "published": "2026-10-27T19:55:11.000Z",
-   "firstSeen": 1793133295106,
-   "summary": "Florida Attorney General James Uthmeier has proposed new legislation, called the Safe Screens Act, which would build on existing laws by requiring “age determination and parental consent” before minors download or buy apps, and impose protective design features on accounts belonging to users between 14 and 17 years…",
-   "topics": [
-    "governance",
-    "regulation"
-   ],
-   "tags": [],
-   "score": 15,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "c63dfb3453b5",
-   "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
-   "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
-   "source": "The Hacker News",
-   "sourceId": "thehackernews",
-   "published": "2026-10-27T18:26:46.000Z",
-   "firstSeen": 1793133295106,
-   "summary": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator. TrendAI, which analyzed three exposed server environments used by threat actors to conduct the…",
-   "topics": [
-    "incidents",
-    "security"
-   ],
-   "tags": [
-    "AI agents"
-   ],
-   "score": 15,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "6196a6b943a7",
-   "title": "Beware the Slasher: AI Could Kill Off Cybersecurity Pros' Skills",
-   "url": "https://www.darkreading.com/cybersecurity-operations/ai-kill-off-cybersecurity-pros-skills",
-   "source": "Dark Reading",
-   "sourceId": "darkreading",
-   "published": "2026-10-27T17:43:07.000Z",
-   "firstSeen": 1793133295106,
-   "summary": "Nathan Hamiel outlines potential SecOps horror in the AI midst, as core technical capabilities go the way of reading an atlas or remembering phone numbers.",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 6,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "9cac608ea4a2",
-   "title": "'Aokigahara' Stealer Targets 'Developer Keyrings' & AI Assistants",
-   "url": "https://www.darkreading.com/endpoint-security/aokigahara-stealer-developer-keyrings-ai-assistants",
-   "source": "Dark Reading",
-   "sourceId": "darkreading",
-   "published": "2026-10-27T16:47:20.000Z",
-   "firstSeen": 1793133295106,
-   "summary": "The malware's focus on AI tools expands the traditional infostealer playbook to expose a forest of AI sessions, sensitive business data, and developer infrastructure from a single compromised endpoint.",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 8,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "68f9f6e90b4c",
-   "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
-   "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
-   "source": "BleepingComputer",
-   "sourceId": "bleeping",
-   "published": "2026-10-27T16:15:39.000Z",
-   "firstSeen": 1793133295106,
-   "summary": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure.",
-   "topics": [
-    "incidents"
-   ],
-   "tags": [
-    "AI agents"
-   ],
-   "score": 13,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "ac241f264cb4",
-   "title": "OpenAI Compaction Flaw Exposed AI Reasoning to Researchers",
-   "url": "https://www.infosecurity-magazine.com/news/openai-compaction-flaw-ai/",
-   "source": "Infosecurity Magazine",
-   "sourceId": "infosecmag",
-   "published": "2026-10-27T16:00:00.000Z",
-   "firstSeen": 1793133295106,
-   "summary": "Researchers uncovered an OpenAI API flaw that exposed hidden AI reasoning traces, prompting a fix and a $6000 bug bounty reward",
-   "topics": [
-    "incidents",
-    "research"
-   ],
-   "tags": [
-    "OpenAI"
-   ],
-   "score": 12,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "2b4c20383089",
-   "title": "ISC2 Launches Cyber-AI Workforce Coalition to Address the Future of AI Security Jobs",
-   "url": "https://www.infosecurity-magazine.com/news/isc2-launches-cyberai-workforce/",
-   "source": "Infosecurity Magazine",
-   "sourceId": "infosecmag",
-   "published": "2026-10-27T15:00:00.000Z",
-   "firstSeen": 1793116734917,
-   "summary": "ISC2’s new Cyber-AI Workforce Coalition serves as a “vendor-neutral convener” to map the future of AI security careers, ISC2 CEO Scott Beale told Infosecurity",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 20,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "dfa4dc644545",
-   "title": "Scaling Laws Roadshow at Univ. of Oregon: AI and State Governments with Nik Blosser",
-   "url": "https://www.lawfaremedia.org/article/scaling-laws-roadshow-at-univ.-of-oregon--ai-and-state-governments-with-nik-blosser",
-   "source": "Lawfare",
-   "sourceId": "lawfare",
-   "published": "2026-10-27T14:00:09.000Z",
-   "firstSeen": 1793116734917,
-   "summary": "What should a state government have to demonstrate before it asks residents to trust an AI system? In this episode of Scaling Laws, Nik Blosser, Oregon’s Chief AI Officer, joins Kevin Frazier, Director of the AI Innovation and Law Program at the University of Texas School of Law and a Senior Editor at Lawfare, to…",
-   "topics": [
-    "regulation"
-   ],
-   "tags": [],
-   "score": 8,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "6dae1ade7a99",
-   "title": "Japan internet giant GMO says hackers posted stolen customer data",
-   "url": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/",
-   "source": "TechCrunch AI",
-   "sourceId": "techcrunch-ai",
-   "published": "2026-10-27T13:32:57.000Z",
-   "firstSeen": 1793116734917,
-   "summary": "Japan's GMO Internet is verifying alleged customer data posted by suspected hackers following a cloud service breach.",
-   "topics": [
-    "incidents",
-    "security"
-   ],
-   "tags": [],
-   "score": 11,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "dd2d1b68cdb4",
-   "title": "UK Politician Jess Asato Got Deepfaked. Now She’s Taking xAI to Court",
-   "url": "https://www.wired.com/story/the-big-interview-podcast-jess-asato/",
-   "source": "WIRED Security",
-   "sourceId": "wired-security",
-   "published": "2026-10-27T13:29:41.000Z",
-   "firstSeen": 1793116734917,
-   "summary": "Jess Asato’s public campaigning for victims of online abuse put her in the crosshairs of Grok’s deepfake scandal. Then the UK member of parliament became a victim of the abuse herself.",
-   "topics": [
-    "regulation",
-    "incidents"
-   ],
-   "tags": [
-    "Deepfakes",
-    "UK"
-   ],
-   "score": 7,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "30ca265bb5ce",
-   "title": "Socure links AI agents to verified people and businesses",
-   "url": "https://www.helpnetsecurity.com/2026/10/27/socure-agent-intelligence/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-27T13:28:31.000Z",
-   "firstSeen": 1793116734917,
-   "summary": "Socure has launched Agent Intelligence, a suite that detects AI agents, scores whether they should be trusted, and ties each agent to the verified person or business that authorized it. Agent Intelligence includes three layers in one platform designed to go beyond simple Know Your Agent (KYA) solutions: Agent…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents"
-   ],
-   "score": 4,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "e9093bcd2d0e",
-   "title": "DNSFilter LUMINATE unifies DNS security, AI controls and remote work protection",
-   "url": "https://www.helpnetsecurity.com/2026/10/27/dnsfilter-luminate/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-27T13:00:49.000Z",
-   "firstSeen": 1793116734917,
-   "summary": "DNSFilter has launched LUMINATE by DNSFilter, a security platform that allows organizations to deliver five security solutions from one agent, one console and one policy. Shadow AI is now one of the fastest-growing risks in business. Employees are adopting AI tools and agents faster than security teams can approve…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Shadow AI"
-   ],
-   "score": 12,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "176ccead57d0",
-   "title": "FireMon Agentic AI helps teams investigate access and prepare policy changes",
-   "url": "https://www.helpnetsecurity.com/2026/10/27/firemon-agentic-ai/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-27T12:51:04.000Z",
-   "firstSeen": 1793116734917,
-   "summary": "FireMon has announced FireMon Agentic AI, changing how enterprises investigate network access, make policy decisions, and prepare security changes. Built into FireMon’s network security management solutions, the new agentic AI capabilities makes agents first-class citizens alongside practitioners, putting them to work…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents"
-   ],
-   "score": 7,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "6c90f63ac9fd",
-   "title": "Exeon expands threat detection to shadow AI and autonomous agents",
-   "url": "https://www.helpnetsecurity.com/2026/10/27/exeon-expands-threat-detection-to-shadow-ai-and-autonomous-agents/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-27T12:36:08.000Z",
-   "firstSeen": 1793116734917,
-   "summary": "Exeon Analytics has introduced Exeon.AgentGuard, a new AI security solution designed to give organizations visibility into approved and shadow AI use, autonomous agent activity and the data flows created through connected tools and external services. Building on its expertise in AI-driven behavioral analytics and…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents",
-    "Shadow AI"
-   ],
-   "score": 23,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "49bbef361101",
-   "title": "ThreatAware brings governance to AI-built security applications",
-   "url": "https://www.helpnetsecurity.com/2026/10/27/threataware-dimension-governed-workspace/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-27T12:13:25.000Z",
-   "firstSeen": 1793116734917,
-   "summary": "ThreatAware has announced the launch of Dimension, its governed workspace that provides organisations with a foundation for building, running and managing their own customised security applications. Dimension gives security teams the flexibility to develop applications tailored to their needs, while providing…",
-   "topics": [
-    "security",
-    "governance"
-   ],
-   "tags": [],
-   "score": 12,
-   "action": false,
    "also": []
   },
   {
