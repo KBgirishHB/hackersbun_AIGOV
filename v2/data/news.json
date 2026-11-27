@@ -1,13 +1,13 @@
 {
  "version": 2,
- "generatedAt": "2026-11-27T04:03:22.276Z",
+ "generatedAt": "2026-11-27T13:42:44.205Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
-  "sourcesOk": 42,
-  "fetched": 892,
-  "relevant": 767,
-  "stories": 662,
+  "sourcesOk": 43,
+  "fetched": 912,
+  "relevant": 765,
+  "stories": 660,
   "duplicatesMerged": 105
  },
  "sources": [
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 757
+   "ms": 967
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 41
+   "ms": 67
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 645
+   "ms": 523
   },
   {
    "id": "algorithmwatch",
@@ -44,7 +44,7 @@
    "ok": true,
    "items": 10,
    "kept": 8,
-   "ms": 908
+   "ms": 1116
   },
   {
    "id": "lawfare",
@@ -53,7 +53,7 @@
    "ok": true,
    "items": 0,
    "kept": 0,
-   "ms": 413
+   "ms": 247
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 864
+   "ms": 771
   },
   {
    "id": "edpb",
@@ -71,15 +71,16 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1707
+   "ms": 1479
   },
   {
    "id": "europarl",
    "name": "European Parliament",
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
-   "ok": false,
-   "error": "not an RSS/Atom feed",
-   "ms": 634
+   "ok": true,
+   "items": 20,
+   "kept": 20,
+   "ms": 494
   },
   {
    "id": "cnil",
@@ -88,7 +89,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 875
+   "ms": 781
   },
   {
    "id": "nist",
@@ -97,7 +98,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 289
+   "ms": 279
   },
   {
    "id": "ncsc-uk",
@@ -106,7 +107,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 189
+   "ms": 287
   },
   {
    "id": "cisa",
@@ -115,7 +116,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 102
+   "ms": 99
   },
   {
    "id": "fedscoop",
@@ -124,7 +125,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 74
+   "ms": 137
   },
   {
    "id": "nextgov",
@@ -133,7 +134,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 133
+   "ms": 395
   },
   {
    "id": "techcrunch-ai",
@@ -142,7 +143,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 76
+   "ms": 82
   },
   {
    "id": "venturebeat-ai",
@@ -150,7 +151,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 107
+   "ms": 141
   },
   {
    "id": "verge-ai",
@@ -159,7 +160,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 54
+   "ms": 70
   },
   {
    "id": "ars-ai",
@@ -168,7 +169,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 249
+   "ms": 532
   },
   {
    "id": "wired-ai",
@@ -185,7 +186,7 @@
    "url": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 184
+   "ms": 171
   },
   {
    "id": "mittr-ai",
@@ -194,7 +195,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 236
+   "ms": 289
   },
   {
    "id": "register-ai",
@@ -203,7 +204,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 908
+   "ms": 642
   },
   {
    "id": "biometric",
@@ -212,7 +213,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 843
+   "ms": 808
   },
   {
    "id": "krebs",
@@ -221,7 +222,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 436
+   "ms": 224
   },
   {
    "id": "securityweek",
@@ -230,7 +231,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 399
+   "ms": 161
   },
   {
    "id": "wired-security",
@@ -239,7 +240,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 19
+   "ms": 24
   },
   {
    "id": "csoonline",
@@ -248,7 +249,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 372
+   "ms": 209
   },
   {
    "id": "infosecmag",
@@ -257,7 +258,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 556
+   "ms": 263
   },
   {
    "id": "helpnet",
@@ -266,7 +267,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 365
+   "ms": 101
   },
   {
    "id": "therecord",
@@ -275,7 +276,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 165
+   "ms": 147
   },
   {
    "id": "thehackernews",
@@ -284,7 +285,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 271
+   "ms": 268
   },
   {
    "id": "bleeping",
@@ -293,7 +294,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 169
+   "ms": 87
   },
   {
    "id": "darkreading",
@@ -302,7 +303,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1431
+   "ms": 1356
   },
   {
    "id": "schneier",
@@ -311,7 +312,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 133
+   "ms": 151
   },
   {
    "id": "google-security",
@@ -320,7 +321,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 291
+   "ms": 594
   },
   {
    "id": "msft-security",
@@ -329,7 +330,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 3042
+   "ms": 2090
   },
   {
    "id": "aws-security",
@@ -338,7 +339,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 133
+   "ms": 91
   },
   {
    "id": "unit42",
@@ -347,7 +348,7 @@
    "ok": true,
    "items": 15,
    "kept": 13,
-   "ms": 47
+   "ms": 70
   },
   {
    "id": "trailofbits",
@@ -356,7 +357,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 283
+   "ms": 350
   },
   {
    "id": "embracethered",
@@ -365,7 +366,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 80
+   "ms": 127
   },
   {
    "id": "owasp-genai",
@@ -374,7 +375,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 43
+   "ms": 210
   },
   {
    "id": "willison-pi",
@@ -383,7 +384,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 97
+   "ms": 672
   },
   {
    "id": "csa",
@@ -392,7 +393,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 517
+   "ms": 198
   },
   {
    "id": "openai",
@@ -401,7 +402,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 159
+   "ms": 91
   },
   {
    "id": "deepmind",
@@ -410,7 +411,7 @@
    "ok": true,
    "items": 40,
    "kept": 14,
-   "ms": 145
+   "ms": 289
   },
   {
    "id": "huggingface",
@@ -418,11 +419,138 @@
    "url": "https://huggingface.co/blog/feed.xml",
    "ok": true,
    "items": 40,
-   "kept": 31,
-   "ms": 220
+   "kept": 32,
+   "ms": 181
   }
  ],
  "items": [
+  {
+   "id": "c7dfddb399ba",
+   "title": "Commission asked to improve transparency of bloc’s standards-writing",
+   "url": "https://www.rapporteur.com/news/commission-asked-to-improve-transparency-of-blocs-standards-writing/",
+   "source": "Euractiv",
+   "sourceId": "euractiv",
+   "published": "2026-11-27T11:37:35.000Z",
+   "firstSeen": 1795786964205,
+   "summary": "Ombudswoman's request follows complaints about industry-led process for AI Act",
+   "topics": [
+    "governance",
+    "regulation"
+   ],
+   "tags": [
+    "EU AI Act"
+   ],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "dc26eec607dd",
+   "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+   "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+   "source": "The Hacker News",
+   "sourceId": "thehackernews",
+   "published": "2026-11-27T10:32:18.000Z",
+   "firstSeen": 1795786964205,
+   "summary": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening across the environment that week. Someone pulls them together…",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "a76872cb85af",
+   "title": "THE HACK: AI-hacker-agents take hold",
+   "url": "https://www.rapporteur.com/news/the-hack-ai-hacker-agents-take-hold/",
+   "source": "Euractiv",
+   "sourceId": "euractiv",
+   "published": "2026-11-27T09:02:28.000Z",
+   "firstSeen": 1795786964205,
+   "summary": "In today's edition: Black Friday, scale-up fund, digital tax",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "5f12de2575af",
+   "title": "CyberStrikeAI Creator Shuts Down Open-Source AI Offensive Framework",
+   "url": "https://www.infosecurity-magazine.com/news/cyberstrikeai-shut-down-threatbook/",
+   "source": "Infosecurity Magazine",
+   "sourceId": "infosecmag",
+   "published": "2026-11-27T09:00:00.000Z",
+   "firstSeen": 1795786964205,
+   "summary": "The open source version of CyberStrikeAI has been permanently removed from, but an enterprise version of the AI pentesting tool is still accessible",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "c9ba1b0dab05",
+   "title": "In 2027, “the agent did it” stops being an excuse",
+   "url": "https://www.helpnetsecurity.com/2026/11/27/sailpoint-2027-ai-identity-security-predictions-report/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-27T06:30:14.000Z",
+   "firstSeen": 1795786964205,
+   "summary": "Enterprises will come under growing pressure to establish accountability for autonomous AI agents in 2027, with regulators, corporate boards and insurers demanding evidence of how organizations govern automated decisions, manage access privileges and prevent operational disruption, according to SailPoint’s 2027…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 5,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "e3ab297b8d26",
+   "title": "Product showcase: Norton helps Claude users uncover the telltale signs of fraud",
+   "url": "https://www.helpnetsecurity.com/2026/11/27/product-showcase-norton-claude-scam-detection/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-27T06:00:59.000Z",
+   "firstSeen": 1795786964205,
+   "summary": "The Norton connector for Claude brings the company’s Genie AI-powered scam detection capabilities into the chatbot. Users can submit suspicious emails, text messages, screenshots, and links for analysis, as well as ask questions about cybersecurity, privacy, and identity protection. The integration does not require a…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Privacy",
+    "Anthropic"
+   ],
+   "score": 12,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "ee338c55dd7e",
+   "title": "AI raises new questions about what penetration testing proves",
+   "url": "https://www.helpnetsecurity.com/2026/11/27/crest-ai-threat-led-penetration-testing/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-11-27T05:00:32.000Z",
+   "firstSeen": 1795786964205,
+   "summary": "AI is becoming an established part of threat-led penetration testing (TLPT), with 81% of surveyed providers using the technology beyond experimentation, according to research from CREST. The study, AI and the Future of Threat-Led Penetration Testing: Capability, Control and Credible Assurance, draws on responses from…",
+   "topics": [
+    "governance"
+   ],
+   "tags": [],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
   {
    "id": "c26be5a8be68",
    "title": "Open-source platform ARTEX adds to AI-boosted cyber threat",
@@ -573,9 +701,20 @@
     "Microsoft",
     "China"
    ],
-   "score": 11,
+   "score": 16,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "c98ea32aa49a",
+     "source": "Help Net Security",
+     "sourceId": "helpnet",
+     "title": "Chinese and North Korean state hackers add ARTEX AI framework to their arsenal",
+     "url": "https://www.helpnetsecurity.com/2026/11/27/artex-ai-pentest-framework-china-north-korea-state-hackers/",
+     "published": "2026-11-27T11:06:57.000Z",
+     "firstSeen": 1795786964205,
+     "summary": "State-sponsored hacking groups tied to Beijing and Pyongyang have started running the ARTEX pentesting tool in attacks, Microsoft Threat Intelligence warned this week. Published on GitHub in July 2026 by a user going by Autumn-27, ARTEX is an LLM-driven open-source penetration testing framework that runs attacks…"
+    }
+   ]
   },
   {
    "id": "c3fdb0077e9e",
@@ -717,15 +856,27 @@
    "firstSeen": 1795637147411,
    "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector.",
    "topics": [
-    "incidents"
+    "incidents",
+    "security"
    ],
    "tags": [
     "AI agents",
     "Critical infrastructure"
    ],
-   "score": 12,
+   "score": 22,
    "action": false,
-   "also": []
+   "also": [
+    {
+     "id": "ea022ff16a52",
+     "source": "The Hacker News",
+     "sourceId": "thehackernews",
+     "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+     "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+     "published": "2026-11-27T06:04:20.000Z",
+     "firstSeen": 1795786964205,
+     "summary": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and two of those succeeded, with no major…"
+    }
+   ]
   },
   {
    "id": "7072086ea0e0",
@@ -12687,6 +12838,26 @@
    "also": []
   },
   {
+   "id": "1bb2b56f4c27",
+   "title": "Claude Model Builds Exploits Across Major Browsers & OSes",
+   "url": "https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-10-29T18:15:59.000Z",
+   "firstSeen": 1793305777295,
+   "summary": "An unreleased version of the AI model has found and chained multiple vulnerabilities in Chrome, Safari, Android, Windows, and Linux, Anthropic says.",
+   "topics": [
+    "security"
+   ],
+   "tags": [
+    "Vulnerability",
+    "Anthropic"
+   ],
+   "score": 10,
+   "action": false,
+   "also": []
+  },
+  {
    "id": "d7f271ef9bb5",
    "title": "Tracking AI adoption in North Korean threat actor tradecraft",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
@@ -13333,6 +13504,48 @@
    "also": []
   },
   {
+   "id": "357981106f7b",
+   "title": "Attackers Hide Malware Behind Signed ChatGPT and Claude Binaries",
+   "url": "https://www.infosecurity-magazine.com/news/attackers-hide-malware-behind/",
+   "source": "Infosecurity Magazine",
+   "sourceId": "infosecmag",
+   "published": "2026-10-28T15:13:00.000Z",
+   "firstSeen": 1793224318340,
+   "summary": "Attackers have used fake ChatGPT and Claude projects to distribute Yoba malware",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "score": 16,
+   "action": false,
+   "also": [
+    {
+     "id": "6ff98ab29e84",
+     "source": "Help Net Security",
+     "sourceId": "helpnet",
+     "title": "Yoba malware hides in fake desktop versions of ChatGPT and Claude",
+     "url": "https://www.helpnetsecurity.com/2026/10/29/fake-chatgpt-claude-apps-github-yoba-malware-cryptominer/",
+     "published": "2026-10-29T14:49:11.000Z",
+     "firstSeen": 1793287735893,
+     "summary": "Fake GitHub projects posing as desktop versions of ChatGPT and Claude have been used to spread a malware chain that ends with a cryptocurrency miner, Check Point has found. The researchers have been tracking the campaign, dubbed Yoba, for the past two months. Its operator set up repositories and GitHub.io pages for…"
+    },
+    {
+     "id": "6449f82ff32d",
+     "source": "The Hacker News",
+     "sourceId": "thehackernews",
+     "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+     "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+     "published": "2026-10-29T15:20:29.000Z",
+     "firstSeen": 1793305777295,
+     "summary": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba. The activity involves creating fake GitHub projects that claim to be desktop applications like GPT-5.6…"
+    }
+   ]
+  },
+  {
    "id": "469000b1ec7b",
    "title": "ControlUp’s Pulse AI Resolve diagnoses and fixes IT issues within admin-defined controls",
    "url": "https://www.helpnetsecurity.com/2026/10/28/controlup-pulse-ai-resolve/",
@@ -13514,253 +13727,6 @@
     "OpenAI"
    ],
    "score": 16,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "0d7c8ee8b918",
-   "title": "Upwind secures $400 million to protect AI across endpoints, code, and cloud",
-   "url": "https://www.helpnetsecurity.com/2026/10/28/upwind-400-million-series-c-funding/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-28T13:31:26.000Z",
-   "firstSeen": 1793207905019,
-   "summary": "Upwind Security has raised $400 million in Series C funding to expand its cloud and AI security platform, bringing the company’s total funding to more than $800 million. Bessemer Venture Partners led the round, with participation from all existing Upwind investors, including Greylock Partners, Cyberstarts, Craft…",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 12,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "d8226174b8ca",
-   "title": "Fake ChatGPT, Claude apps spread malware via signed AI binaries",
-   "url": "https://www.csoonline.com/article/4241634/fake-chatgpt-claude-apps-spread-malware-via-signed-ai-binaries.html",
-   "source": "CSO Online",
-   "sourceId": "csoonline",
-   "published": "2026-10-28T12:36:48.000Z",
-   "firstSeen": 1793207905019,
-   "summary": "Attackers are distributing malware through fake ChatGPT and Claude desktop applications, using legitimate, digitally signed executables from OpenAI and Anthropic to load malicious code onto victims’ Windows systems, according to Check Point Research. The campaign, tracked as Yoba, uses fake GitHub repositories and…",
-   "topics": [
-    "security",
-    "incidents"
-   ],
-   "tags": [
-    "OpenAI",
-    "Anthropic"
-   ],
-   "score": 19,
-   "action": false,
-   "also": [
-    {
-     "id": "357981106f7b",
-     "source": "Infosecurity Magazine",
-     "sourceId": "infosecmag",
-     "title": "Attackers Hide Malware Behind Signed ChatGPT and Claude Binaries",
-     "url": "https://www.infosecurity-magazine.com/news/attackers-hide-malware-behind/",
-     "published": "2026-10-28T15:13:00.000Z",
-     "firstSeen": 1793224318340,
-     "summary": "Attackers have used fake ChatGPT and Claude projects to distribute Yoba malware"
-    },
-    {
-     "id": "6ff98ab29e84",
-     "source": "Help Net Security",
-     "sourceId": "helpnet",
-     "title": "Yoba malware hides in fake desktop versions of ChatGPT and Claude",
-     "url": "https://www.helpnetsecurity.com/2026/10/29/fake-chatgpt-claude-apps-github-yoba-malware-cryptominer/",
-     "published": "2026-10-29T14:49:11.000Z",
-     "firstSeen": 1793287735893,
-     "summary": "Fake GitHub projects posing as desktop versions of ChatGPT and Claude have been used to spread a malware chain that ends with a cryptocurrency miner, Check Point has found. The researchers have been tracking the campaign, dubbed Yoba, for the past two months. Its operator set up repositories and GitHub.io pages for…"
-    },
-    {
-     "id": "6449f82ff32d",
-     "source": "The Hacker News",
-     "sourceId": "thehackernews",
-     "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-     "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-     "published": "2026-10-29T15:20:29.000Z",
-     "firstSeen": 1793305777295,
-     "summary": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba. The activity involves creating fake GitHub projects that claim to be desktop applications like GPT-5.6…"
-    }
-   ]
-  },
-  {
-   "id": "2363235cbe09",
-   "title": "Trusting Unsloth’s trust setting could mean executing malicious code",
-   "url": "https://www.csoonline.com/article/4241619/trusting-unsloths-trust-setting-could-mean-executing-malicious-code.html",
-   "source": "CSO Online",
-   "sourceId": "csoonline",
-   "published": "2026-10-28T11:53:22.000Z",
-   "firstSeen": 1793207905019,
-   "summary": "AI developers may have a security setting enabled and still end up running attacker-controlled code. Pillar Security has disclosed a high-severity vulnerability in Unsloth’s model loader that could allow arbitrary Python code execution when processing a maliciously crafted model configuration. Tracked as…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "Vulnerability"
-   ],
-   "score": 4,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "cec1e9f9f5cb",
-   "title": "Wazuh and AI for Enhanced SOC Workflows",
-   "url": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
-   "source": "The Hacker News",
-   "sourceId": "thehackernews",
-   "published": "2026-10-28T11:30:00.000Z",
-   "firstSeen": 1793207905019,
-   "summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cybersecurity has…",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 5,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "e665b822df11",
-   "title": "Sánchez’s wife sues Spanish opposition over AI deepfake",
-   "url": "https://www.rapporteur.com/news/spains-sanchez-wife-sues-opposition-over-ai-deepfake/",
-   "source": "Euractiv",
-   "sourceId": "euractiv",
-   "published": "2026-10-28T11:06:14.000Z",
-   "firstSeen": 1793207905019,
-   "summary": "Case filed over 'identity theft' but also touches on EU tech rulebook",
-   "topics": [
-    "regulation",
-    "incidents"
-   ],
-   "tags": [
-    "Deepfakes"
-   ],
-   "score": 12,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "b2a72fae9c63",
-   "title": "Scale publishes first AI benchmark through CAISSI partnership",
-   "url": "https://fedscoop.com/scale-chemistry-ai-benchmark-caissi-partnership-dualchem/",
-   "source": "FedScoop",
-   "sourceId": "fedscoop",
-   "published": "2026-10-28T10:00:00.000Z",
-   "firstSeen": 1793187174999,
-   "summary": "The new benchmark, DualChem, is aimed at helping government agencies determine AI model risk in chemistry applications.",
-   "topics": [
-    "research"
-   ],
-   "tags": [],
-   "score": 8,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "a21e2ffcc15d",
-   "title": "Secrets Management Firm Infisical Valued at $600 Million After $40 Million Raise",
-   "url": "https://www.securityweek.com/secrets-management-firm-infisical-valued-at-600-million-after-40-million-raise/",
-   "source": "SecurityWeek",
-   "sourceId": "securityweek",
-   "published": "2026-10-28T09:48:24.000Z",
-   "firstSeen": 1793187174999,
-   "summary": "The company will use the Series B funds to expand its platform for securing AI agents’ access to sensitive systems.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents"
-   ],
-   "score": 5,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "c486e7b3899f",
-   "title": "THE HACK: Digital omnibus lobby frenzy",
-   "url": "https://www.rapporteur.com/news/the-hack-digital-omnibus-lobby-frenzy/",
-   "source": "Euractiv",
-   "sourceId": "euractiv",
-   "published": "2026-10-28T08:33:13.000Z",
-   "firstSeen": 1793187174999,
-   "summary": "In today's edition: Frontex, frontier AI, IAB Europe",
-   "topics": [
-    "regulation"
-   ],
-   "tags": [],
-   "score": 10,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "cd7efdf8cc4e",
-   "title": "10 ways attackers abuse AI services to hack your business",
-   "url": "https://www.csoonline.com/article/4154222/6-ways-attackers-abuse-ai-services-to-hack-your-business.html",
-   "source": "CSO Online",
-   "sourceId": "csoonline",
-   "published": "2026-10-28T08:25:00.000Z",
-   "firstSeen": 1793187174999,
-   "summary": "Attackers are starting to exploit AI systems to mount attacks in the same way they once relied on built-in enterprise tools such as PowerShell. Instead of relying on malware, cybercriminals are increasingly abusing AI tools enterprises depend on — a trend some experts describe as “living off the AI land.” The expanded…",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 13,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "aa5379f50b92",
-   "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
-   "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
-   "source": "The Hacker News",
-   "sourceId": "thehackernews",
-   "published": "2026-10-28T08:15:07.000Z",
-   "firstSeen": 1793187174999,
-   "summary": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report. The exploits were built in the lab after the model was prompted, not seen in any real attack, and Anthropic reported every…",
-   "topics": [
-    "security",
-    "research"
-   ],
-   "tags": [
-    "Anthropic",
-    "Vulnerability"
-   ],
-   "score": 16,
-   "action": false,
-   "also": [
-    {
-     "id": "1bb2b56f4c27",
-     "source": "Dark Reading",
-     "sourceId": "darkreading",
-     "title": "Claude Model Builds Exploits Across Major Browsers & OSes",
-     "url": "https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses",
-     "published": "2026-10-29T18:15:59.000Z",
-     "firstSeen": 1793305777295,
-     "summary": "An unreleased version of the AI model has found and chained multiple vulnerabilities in Chrome, Safari, Android, Windows, and Linux, Anthropic says."
-    }
-   ]
-  },
-  {
-   "id": "35590628a104",
-   "title": "Bellini Capital CISO on AI security governance and the limits of patching faster",
-   "url": "https://www.helpnetsecurity.com/2026/10/28/brian-blakley-bellini-capital-ai-security-governance/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-28T06:30:35.000Z",
-   "firstSeen": 1793187174999,
-   "summary": "In this Help Net Security interview, Brian Blakley, CISO at Bellini Capital and ConnectSecure, explains why AI makes finding vulnerabilities faster while fixing them still takes time. He argues that “patch faster” is not enough and that teams need to cut exposure while remediation is pending. Blakley describes a…",
-   "topics": [
-    "security",
-    "governance"
-   ],
-   "tags": [
-    "Vulnerability"
-   ],
-   "score": 24,
    "action": false,
    "also": []
   },
