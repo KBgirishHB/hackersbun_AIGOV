@@ -1,14 +1,14 @@
 {
  "version": 2,
- "generatedAt": "2026-11-27T13:42:44.205Z",
+ "generatedAt": "2026-11-27T22:36:55.183Z",
  "retainDays": 30,
  "stats": {
   "sources": 46,
   "sourcesOk": 43,
-  "fetched": 912,
-  "relevant": 765,
-  "stories": 660,
-  "duplicatesMerged": 105
+  "fetched": 913,
+  "relevant": 746,
+  "stories": 643,
+  "duplicatesMerged": 103
  },
  "sources": [
   {
@@ -18,7 +18,7 @@
    "ok": true,
    "items": 28,
    "kept": 3,
-   "ms": 967
+   "ms": 1125
   },
   {
    "id": "aiact-newsletter",
@@ -26,7 +26,7 @@
    "url": "https://artificialintelligenceact.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 67
+   "ms": 53
   },
   {
    "id": "fli",
@@ -35,7 +35,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 523
+   "ms": 458
   },
   {
    "id": "algorithmwatch",
@@ -44,16 +44,16 @@
    "ok": true,
    "items": 10,
    "kept": 8,
-   "ms": 1116
+   "ms": 611
   },
   {
    "id": "lawfare",
    "name": "Lawfare",
    "url": "https://www.lawfaremedia.org/feeds/articles",
    "ok": true,
-   "items": 0,
-   "kept": 0,
-   "ms": 247
+   "items": 1,
+   "kept": 1,
+   "ms": 319
   },
   {
    "id": "euractiv",
@@ -62,7 +62,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 771
+   "ms": 752
   },
   {
    "id": "edpb",
@@ -71,7 +71,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 1479
+   "ms": 1686
   },
   {
    "id": "europarl",
@@ -80,7 +80,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 494
+   "ms": 506
   },
   {
    "id": "cnil",
@@ -89,7 +89,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 781
+   "ms": 775
   },
   {
    "id": "nist",
@@ -98,7 +98,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 279
+   "ms": 285
   },
   {
    "id": "ncsc-uk",
@@ -107,7 +107,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 287
+   "ms": 246
   },
   {
    "id": "cisa",
@@ -116,7 +116,7 @@
    "ok": true,
    "items": 30,
    "kept": 30,
-   "ms": 99
+   "ms": 139
   },
   {
    "id": "fedscoop",
@@ -125,7 +125,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 137
+   "ms": 127
   },
   {
    "id": "nextgov",
@@ -134,7 +134,7 @@
    "ok": true,
    "items": 24,
    "kept": 24,
-   "ms": 395
+   "ms": 106
   },
   {
    "id": "techcrunch-ai",
@@ -143,7 +143,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 82
+   "ms": 59
   },
   {
    "id": "venturebeat-ai",
@@ -151,7 +151,7 @@
    "url": "https://venturebeat.com/category/ai/feed/",
    "ok": false,
    "error": "HTTP 429",
-   "ms": 141
+   "ms": 134
   },
   {
    "id": "verge-ai",
@@ -160,7 +160,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 70
+   "ms": 65
   },
   {
    "id": "ars-ai",
@@ -169,7 +169,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 532
+   "ms": 254
   },
   {
    "id": "wired-ai",
@@ -178,7 +178,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 184
+   "ms": 131
   },
   {
    "id": "guardian-ai",
@@ -186,7 +186,7 @@
    "url": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
    "ok": false,
    "error": "HTTP 403",
-   "ms": 171
+   "ms": 95
   },
   {
    "id": "mittr-ai",
@@ -195,7 +195,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 289
+   "ms": 116
   },
   {
    "id": "register-ai",
@@ -204,7 +204,7 @@
    "ok": true,
    "items": 40,
    "kept": 5,
-   "ms": 642
+   "ms": 755
   },
   {
    "id": "biometric",
@@ -213,7 +213,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 808
+   "ms": 544
   },
   {
    "id": "krebs",
@@ -222,7 +222,7 @@
    "ok": true,
    "items": 10,
    "kept": 6,
-   "ms": 224
+   "ms": 95
   },
   {
    "id": "securityweek",
@@ -231,7 +231,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 161
+   "ms": 141
   },
   {
    "id": "wired-security",
@@ -249,7 +249,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 209
+   "ms": 117
   },
   {
    "id": "infosecmag",
@@ -267,7 +267,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 101
+   "ms": 250
   },
   {
    "id": "therecord",
@@ -276,7 +276,7 @@
    "ok": true,
    "items": 5,
    "kept": 5,
-   "ms": 147
+   "ms": 252
   },
   {
    "id": "thehackernews",
@@ -285,7 +285,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 268
+   "ms": 303
   },
   {
    "id": "bleeping",
@@ -294,7 +294,7 @@
    "ok": true,
    "items": 15,
    "kept": 15,
-   "ms": 87
+   "ms": 203
   },
   {
    "id": "darkreading",
@@ -303,7 +303,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 1356
+   "ms": 685
   },
   {
    "id": "schneier",
@@ -312,7 +312,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 151
+   "ms": 164
   },
   {
    "id": "google-security",
@@ -321,7 +321,7 @@
    "ok": true,
    "items": 25,
    "kept": 0,
-   "ms": 594
+   "ms": 487
   },
   {
    "id": "msft-security",
@@ -330,7 +330,7 @@
    "ok": true,
    "items": 10,
    "kept": 10,
-   "ms": 2090
+   "ms": 1173
   },
   {
    "id": "aws-security",
@@ -339,7 +339,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 91
+   "ms": 162
   },
   {
    "id": "unit42",
@@ -347,8 +347,8 @@
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
    "items": 15,
-   "kept": 13,
-   "ms": 70
+   "kept": 12,
+   "ms": 81
   },
   {
    "id": "trailofbits",
@@ -357,7 +357,7 @@
    "ok": true,
    "items": 20,
    "kept": 3,
-   "ms": 350
+   "ms": 385
   },
   {
    "id": "embracethered",
@@ -366,7 +366,7 @@
    "ok": true,
    "items": 40,
    "kept": 3,
-   "ms": 127
+   "ms": 87
   },
   {
    "id": "owasp-genai",
@@ -375,7 +375,7 @@
    "ok": true,
    "items": 10,
    "kept": 3,
-   "ms": 210
+   "ms": 64
   },
   {
    "id": "willison-pi",
@@ -384,7 +384,7 @@
    "ok": true,
    "items": 30,
    "kept": 3,
-   "ms": 672
+   "ms": 315
   },
   {
    "id": "csa",
@@ -393,7 +393,7 @@
    "ok": true,
    "items": 20,
    "kept": 20,
-   "ms": 198
+   "ms": 561
   },
   {
    "id": "openai",
@@ -402,7 +402,7 @@
    "ok": true,
    "items": 40,
    "kept": 40,
-   "ms": 91
+   "ms": 102
   },
   {
    "id": "deepmind",
@@ -410,8 +410,8 @@
    "url": "https://deepmind.google/blog/rss.xml",
    "ok": true,
    "items": 40,
-   "kept": 14,
-   "ms": 289
+   "kept": 13,
+   "ms": 104
   },
   {
    "id": "huggingface",
@@ -420,10 +420,85 @@
    "ok": true,
    "items": 40,
    "kept": 32,
-   "ms": 181
+   "ms": 160
   }
  ],
  "items": [
+  {
+   "id": "1f918d0bb11b",
+   "title": "iProov urges UK to target infrastructure behind AI disinformation",
+   "url": "https://www.biometricupdate.com/202611/iproov-urges-uk-to-target-infrastructure-behind-ai-disinformation",
+   "source": "Biometric Update",
+   "sourceId": "biometric",
+   "published": "2026-11-27T20:44:23.000Z",
+   "firstSeen": 1795819015183,
+   "summary": "The UK government has announced plans for a center to counter hostile-state information operations, and iProov wants it to focus on the infrastructure that supports them. Speaking on a panel at the RISK Expo Europe Summit, Campbell Cowie, head of policy, standards and regulation at iProov, called the creation of the…",
+   "topics": [
+    "regulation"
+   ],
+   "tags": [
+    "UK"
+   ],
+   "score": 9,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "b69f2ad63b08",
+   "title": "Flaw in Linux NFS file sharing exposes servers to remote takeover",
+   "url": "https://www.csoonline.com/article/4254114/flaw-in-linux-nfs-file-sharing-exposes-servers-to-remote-takeover.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-11-27T20:43:35.000Z",
+   "firstSeen": 1795819015183,
+   "summary": "Researchers have found a critical flaw in the Linux kernel’s NFS file-sharing server that lets unauthenticated attackers obtain a root shell on affected systems. The flaw remained undetected in the kernel for 12 years, until two researchers, one using an AI agent, discovered it independently. NFS is typically used…",
+   "topics": [
+    "research"
+   ],
+   "tags": [
+    "AI agents"
+   ],
+   "score": 4,
+   "action": true,
+   "also": []
+  },
+  {
+   "id": "c71344d3acd0",
+   "title": "Philippines signs Meta safety pact as it weighs national ID for age checks",
+   "url": "https://www.biometricupdate.com/202611/philippines-signs-meta-safety-pact-as-it-weighs-national-id-for-age-checks",
+   "source": "Biometric Update",
+   "sourceId": "biometric",
+   "published": "2026-11-27T17:37:11.000Z",
+   "firstSeen": 1795819015183,
+   "summary": "The Philippine Department of Information and Communications Technology (DICT) has signed an agreement with Meta to protect children online, support age-appropriate experiences on its platforms, and address scams, impersonation and harmful AI-generated content such as deepfakes. The agreement comes as Philippine…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "Deepfakes",
+    "Meta"
+   ],
+   "score": 6,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "289a732e9368",
+   "title": "Matters.AI Lands India’s Largest Cybersecurity Pre-Series A Round to Fight AI Data Risks",
+   "url": "https://www.darkreading.com/cyber-risk/matters-india-cybersecurity-pre-series-ai-data-risks",
+   "source": "Dark Reading",
+   "sourceId": "darkreading",
+   "published": "2026-11-27T15:27:20.000Z",
+   "firstSeen": 1795819015183,
+   "summary": "The security startup consolidates four legacy security tools into an autonomous platform that uses context-aware AI to trace sensitive data lineage, analyze user intent, and automatically remediate threats across enterprise environments.",
+   "topics": [
+    "security"
+   ],
+   "tags": [],
+   "score": 8,
+   "action": false,
+   "also": []
+  },
   {
    "id": "c7dfddb399ba",
    "title": "Commission asked to improve transparency of bloc’s standards-writing",
@@ -12934,6 +13009,38 @@
    "also": []
   },
   {
+   "id": "6ff98ab29e84",
+   "title": "Yoba malware hides in fake desktop versions of ChatGPT and Claude",
+   "url": "https://www.helpnetsecurity.com/2026/10/29/fake-chatgpt-claude-apps-github-yoba-malware-cryptominer/",
+   "source": "Help Net Security",
+   "sourceId": "helpnet",
+   "published": "2026-10-29T14:49:11.000Z",
+   "firstSeen": 1793287735893,
+   "summary": "Fake GitHub projects posing as desktop versions of ChatGPT and Claude have been used to spread a malware chain that ends with a cryptocurrency miner, Check Point has found. The researchers have been tracking the campaign, dubbed Yoba, for the past two months. Its operator set up repositories and GitHub.io pages for…",
+   "topics": [
+    "security",
+    "incidents"
+   ],
+   "tags": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "score": 13,
+   "action": false,
+   "also": [
+    {
+     "id": "6449f82ff32d",
+     "source": "The Hacker News",
+     "sourceId": "thehackernews",
+     "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+     "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+     "published": "2026-10-29T15:20:29.000Z",
+     "firstSeen": 1793305777295,
+     "summary": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba. The activity involves creating fake GitHub projects that claim to be desktop applications like GPT-5.6…"
+    }
+   ]
+  },
+  {
    "id": "cb9ae743fb0a",
    "title": "Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps",
    "url": "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/",
@@ -13090,6 +13197,28 @@
    ],
    "tags": [],
    "score": 21,
+   "action": false,
+   "also": []
+  },
+  {
+   "id": "8eaeaddb775c",
+   "title": "Imposter abused trust in OpenAI, Anthropic, and 30 others to hunt for secrets",
+   "url": "https://www.csoonline.com/article/4242088/imposter-abused-trust-in-openai-anthropic-and-30-others-to-hunt-for-secrets.html",
+   "source": "CSO Online",
+   "sourceId": "csoonline",
+   "published": "2026-10-29T11:52:51.000Z",
+   "firstSeen": 1793287735893,
+   "summary": "Attackers are impersonating AI agents from companies including OpenAI, Anthropic, and Meta in a bid to trick organizations into exposing sensitive credentials, according to researchers who observed a single threat actor cycling through dozens of fake bot identities while probing enterprise web servers for secrets. A…",
+   "topics": [
+    "incidents"
+   ],
+   "tags": [
+    "AI agents",
+    "OpenAI",
+    "Anthropic",
+    "Meta"
+   ],
+   "score": 15,
    "action": false,
    "also": []
   },
@@ -13262,471 +13391,6 @@
     "Vulnerability"
    ],
    "score": 10,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "ab04abf3527b",
-   "title": "Massive Leak Exposes 41,000 Homeland Security Workers—Including Undercover ICE Agents",
-   "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
-   "source": "WIRED Security",
-   "sourceId": "wired-security",
-   "published": "2026-10-28T20:00:00.000Z",
-   "firstSeen": 1793224318340,
-   "summary": "The leaked records include the locations of ICE and CBP facilities, workers’ cell phone numbers, and the members of groups tied to wiretap programs, Palantir software, and xAI’s Grok chatbot.",
-   "topics": [
-    "incidents"
-   ],
-   "tags": [],
-   "score": 6,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "63e58e2f6d43",
-   "title": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
-   "url": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/",
-   "source": "TechCrunch AI",
-   "sourceId": "techcrunch-ai",
-   "published": "2026-10-28T19:05:46.000Z",
-   "firstSeen": 1793224318340,
-   "summary": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched. According to researchers…",
-   "topics": [
-    "research"
-   ],
-   "tags": [
-    "Vulnerability"
-   ],
-   "score": 5,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "6d1aeca56844",
-   "title": "The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO",
-   "url": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto/",
-   "source": "TechCrunch AI",
-   "sourceId": "techcrunch-ai",
-   "published": "2026-10-28T18:50:39.000Z",
-   "firstSeen": 1793224318340,
-   "summary": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched. According to researchers…",
-   "topics": [
-    "research"
-   ],
-   "tags": [
-    "Vulnerability"
-   ],
-   "score": 5,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "851870d7bce9",
-   "title": "Texas sues OpenAI, Sam Altman over ChatGPT safety and age verification",
-   "url": "https://www.biometricupdate.com/202610/texas-sues-openai-sam-altman-over-chatgpt-safety-and-age-verification",
-   "source": "Biometric Update",
-   "sourceId": "biometric",
-   "published": "2026-10-28T18:26:10.000Z",
-   "firstSeen": 1793224318340,
-   "summary": "Texas Attorney General Ken Paxton has sued OpenAI and CEO Sam Altman, accusing them of misleading consumers about ChatGPT's safety, failing to protect children and violating state requirements for age verification and parental controls. The lawsuit, filed October 23 in Collin County, seeks sweeping restrictions on…",
-   "topics": [
-    "regulation"
-   ],
-   "tags": [
-    "OpenAI"
-   ],
-   "score": 10,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "b51dd1d66329",
-   "title": "European digital rights nonprofit noyb sues Scale AI for ‘invasive’ worker surveillance",
-   "url": "https://therecord.media/noyb-sues-scale-ai-for-worker-surveillance",
-   "source": "The Record",
-   "sourceId": "therecord",
-   "published": "2026-10-28T18:02:00.000Z",
-   "firstSeen": 1793224318340,
-   "summary": "Noyb alleges the platform in some cases records freelancers’ mouse clicks and keystrokes every few seconds and claims the collected information can be used to generate video documenting freelancers’ entire workday.",
-   "topics": [
-    "regulation"
-   ],
-   "tags": [],
-   "score": 8,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "d4056c79bb2f",
-   "title": "Unwrapping Retail Peak Season Cyber Threats",
-   "url": "https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/",
-   "source": "Unit 42",
-   "sourceId": "unit42",
-   "published": "2026-10-28T18:00:10.000Z",
-   "firstSeen": 1793224318340,
-   "summary": "Unit 42 explores key peak shopping season retail cyber threats, from ransomware to AI attacks, and shares how to defend operations and customer trust.",
-   "topics": [
-    "security",
-    "incidents"
-   ],
-   "tags": [
-    "Ransomware"
-   ],
-   "score": 8,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "833bdee41290",
-   "title": "A First Amendment Approach to Regulating AI Model Weights",
-   "url": "https://www.lawfaremedia.org/article/a-first-amendment-approach-to-regulating-ai-model-weights",
-   "source": "Lawfare",
-   "sourceId": "lawfare",
-   "published": "2026-10-28T17:00:04.000Z",
-   "firstSeen": 1793207905019,
-   "summary": "It is unclear whether AI model weights are speech. But any regime that licenses them should be built with First Amendment protections regardless.",
-   "topics": [
-    "regulation"
-   ],
-   "tags": [],
-   "score": 10,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "28a984efa3d4",
-   "title": "NASA, Google test AI-powered medical robot for deep space missions",
-   "url": "https://www.nextgov.com/emerging-tech/2026/10/nasa-google-test-ai-powered-medical-robot-deep-space-missions/416874/",
-   "source": "Nextgov/FCW",
-   "sourceId": "nextgov",
-   "published": "2026-10-28T16:16:00.000Z",
-   "firstSeen": 1793207905019,
-   "summary": "The proof-of-concept system could help astronauts handle medical needs and routine tasks on future missions to the Moon and Mars.",
-   "topics": [
-    "research"
-   ],
-   "tags": [
-    "Google"
-   ],
-   "score": 7,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "20ac951d6d55",
-   "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
-   "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
-   "source": "The Hacker News",
-   "sourceId": "thehackernews",
-   "published": "2026-10-28T16:02:45.000Z",
-   "firstSeen": 1793207905019,
-   "summary": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems. The activity, which was observed on October 25, 2026, involved an…",
-   "topics": [
-    "incidents",
-    "security"
-   ],
-   "tags": [
-    "Vulnerability",
-    "China"
-   ],
-   "score": 19,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "351cad0196cf",
-   "title": "The CISO’s evolving role: Protecting and defending in the agentic era",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/",
-   "source": "Microsoft Security Blog",
-   "sourceId": "msft-security",
-   "published": "2026-10-28T16:00:00.000Z",
-   "firstSeen": 1793207905019,
-   "summary": "As AI and agents reshape the enterprise, CISOs face two critical priorities: enabling innovation with the right identity and data guardrails, and modernizing defense to keep pace with AI-powered threats. Aarti Borkar shares how security leaders can approach both.",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents"
-   ],
-   "score": 9,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "ed0ff958bbe5",
-   "title": "South Korea’s financial industry hit by fresh wave of cyberattacks",
-   "url": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/",
-   "source": "TechCrunch AI",
-   "sourceId": "techcrunch-ai",
-   "published": "2026-10-28T15:41:18.000Z",
-   "firstSeen": 1793207905019,
-   "summary": "South Korea’s financial institutions have been hit by another wave of cyberattacks, highlighting the growing risk of AI-driven hacking in Asia.",
-   "topics": [
-    "incidents"
-   ],
-   "tags": [],
-   "score": 8,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "e5cd8b922e72",
-   "title": "AI Takes Root in Hospital Corridors, Raises Security Stakes",
-   "url": "https://www.darkreading.com/cybersecurity-operations/ai-root-hospital-corridors-raised-security-stakes",
-   "source": "Dark Reading",
-   "sourceId": "darkreading",
-   "published": "2026-10-28T15:29:06.000Z",
-   "firstSeen": 1793287735893,
-   "summary": "Artificial intelligence is everywhere in healthcare, from doctors' intake forms to cancer screenings. But in some cases, life-and-death uses are outpacing cybersecurity.",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 7,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "53c844410227",
-   "title": "I underestimated how fast security teams would trust AI to act in the SOC",
-   "url": "https://www.helpnetsecurity.com/2026/10/28/exaforce-trust-in-ai-security/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-28T15:25:01.000Z",
-   "firstSeen": 1793207905019,
-   "summary": "For most of my career, I have watched new security platforms work through enterprise programs at a slow pace, so when AI began showing up in security operations tools, I assumed it would follow the same path. I expected AI adoption in the SOC to lag behind almost every other category of security technology, because…",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 6,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "357981106f7b",
-   "title": "Attackers Hide Malware Behind Signed ChatGPT and Claude Binaries",
-   "url": "https://www.infosecurity-magazine.com/news/attackers-hide-malware-behind/",
-   "source": "Infosecurity Magazine",
-   "sourceId": "infosecmag",
-   "published": "2026-10-28T15:13:00.000Z",
-   "firstSeen": 1793224318340,
-   "summary": "Attackers have used fake ChatGPT and Claude projects to distribute Yoba malware",
-   "topics": [
-    "security",
-    "incidents"
-   ],
-   "tags": [
-    "OpenAI",
-    "Anthropic"
-   ],
-   "score": 16,
-   "action": false,
-   "also": [
-    {
-     "id": "6ff98ab29e84",
-     "source": "Help Net Security",
-     "sourceId": "helpnet",
-     "title": "Yoba malware hides in fake desktop versions of ChatGPT and Claude",
-     "url": "https://www.helpnetsecurity.com/2026/10/29/fake-chatgpt-claude-apps-github-yoba-malware-cryptominer/",
-     "published": "2026-10-29T14:49:11.000Z",
-     "firstSeen": 1793287735893,
-     "summary": "Fake GitHub projects posing as desktop versions of ChatGPT and Claude have been used to spread a malware chain that ends with a cryptocurrency miner, Check Point has found. The researchers have been tracking the campaign, dubbed Yoba, for the past two months. Its operator set up repositories and GitHub.io pages for…"
-    },
-    {
-     "id": "6449f82ff32d",
-     "source": "The Hacker News",
-     "sourceId": "thehackernews",
-     "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-     "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-     "published": "2026-10-29T15:20:29.000Z",
-     "firstSeen": 1793305777295,
-     "summary": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba. The activity involves creating fake GitHub projects that claim to be desktop applications like GPT-5.6…"
-    }
-   ]
-  },
-  {
-   "id": "469000b1ec7b",
-   "title": "ControlUp’s Pulse AI Resolve diagnoses and fixes IT issues within admin-defined controls",
-   "url": "https://www.helpnetsecurity.com/2026/10/28/controlup-pulse-ai-resolve/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-28T14:46:55.000Z",
-   "firstSeen": 1793207905019,
-   "summary": "ControlUp has announced Pulse AI Resolve, the real-time investigative AI layer of the Pulse AI ecosystem. A major enhancement of ControlUp’s endpoint self-service capability, previously ControlUp Connect, Pulse Resolve brings AI-powered investigation and remediation, built-in governance controls, and proactive issue…",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 6,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "2d020987ac9e",
-   "title": "Attacker Relentlessly Scans for Credentials by Impersonating AI Bots",
-   "url": "https://www.darkreading.com/cyber-risk/attacker-impersonates-ai-bots-scans-credentials",
-   "source": "Dark Reading",
-   "sourceId": "darkreading",
-   "published": "2026-10-28T14:37:52.000Z",
-   "firstSeen": 1793207905019,
-   "summary": "The threat actor lurked behind bots posing as agents from OpenAI, Anthropic, Meta, and others to find exposed data.",
-   "topics": [
-    "incidents",
-    "security"
-   ],
-   "tags": [
-    "OpenAI",
-    "Anthropic",
-    "Meta",
-    "AI agents"
-   ],
-   "score": 19,
-   "action": false,
-   "also": [
-    {
-     "id": "8eaeaddb775c",
-     "source": "CSO Online",
-     "sourceId": "csoonline",
-     "title": "Imposter abused trust in OpenAI, Anthropic, and 30 others to hunt for secrets",
-     "url": "https://www.csoonline.com/article/4242088/imposter-abused-trust-in-openai-anthropic-and-30-others-to-hunt-for-secrets.html",
-     "published": "2026-10-29T11:52:51.000Z",
-     "firstSeen": 1793287735893,
-     "summary": "Attackers are impersonating AI agents from companies including OpenAI, Anthropic, and Meta in a bid to trick organizations into exposing sensitive credentials, according to researchers who observed a single threat actor cycling through dozens of fake bot identities while probing enterprise web servers for secrets. A…"
-    }
-   ]
-  },
-  {
-   "id": "76e3a0f082ee",
-   "title": "Digitate adds AI agents for patch planning, service desks, and SAP operations",
-   "url": "https://www.helpnetsecurity.com/2026/10/28/digitate-ignio-hummingbird/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-28T14:36:59.000Z",
-   "firstSeen": 1793207905019,
-   "summary": "Digitate has announced ignio Hummingbird, the latest release of its agentic AIOps platform. Hummingbird introduces AI agents that bring operational expertise to specific IT tasks, move from diagnosis through approved action and verification, and operate within enterprise change, approval and audit controls. The…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "AI agents"
-   ],
-   "score": 6,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "9aa66a94f110",
-   "title": "Swimlane connects custom detections to AI-led investigation and response",
-   "url": "https://www.helpnetsecurity.com/2026/10/28/swimlane-turbine-platform-capabilities/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-28T14:26:24.000Z",
-   "firstSeen": 1793207905019,
-   "summary": "Swimlane has announced new capabilities in the Swimlane Turbine platform that allow security teams to run their own detection logic against large volumes of data and send resulting alerts directly into Swimlane AI SOC for investigation and response. The October release also adds two-way Model Context Protocol (MCP)…",
-   "topics": [
-    "security"
-   ],
-   "tags": [
-    "MCP"
-   ],
-   "score": 5,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "bd7009240d65",
-   "title": "AI Is Turning CISOs Into Business-Risk Translators, Says Nvidia’s Head of Cyber",
-   "url": "https://www.infosecurity-magazine.com/news/ai-is-turning-cisos-into/",
-   "source": "Infosecurity Magazine",
-   "sourceId": "infosecmag",
-   "published": "2026-10-28T14:10:00.000Z",
-   "firstSeen": 1793224318340,
-   "summary": "Nvidia’s Mark Weatherford says CISOs must translate AI cybersecurity risks into business priorities, clarify risk ownership and balance innovation with security controls",
-   "topics": [
-    "security"
-   ],
-   "tags": [],
-   "score": 7,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "9fd9ddaf4de0",
-   "title": "VikingCloud gives businesses a scorecard for AI governance readiness",
-   "url": "https://www.helpnetsecurity.com/2026/10/28/vikingcloud-ai-governance-services/",
-   "source": "Help Net Security",
-   "sourceId": "helpnet",
-   "published": "2026-10-28T14:06:13.000Z",
-   "firstSeen": 1793207905019,
-   "summary": "VikingCloud has launched AI Governance Services, a new set of compliance and risk assessments that find the AI tools in use across a business, show where security controls fall short, and deliver a remediation plan to close the gaps. Multi-location brands struggle to hold every location to one security standard…",
-   "topics": [
-    "governance"
-   ],
-   "tags": [],
-   "score": 24,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "caf93c1b786c",
-   "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
-   "url": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
-   "source": "BleepingComputer",
-   "sourceId": "bleeping",
-   "published": "2026-10-28T13:50:59.000Z",
-   "firstSeen": 1793207905019,
-   "summary": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is just as important as fixing vulnerabilities to reduce the damage from a breach.",
-   "topics": [
-    "security",
-    "incidents"
-   ],
-   "tags": [
-    "AI agents",
-    "Vulnerability"
-   ],
-   "score": 9,
-   "action": true,
-   "also": []
-  },
-  {
-   "id": "301efc53e5d3",
-   "title": "GBG adds Realeyes face biometrics to tackle promo abuse, account fraud",
-   "url": "https://www.biometricupdate.com/202610/gbg-adds-realeyes-face-biometrics-to-tackle-promo-abuse-account-fraud",
-   "source": "Biometric Update",
-   "sourceId": "biometric",
-   "published": "2026-10-28T13:46:13.000Z",
-   "firstSeen": 1793207905019,
-   "summary": "GBG has partnered with Realeyes to integrate face biometric verification into its GBG Go platform. This will allow businesses to identify duplicate account registrations and verify customers after initial onboarding. Founded at Oxford University, Realeyes develops AI-based facial verification technology for detecting…",
-   "topics": [
-    "incidents"
-   ],
-   "tags": [
-    "Biometrics"
-   ],
-   "score": 6,
-   "action": false,
-   "also": []
-  },
-  {
-   "id": "520bb8682fc9",
-   "title": "Oracle plans biometric approval for AI agents, taps OpenAI for security testing",
-   "url": "https://www.biometricupdate.com/202610/oracle-plans-biometric-approval-for-ai-agents-taps-openai-for-security-testing",
-   "source": "Biometric Update",
-   "sourceId": "biometric",
-   "published": "2026-10-28T13:45:48.000Z",
-   "firstSeen": 1793207905019,
-   "summary": "Oracle plans to extend biometric identity assurance to sensitive actions initiated by AI agents, allowing applications to require identity verification from authorized employees before certain operations proceed. The plans accompany the launch of Oracle's AI Security Mesh, which uses OpenAI cybersecurity models to…",
-   "topics": [
-    "security",
-    "governance"
-   ],
-   "tags": [
-    "AI agents",
-    "Biometrics",
-    "OpenAI"
-   ],
-   "score": 16,
    "action": false,
    "also": []
   },
